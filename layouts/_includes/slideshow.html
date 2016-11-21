@@ -1,0 +1,84 @@
+{{ $type := .Type }}  
+{{ $id := .Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+{{ if isset .Params "slideshow" }}
+
+<h3>Bildergalerie <strong>"{{ .Params.slideshow_titel }}"</strong></h3>
+
+	<div id="slideshow" class="carousel slide" data-ride="carousel" data-interval="20000">
+
+		<!-- "Steuerung Bildanzeige" -->
+		<ol class="carousel-indicators">
+			{{ range $index, $element := .Params.slideshow }}
+			{{ if eq $index 0 }}
+				<li data-target="#slideshow" data-slide-to="{{ $index }}" class="active"></li>
+			{{ else }}
+				<li data-target="#slideshow" data-slide-to="{{ $index }}"></li>
+			{{ end }}
+			{{ end }}
+		</ol>
+
+		<!-- Wrapper für Bilderfolien -->
+		<div class="carousel-inner" role="listbox">
+			{{ range $index, $element := .Params.slideshow }}
+			{{ if eq $index 0 }}
+				<div id="item-{{ $index }}" class="item active">
+					<img class="responsive" src="/img/78{{ $path }}{{ .bild }}">
+
+					<div class="carousel-caption">
+						<h3>{{ $element.titel }}</h3>
+						<p>{{ $element.untertitel }}</p>
+					</div>
+				</div>
+			{{ else }}
+				<div id="item-{{ $index }}" class="item">
+
+					<img class="responsive" src="/img/78{{ $path }}{{ .bild }}" alt="..." />
+
+					<div class="carousel-caption">
+						<h3>{{ $element.titel }}</h3>
+						<p>{{ $element.untertitel }}</p>
+					</div>
+				</div>
+			{{ end }}
+			{{ end }}
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#slideshow" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Zurück</span>
+		</a>
+		<a class="right carousel-control" href="#slideshow" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Nächstes</span>
+		</a>
+
+	</div>
+
+
+	<!-- script type="text/javascript">
+		/** function call_me() {
+			var current = 0
+			var length = $('div.carousel-inner')[0].childElementCount
+			$('#slideshow').on('slid.bs.carousel', function (a) {
+				console.log(" slid setting ", "item-" + current + " to left")
+				current = a.relatedTarget.id.substr(5)
+				console.log("current slide:  ", "item-" + current)
+
+			})
+			$('#slideshow').on('slide.bs.carousel', function (a) {
+				console.log("slide: ", a.relatedTarget.id)
+			})
+			console.log(" nr. of slides: ", length)
+			for (var i = 0; i <= length; i++) {
+				$("#item-" + i).addClass("right")
+			}
+		}
+		call_me() **/
+	</script-->
+
+</div>
+
+{{ end }}

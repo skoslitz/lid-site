@@ -1,0 +1,116 @@
+<!-- 
+
+	-- disabled 'cause LiD is not ready yet
+
+<script type="text/javascript">
+
+	// --- Some event handlers to control page-rendering at runtime
+
+	var search_area_shown = false
+
+	function search_dialog () {
+		if (search_area_shown == false) {
+			$('.btn.search').addClass('selected')
+			$('.search-area.hidden').removeClass('hidden')
+			search_area_shown = true
+		} else {
+			$('.btn.search').removeClass('selected')
+			$('.search-area').addClass('hidden')
+			search_area_shown = false
+		}
+	}
+
+	function page_scroll (el, name) {
+		var selector = '';
+		if (name === "karte") selector = '.mappetizer'
+		if (name === "animation") selector = '.flash-animation'
+		if (name === "video") selector = '.video-row'
+		if (name === "download") selector = '.file-download'
+		// scroll via js
+        $('html, body').animate({
+            scrollTop: $(selector).offset().top - 140
+        }, 500)
+		// hide button
+		$(el).hide()
+	}
+
+	var titelbild_height = 0
+	var is_themenbeitrag = false
+	var do_render_control_bar = false
+
+	$(window).load(function (e) {
+		// console.log("-- window-content loaded called..")
+		is_themenbeitrag = $('.container.page-content').hasClass('themen')
+
+		var $video = $('.video-row')
+		var has_video = $video.length
+
+		var $downloads = $('.file-download')
+		var has_download = $downloads.length
+
+		var $mappetizer = $('.mappetizer')
+		var has_mappetizer = $mappetizer.length
+
+		var $statistische_karte = $('.karte-statistik')
+		var has_statistische_karte = $statistische_karte.length
+
+		var $animation = $('.flash-animation')
+		var has_animation = $animation.length
+
+		var $slideshow = $('#slideshow')
+		var has_slideshow = $slideshow.length
+
+		if (has_video) {
+			$('.control-bar .videos').removeClass('hidden').attr('href', '#' + $video[0].id)
+			do_render_control_bar = true
+		}
+		if (has_download) {
+			$('.control-bar .downloads').removeClass('hidden').attr('href', '#' + $downloads[0].id)
+			do_render_control_bar = true
+		}
+		if (has_mappetizer | has_statistische_karte) {
+			$('.control-bar .karten').removeClass('hidden')
+			do_render_control_bar = true
+		}
+		if (has_animation) {
+			$('.control-bar .animationen').removeClass('hidden')
+			do_render_control_bar = true
+		}
+		//
+		titelbild_height = $('.titelbild img').height()
+		paint_custom_title_bar(e)
+	})
+
+	function paint_custom_title_bar (event) {
+		var top = window.scrollY
+		var end = -1
+		if (typeof event.view !== "undefined") {
+			// top = event.view.scrollY
+			// var top = event.view.clientY
+			end = event.view.scrollMaxY
+			// ### this should not work on mobiles since
+			// (according to github.com/prinzhorn/skrollr mobile browser defer JS while scrolling to save CPU cycles)
+		}
+		//
+		if (is_themenbeitrag) {
+			if (top < (titelbild_height + 275)) {
+				// ...
+				$('.navbar-brand .title').html({{ .Site.Title }}  + ' <em>online</em>')
+				if (do_render_control_bar) $('.control-bar').removeClass('fixed')
+			} else {
+				$('.navbar-brand .title').text({{ .Title }})
+				$('.navbar-brand .title').css("max-width", "750px")
+				if (do_render_control_bar) $('.control-bar').addClass('fixed')
+			}
+			if ((end - 1000) < top) {
+				// ### console.log("could render page-up button...")
+			}
+		}
+	}
+
+	$(window).scroll(function (event) {
+		paint_custom_title_bar(event)
+	})
+	
+</script>
+ -->

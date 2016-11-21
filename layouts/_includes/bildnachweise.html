@@ -1,0 +1,10 @@
+{{ if isset .Params "bildnachweise" }}
+	<h3><strong>Bildnachweise</strong></h3>
+	<p>
+		<ul class="references">
+			{{ range .Params.bildnachweise }}
+				<li>{{ . | markdownify }}</li>
+			{{ end }}
+		</ul>
+	</p>
+{{ end }}

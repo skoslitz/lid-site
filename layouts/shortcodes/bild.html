@@ -1,0 +1,48 @@
+{{ $type := .Page.Type }}  
+{{ $id := .Page.Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+	{{ $imgClass := "img-responsive" }}
+	{{ $flow := .Get "flow" }}
+
+	{{ if isset .Params "hidden" }}
+
+		<img class="{{ $imgClass }} clickable hidden" data-mfp-src="/img/78{{ $path }}{{ .Get "pfad" }}"
+			alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/78{{ $path }}300px-{{ .Get "pfad" }}" />
+
+	{{ else }}
+
+		<div class="just-center abbildung {{ .Get "flow" }}">
+
+			{{ if isset .Params "clickable" }}
+				<a name="{{ .Get "pfad" }}" title="Vollbild">
+			{{ end }}
+
+				{{ if isset .Params "style" }}
+					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/78{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/78{{ $path }}{{ .Get "pfad" }}" />
+				{{ else }}
+					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/78{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/78{{ $path }}300px-{{ .Get "pfad" }}"{{ else }}src="/img/78{{ $path }}{{ .Get "pfad" }}"{{end}} />
+				{{ end }}
+
+				
+	
+			{{ if isset .Params "clickable" }}
+				</a>
+			{{ end }}
+
+
+<!-- Concenate string for caption from title and source -->
+{{ $title := .Get "titel" }}  
+{{ $source := .Get "quellenangaben" }}   
+{{ $caption := $source | printf "%s (%s)" $title | printf "%s" }}
+			
+			<!-- Show sources only if not empty -->
+			{{ if ne $source "" }}
+			<div class="bild-caption">
+				{{ $caption | markdownify }}</span>
+			</div>
+			{{ end }}
+
+		</div>
+
+	{{ end }}

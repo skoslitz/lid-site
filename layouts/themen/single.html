@@ -1,0 +1,148 @@
+{{ $type := .Type }}  
+{{ $id := .Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+{{ template "_includes/header.html" . }}
+
+<body>
+	{{ template "_includes/navbar.html" . }}
+	{{ template "_includes/page-control-js.html" . }}
+
+	<div class="container page-content {{ $type }}" itemscope itemtype="http://schema.org/Article">
+
+		<div class="row">
+
+			<div class="col-md-10 titelbild bs-callout bs-callout-grasgruen shadow">
+
+				<meta itemprop="image" content="/img/78{{ $path }}{{ .Params.titelbild }}"/>
+				<img class="img-responsive" src="/img/78{{ $path }}{{ .Params.titelbild }}" />
+
+				<div class="tags text-muted">Themenbereiche
+					{{ range .Params.rubriken }}
+						<a itemprop="articleSection" class="label-default" href="/rubriken/{{ . | urlize }}">{{ . }}</a>
+					{{ end }}
+				</div>
+
+				<div class="titel-back">
+					<h2 itemprop="name" class ="titel"><strong>{{ .Title }}</strong></h2>
+				</div>
+				<div class="subtitel-back">
+					<h3 class ="subtitel"><strong>{{ .Params.subtitle }}</strong></h3>
+					<h5 class="text-muted">Von
+						{{ .Params.autor }} &ndash; </i>
+						{{ .Date.Format "01/2006" }}
+					</h5>
+				</div>
+
+				<div class="beschreibung">
+					<p itemprop="description" class="lead">{{ .Description | markdownify }}</p>
+				</div>
+
+				<div class="control-bar">
+					<a class="anfang btn hidden">Nach oben</a>
+					<a class="animation btn hidden">Animation</a>
+					<a class="downloads btn hidden">Downloads</a>
+					<a class="slideshow btn hidden">Bildergalerie</a>
+					<a class="karten btn hidden">Statistische Karte</a>
+					<a class="videos btn hidden">Video</a>
+				</div>
+
+			</div>
+
+		</div>
+		
+		{{ if isset .Params "karte" }}
+		<!-- Karte -->
+	    <div class="row">
+	        <div class="col-md-10 bs-callout bs-callout-grasgruen shadow karten-callout">
+				<div id="kartenansicht" class="anker-versatz"></div>
+	            <h3 id="kartentitel"><strong>{{ .Params.kartentitel }}</strong>&nbsp;<a class="reset">Kartenausschnitt zur&uuml;cksetzen</a></h3>
+	            <div id="map"></div>
+	        </div>
+	    </div>
+	    <!-- End Karte -->
+	    {{ end }}
+
+	    {{ if isset .Params "worldmap" }}
+		<!-- Karte -->
+	    <div class="row">
+	        <div class="col-md-10 bs-callout bs-callout-grasgruen shadow karten-callout">
+				<div id="kartenansicht" class="anker-versatz"></div>
+	            <h3 id="kartentitel"><strong>{{ .Params.kartentitel }}</strong>&nbsp;<a class="reset">Kartenausschnitt zur&uuml;cksetzen</a></h3>
+	            <div id="map"></div>
+	        </div>
+	    </div>
+	    <!-- End Karte -->
+	    {{ end }}
+
+
+		<div class="row">
+			<div class="linespace"></div>
+			<div class="col-md-10 content text-area" itemprop="articleBody">
+				{{ .Content }}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10">
+				<!-- Flash-Animation Beitrag -->
+				{{ template "_includes/flash-animation-object.html" . }}
+				<!-- KarteD3 Beitrag -->
+				{{ template "_includes/karte-statistik-object.html" . }}
+				<!-- Mappetizer Beitrag -->
+				{{ template "_includes/mappetizer-object.html" . }}
+			</div>
+		</div>
+	</div>
+
+	<div class="row-full">
+		<!-- Video Beitrag -->
+		{{ template "_includes/videobeitrag.html" . }}
+		<!-- Slideshow Beitrag -->
+		{{ template "_includes/slideshow.html" . }}
+	</div>
+
+	<div class="container more-content">
+
+		<div class="row">
+			<div class="col-md-10 white-bg content bs-callout bs-callout-grasgruen shadow">
+				<!-- Zitationshinweis -->
+				{{ template "_includes/zitationshinweis.html" . }}
+				<!-- Literaturangaben -->
+				{{ template "_includes/literaturangaben.html" . }}
+				<!-- Bildnachweise -->
+				{{ template "_includes/bildnachweise.html" . }}
+			</div>
+		</div>
+
+		<!-- Verwandte Artikel -->
+		{{ template "_includes/related-articles.html" . }}
+
+	<!-- VG-Wort-Zählmarke -->
+	{{ template "_includes/vg-wort.html" . }}
+
+	</div>
+	{{ template "_includes/footer.html" . }}
+	{{ if isset .Params "karte" }}
+		{{ template "_includes/map-exkursion.html" . }}
+	{{ end }}
+	{{ if isset .Params "worldmap" }}
+		{{ template "_includes/map-weltreise.html" . }}
+	{{ end }}
+	{{ if isset .Params "karte_image_overlay" }}
+		{{ template "_includes/map-themen.html" . }}
+	{{ end }}
+	<script type="text/javascript">
+		// Using the magnific Pop-up script
+		// @see principal copy in /exkursion/single.html
+		$(function () {
+			$('.content.text-area').magnificPopup({
+				delegate: 'img.clickable', // child items selector, by clicking on it popup will open
+				type: 'image',
+				gallery:{ "enabled" : true }
+			})
+			$('.content.text-area img.clickable').bind('click', function (e) {
+				$(this).magnificPopup('open')
+			})
+		})
+	</script>

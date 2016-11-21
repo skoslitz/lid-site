@@ -1,0 +1,10 @@
+{{ if isset .Params "literaturangaben" }}
+	<h3><strong>Quellen und weiterführende Literatur</strong></h3>
+	<p>
+		<ul class="references">
+			{{ range .Params.literaturangaben }}
+				<li>{{ . | markdownify }}</li>
+			{{ end }}
+		</ul>
+	</p>
+{{ end }}

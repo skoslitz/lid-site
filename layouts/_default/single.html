@@ -1,0 +1,16 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content meta">
+
+		<div class="row">
+			<div class="column-md-10 white-bg shadow bs-callout simple-border">
+				<h2 class="sectionheader text-center"> {{ .Title }} </h2>
+				{{ .Content }}
+			</div>
+		</div>
+
+		{{ template "_includes/debugInfo.html" . }}
+
+	</div> <!-- end container -->
+	{{ template "_includes/footer.html" . }}

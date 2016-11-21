@@ -1,0 +1,97 @@
+{{ if isset .Params "video" }}
+	{{ range $index, $element := .Params.video }}
+	<script type="text/javascript" src="/js/froogaloop.min.js"></script>
+
+	<script type="text/javascript">
+
+		var vimeo = undefined
+
+		$(function() {
+			var id = '#lid-video-{{ $element.id }}'
+			var iframe = $(id)[0]
+			var froogaloop = $f(iframe)
+				vimeo = froogaloop
+			var status = $('.status')
+			// When the player is ready, add listeners for pause, finish, and playProgress
+			froogaloop.addEvent('ready', function() {
+				console.log('> vimeo player ready')
+				status.text('Vimeo player '+id+' ready')
+				froogaloop.addEvent('seek', function (info) {
+					console.log("> seeked", info)
+				})
+				froogaloop.addEvent('pause', onPause)
+				froogaloop.addEvent('finish', onFinish)
+				froogaloop.addEvent('playProgress', onPlayProgress)
+			})
+			// $('button').bind('click', function() {  player.api($(this).text().toLowerCase()) })
+			function onPause(id) { status.text('paused') }
+			function onFinish(id) { status.text('finished') }
+			function onPlayProgress(data, id) { status.text(data.seconds + 's played') }
+		})
+
+		function video_seek (value) {
+			vimeo.api('seekTo', value)
+		}
+
+		function pause_video () {
+			vimeo.api('pause')
+		}
+
+		function play_video () {
+			vimeo.api('play')
+		}
+
+	</script>
+
+	<div class="video-row" id="{{ $element.id }}">
+
+		<h3 class="videotitel"><strong>{{ $element.titel }} </strong></h3>
+
+		<div class="video-container">
+
+			{{ if isset $element "sprungmarke" }}
+			<div class="video-controls">
+				<div class="button-area">
+					<span class="control-btn" onclick="javascript:play_video();">Play</span>
+					<span class="control-btn" onclick="javascript:pause_video();">Pause</span>
+					{{ if isset $element "sprungmarke" }}
+						<h3>Kapitelauswahl</h3>
+						{{ range $sprungidx, $sprungmarke := $element.sprungmarke }}
+							<dl onclick="javascript:video_seek({{ $sprungmarke.seek }});">
+								<dt>{{ $sprungmarke.label }}</dt>
+								<dd>{{ $sprungmarke.seek }}</dd>
+							</dl>
+						{{ end }}
+					{{ else }}
+						<h3>Keine Sprungmarken angegeben</h3>
+					{{ end }}
+				</div>
+			</div>
+			{{ end }}
+
+
+			{{ if isset $element "sprungmarke" }}
+			<div class="videobeitrag with-controls">
+			{{ else }}
+			<div class="videobeitrag">
+			{{ end }}
+				<iframe id="lid-video-{{ $element.id }}" height="550px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+					src="//player.vimeo.com/video/{{ $element.id | urlize }}/?api=1&player_id=lid-video-{{ $element.id }}&title=0&byline=0&portrait=0&fullscreen=1" width="100%"></iframe>
+			</div>
+
+			<div class="videobeschreibung">
+				<p>
+					{{ if isset $element "quelle" }} <b>{{ $element.quelle }},</b>{{ end }}
+					{{ if isset $element "laenge" }} <b>Länge: {{ $element.laenge }}</b>, {{ end }}
+					{{ if isset $element "untertitel" }} <b> {{ $element.untertitel }}</b><br/>{{ end }}
+					{{ if isset $element "beschreibung" }} {{ $element.beschreibung }} <br/> {{ end }}
+					<a href="http://vimeo.com/{{ $element.id | urlize }}">
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+
+	{{ end }}
+{{ end }}

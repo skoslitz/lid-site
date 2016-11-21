@@ -1,0 +1,8 @@
+<div class="col-mre">
+	<a href="{{ .Permalink }}">
+	{{ if isset .Params "vorschaubild" }}
+		<img class="img-responsive vorschaubild" src="/img/previews/{{ .Params.vorschaubild }}">
+	{{ end }}		
+	<!-- <h4>{{ .Title}}</h4> -->
+</a>
+</div>        

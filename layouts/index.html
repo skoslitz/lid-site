@@ -1,0 +1,58 @@
+{{ template "_includes/header.html" . }}
+<body class="frontpage">
+
+	{{ template "_includes/navbar.html" . }}
+
+	{{ template "_includes/ideas-section.html" . }}
+
+	{{ template "_includes/page-control-js.html" . }}
+
+    <h2 class="highlight-title">Ausgew&auml;hlte Beitr&auml;ge</h2>
+
+	<div class="full-row highlight-section">
+
+           {{ range $index, $element := first 2 (where .Site.Pages.ByDate.Reverse ".Params.featured" "true") }}
+               <a href="{{ .Permalink }}">
+                   <div class="article simple-border white-bg shadow top-border">
+                       {{ $type := .Type }}
+                       {{ $id := .Params.id }}
+                       {{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+                       <img class="img-responsive" src="/img/78{{ $path }}{{ .Params.vorschaubild }}" />
+                       <h4>{{ .Title}} &ndash; von {{ .Params.autor }}</h4>
+                   </div>
+               </a>
+           {{ end }}
+
+           {{ range $index, $element := first 2 (where .Site.Pages.ByDate ".Params.featured" "true") }}
+               <a href="{{ .Permalink }}">
+                   <div class="article simple-border white-bg shadow top-border">
+                       {{ $type := .Type }}
+                       {{ $id := .Params.id }}
+                       {{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+                       <img class="img-responsive" src="/img/78{{ $path }}{{ .Params.vorschaubild }}" />
+                       <h4>{{ .Title}} &ndash; von {{ .Params.autor }}</h4>
+                   </div>
+               </a>
+           {{ end }}
+
+	</div>
+
+	<!--div class="full-row search-area text-center">
+		<h2 class="highlight-title">Suche<a name="suche">&nbsp;</a></h1>
+		<script>
+		  (function() {
+		    var cx = '017114618722829767490:e4yiw6umfke';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		        '//cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		<gcse:search></gcse:search>
+	</div-->
+
+	<!--/div--> <!-- end container -->
+	{{ template "_includes/footer.html" . }}

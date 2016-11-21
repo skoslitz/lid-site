@@ -1,0 +1,43 @@
+{{ template "_includes/header.html" . }}
+
+{{ if eq .Params.error "true" }}
+
+	<body>
+	<div class="container page-content meta">
+
+		<div class="row">
+			<div class="column-md-10 white-bg shadow simple-border">
+				<div class="text-center">
+					<a title="Die Website zur Buchreihe Landschaften in Deutschland - LiD Online" href="{{ .Site.BaseURL }}">
+					<img src="/img/LiD-online_logo_wi_transpi.png" alt="" height="90" />
+					</a>
+				</div>
+				<h1 class="sectionheader text-center">Es ist ein Fehler aufgetreten.</h1>
+				<h3 class="text-center"> {{ .Title }} </h3>
+				<div class="alert alert-danger text-center" role="alert">
+					{{ .Content }}
+				</div>
+				<p class="text-center"><strong>Öffnen Sie unsere <a href="/suche">Suche</a>, dort finden Sie alle von uns angebotenen Inhalte.</strong></p>
+			</div>
+		</div>
+
+	</div> <!-- end container -->
+
+{{ else }}
+
+	<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content meta">
+
+		<div class="row error">
+			<div class="column-md-10 white-bg shadow bs-callout simple-border">
+				<h2 class="sectionheader text-center"> {{ .Title }} </h2>
+				{{ .Content }}
+			</div>
+		</div>
+
+
+	</div> <!-- end container -->
+	{{ template "_includes/footer.html" . }}
+
+{{ end }}

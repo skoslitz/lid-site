@@ -1,0 +1,15 @@
+{{ $band := .Page.Params.band }}
+{{ $type := .Page.Type }}  
+{{ $id := .Page.Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+<div class="file-download" id="{{ $id }}-download">
+
+	{{ with .Get "format" }}<span>Dateiformat: .{{.}},</span>{{ end }}
+	{{ with .Get "size" }}<span>Gr&ouml;&szlig;e: {{.}} MByte{{ end }}<br/></span>
+	Download: <a href="/img{{ $band }}{{ $path }}{{ .Get "pfad" }}" title="{{ .Get "titel" }}" target="_blank">{{ .Get "titel" }}</a>
+	<br/>
+	{{ with .Get "lizenz" }}<span class="license">Lizenz: {{.}}, </span> {{ end }}
+	{{ with .Get "stand" }}<span class="date">Stand: {{.}} </span> {{ end }}
+
+</div>

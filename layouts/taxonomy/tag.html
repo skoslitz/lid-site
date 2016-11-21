@@ -1,0 +1,23 @@
+{{ template "_includes/header.html" . }}
+<body>
+    {{ template "_includes/navbar.html" . }}
+    <div class="container page-content">
+        <div class="row">
+            <div class="col-md-10 white-bg">
+                <h1 class="sectionheader text-center">Rubrik: {{ .Title }} <strong></strong></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 beschreibung bs-callout bs-callout-simple white-bg shadow">
+            <ul class="list-unstyled">
+                {{ range .Data.Pages }}
+                    {{ .Render "li" }}
+                {{ end}}
+            </ul>
+            </div>
+        </div>
+        {{ template "_includes/debugInfo.html" . }}
+
+    </div>
+    {{ template "_includes/footer.html" . }}

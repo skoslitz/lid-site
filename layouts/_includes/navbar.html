@@ -1,0 +1,52 @@
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+	<div class="container">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-lid-collapse">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" title="Die Website zur Buchreihe Landschaften in Deutschland - LiD Online" href="{{ .Site.BaseURL }}">
+				<img src="/img/LiD-online_logo_wi_transpi.png" alt="" height="30" class="lid-icon" />
+				<div class="title">
+				Landschaften in Deutschland <em>online</em>
+				</div>
+			</a>
+		</div>
+
+		<div class="submenu">
+			<a href="/meta/impressum">Impressum</a>
+			<a href="/meta/datenschutzhinweise">Datenschutz</a>
+			<a href="/meta/kontakt">Kontakt</a>
+			<a href="/suche">Suche</a>
+		</div>
+
+		<div class="brand">
+			<a href="http://www.ifl-leipzig.de" title="Externer Link zur Ifl Webseite" target="_blank">
+				<img class="icon" src="/img/previews/IfL_Logo_pos_blau-white-540.png" height="40" title="Link zur IfL Website" />
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse navbar-lid-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="thema {{ if or (eq .URL "/themen/") (in .Permalink "/themen/") }}selected{{ end }}">
+					<a title="Zur Themenübersicht" href="/themen/">Themen</a>
+				</li>
+				<li class="exkurs {{ if or (eq .URL "/exkursionen/") (in .Permalink "/exkursionen/") }}selected{{ end }}">
+					<a title="Zu den Exkursionen" href="/exkursionen/">Unterwegs</a>
+				</li>
+				<li class="region {{ if or (eq .URL "/regionen/") (in .Permalink "/regionen/") }}selected{{ end }}">
+					<a title="Zur Regionenübersicht" href="/regionen/">Landschaften</a>
+				</li>
+			</ul>
+		</div>
+
+		{{ template "_includes/breadcrumbs.html" . }}
+
+	</div>
+
+</nav>

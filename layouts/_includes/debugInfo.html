@@ -1,0 +1,97 @@
+{{ if .Site.Params.debug }}
+    <!-- debug Info log -->
+
+<div class="debug-log">
+    <h2 class="text-center"><mark>Debug Info Log</mark></h2>
+    <hr>
+    <pre><code>
+        {{ printf "%#v" . }}   
+    </code></pre>
+
+
+    {{ if .IsNode }}
+    <h3>Node Variables</h3>
+    <table class="table table-bordered">
+        <tr>
+            <th>go syntax</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td><code>.Title</code></td>
+            <td>{{ .Title }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Date</code></td>
+            <td>{{ .Date }}</td>            
+        </tr>
+         <tr>
+            <td><code>.Data.Pages</code></td>
+            <td>{{ .Data.Pages }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Permalink</code></td>
+            <td>{{ .Permalink }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Data</code></td>
+            <td>{{ .Data }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Site.Taxonomies</code></td>
+            <td>{{ .Site.Taxonomies }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Site.Params</code></td>
+            <td>{{ .Site.Params }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Site.Sections</code></td>
+            <td>{{ .Site.Sections }}</td>            
+        </tr>
+    </table>
+    {{ end }}
+
+    {{ if .IsPage }}
+    <h3>Page Variables</h3>
+    <table class="table table-bordered">
+        <tr>
+            <th>go syntax</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td><code>.Type</code></td>
+            <td>{{ .Type }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Section</code></td>
+            <td>{{ .Section }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Params.tags</code></td>
+            <td>{{ .Params.tags }}</td>            
+        </tr>
+        <tr>
+            <td><code>.Params.categories</code></td>
+            <td>{{ .Params.categories }}</td>            
+        </tr>
+        <tr>
+            <td><code>.TableOfContents</code></td>
+            <td>{{ .TableOfContents }}</td>            
+        </tr>
+        <tr>
+            <td><code>.WordCount</code></td>
+            <td>{{ .WordCount }}</td>            
+        </tr>
+        <tr>
+            <td><code>.ReadingTime</code></td>
+            <td>{{ .ReadingTime }}</td>            
+        </tr>
+        <tr>
+            <td><code>.</code></td>
+            <td>{{ . }}</td>            
+        </tr>
+    </table>
+    {{ end }}
+</div> 
+<!-- end debug Info log -->
+{{ end }}        

@@ -1,0 +1,17 @@
+{{ $type := .Type }}  
+{{ $id := .Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+
+<a href="{{ .Permalink }}">
+	{{ if isset .Params "vorschaubild" }}
+		<img class="vorschaubild" src="/img/78{{ $path }}{{ .Params.vorschaubild }}">
+	{{ else }}
+		<h3 class="text-center"><i class="fa fa-book fa-3x"></i></h3>
+	{{ end }}
+	<h4>{{ .Title}}</h4>
+</a>
+<p>
+	{{ .Params.autor }}<br/>
+	Veröffentlicht: {{ .Date.Format "01/2006" }}
+</p>

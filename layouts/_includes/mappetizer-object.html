@@ -1,0 +1,30 @@
+{{ $type := .Type }}  
+{{ $id := .Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+{{ if isset .Params "mappetizer" }}
+
+<div class="hidden-xs">
+	{{ if isset .Params "mappetizer_titel" }}
+		<h3>{{.Params.mappetizer_titel }}</h3>
+	{{ else }}
+		<h3>Mappetizer Karte</h3>
+	{{ end }}
+	<div class="mappetizer" id="statistische-karte">
+		<object 
+    		data="/mappetizer/{{ .Params.mappetizer }}/index.html" 
+    		type="text/html"
+    		width="100%"
+    		height="700px">
+		    <!--Fallback-->
+		    <p>Der Inhalt konnte nicht geladen werden.</p>
+		</object>
+	</div>
+</div>
+
+{{ template "_includes/small-device-text.html" . }}
+
+{{ end }}
+
+
+

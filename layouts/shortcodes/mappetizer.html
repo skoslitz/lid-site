@@ -1,0 +1,25 @@
+<div class="hidden-xs">
+        
+        <h3>{{ .Get "mappetizer_titel" }}</h3>
+        <div class="mappetizer">
+        <object 
+            {{ $id := .Get "mappetizer" }}
+            {{ with .Get "mappetizer_file" }}
+                data="/mappetizer/{{$id}}/{{ . }}.html"
+            {{ else }}
+                data="/mappetizer/{{$id}}/index.html"
+            {{ end }}                 
+                type="application/javascript"
+                width="100%"
+            {{ with .Get "mappetizer_height" }}
+                height="{{.}}px">
+            {{ else }}
+                height="600px">
+            {{ end }}                
+            <!--Fallback-->
+            <p>Der Inhalt konnte nicht geladen werden.</p>
+        </object>
+        </div>  
+</div>
+
+{{ template "_includes/small-device-text.html" . }}

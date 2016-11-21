@@ -1,0 +1,28 @@
+{{ template "_includes/header.html" . }}
+<body>
+    {{ template "_includes/navbar.html" . }}
+    <div class="container page-content">
+
+        <!--- Page Listing all terms of/entries in the Taxonomy "Rubriken" -->
+
+        <div class="row">
+            <div class="col-md-10">
+                <h1 class="sectionheader text-center">{{ .Title }} <strong></strong></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 beschreibung bs-callout white-bg bs-callout-simple shadow">
+                {{ $data := .Data }}
+                {{ range $key,$value := .Data.Terms.ByCount }}
+                <h2>
+                    <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }}</a>
+                    <span class="value-count">{{ $value.Count }}</span>
+                </h2>
+                {{ end }}
+            </div>
+        </div>
+        {{ template "_includes/debugInfo.html" . }}
+
+    </div>
+    {{ template "_includes/footer.html" . }}

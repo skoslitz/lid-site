@@ -1,0 +1,15 @@
+<div class="hidden-xs">
+        <h3>{{ .Get "titel" }}</h3>
+        <div class="mappetizer">
+        <object 
+                data="{{ .Get "pfad" }}" 
+                type="application/javascript"
+                width="100%"
+                height="800px">
+            <!--Fallback-->
+            <p>Der Inhalt konnte nicht geladen werden.</p>
+        </object>
+        </div>  
+</div>
+
+{{ template "_includes/small-device-text.html" . }}

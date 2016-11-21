@@ -1,0 +1,18 @@
+<div class="row related-articles">
+
+	<div class="col-md-10 white-bg content bs-callout bs-callout-grasgruen shadow">
+		<h3><strong>Verwandte Artikel</strong></h3>
+		<ul class="related-articles">	
+			<!-- see http://discuss.gohugo.io/t/dynamically-filter-a-taxonomy-by-term/307/5 -->
+		    {{ range first 30 .Site.Pages }}
+				{{ $has_common_tags := intersect $.Params.rubriken .Params.rubriken | len | lt 0 }}
+				{{ if and $has_common_tags (ne $.Permalink .Permalink) }}
+					<li>
+						<a href="{{ .RelPermalink }}">{{ .Title }}</a> &ndash; von {{ .Params.autor }}, {{ .Date.Format "02.01.2006" }}
+					</li>
+				{{ end }}
+			{{ end }}
+		</ul>
+	</div>
+
+</div>

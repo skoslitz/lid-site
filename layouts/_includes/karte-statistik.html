@@ -1,0 +1,20 @@
+{{ if isset .Params "karte_statistik" }}
+<div class="hidden-xs">
+	{{ if isset .Params "karte_statistik_titel" }}
+		<h3>{{.Params.karte_statistik_titel }}</h3>
+	{{ else }}
+		<h3>Statistische Karte</h3>
+	{{ end }}
+	{{ if isset .Params "karte_statistik_height" }}
+		<div>
+			<iframe src="/D3/{{ .Params.karte_statistik }}/index.html" width="100%" height="{{ .Params.karte_statistik_height }}px" frameborder="0">
+	{{ else }}
+		<div class="mappetizer">
+			<iframe src="/D3/{{ .Params.karte_statistik }}/index.html" width="100%" height="600px" frameborder="0">
+	{{ end }}
+			<p><mark>Ihr Browser unterstützt diese Darstellung (iframe) nicht.</mark></p>
+		</iframe>
+	</div>
+</div>
+{{ end }}
+

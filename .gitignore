@@ -1,0 +1,28 @@
+# geodata
+/Regionen
+/Shapes
+
+# lid content plus assets
+/content
+/static
+/archetypes
+
+# Hugo default output directory
+/public
+
+.htaccess
+output.html
+config.toml
+performance-optimization-tweaks.txt
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+hugo.exe
+runhugo.bat

@@ -1,0 +1,47 @@
+{{ template "_includes/header.html" . }}
+<body>
+    {{ template "_includes/navbar.html" . }}
+    <div class="section-content">
+
+        <div class="row">
+            <div class="col-md-10">
+                <h1 class="sectionheader text-center">Inhalte der Rubrik <strong>{{.Title}}</strong></h1>
+            </div>
+        </div>
+
+        {{ range .Data.Pages.GroupBy "Section" }}
+
+            {{ if eq .Key "exkursionen" }}
+                <!-- <div class="full-row">
+                    <div class="col-md-10">
+                        <h1 class="sectionheader text-center">Exkursionen</h1>
+                    </div>
+                </div>
+
+                <div class="row"-->
+
+            {{ end }}
+
+            {{ if eq .Key "themen" }}
+                <!--div class="full-row">
+                    <div class="col-md-10">
+                        <h1 class="sectionheader text-center">Beitr&auml;ge</h1>
+                    </div>
+                </div>
+
+                <div class="row"-->
+            {{ end }}
+
+                <div class="row">
+                        {{ range .Pages }}
+                            <div class="col-mre white-bg bs-callout themen-border lower-shadow">
+                                {{ .Render "li" }}
+                            </div>
+                        {{ end }}
+                </div>
+        {{ end }}
+
+        {{ template "_includes/debugInfo.html" . }}
+
+    </div>
+    {{ template "_includes/footer.html" . }}

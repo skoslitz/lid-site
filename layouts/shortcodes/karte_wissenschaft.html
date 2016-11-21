@@ -1,0 +1,13 @@
+<div>
+        <h3>{{ .Get "karte_titel" }}</h3>
+        <div class="karte-wissenschaft">
+        <object 
+                data="/maps/{{ .Get "karte_id" }}/index.html" 
+                type="application/javascript"
+                width="100%"
+                height="{{ .Get "karte_height" }}">
+            <!--Fallback-->
+            <p>Der Inhalt konnte nicht geladen werden.</p>
+        </object>
+        </div>  
+</div>

@@ -1,0 +1,26 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content">
+
+		<div class="row">
+			<div class="col-md-10">
+				<h1 class="sectionheader text-center">Die Buchreihe "Landschaften in Deutschland"</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 summary bs-callout bs-callout-simple shadow">
+				<!-- Exkursions-Auswahl -->
+				<div class="row section-auswahl">
+					{{ range .Data.Pages }}
+						{{ .Render "li" }}
+					{{ end}}
+				</div>
+				<!-- End Exkursions-Auswahl -->
+			</div>
+		</div>
+		{{ template "_includes/debugInfo.html" . }}
+
+	</div>
+	{{ template "_includes/footer.html" . }}

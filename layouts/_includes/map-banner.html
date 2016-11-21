@@ -1,0 +1,20 @@
+{{ $type := .Type }}  
+{{ $id := .Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
+<!-- deactivate static api due to performance reasons -->
+{{ if isset .Params "centroid" }}
+<!-- <meta itemprop="image" content="http://api.tiles.mapbox.com/v4/ifl.lplp8117/
+	{{ range sort .Params.centroid "value" "asc" }}{{ . }},{{ end }}15/1000x300.png?access_token=pk.eyJ1IjoiYWN0YWdlbyIsImEiOiJoVlhuYlB3In0.XrKXsQ7frSP_HBFp3mnldw"/>
+<img class="img-responsive" src="http://api.tiles.mapbox.com/v4/ifl.lplp8117/
+	{{ range sort .Params.centroid "value" "asc" }}{{ . }},{{ end }}15/1000x300.png?access_token=pk.eyJ1IjoiYWN0YWdlbyIsImEiOiJoVlhuYlB3In0.XrKXsQ7frSP_HBFp3mnldw" /> -->
+{{ end  }}
+
+<div class="banner-container">
+	<meta itemprop="image" content="/img/78{{ $path }}mapbanner.jpg"/>
+	<img class="img-responsive" src="/img/78{{ $path }}mapbanner.jpg" />
+	{{ if eq .Params.actionbound nil }}
+	<div class="attribution">&copy; Mapbox &copy; OpenStreetMap</div>
+	{{ end }}
+</div>
+

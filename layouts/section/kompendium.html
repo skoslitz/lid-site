@@ -1,0 +1,23 @@
+{{ if isset .Site.Params "dev" }}
+
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content">
+
+		{{ range .Data.Pages }}
+			{{ .Render "single" }}
+		{{ end}}
+
+	</div>
+	{{ template "_includes/footer.html" . }}
+
+{{ else }}
+
+<script type="text/javascript">
+<!--
+window.location = "{{ .Site.BaseURL }}";
+//–>
+</script>
+
+{{ end }}

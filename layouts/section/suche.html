@@ -1,0 +1,27 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content search-page">
+
+		<div class="row">
+			<div class="sectionheader col-md-10 white-bg bs-callout simple-border">
+				<h1 class="sectionheader text-center">Suche</h1>
+				<script>
+				  (function() {
+				    var cx = '000361394240284817676:0m3_abug39y';
+				    var gcse = document.createElement('script');
+				    gcse.type = 'text/javascript';
+				    gcse.async = true;
+				    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+				        '//cse.google.com/cse.js?cx=' + cx;
+				    var s = document.getElementsByTagName('script')[0];
+				    s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+				<gcse:search></gcse:search>
+
+			</div>
+		</div>
+
+	</div>
+	{{ template "_includes/footer.html" . }}

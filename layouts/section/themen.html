@@ -1,0 +1,134 @@
+{{ template "_includes/header.html" . }}
+<body>
+
+	{{ template "_includes/navbar.html" . }}
+
+	<script type="text/javascript">
+
+		function click_filter (target, name) {
+			// clear
+			if (name === 'clear') {
+				$('.themen-border').hide()
+				$('.list-all').show()
+				$('.btn.blue.clear').hide()
+				$('.filter-container .blue.btn').removeClass('selected')
+				// update filter-info/counter
+				show_counter('.list-all')
+				return
+			}
+			// hide / cleanup
+			var selector = '.themen-border'
+			$(selector).hide()
+			$('.filter-container .blue.btn').removeClass('selected')
+			// show
+			$(target).addClass('selected', true)
+			$(selector + '.' + name).show()
+			$('.btn.blue.clear').show().css('display', 'inline-block')
+			// update filter-info/counter
+			if (name !== 'clear') show_counter('' + selector + '.' + name)
+
+		}
+
+		function show_counter (selector) {
+			var count = $(selector).length
+			var message = count + " Themenbeitr&auml;ge"
+			if (selector === '.list-all') {
+				message = "Insgesamt " +  message
+			}
+			$('.filter-info').html(message)
+		}
+
+	</script>
+
+	<div class="section-content">
+
+		<div class="row">
+			<h1 class="sectionheader text-center">Die Region Leipzig thematisch vertieft</strong></h1>
+			<div class="filter-container">
+				<p>
+					<br/>
+					Entdecken Sie faszinierende Facetten der Stadt Leipzig. Finden Sie Beitr&auml;ge zu Kultur, Natur, Geschichte, Bev&ouml;lkerung und Wirtschaft. Die Beitr&auml;ge wollen mit ihren interaktiven Elementen einen Eindruck der Vielfalt und der Zusammenh&auml;nge eines Stadtraumes wie Leipzig vermitteln.
+					<br/><br/>
+					W&auml;hlen Sie einen Beitrag aus der Liste. Sie k&ouml;nnen Ihre Suche auch nach Themenbereichen einschr&auml;nken:
+				</p>
+				<!-- h3>Wählen Sie ein Thema</h3-->
+				<a class="btn blue" onclick="javascript:click_filter(this, 'sb')">Siedlung &amp; Bevölkerung</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, 'wv')">Wirtschaft &amp; Verkehr</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, 'nl')">Natur &amp; Landschaft</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, 've')">Vergangenheit &amp; Erinnerung</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, 'ks')">Kultur &amp; Soziales</a>
+				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Beitr&auml;ge</a>
+				<span class="filter-info"></span>
+			</div>
+		</div>
+
+		<!-- list all themen -->
+        {{ range .Data.Pages }}
+        {{ if and (eq .Type "themen") }}
+			<div class="col-mre themen-border list-all lower-shadow">
+				{{ .Render "li" }}
+			</div>
+        {{ end}}
+        {{ end}}
+		
+
+		<!-- Siedlung + Bevölkerung -->
+		{{ $termname := "siedlung--bevölkerung" }}
+		{{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
+		{{ range $taxonomy.Pages.ByWeight.Reverse }}
+			{{ if eq .Type "themen"}}
+			<div style="display:none;" class="col-mre themen-border sb lower-shadow">
+				{{ .Render "li" }}
+			</div>
+			{{ end }}
+		{{ end }}
+
+		<!-- Wirtschaft + Verkehr -->
+		{{ $termw := "wirtschaft--verkehr" }}
+		{{ $taxw := index .Site.Taxonomies.rubriken $termw }}
+		{{ range $taxw.Pages.ByWeight.Reverse }}
+			{{ if eq .Type "themen"}}
+			<div style="display:none;" class="col-mre themen-border wv lower-shadow">
+				{{ .Render "li" }}
+			</div>
+			{{ end }}
+		{{ end }}
+
+		{{ $termn := "natur--landschaft" }}
+		{{ $taxn := index .Site.Taxonomies.rubriken $termn }}
+		{{ range $taxn.Pages.ByWeight.Reverse }}
+			{{ if eq .Type "themen"}}
+			<div style="display:none;" class="col-mre themen-border nl lower-shadow">
+				{{ .Render "li" }}
+			</div>
+			{{ end }}
+		{{ end }}
+
+		{{ $terme := "vergangenheit--erinnerung" }}
+		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+		{{ range $taxe.Pages.ByWeight.Reverse }}
+			{{ if eq .Type "themen"}}
+			<div style="display:none;" class="col-mre themen-border ve lower-shadow">
+				{{ .Render "li" }}
+			</div>
+			{{ end }}
+		{{ end }}
+
+		{{ $terme := "kultur--soziales" }}
+		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+		{{ range $taxe.Pages.ByWeight.Reverse }}
+			{{ if eq .Type "themen"}}
+			<div style="display:none;" class="col-mre themen-border ks lower-shadow">
+				{{ .Render "li" }}
+			</div>
+			{{ end }}
+		{{ end }}
+
+	</div>
+
+	<script type="text/javascript">
+		// initial update filter-info/counter
+		show_counter('.list-all')
+	</script>
+
+	{{ template "_includes/footer.html" . }}

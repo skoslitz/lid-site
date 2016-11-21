@@ -1,0 +1,5 @@
+{{ $type := .Page.Type }}  
+{{ $id := .Page.Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+<p>Output: {{ $path }} </p>
+

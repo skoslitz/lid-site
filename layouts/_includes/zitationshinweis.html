@@ -1,0 +1,12 @@
+<br>
+<p>
+{{ if eq .Params.actionbound "ja" }}
+	{{ .Params.autorenschaft }}
+{{ end }}
+</p>
+
+<h3><strong>Empfohlene Zitierweise</strong></h3>
+<p>
+	{{ .Params.autor }}: &ldquo;{{ .Title }}&rdquo; in <i>Landschaften in Deutschland Online</i>.<br/>
+	URL: <a href="{{ .Permalink }}">{{ .Permalink }}</a>, Stand {{ .Date.Format "02.01.2006" }}
+</p>

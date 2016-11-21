@@ -1,0 +1,11 @@
+<div id='{{ .Get "nummer" }}' class='anker-versatz'></div>
+<h3 class="station-title">
+	{{ if eq .Page.Type "exkursionen" }}
+		<strong>Station {{ .Get "nummer" }}:</strong>
+	{{ else }}
+	 	<strong>Standort {{ .Get "nummer" }}:</strong>
+	{{ end }}
+	
+	{{ .Get "titel" }} <a href="#kartenansicht" class="external-link">zur Kartenansicht >></a>
+
+</h3>

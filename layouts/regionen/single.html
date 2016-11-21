@@ -1,0 +1,109 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content" itemscope itemtype="http://schema.org/Book">
+		
+		{{ template "_includes/breadcrumbs.html" . }}
+
+		<div class="row">
+		
+			<div class="col-md-10 white-bg bs-callout bs-callout-orange shadow">
+				<!-- Titelbild -->
+				{{ if isset .Params "titelbild" }} 
+				<div class="band-cover">
+					<meta itemprop="image" content="/img/{{ .Params.titelbild }}"/>
+					<img src="/img/{{ .Params.titelbild }}" alt="Abbidung des Bandes">	
+				</div>
+				{{ end }}
+
+				<meta itemprop="name" content="{{ .Title }}, {{ .Params.untertitel }}"/>
+				<meta itemprop="numberOfPages" content="{{ .Params.seitenzahl }}"/>
+				<meta itemprop="copyrightYear" content="{{ .Params.erscheinungsjahr }}"/>
+				<div class="hidden" itemprop="editor" itemtype="http://schema.org/Person">
+					<meta itemprop="name" content="{{ .Params.herausgeber }}"/>
+				</div>
+				<div class="hidden" itemprop="publisher" itemtype="http://schema.org/Organization">
+					<meta itemprop="name" content="{{ .Params.herausgeberinstitut }}"/>
+				</div>
+				<div class="hidden" itemprop="producer" itemtype="http://schema.org/Organization">
+					<meta itemprop="name" content="{{ .Params.verlag }}"/>
+				</div>
+				
+				<h3 class="reihentitel">&ldquo;{{ .Params.reihentitel }}&rdquo;</h3>
+
+				<h3 class="bandnummer">
+					Band Nr. {{ .Params.bandnummer }}{{ if in .Params.bundesland "Berlin" }}-50 {{end}}
+				</h3>
+				
+				<h1 class="bandtitel">
+					{{ .Title }} &ndash; <span class="untertitel">{{ .Params.untertitel }}</span>
+				</h1>
+
+				<div class="band-zusatz meta">
+					<p>
+						<b>Erscheinungsjahr</b><br/>
+						{{ .Params.erscheinungsjahr }}
+					</p>
+					<p>
+						<b>Umfang</b><br/>
+						{{ .Params.seitenzahl }} Seiten, {{ delimit .Params.umfang ", "}}
+					</p>
+					<p>
+						<b>Herausgeber_Innen</b><br/>
+						{{ .Params.herausgeber }}
+					</p>
+					<p>
+						<b>Herausgeberinstitution(en)</b><br/>
+						{{ .Params.herausgeberinstitut }}
+					</p>
+					<p>
+						<b>Verlag/Ort</b></br>
+						{{ .Params.verlag }}, {{ .Params.ort }}
+					</p>
+					{{ if and (isset .Params "isbn") (ne .Params.isbn "") }}					
+					<p>
+						<b>ISBN</b></br>
+						{{ .Params.isbn }}
+					</p>
+					{{ end }}
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="linespace"></div>
+			<div class="col-md-10 content text-area">
+				<h3>Kurzbeschreibung:</h3>
+				<p>{{.Params.kurzbeschreibung | markdownify}}</p>
+				<p>{{ .Content }}</p>
+			</div>
+
+		</div>
+
+		<div class="linespace"></div>
+		<div class="col-md-10 text-area">
+			<!-- Slideshow Beitrag -->
+			{{ template "_includes/slideshow.html" . }}
+		</div>
+
+		
+
+
+	</div>
+	{{ template "_includes/footer.html" . }}
+
+<script type="text/javascript">
+		// Using the magnific Pop-up script
+		// @see principal copy in /exkursion/single.html
+		$(function () {
+			$('.content.text-area').magnificPopup({
+				delegate: 'img.clickable', // child items selector, by clicking on it popup will open
+				type: 'image',
+				gallery:{ "enabled" : true }
+			})
+			$('.content.text-area img.clickable').bind('click', function (e) {
+				$(this).magnificPopup('open')
+			})
+		})
+	</script>

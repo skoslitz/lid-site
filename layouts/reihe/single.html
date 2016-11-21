@@ -1,0 +1,38 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content">
+
+		<div class="row">
+		
+			<div class="col-md-10 white-bg simple-page bs-callout bs-callout-simple shadow">
+				<div class="col-md-10 padding">
+					<h1 class="sectionheader text-center">{{.Title}}</h1>
+				</div>
+
+				<div class="col-md-10 content text-area padding">
+					<p class="text-center">{{.Content}}</p>
+				</div>
+			</div>
+
+		</div>
+
+	{{ template "_includes/debugInfo.html" . }}
+
+	</div>
+	{{ template "_includes/footer.html" . }}
+
+	<script type="text/javascript">
+		// Using the magnific Pop-up script
+		// @see principal copy in /themen/single.html
+		$(function () {
+			$('.content.text-area').magnificPopup({
+				delegate: 'img.clickable', // child items selector, by clicking on it popup will open
+				type: 'image',
+				gallery:{ "enabled" : true }
+			})
+			$('.content.text-area img.clickable').bind('click', function (e) {
+				$(this).magnificPopup('open')
+			})
+		})
+	</script>

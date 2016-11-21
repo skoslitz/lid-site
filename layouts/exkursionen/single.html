@@ -1,0 +1,115 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content" itemscope itemtype="http://schema.org/Place">
+
+    	<meta itemprop="url" content="{{ .Permalink }}" />
+
+	    <div class="row">
+
+	        <div class="col-md-10 titelbild bs-callout bs-callout-signalorange shadow">
+
+	            <!-- Statische Karte -->
+	            {{ template "_includes/map-banner.html" . }}
+
+				{{ if isset .Params "centroid" }}
+					<div class="hidden" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+						{{ range $idx, $value := .Params.centroid }}
+							{{ if eq $idx 0 }}
+								<meta itemprop="latitude" content="{{ $value }}" />
+							{{ end }}
+							{{ if eq $idx 1 }}
+								<meta itemprop="longitude" content="{{ $value }}" />
+							{{ end }}
+						{{ end }}
+					</div>
+				{{ end }}
+
+				<!-- Tags -->
+	            <div class="tags text-muted">
+					{{ range .Params.exkursionstypen }}
+						<a class="label-default" href="/exkursionstypen/{{ . | urlize }}">{{ . }}</a>
+					{{ end }}
+				</div>
+
+				<div class="titel-back-exkurs">
+					<h2 itemprop="name" class ="titel"><strong>{{ .Title }}</strong></h2>
+				</div>
+				<div class="subtitel-back">
+					<h3 class ="subtitel"><strong>{{ .Params.subtitle }}</strong></h3>
+					<h5 class="text-muted">Von
+						{{ .Params.autor }} &ndash; </i>
+						{{ .Date.Format "01/2006" }}
+					</h5>
+				</div>
+
+				<!-- Teaser -->
+				<div class="beschreibung">
+					<p itemprop="description">{{ .Description | markdownify }}</p>
+				</div>
+				<!-- End Teaser -->
+
+	        </div>
+
+	    </div>
+	    <!-- End Beitrag Header -->
+
+		<!-- Karte, wenn kein actionbound -->
+		{{ if eq .Params.actionbound nil }}
+	    <div class="row">
+	        <div class="col-md-10 bs-callout bs-callout-signalorange shadow karten-callout">
+				<div id="kartenansicht" class="anker-versatz"></div>
+	            <h3 id="kartentitel">Karten&uuml;berblick Exkursion: <strong>{{ .Title }}</strong>&nbsp;<a class="reset">Kartenausschnitt zur&uuml;cksetzen</a></h3>
+	            <div id="map"></div>
+	        </div>
+	    </div>
+	    <!-- End Karte -->
+	    {{ end }}
+
+	    <!-- Inhalts Ausgabe -->
+		<div class="row">
+			<div class="linespace"></div>
+			<div class="col-md-10 content text-area">
+				{{ .Content }}
+			</div>
+		</div>
+	    <!-- End Inhalts Ausgabe -->
+
+	    <div class="row">
+			<div class="col-md-10 content white-bg bs-callout bs-callout-signalorange shadow">
+				<!-- Zitationshinweis -->
+				{{ template "_includes/zitationshinweis.html" . }}
+				<!-- Literaturangaben -->
+				{{ template "_includes/literaturangaben.html" . }}
+				<!-- Bildnachweise -->
+				{{ template "_includes/bildnachweise.html" . }}
+			</div>
+	    </div>
+
+	<!-- VG-Wort-Zählmarke -->
+	{{ template "_includes/vg-wort.html" . }}
+	
+	</div>
+
+	{{ template "_includes/footer.html" . }}
+	
+	{{ if eq .Params.actionbound nil }}
+		{{ template "_includes/map-exkursion.html" . }}
+	{{ end }}
+
+	<link rel="stylesheet" type="text/css" href="/css/map-exkursion.css">
+
+	<script type="text/javascript">
+		// Using the magnific Pop-up script
+		// @see principal copy in /themen/single.html
+		$(function () {
+			$('.content.text-area').magnificPopup({
+				delegate: 'img.clickable', // child items selector, by clicking on it popup will open
+				type: 'image',
+				gallery:{ "enabled" : true }
+			})
+			$('.content.text-area img.clickable').bind('click', function (e) {
+				$(this).magnificPopup('open')
+			})
+		})
+	</script>

@@ -1,0 +1,25 @@
+<div class="hidden-xs">
+        
+        <h3>{{ .Get "karte_statistik_titel" }}</h3>
+        <div class="mappetizer">
+        <object 
+            {{ $id := .Get "karte_statistik" }}
+            {{ with .Get "karte_statistik_file" }}
+                data="/D3/{{$id}}/{{ . }}.html"
+            {{ else }}
+                data="/D3/{{$id}}/index.html"
+            {{ end }}                 
+                type="application/javascript"
+                width="100%"
+            {{ with .Get "karte_statistik_height" }}
+                height="{{.}}px">
+            {{ else }}
+                height="600px">
+            {{ end }}                
+            <!--Fallback-->
+            <p>Der Inhalt konnte nicht geladen werden.</p>
+        </object>
+        </div>  
+</div>
+
+{{ template "_includes/small-device-text.html" . }}

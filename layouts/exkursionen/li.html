@@ -1,0 +1,13 @@
+
+<a href="{{ .Permalink }}">
+	{{ if isset .Params "vorschaubild" }}
+		<img class="vorschaubild" src="{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
+	{{ else }}
+		<img class="vorschaubild" src="/img/previews/exkursionen-mre-wasserroute.png">
+	{{ end }}
+	<h4>{{ .Title}}</h4>
+</a>
+<p>
+	{{ if isset .Params "exkursionsstationen" }} {{ .Params.exkursionsstationen }} Stationen,{{ end }}
+	{{ if isset .Params "exkursionslaenge" }} {{ .Params.exkursionslaenge }} km<br/> {{ end }}
+</p>

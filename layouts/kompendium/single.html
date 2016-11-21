@@ -1,0 +1,19 @@
+
+<div class="page-toc">
+	<h3>Inhaltsverzeichnis</h3>
+	{{ .TableOfContents }}
+</div>
+
+<div class="kompendium">
+	<div class="white-bg simple-page bs-callout bs-callout-simple">
+		<div class="padding">
+			<h3 class="text-right text-danger">Stand {{ .Date.Format "02.01.2006" }}</h3>
+			<h1 class="sectionheader text-center">{{.Title}}</h1>
+		</div>
+		
+		<div class="text-area padding">
+			<p class="text-center">{{.Content}}</p>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,113 @@
+<style>
+    #map { 
+        padding: 0;
+        {{ if isset .Params "map_height" }} 
+            height: {{ index .Params "map_height" }}px;
+        {{ else }}
+            height:400px;
+        {{ end }}     
+        width:100%;
+        -webkit-box-shadow: 0 0 5px 2px #666666;
+        box-shadow: 0 0 5px 2px #666666;
+    }
+    .legend label,
+    .legend span {
+      display:block;
+      float:left;
+      height:15px;
+      width:20%;
+      text-align:center;
+      font-size:9px;
+      color:#808080;
+      }
+</style>
+
+<script type="text/javascript">
+L.mapbox.accessToken = 'pk.eyJ1IjoiaWZsIiwiYSI6IksxanctMkUifQ.sAHrtehStvROYTeXS20NRg';
+
+// Construct a bounding box for this map that the user cannot
+// move out of
+var southWest = L.latLng(-22.471954507739227, -194.23828125),
+    northEast = L.latLng(71.6774828543785, 186.50390625),
+    bounds = L.latLngBounds(southWest, northEast);
+
+var map = L.mapbox.map('map', 'ifl.lplpe32l', {
+    maxBounds: bounds,
+    maxZoom: 18,
+    minZoom: 2
+});
+
+map.setView(
+// lat + lon
+{{ .Params.centroid }},
+// zoomlevel if set else 15
+{{ if isset .Params "zoomstufe" }} 
+    {{ index .Params "zoomstufe" }});
+{{ else }}
+15);
+{{ end }}
+
+map.touchZoom.disable();
+map.scrollWheelZoom.disable();
+// ## either we disable panning or the ("zur Karte") link must select/highlight and re-center the map on click
+
+{{ range $index, $value := .Params.exkursion }}
+L.marker(new L.LatLng({{ $value.lat }}, {{ $value.lon }}), {
+    icon: L.mapbox.marker.icon({
+        {{ if isset $value "color" }}
+            'marker-color': '{{ $value.color }}',
+        {{ else }}
+            'marker-color': 'ED8C00',
+        {{ end }}
+        'marker-size': 'medium',
+        'marker-symbol': '{{ $value.nr }}'
+    })
+}).on('click', function() {
+    window.location.href = "#{{ $value.nr }}";
+   })
+.addTo(map);
+{{ end }}
+
+
+//TODO make line style working! actual defined in css
+// path line options
+var line_options = {
+    "stroke": "#ff8888",
+    "stroke-opacity": 1,
+    "stroke-width": 4,
+};
+
+L.mapbox.featureLayer('/paths/{{ .Params.id }}.json', {
+    style: line_options
+}).addTo(map);
+
+// --- Reset map view control
+$("#kartentitel .reset").click(function() {
+    map.setView(
+        {{ .Params.centroid }},
+    {{ if isset .Params "zoomstufe" }} 
+        {{ index .Params "zoomstufe" }});
+    {{ else }}
+        15)
+    {{ end }}
+});
+
+// --- Show coordinates on map click
+map.on('click', function(e) {
+    console.log(e.latlng.lat, e.latlng.lng );
+});
+
+map.on('zoomend', function (e) {
+    $("#kartentitel .reset").show()
+})
+
+map.on('moveend', function (e) {
+    $("#kartentitel .reset").show()
+})
+
+{{ if isset .Params "legende" }} 
+map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+{{ end }}
+
+
+</script>

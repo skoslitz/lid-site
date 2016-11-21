@@ -1,0 +1,189 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content landschaften">
+
+	<div class="landschaften-editorial">
+
+		<h1 class="sectionheader text-center" >Landschaften in Deutschland &ndash; die B&uuml;cher</h1>
+
+		{{ template "_includes/map-regionen.html" .}}
+		<div class="text">
+			<p>
+				Die Buchreihe „Landschaften in Deutschland“ vermittelt Kenntnisse &uuml;ber ausgew&auml;hlte Kulturlandschaften in Deutschland an einen landeskundlich interessierten Leserkreis. Auf dieser Seite k&ouml;nnen Sie einen &Uuml;berblick &uuml;ber alle seit 1957 erschienenen B&auml;nde erhalten. Ab Band 78 &bdquo;Leipzig&ldquo; gibt es weiterf&uuml;hrende Online-Angebote als <a href="/themen">Beitr&auml;ge</a> oder <a href="/exkursionen">Exkursionen</a>.
+			</p>
+			<p><strong>Weitere Informationen zur Buchreihe finden Sie <a href="/reihe">hier</a>.</strong></p>
+		</div>
+
+	</div>
+		
+	<script type="text/javascript">
+
+		function click_filter (target, name) {
+			// clear
+			if (name === 'clear') {
+				$('.bundesland').show()
+				$('.btn.blue.clear').hide()
+				$('.filter-container .blue.btn').removeClass('selected')
+				return
+			}
+			// hide / cleanup
+			var selector = '.bundesland'
+			$(selector).hide()
+			$('.filter-container .blue.btn').removeClass('selected')
+			// show
+			$(target).addClass('selected', true)
+			$(selector + '.' + name).show()
+			$('.btn.blue.clear').show().css('display', 'inline-block')
+		}
+
+	</script>
+	
+	<!-- Berlin -->
+	{{ $berlin := "Berlin" }}
+	<!-- Brandenburg -->
+	{{ $brandenburg := "Brandenburg" }}
+	<!-- Mecklenburg-Vorpommern -->
+	{{ $mecklenburg_vorpommern := "Mecklenburg-Vorpommern" }}
+	<!-- Niedersachsen -->
+	{{ $niedersachsen := "Niedersachsen" }}
+	<!-- Rheinland-Pfalz -->
+	{{ $rheinland_pfalz := "Rheinland-Pfalz" }}	
+	<!-- Sachsen -->
+	{{ $sachsen := "Sachsen" }}
+	<!-- Sachsen-Anhalt -->
+	{{ $sachsen_anhalt := "Sachsen-Anhalt" }}
+	<!-- Schleswig-Holstein -->
+	{{ $schleswig_holstein := "Schleswig-Holstein" }}
+	<!-- Thüringen -->
+	{{ $thueringen := "Thüringen" }}
+
+
+		<div class="row">
+			<div class="filter-container">
+				<p>Filtern Sie die Liste der verschiedenen B&auml;nde nach Bundesland:</p>
+
+				<!-- h3>Wählen Sie ein Thema</h3-->
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $berlin }})">{{title $berlin}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $brandenburg }})">{{title $brandenburg}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $mecklenburg_vorpommern }})">{{title $mecklenburg_vorpommern}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $niedersachsen }})">{{title $niedersachsen}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $rheinland_pfalz }})">{{title $rheinland_pfalz}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $sachsen }})">{{title $sachsen}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $sachsen_anhalt }})">{{title $sachsen_anhalt}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $schleswig_holstein }})">{{title $schleswig_holstein}}</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $thueringen }})">{{title $thueringen}}</a>
+				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Bundesl&auml;nder</a>
+			</div>
+		</div>
+		
+		<div class="row">
+		<div class="summary bs-callout bs-callout-orange shadow">
+			
+			<div class="{{ $berlin }} bundesland">
+				<h3 class="seperator region">{{ $berlin }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $berlin }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }}       
+				</ul>
+			</div>
+			
+			<div class="{{ $brandenburg }} bundesland">
+				<h3 class="seperator region">{{ $brandenburg }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $brandenburg }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }}       
+				</ul>
+			</div>
+			
+			<div class="{{ $mecklenburg_vorpommern }} bundesland">
+				<h3 class="seperator region">{{ $mecklenburg_vorpommern }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $mecklenburg_vorpommern }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }}       
+				</ul>
+			</div>
+
+			<div class="{{ $niedersachsen }} bundesland">
+				<h3 class="seperator region">{{ $niedersachsen }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $niedersachsen }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }}       
+				</ul>
+			</div>
+			
+			<div class="{{ $rheinland_pfalz }} bundesland">
+				<h3 class="seperator region">{{ $rheinland_pfalz }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $rheinland_pfalz }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }} 
+				</ul>
+			</div>
+			
+			<div class="{{ $sachsen }} bundesland">
+				<h3 class="seperator region">{{ $sachsen }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $sachsen }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }} 
+				</ul>
+			</div>
+			
+			<div class="{{ $sachsen_anhalt }} bundesland">
+				<h3 class="seperator region">{{ $sachsen_anhalt }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $sachsen_anhalt }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }} 
+				</ul>
+			</div>
+			
+			<div class="{{ $schleswig_holstein }} bundesland">
+				<h3 class="seperator region">{{ $schleswig_holstein }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $schleswig_holstein }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }} 
+				</ul>
+			</div>
+			
+			<div class="{{ $thueringen }} bundesland">
+				<h3 class="seperator region">{{ $thueringen }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $thueringen }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }} 
+				</ul>
+			</div>
+
+
+		</div>
+		</div> 
+
+		{{ template "_includes/debugInfo.html" . }}
+
+	</div>
+	{{ template "_includes/footer.html" . }}

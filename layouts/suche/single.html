@@ -1,0 +1,63 @@
+{{ template "_includes/header.html" . }}
+<body>
+{{ template "_includes/navbar.html" . }}
+
+    <div class="row">
+        <h5><strong><mark>Beitragsseite: Reihe</mark></strong></h5>
+    </div>
+
+    <div class="row">
+        <h3>Bild <strong>Aufmacher</strong></h3>
+    </div>
+
+    <!-- Info Ausgabe -->
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+            <h4>AutorIn</h4>
+            <p>{{ .Params.autor }}</p>
+        </div>
+        <div class="col-md-3">
+            <strong>Kategorien</strong>
+            <ul class="list-unstyled">
+            {{ range .Params.categories }}
+                <li><a href="/categories/{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+            </ul>
+            <strong>Tags</strong><br>
+            {{ range .Params.tags }}<a class="label label-default" href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
+        </div>
+    </div>
+    <!-- End Info Ausgabe -->
+
+    <!-- Beitrag Header -->
+    <div class="row">
+        <div class="col-md-12">
+            <h5 class="text-muted">
+                Lesezeit {{ .ReadingTime }} min
+            </h5>
+            <h2><strong>{{ .Title }}</strong></h2>
+            <h5 class="text-muted">Von
+                {{ .Params.autor }},
+                geschrieben am
+                {{ .Date.Format "January 2, 2006" }}
+            </h5>
+            <hr>
+            <p class="lead">{{ .Description }}</p>
+        </div>
+    </div>
+    <!-- End Beitrag Header -->
+
+    <div class="row">
+        <div class="col-md-12">
+            {{ .Content }}
+        </div>
+    </div>
+    
+{{ template "_includes/debugInfo.html" . }}
+
+</div>
+{{ template "_includes/footer.html" . }}

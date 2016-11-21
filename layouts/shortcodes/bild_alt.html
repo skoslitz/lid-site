@@ -1,0 +1,29 @@
+<div class="just-center abbildung {{ .Get "flow" }}">
+
+	{{ $imgClass := "img-responsive" }}
+
+	{{ if isset .Params "clickable" }}
+		<a name="{{ .Get "pfad" }}" title="Vollbild">
+	{{ end }}
+
+		{{ if isset .Params "style" }}
+			<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }}" data-mfp-src="/img{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}" src="/img/{{ .Get "pfad" }}" />
+		{{ else }}
+
+			<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }}" data-mfp-src="/img{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}" src="/img{{ .Get "pfad" }}" />
+
+		{{ end }}
+
+	{{ if isset .Params "clickable" }}
+		</a>
+	{{ end }}
+
+
+
+	<div class="bild-caption">
+		{{ with .Get "titel" }}<span>{{.}}</span>{{ end }}
+		{{ with .Get "quellenangaben" }}<span>{{.}}</span>{{ end }}
+
+	</div>
+
+</div>

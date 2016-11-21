@@ -1,0 +1,36 @@
+{{ template "_includes/header.html" . }}
+<body>
+    {{ template "_includes/navbar.html" . }}
+    <div class="section-content">
+
+        {{ if in .Title "rad" }}
+            <div class="row">
+                <div class="col-md-10">
+                    <h1 class="sectionheader text-center">Exkursionen mit dem Fahrrad</h1>
+                </div>
+            </div>
+        {{ else if in .Title "Fuß" }}
+            <div class="row">
+                <div class="col-md-10">
+                    <h1 class="sectionheader text-center">Exkursionen zu Fuß</h1>
+                </div>
+            </div>
+        {{ else }}
+            <div class="row">
+                <div class="col-md-10">
+                    <h1 class="sectionheader text-center">Exkursionen vom Typ {{ .Title }} </h1>
+                </div>
+            </div>
+        {{ end }}
+
+        <div class="full-row">
+            {{ range .Data.Pages }}
+            <div class="col-mre white-bg beschreibung bs-callout exkurs-border shadow">                    
+                {{ .Render "li" }}
+            </div>
+            {{ end}}
+        </div>
+        {{ template "_includes/debugInfo.html" . }}
+
+    </div>
+    {{ template "_includes/footer.html" . }}
