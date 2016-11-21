@@ -66,6 +66,15 @@
 						{{ .Params.isbn }}
 					</p>
 					{{ end }}
+					
+					{{ if (isset .Params "online") }}
+					<p>
+						<b>Online</b></br>
+						<a href={{ .Site.BaseURL }}themen#{{.Params.bandnummer}}>Themen</a> |
+						<a href={{ .Site.BaseURL }}exkursionen#{{.Params.bandnummer}}>Unterwegs</a>
+					</p>
+					{{ end }}
+					
 				</div>
 
 			</div>
