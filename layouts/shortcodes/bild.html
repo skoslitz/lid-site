@@ -7,8 +7,8 @@
 
 	{{ if isset .Params "hidden" }}
 
-		<img class="{{ $imgClass }} clickable hidden" data-mfp-src="/img/78{{ $path }}{{ .Get "pfad" }}"
-			alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/78{{ $path }}300px-{{ .Get "pfad" }}" />
+		<img class="{{ $imgClass }} clickable hidden" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}"
+			alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{ substr $id 0 2 }}/{{ $path }}300px-{{ .Get "pfad" }}" />
 
 	{{ else }}
 
@@ -19,9 +19,9 @@
 			{{ end }}
 
 				{{ if isset .Params "style" }}
-					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/78{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/78{{ $path }}{{ .Get "pfad" }}" />
+					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" />
 				{{ else }}
-					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/78{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/78{{ $path }}300px-{{ .Get "pfad" }}"{{ else }}src="/img/78{{ $path }}{{ .Get "pfad" }}"{{end}} />
+					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/{{ substr $id 0 2 }}/{{ $path }}300px-{{ .Get "pfad" }}"{{ else }}src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}"{{end}} />
 				{{ end }}
 
 				
