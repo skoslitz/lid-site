@@ -1,7 +1,11 @@
+{{ $type := .Type }}  
+{{ $id := .Params.id }}   
+{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+
 
 <a href="{{ .Permalink }}">
 	{{ if isset .Params "vorschaubild" }}
-		<img class="vorschaubild" src="{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
+		<img class="vorschaubild" src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
 	{{ else }}
 		<img class="vorschaubild" src="/img/previews/exkursionen-mre-wasserroute.png">
 	{{ end }}
