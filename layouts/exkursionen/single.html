@@ -55,7 +55,7 @@
 	    <!-- End Beitrag Header -->
 
 		<!-- Karte, wenn kein actionbound -->
-		{{ if eq .Params.actionbound nil }}
+		{{ if or (eq .Params.actionbound nil) (eq .Params.actionbound false) }}
 	    <div class="row">
 	        <div class="col-md-10 bs-callout bs-callout-signalorange shadow karten-callout">
 				<div id="kartenansicht" class="anker-versatz"></div>
@@ -93,7 +93,7 @@
 
 	{{ template "_includes/footer.html" . }}
 	
-	{{ if eq .Params.actionbound nil }}
+	{{ if or (eq .Params.actionbound nil) (eq .Params.actionbound false) }}
 		{{ template "_includes/map-exkursion.html" . }}
 	{{ end }}
 

@@ -59,7 +59,7 @@
 
 		<!-- list all trips -->
         {{ range .Data.Pages }}
-        {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion "nein") }}
+        {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
 			<div class="col-mre exkurs-border list-all lower-shadow">
                 {{ .Render "li" }}
 			</div>
@@ -70,7 +70,7 @@
         {{ $termname := "fuß" }}
         {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
         {{ range $taxonomy.Pages.ByWeight }}
-                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion "nein") }}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
                 <div style="display:none;" class="col-mre exkurs-border fuss lower-shadow">
                         {{ .Render "li" }}
                 </div>
@@ -81,7 +81,7 @@
         {{ $fahrrad := "fahrrad" }}
         {{ $taxw := index .Site.Taxonomies.exkursionstypen $fahrrad }}
         {{ range $taxw.Pages.ByWeight.Reverse }}
-                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion "nein") }}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
                 <div style="display:none;" class="col-mre exkurs-border fahrrad lower-shadow">
                         {{ .Render "li" }}
                 </div>
@@ -101,7 +101,7 @@
 			{{ $id := .Params.id }}   
 			{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
 			
-   			{{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion "ja") }}
+   			{{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion true) }}
 			<div class="col-mre simple-border lower-shadow">
 			<a href="{{ .Params.exkursions_url }}" target="_blank">
 				{{ if isset .Params "vorschaubild" }}
