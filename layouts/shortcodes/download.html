@@ -6,7 +6,7 @@
 
 	{{ with .Get "format" }}<span>Dateiformat: .{{.}},</span>{{ end }}
 	{{ with .Get "size" }}<span>Gr&ouml;&szlig;e: {{.}} MByte{{ end }}<br/></span>
-	Download: <a href="/img/78{{ $path }}{{ .Get "pfad" }}" title="{{ .Get "titel" }}" target="_blank">{{ .Get "titel" }}</a>
+	Download: <a href="/img/{{ substr $id 0 2 }}{{ $path }}{{ .Get "pfad" }}" title="{{ .Get "titel" }}" target="_blank">{{ .Get "titel" }}</a>
 	<br/>
 	{{ with .Get "lizenz" }}<span class="license">Lizenz: {{.}}, </span> {{ end }}
 	{{ with .Get "stand" }}<span class="date">Stand: {{.}} </span> {{ end }}
