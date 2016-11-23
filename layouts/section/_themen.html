@@ -61,99 +61,10 @@
 				<span class="filter-info"></span>
 			</div>
 		</div>
-		
-<!-- Band 75 ---------------------------------------------------------------- -->
-		{{ $.Scratch.Add "band-75" 75 }}
-		
-		<div class="row">
-        	<div class="filter-container">
-        		<br/>				
-				<h3>Themen für Bandnummer {{$.Scratch.Get "band-75"}}</h3>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'sb-{{$.Scratch.Get "band-75"}}')">Siedlung &amp; Bevölkerung</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'wv-{{$.Scratch.Get "band-75"}}')">Wirtschaft &amp; Verkehr</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'nl-{{$.Scratch.Get "band-75"}}')">Natur &amp; Landschaft</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 've-{{$.Scratch.Get "band-75"}}')">Vergangenheit &amp; Erinnerung</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'ks-{{$.Scratch.Get "band-75"}}')">Kultur &amp; Soziales</a>
-				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Beitr&auml;ge</a>
-				<span class="filter-info"></span>
-			</div>
-    	</div>
 
 		<!-- list all themen -->
         {{ range .Data.Pages }}
-        {{ $bandnummer := substr .Params.id 0 2}} 
-        {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div class="col-mre themen-border list-all lower-shadow">
-				{{ .Render "li" }}
-			</div>
-        {{ end}}
-        {{ end}}
-
-        <!-- Siedlung + Bevölkerung -->
-		{{ $termname := "siedlung--bevölkerung" }}
-		{{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
-		{{ range $taxonomy.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border sb-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		<!-- Wirtschaft + Verkehr -->
-		{{ $termw := "wirtschaft--verkehr" }}
-		{{ $taxw := index .Site.Taxonomies.rubriken $termw }}
-		{{ range $taxw.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border wv-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		{{ $termn := "natur--landschaft" }}
-		{{ $taxn := index .Site.Taxonomies.rubriken $termn }}
-		{{ range $taxn.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border nl-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		{{ $terme := "vergangenheit--erinnerung" }}
-		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
-		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border ve-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		{{ $terme := "kultur--soziales" }}
-		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
-		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border ks-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-        <hr>
-
-<!-- Band 78 ---------------------------------------------------------------- -->
-
-		<!-- list all themen -->
-        {{ range .Data.Pages }}
-        {{ $bandnummer := substr .Params.id 0 2}} 
-        {{ if and (eq .Type "themen") (eq $bandnummer "78")}}
+        {{ if and (eq .Type "themen")}}
 			<div class="col-mre themen-border list-all lower-shadow">
 				{{ .Render "li" }}
 			</div>
@@ -165,8 +76,7 @@
 		{{ $termname := "siedlung--bevölkerung" }}
 		{{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
 		{{ range $taxonomy.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
+			{{ if eq .Type "themen"}}
 			<div style="display:none;" class="col-mre themen-border sb lower-shadow">
 				{{ .Render "li" }}
 			</div>
@@ -177,8 +87,7 @@
 		{{ $termw := "wirtschaft--verkehr" }}
 		{{ $taxw := index .Site.Taxonomies.rubriken $termw }}
 		{{ range $taxw.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
+			{{ if eq .Type "themen"}}
 			<div style="display:none;" class="col-mre themen-border wv lower-shadow">
 				{{ .Render "li" }}
 			</div>
@@ -188,8 +97,7 @@
 		{{ $termn := "natur--landschaft" }}
 		{{ $taxn := index .Site.Taxonomies.rubriken $termn }}
 		{{ range $taxn.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
+			{{ if eq .Type "themen"}}
 			<div style="display:none;" class="col-mre themen-border nl lower-shadow">
 				{{ .Render "li" }}
 			</div>
@@ -199,8 +107,7 @@
 		{{ $terme := "vergangenheit--erinnerung" }}
 		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
 		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
+			{{ if eq .Type "themen"}}
 			<div style="display:none;" class="col-mre themen-border ve lower-shadow">
 				{{ .Render "li" }}
 			</div>
@@ -210,8 +117,7 @@
 		{{ $terme := "kultur--soziales" }}
 		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
 		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
+			{{ if eq .Type "themen"}}
 			<div style="display:none;" class="col-mre themen-border ks lower-shadow">
 				{{ .Render "li" }}
 			</div>
