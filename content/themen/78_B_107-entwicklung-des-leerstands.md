@@ -1,0 +1,38 @@
++++
+id = "78_B_107"
+vg_wort_code = "ebad506cdc50421da1e5a592c53bca22"
+autor = "Giulia Montanari"
+date = "2015-06-29"
+rubriken = ["Siedlung & Bevölkerung"]
+titelbild = "titelbild2.jpg"
+titelbild_titel = ""
+titelbild_quelle = ""
+vorschaubild = "vorschaubild.jpg"
+title = "Leerstand in Leipzig"
+subtitle = ""
+description = "Der Wohnungsmarkt in Leipzig ist in Bewegung, daher verändern sich auch die Leerstände in der Stadt. Die Zahl baufälliger Gebäude nimmt ab, Wohnungen werden schneller vermietet. Die genaue Beobachtung der Entwicklung des Leerstands allerdings ist schwierig."
+literaturangaben = ["Arand, Moritz (2014): Platz genug? Genossenschaften und LWB sehen die Wohnraumsituation noch entspannt, in: Leipziger Internetzeitung. Online verfügbar unter http://www.l-iz.de/Politik/Brennpunkt/2014/06/Genossenschaften-LWB-sehen-die-Wohnraumsituation-entspannt-55591.html. – Leipzig.", "Braun, Reiner (2007): Leerstand ist nicht gleich Leerstand – Vergleich verschiedener Leerstandsmaße für Berlin. Berlin (= empirica paper, Nr. 152). Online verfügbar unter http://www.empirica-institut.de/kufa/empi152rb.pdf. – Berlin.", "Julke, Ralf (2014): Rätselraten um Leipziger Wohnungsmarkt: Stadtplanungsamt hat Monitoringbericht Wohnen 2013/2014 vorgelegt, in: Leipziger Internetzeitung. Online verfügbar unter http://www.l-iz.de/Politik/Leipzig/2014/06/Monitoring-Stadtplanungsamt-Leipziger-Wohnungsmarkt-55948.html. – Leipzig.", "Rink, Dieter; Haase, Annegret u. Andreas Schneider (2014): Vom Leerstand zum Bauboom? Zur Entwicklung des Leipziger Wohnungsmarkts, in: Statistischer Quartalsbericht der Stadt Leipzig, I/2014. Online verfügbar unter http://www.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Statistik/Statistischer_Quartalsbericht_Leipzig_2014_1.pdf. – Leipzig.", "Stadt für alle, Leipzig (2014): Gegenargumente zum Offenen Brief der Leipziger Immobilienakteure. Online verfügbar unter http://www.leipzig-stadtfueralle.de/index.php/materialdetails/items/gegenargumente-zum-offenen-brief-der-leipziger-immobilienakteure.html. – Leipzig.", "Streich, Bernd (2014): Erfassung und Prognose von Gebäudeleerständen – Methodenüberlegungen aus kritischer Distanz, in: Spehl, Harald (Hg.): Leerstand von Wohngebäuden in ländlichen Räumen. Beispiele ausgewählter Gemeinden der Länder Hessen, Rheinland-Pfalz und Saarland. (= E-Paper der ARL, Nr. 12). Online verfügbar unter http://nbn-resolving.de/urn:nbn:de:0156-73022. – Hannover, S. 25–37.", "Statistische Ämter des Bundes und der Länder (2014): Gebäude- und Wohnungszählung 2011. Online verfügbar unter https://ergebnisse.zensus2011.de/."]
+
+bildnachweise = ["Titelbild: Dachrinne eines leerstehenden Hauses in der Krönertstraße (Foto: Marek Wejwoda)", "Vorschaubild: Leerstehendes Haus in der Bernhardstraße (Foto: Marek Wejwoda)"]
+
++++
+
+{{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="In der Krönerstraße"  quellenangaben="Foto: Marek Wejwoda" %}}
+
+Leerstehende und verfallene Gebäude üben auf viele Menschen eine derart große Faszination aus, dass sich nicht Wenige der Erkundung und Dokumentation von ungenutzten Häusern und Fabrikgebäuden widmen. So findet man im Internet unter dem Stichwort "urban exploration" oder "lost places" viele Fotoserien, die den morbiden Charme leerstehender Gebäude festhalten. Für die Städte und Gemeinden allerdings stellt Leerstand je nach Ausmaß ein großes Problem dar, betroffen sind besonders Regionen, in denen die Bevölkerung abnimmt. Leerstehende Gebäude müssen gepflegt werden, damit sie später auch wieder genutzt werden können. Das ist mit Kosten verbunden ([Thema: Projekte Wächter- und Ausbauhäuser]({{< relref "themen/78_B_102-projekte-waechter-und-ausbauhaeuser.md" >}})). Gleichzeitig deuten hohe Leerstandszahlen auf ein Überangebot hin, das zu sinkenden Immobilienpreisen und Mieten führt. Was für die Mieter von Vorteil ist, stellt immobilienwirtschaftliche Akteure vor ein Problem, dem mitunter mit Abrissen begegnet wird. Eine solche Marktbereinigung haben u.a. die bundesweiten "Stadtumbau"-Programme zum Ziel, mit denen der Rückbau staatlich gefördert wird.
+
+Auch in Leipzig musste man sich lange Zeit mit hohen Leerstandszahlen beschäftigen. Noch 2011 standen 12 % der Leipziger Wohnungen in Wohngebäuden leer. Zum Vergleich: In München standen 2011 nur 2 % der Wohnungen leer, in Hamburg sogar nur 1,5 %. Ein Blick auf die Karte zeigt, wie ungleich sich die Leerstände wiederum innerhalb der Stadt verteilen. 
+
+{{% clear %}}
+
+{{% karte_statistik karte_statistik_titel="Wohnungsleerstand in Leipzig nach Ortsteilen, 2011" karte_statistik="78_B_107" %}}
+
+Mit am stärksten vom Leerstand geprägt sind bestimmte Quartiere des Leipziger Ostens (Volkmarsdorf und Neustadt-Neuschönefeld) sowie Lindenau. Aber auch Standorte der Plattenbaubestände im Leipziger Westen sind betroffen, u.a. Teile von Grünau. 
+
+{{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Leerstand im Leipziger Osten: Wurzener Straße"  quellenangaben="Foto: Marek Wejwoda" %}}
+
+Es ist anzunehmen, dass sich der Leerstand seit 2011 nicht nur verringert hat, sondern auch innerhalb des Stadtgebiets nach wie vor stark unterscheidet. Grund hierfür ist, dass es insbesondere die attraktiven innerstädtischen Lagen sind, die von dem Zuzug der letzten Jahre profitieren und in denen viel und hochwertig saniert wird. Für normal wird weithin ein Leerstand von unter 5 % gehalten, der in Leipzig Schätzungen zufolge bald erreicht sein dürfte. Dabei taugen diese Einschätzungen durchaus zum Politikum, wie die Diskussionen um die Konsequenzen aus den Leerstandszahlen deutlich machen. Gestritten wird letztlich darum, wie nahe sich Leipzig schon an einem angespannten Wohnungsmarkt befindet, in dem es immer weniger günstigen Wohnraum für Geringverdiener gibt und worauf  entsprechend reagiert werden müsste.
+
+Um nun die Veränderung des Leerstandes beobachten zu können, muss dieser regelmäßig erfasst werden. Die Erhebung stellt allerdings ein großes Problem dar, denn eine so aufwendige Methode wie bei der GWZ, die im Rahmen des Zensus 2011 durchgeführt wurde, lässt sich kaum regelmäßig durchführen: Hierfür waren alle Hausbesitzer (Privateigentümer ebenso wie größere Immobilienfirmen) befragt worden. Im Fall der GWZ wurde als  "leerstehend" außerdem sowohl der marktaktive als auch der nicht-marktaktive Leerstand zum Zeitpunkt der Erhebung erfasst, also unterschiedslos sowohl vermietbare Wohnungen, für die noch keine Mieter gefunden wurden, als auch sehr heruntergekommene Wohnungen, die auf ihre Sanierung oder ihren Abriss warteten und dem Wohnungsmarkt nicht wirklich zur Verfügung standen.
+
+Um aber auch ohne solch aufwendige Verfahren wie der Gebäude- und Wohnungszählung (GWZ) den Leerstand beobachten zu können, sind die Kommunen auf andere Verfahren angewiesen. So gibt es beispielsweise Schätzungen auf Grundlage von Eigentümerbefragungen, die aber nur stichprobenweise durchgeführt werden. Oder man greift auf die Stromzählermethode zurück, bei der alle Stromzähler gezählt werden, für die zu einem bestimmten Zeitpunkt kein Vertrag besteht. Um eine weitere Ergänzung der Erfassung leerstehender Gebäude, insbesondere in angespannten Wohnungsmärkten, bemühen sich aber auch die Betreiber des Leerstandsmelders, der unter leerstandsmelder.de eine Online-Plattform bietet, auf der jeder Interessierte leerstehende Gebäude eintragen kann (für Leipzig finden sich allerdings im Juni 2015 keine Eintragungen). Aber auch hiermit ist eine vollständige Erfassung natürlich nicht möglich. Über mitunter abweichende Zahlen sollte man sich daher nicht wundern – das bleibt zusammenfassend festzuhalten.
