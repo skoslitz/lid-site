@@ -1,0 +1,14 @@
+{{ $type := .Page.Type }}  
+{{ $id := .Page.Params.id }}   
+
+<div class="juxtapose just-center abbildung" data-showcredits="false">
+    <img data-label='{{ .Get "label-1" }}' src='/img/{{ substr $id 0 2 }}/{{ $type }}/{{ $id}}/{{ .Get "pfad-1" }}'/>
+    <img data-label='{{ .Get "label-2" }}' src='/img/{{ substr $id 0 2 }}/{{ $type }}/{{ $id}}/{{ .Get "pfad-2" }}'/>
+</div>
+<div class="bild-caption">
+<p>Vorher: {{ .Get "quelle-1"}}, Nachher: {{ .Get "quelle-2"}}</p>				
+</div>
+
+
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
