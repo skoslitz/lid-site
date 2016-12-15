@@ -1,0 +1,123 @@
+{{ template "_includes/header.html" . }}
+<body>
+	{{ template "_includes/navbar.html" . }}
+	<div class="container page-content" itemscope itemtype="http://schema.org/Place">
+
+	
+<style>
+    #map { 
+        padding: 0;
+        height:800px;
+        width:100%;
+        -webkit-box-shadow: 0 0 5px 2px #666666;
+        box-shadow: 0 0 5px 2px #666666;
+    }
+    .legend label,
+    .legend span {
+      display:block;
+      float:left;
+      height:15px;
+      width:20%;
+      text-align:center;
+      font-size:9px;
+      color:#808080;
+      }
+</style>
+
+<!-- Karte -->
+	    <div class="row">
+	        <div class="col-md-10 bs-callout bs-callout-signalorange shadow karten-callout">
+				<div id="kartenansicht" class="anker-versatz"></div>
+	            <h3 id="kartentitel">Karten&uuml;berblick Exkursion: <strong>{{ .Title }}</strong>&nbsp;<a class="reset">Kartenausschnitt zur&uuml;cksetzen</a></h3>
+	            <div id="map"></div>
+	        </div>
+	    </div>
+	    <!-- End Karte -->
+
+	</div>
+	<link rel="stylesheet" type="text/css" href="/css/map-exkursion.css">
+	{{ template "_includes/footer.html" . }}
+	<script type="text/javascript">
+L.mapbox.accessToken = 'pk.eyJ1IjoiaWZsIiwiYSI6IksxanctMkUifQ.sAHrtehStvROYTeXS20NRg';
+
+var map = L.mapbox.map('map', 'ifl.lplpe32l', {
+    maxZoom: 18,
+    minZoom: 11
+});
+
+map.setView(
+// lat + lon
+[51.331295, 12.374468],
+// zoomlevel if set else 15
+10);
+
+
+map.touchZoom.disable();
+map.scrollWheelZoom.disable();
+
+	
+
+{{ range $site :=  .Site.Pages }}
+  {{ if eq $site.Section "exkursionen"}}
+    {{ range $i, $value := $site.Params.exkursion}}
+
+    var geojsonMarkerOptions = {
+	    "radius": 8,
+	    "fillColor": "#c2c2c2",
+	    "color": "#c2c2c2",
+	    "weight": 1,
+	    "opacity": 1,
+	    "fillOpacity": 0.9
+	};
+
+	L.geoJson([   
+	    {
+	      "type": "Feature",
+	      "geometry": {
+	        "type": "Point",
+	        "coordinates": [{{$value.lon}}, {{$value.lat}}]
+	      },
+	      "properties": {
+	        "id": "{{$i}}",
+	        "title": "{{$value.nr}}"
+	      }
+	    }
+	  ],
+	  {
+	    pointToLayer: function (feature, latlng) {
+	        return L.circleMarker(latlng, geojsonMarkerOptions);
+	  }
+	}).on('click', function() {
+		    window.location.href = "#{{ $value.nr }}";
+		   })
+		.addTo(map).setStyle({'className': 'location{{$i}}'});;
+	{{ end }}
+  {{ end }}
+{{ end }}
+
+
+// --- Reset map view control
+$("#kartentitel .reset").click(function() {
+    map.setView(
+        [51.331295, 12.374468],
+    {{ if isset .Params "zoomstufe" }} 
+        {{ index .Params "zoomstufe" }});
+    {{ else }}
+        10)
+    {{ end }}
+});
+
+// --- Show coordinates on map click
+map.on('click', function(e) {
+    console.log(e.latlng.lat, e.latlng.lng );
+});
+
+map.on('zoomend', function (e) {
+    $("#kartentitel .reset").show()
+})
+
+map.on('moveend', function (e) {
+    $("#kartentitel .reset").show()
+})
+
+</script>
