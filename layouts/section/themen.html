@@ -1,3 +1,6 @@
+{{ $.Scratch.Add "band-75" 75 }}
+{{ $.Scratch.Add "band-78" 78 }}
+
 {{ template "_includes/header.html" . }}
 <body>
 
@@ -5,45 +8,156 @@
 
 	<script type="text/javascript">
 
-		function click_filter (target, name) {
-			// clear
-			if (name === 'clear') {
-				$('.themen-border').hide()
-				$('.list-all').show()
-				$('.btn.blue.clear').hide()
-				$('.filter-container .blue.btn').removeClass('selected')
-				// update filter-info/counter
-				show_counter('.list-all')
-				return
-			}
-			// hide / cleanup
-			var selector = '.themen-border'
-			$(selector).hide()
+		function clickFilter (target, bandnummer, category) {
+			$('.themen-border' + '.' + bandnummer).hide()
+			$('.themen-border' + '.' + bandnummer + '.' + category).show();
+
 			$('.filter-container .blue.btn').removeClass('selected')
-			// show
 			$(target).addClass('selected', true)
-			$(selector + '.' + name).show()
-			$('.btn.blue.clear').show().css('display', 'inline-block')
+			$('.btn.blue.clear' + '.' + bandnummer).show().css('display', 'inline-block')
+
+			// show button Alle Beiträge
+			if (category === 'list-all') {
+				$('.filter-container .blue.btn').removeClass('selected')
+				$('.btn.blue.clear' + '.' + bandnummer).hide()
+
+				$('.themen-border' + '.' + bandnummer).hide()
+				$('.list-all' + '.' + bandnummer).show()
+			}
+
 			// update filter-info/counter
-			if (name !== 'clear') show_counter('' + selector + '.' + name)
+			show_counter(category, bandnummer)
+
 
 		}
 
-		function show_counter (selector) {
+		function show_counter (category, bandnummer) {
+			var selector = '.' + category + '.' + bandnummer
+			console.log(selector);
 			var count = $(selector).length
 			var message = count + " Themenbeitr&auml;ge"
-			if (selector === '.list-all') {
+			if (category === 'list-all') {
 				message = "Insgesamt " +  message
 			}
-			$('.filter-info').html(message)
+			console.log(message)
+			$('.filter-info' + '.' + bandnummer).html(message)
 		}
 
 	</script>
 
-	<div class="section-content">
+<!-- Section Header  ---------------------------------------------------------------- -->
 
+
+	<div class="section-content">
+		<h1 class="sectionheader text-center">Regionen thematisch vertieft</strong></h1>
+
+
+
+<!-- Band 75 ---------------------------------------------------------------- -->
+
+	<!-- Filter Band 75  ------------------------------------------------------ -->
+		<h3 class="seperator intern">Themen für Bandnummer {{$.Scratch.Get "band-75"}}</h3>
+ 		<div class="row">
+    	<div class="filter-container">
+				<br>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "sb")'>
+					Siedlung &amp; Bevölkerung
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "wv")'>
+					Wirtschaft &amp; Verkehr
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "nl")'>
+					Natur &amp; Landschaft
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "ve")'>
+					Vergangenheit &amp; Erinnerung
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "ks")'>
+					Kultur &amp; Soziales
+				</a>
+				<a class='btn blue clear {{$.Scratch.Get "band-75"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "list-all")'>Alle Beiträge</a>
+				<span class='filter-info {{$.Scratch.Get "band-75"}}'></span>
+			</div>
+    </div>
+
+
+<!-- Themen Content   ---------------------------------------------------------------- -->
+
+
+    <!-- list all themen -->
+        {{ range .Data.Pages }}
+        {{ $bandnummer := substr .Params.id 0 2}}
+        {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      <div class='col-mre themen-border list-all {{$.Scratch.Get "band-75"}} lower-shadow'>
+        {{ .Render "li" }}
+      </div>
+        {{ end}}
+        {{ end}}
+
+        <!-- Siedlung + Bevölkerung -->
+    {{ $termname := "siedlung--bevölkerung" }}
+    {{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
+    {{ range $taxonomy.Pages.ByWeight.Reverse }}
+    {{ $bandnummer := substr .Params.id 0 2}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      <div style="display:none;" class="col-mre themen-border sb {{$bandnummer}} lower-shadow">
+        {{ .Render "li" }}
+      </div>
+      {{ end }}
+    {{ end }}
+
+    <!-- Wirtschaft + Verkehr -->
+    {{ $termw := "wirtschaft--verkehr" }}
+    {{ $taxw := index .Site.Taxonomies.rubriken $termw }}
+    {{ range $taxw.Pages.ByWeight.Reverse }}
+    {{ $bandnummer := substr .Params.id 0 2}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      <div style="display:none;" class="col-mre themen-border wv {{$bandnummer}} lower-shadow">
+        {{ .Render "li" }}
+      </div>
+      {{ end }}
+    {{ end }}
+
+    {{ $termn := "natur--landschaft" }}
+    {{ $taxn := index .Site.Taxonomies.rubriken $termn }}
+    {{ range $taxn.Pages.ByWeight.Reverse }}
+    {{ $bandnummer := substr .Params.id 0 2}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      <div style="display:none;" class="col-mre themen-border nl {{$bandnummer}} lower-shadow">
+        {{ .Render "li" }}
+      </div>
+      {{ end }}
+    {{ end }}
+
+    {{ $terme := "vergangenheit--erinnerung" }}
+    {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+    {{ range $taxe.Pages.ByWeight.Reverse }}
+    {{ $bandnummer := substr .Params.id 0 2}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      <div style="display:none;" class="col-mre themen-border ve {{$bandnummer}} lower-shadow">
+        {{ .Render "li" }}
+      </div>
+      {{ end }}
+    {{ end }}
+
+    {{ $terme := "kultur--soziales" }}
+    {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+    {{ range $taxe.Pages.ByWeight.Reverse }}
+    {{ $bandnummer := substr .Params.id 0 2}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      <div style="display:none;" class="col-mre themen-border ks {{$bandnummer}} lower-shadow">
+        {{ .Render "li" }}
+      </div>
+      {{ end }}
+    {{ end }}
+
+
+
+<!-- Band 78 ------------------------------------------------------------------>
+
+		<!-- Filter Band 78  ------------------------------------------------------ -->
+		<h3 class="seperator intern">Themen für Bandnummer {{$.Scratch.Get "band-78"}}</h3>
 		<div class="row">
-			<h1 class="sectionheader text-center">Die Region Leipzig thematisch vertieft</strong></h1>
 			<div class="filter-container">
 				<p>
 					<br/>
@@ -52,122 +166,47 @@
 					W&auml;hlen Sie einen Beitrag aus der Liste. Sie k&ouml;nnen Ihre Suche auch nach Themenbereichen einschr&auml;nken:
 				</p>
 				<!-- h3>Wählen Sie ein Thema</h3-->
-				<a class="btn blue" onclick="javascript:click_filter(this, 'sb')">Siedlung &amp; Bevölkerung</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'wv')">Wirtschaft &amp; Verkehr</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'nl')">Natur &amp; Landschaft</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 've')">Vergangenheit &amp; Erinnerung</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'ks')">Kultur &amp; Soziales</a>
-				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Beitr&auml;ge</a>
-				<span class="filter-info"></span>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "sb")'>
+					Siedlung &amp; Bevölkerung
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "wv")'>
+					Wirtschaft &amp; Verkehr
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "nl")'>
+					Natur &amp; Landschaft
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "ve")'>
+					Vergangenheit &amp; Erinnerung
+				</a>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "ks")'>
+					Kultur &amp; Soziales
+				</a>
+				<a class='btn blue clear {{$.Scratch.Get "band-78"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "list-all")'>Alle Beiträge</a>
+				<span class='filter-info {{$.Scratch.Get "band-78"}}'></span>
 			</div>
 		</div>
-		
-<!-- Band 75 ---------------------------------------------------------------- -->
-		{{ $.Scratch.Add "band-75" 75 }}
-		
-		<div class="row">
-        	<div class="filter-container">
-        		<br/>				
-				<h3>Themen für Bandnummer {{$.Scratch.Get "band-75"}}</h3>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'sb-{{$.Scratch.Get "band-75"}}')">Siedlung &amp; Bevölkerung</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'wv-{{$.Scratch.Get "band-75"}}')">Wirtschaft &amp; Verkehr</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'nl-{{$.Scratch.Get "band-75"}}')">Natur &amp; Landschaft</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 've-{{$.Scratch.Get "band-75"}}')">Vergangenheit &amp; Erinnerung</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'ks-{{$.Scratch.Get "band-75"}}')">Kultur &amp; Soziales</a>
-				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Beitr&auml;ge</a>
-				<span class="filter-info"></span>
-			</div>
-    	</div>
+
+
+	<!-- Themen Content   ---------------------------------------------------------------- -->
 
 		<!-- list all themen -->
         {{ range .Data.Pages }}
-        {{ $bandnummer := substr .Params.id 0 2}} 
-        {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div class="col-mre themen-border list-all lower-shadow">
-				{{ .Render "li" }}
-			</div>
-        {{ end}}
-        {{ end}}
-
-        <!-- Siedlung + Bevölkerung -->
-		{{ $termname := "siedlung--bevölkerung" }}
-		{{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
-		{{ range $taxonomy.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border sb-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		<!-- Wirtschaft + Verkehr -->
-		{{ $termw := "wirtschaft--verkehr" }}
-		{{ $taxw := index .Site.Taxonomies.rubriken $termw }}
-		{{ range $taxw.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border wv-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		{{ $termn := "natur--landschaft" }}
-		{{ $taxn := index .Site.Taxonomies.rubriken $termn }}
-		{{ range $taxn.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border nl-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		{{ $terme := "vergangenheit--erinnerung" }}
-		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
-		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border ve-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-		{{ $terme := "kultur--soziales" }}
-		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
-		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
-			{{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-			<div style="display:none;" class="col-mre themen-border ks-{{$bandnummer}} lower-shadow">
-				{{ .Render "li" }}
-			</div>
-			{{ end }}
-		{{ end }}
-
-        <hr>
-
-<!-- Band 78 ---------------------------------------------------------------- -->
-
-		<!-- list all themen -->
-        {{ range .Data.Pages }}
-        {{ $bandnummer := substr .Params.id 0 2}} 
+        {{ $bandnummer := substr .Params.id 0 2}}
         {{ if and (eq .Type "themen") (eq $bandnummer "78")}}
-			<div class="col-mre themen-border list-all lower-shadow">
+			<div class='col-mre themen-border list-all {{$.Scratch.Get "band-78"}} lower-shadow'>
 				{{ .Render "li" }}
 			</div>
         {{ end}}
         {{ end}}
-		
+
 
 		<!-- Siedlung + Bevölkerung -->
 		{{ $termname := "siedlung--bevölkerung" }}
 		{{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
 		{{ range $taxonomy.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
+		{{ $bandnummer := substr .Params.id 0 2}}
 			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
-			<div style="display:none;" class="col-mre themen-border sb lower-shadow">
+			<div style="display:none;" class='col-mre themen-border sb {{$bandnummer}} lower-shadow'>
 				{{ .Render "li" }}
 			</div>
 			{{ end }}
@@ -177,9 +216,9 @@
 		{{ $termw := "wirtschaft--verkehr" }}
 		{{ $taxw := index .Site.Taxonomies.rubriken $termw }}
 		{{ range $taxw.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
+		{{ $bandnummer := substr .Params.id 0 2}}
 			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
-			<div style="display:none;" class="col-mre themen-border wv lower-shadow">
+			<div style="display:none;" class='col-mre themen-border wv {{$bandnummer}} lower-shadow'>
 				{{ .Render "li" }}
 			</div>
 			{{ end }}
@@ -188,9 +227,9 @@
 		{{ $termn := "natur--landschaft" }}
 		{{ $taxn := index .Site.Taxonomies.rubriken $termn }}
 		{{ range $taxn.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
+		{{ $bandnummer := substr .Params.id 0 2}}
 			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
-			<div style="display:none;" class="col-mre themen-border nl lower-shadow">
+			<div style="display:none;" class='col-mre themen-border nl {{$bandnummer}} lower-shadow'>
 				{{ .Render "li" }}
 			</div>
 			{{ end }}
@@ -199,9 +238,9 @@
 		{{ $terme := "vergangenheit--erinnerung" }}
 		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
 		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
+		{{ $bandnummer := substr .Params.id 0 2}}
 			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
-			<div style="display:none;" class="col-mre themen-border ve lower-shadow">
+			<div style="display:none;" class='col-mre themen-border ve {{$bandnummer}} lower-shadow'>
 				{{ .Render "li" }}
 			</div>
 			{{ end }}
@@ -210,9 +249,9 @@
 		{{ $terme := "kultur--soziales" }}
 		{{ $taxe := index .Site.Taxonomies.rubriken $terme }}
 		{{ range $taxe.Pages.ByWeight.Reverse }}
-		{{ $bandnummer := substr .Params.id 0 2}} 
+		{{ $bandnummer := substr .Params.id 0 2}}
 			{{ if and (eq .Type "themen") (eq $bandnummer "78")}}
-			<div style="display:none;" class="col-mre themen-border ks lower-shadow">
+			<div style="display:none;" class='col-mre themen-border ks {{$bandnummer}} lower-shadow'>
 				{{ .Render "li" }}
 			</div>
 			{{ end }}
@@ -222,7 +261,8 @@
 
 	<script type="text/javascript">
 		// initial update filter-info/counter
-		show_counter('.list-all')
+		show_counter('list-all', '{{$.Scratch.Get "band-75"}}')
+		show_counter('list-all', '{{$.Scratch.Get "band-78"}}')
 	</script>
 
 	{{ template "_includes/footer.html" . }}
