@@ -12,10 +12,10 @@
 				{{ if isset .Params "titelbild" }}
 				<div class="band-cover">
 					{{if le .Params.bandnummer 9}}
-						<meta itemprop="image" content="/img/{{ .Params.titelbild }}"/>
+						<meta itemprop="image" content="/img/0{{.Params.bandnummer}}/{{ .Params.titelbild }}"/>
 						<img src='/img/0{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
 					{{else}}
-						<meta itemprop="image" content="/img/{{ .Params.titelbild }}"/>
+						<meta itemprop="image" content="/img/{{.Params.bandnummer}}/{{ .Params.titelbild }}"/>
 						<img src='/img/{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
 					{{end}}
 				</div>
