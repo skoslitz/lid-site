@@ -2,17 +2,22 @@
 <body>
 	{{ template "_includes/navbar.html" . }}
 	<div class="container page-content" itemscope itemtype="http://schema.org/Book">
-		
+
 		{{ template "_includes/breadcrumbs.html" . }}
 
 		<div class="row">
-		
+
 			<div class="col-md-10 white-bg bs-callout bs-callout-orange shadow">
 				<!-- Titelbild -->
-				{{ if isset .Params "titelbild" }} 
+				{{ if isset .Params "titelbild" }}
 				<div class="band-cover">
-					<meta itemprop="image" content="/img/{{ .Params.titelbild }}"/>
-					<img src="/img/{{ .Params.titelbild }}" alt="Abbidung des Bandes">	
+					{{if le .Params.bandnummer 9}}
+						<meta itemprop="image" content="/img/{{ .Params.titelbild }}"/>
+						<img src='/img/0{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
+					{{else}}
+						<meta itemprop="image" content="/img/{{ .Params.titelbild }}"/>
+						<img src='/img/{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
+					{{end}}
 				</div>
 				{{ end }}
 
@@ -28,13 +33,13 @@
 				<div class="hidden" itemprop="producer" itemtype="http://schema.org/Organization">
 					<meta itemprop="name" content="{{ .Params.verlag }}"/>
 				</div>
-				
+
 				<h3 class="reihentitel">&ldquo;{{ .Params.reihentitel }}&rdquo;</h3>
 
 				<h3 class="bandnummer">
 					Band Nr. {{ .Params.bandnummer }}{{ if in .Params.bundesland "Berlin" }}-50 {{end}}
 				</h3>
-				
+
 				<h1 class="bandtitel">
 					{{ .Title }} &ndash; <span class="untertitel">{{ .Params.untertitel }}</span>
 				</h1>
@@ -60,13 +65,13 @@
 						<b>Verlag/Ort</b></br>
 						{{ .Params.verlag }}, {{ .Params.ort }}
 					</p>
-					{{ if and (isset .Params "isbn") (ne .Params.isbn "") }}					
+					{{ if and (isset .Params "isbn") (ne .Params.isbn "") }}
 					<p>
 						<b>ISBN</b></br>
 						{{ .Params.isbn }}
 					</p>
 					{{ end }}
-					
+
 					{{ if (isset .Params "online") }}
 					<p>
 						<b>Online</b></br>
@@ -74,12 +79,12 @@
 						<a href={{ .Site.BaseURL }}exkursionen#{{.Params.bandnummer}}>Unterwegs</a>
 					</p>
 					{{ end }}
-					
+
 				</div>
 
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="linespace"></div>
 			<div class="col-md-10 content text-area">
@@ -96,7 +101,7 @@
 			{{ template "_includes/slideshow.html" . }}
 		</div>
 
-		
+
 
 
 	</div>
