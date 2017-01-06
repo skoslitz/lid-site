@@ -1,81 +1,76 @@
 +++
-id ="78_E_531"
-vg_wort_code = "924743a505c644e3b69df23a84d2f8d0"
-title = "Thekla – Parthedörfer und neue Siedlungen"
-# previewtitle = "Unterwegs in Thekla – Parthedörfer und neue Siedlungen"
 autor = "Luise Grundmann"
-date = "2015-06-19"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_531-vorschaubild.jpg"
-titelbild = "78_E_531-mapbanner.jpg"
-exkursionsstart = "Tauchaer Straße, Endhaltestelle der Straßenbahnlinie 9"
-exkursionsende = "Naherholungsgebiet \"Naturbad Nordost\""
-exkursionsstationen = 11
-exkursionslaenge = 3.3
 centroid = [51.380955, 12.434463]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 8
-# optional Angabe ob Fremdexkursion
-fremdexkursion = false
+date = "2015-06-19"
 description = "Dieser Rundgang erschließt die differenzierte Siedlungsstruktur der erst 1889 durch Zusammenschluss der Dörfer Neutzsch, Plösen und Cleuden entstandenen Gemeinde Thekla. Der Fußweg führt durch die alten Siedlungskerne und die einstigen Dorfstraßen mit Resten dörflicher Bebauung. An die Dorfkerne schließen sich mehrere Einfamilienhaussiedlungen an. Von der Cleudner Straße aus erreicht man in südlicher Richtung die städtebaulich dominierende Wehrkirche Hohen Thekla. Der Rundgang endet am Naherholungsgebiet \"Naturbad Nordost\"."
+exkursionsende = "Naherholungsgebiet \"Naturbad Nordost\""
+exkursionslaenge = 3.3
+exkursionsstart = "Tauchaer Straße, Endhaltestelle der Straßenbahnlinie 9"
+exkursionsstationen = 11.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_531"
 literaturangaben = ["Vorschaubild: Kirche Hohen Thekla. Foto: Andreas Höhn, 2015", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln."]
-#verwandte themen = [""]
-#verwandte exkursionen = [""]
+titelbild = "78_E_531-mapbanner.jpg"
+title = "Thekla – Parthedörfer und neue Siedlungen"
+vg_wort_code = "924743a505c644e3b69df23a84d2f8d0"
+vorschaubild = "78_E_531-vorschaubild.jpg"
+zoomstufe = "15"
 
 [[exkursion]]
-  nr = 1
   lat = 51.379633
   lon = 12.425392
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.381129
   lon = 12.428836
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
-  lat = 51.379900
+  lat = 51.3799
   lon = 12.431942
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
-  lat = 51.381460
+  lat = 51.38146
   lon = 12.435724
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.382214
   lon = 12.434876
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.382947
   lon = 12.434147
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.383335
-  lon = 12.436990
+  lon = 12.43699
+  nr = 7.0
 
 [[exkursion]]
-  nr = 8
   lat = 51.382701
   lon = 12.440723
+  nr = 8.0
 
 [[exkursion]]
-  nr = 9
   lat = 51.381082
   lon = 12.446265
+  nr = 9.0
 
 [[exkursion]]
-  nr = 10
   lat = 51.378969
   lon = 12.436641
+  nr = 10.0
 
 [[exkursion]]
-  nr = 11
   lat = 51.377111
   lon = 12.429388
+  nr = 11.0
 
 +++
 

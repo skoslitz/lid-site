@@ -1,21 +1,17 @@
 +++
-id ="78_E_556"
-title = "Mit Ignazia F. Lotterich Leipzig entdecken"
-autor = "Kosinski et al."
-autorenschaft = "Erstellt vom Leibniz-Institut für Länderkunde, Juni 2016. Idee und Bearbeitung von Miriam Anna Totzke und Julia Thier. Weitere Bearbeitung von Verena Ott, Marcus Stöver, Jörg Kosinski. Stimme von Ignazia: Christel Eißner. Illustration Ignazia: I. Stukenborg."
-fremdexkursion = false
 actionbound = true
-exkursions_anbieter = "Ifl & Actionbound.de"
-name_des_bounds = "ifl-leipzigentdecken"
+autor = "Kosinski et al."
 date = "2016-07-18"
-vorschaubild = "78_E_556-vorschaubild.jpg"
-titelbild = "78_E_665-mapbanner.jpg"
-#vorschaubild_titel wird im Bild auf transparentem Hintergrund dargestellt
-#vorschaubild_titel = "actionbound://bound/ifl-leipzigentdecken"
-exkursionsdauer = 1.5
-exkursionslaenge = 2
-exkursionstypen = ["Fuß"]
 description = "Hilf Ignazia ihre Zettel in der Leipziger Innenstadt wiederzufinden. Für die digitale Schnitzeljagd benötigst du ein Smartphone oder Tablet und ungefähr eineinhalb Stunden Zeit."
+exkursions_anbieter = "Ifl & Actionbound.de"
+exkursionslaenge = 2.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_556"
+titelbild = "78_E_556-mapbanner.jpg"
+title = "Mit Ignazia F. Lotterich Leipzig entdecken"
+vorschaubild = "78_E_556-vorschaubild.jpg"
+
 +++
 
 ### So geht’s:

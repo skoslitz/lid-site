@@ -1,87 +1,81 @@
 +++
-id ="78_E_535"
-vg_wort_code = "1d1585cb22e541eb96fb66d85a47f468"
-title = "Stötteritz – Sanierung und Neugestaltung"
-# previewtitle = "Unterwegs in Stötteritz – Sanierung und Neugestaltung"
 autor = "Luise Grundmann"
+centroid = [51.32085, 12.419915]
 date = "2015-06-15"
-exkursionstypen = ["Fuß", "Fahrrad"]
-vorschaubild = "78_E_535-vorschaubild.jpg"
-titelbild = "78_E_535-mapbanner.jpg"
-exkursionsstart = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5"
-exkursionsende = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5"
-exkursionsstationen = 12
-exkursionslaenge = 6
-centroid = [51.320850, 12.419915]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-zoomstufe = 14
-
-fremdexkursion = false
 description = "Ergebnisse des Stadtumbaus nach 1990 können bei einer Exkursion durch Stötteritz registriert werden. Beispiele sind die Umgestaltung von Fabrikgebäuden in der Melscher Straße zu einem „Medienhof“ oder auch im Sanierungsgebiet „Alte Ortslage Stötteritz“. Hier erfolgte u.a. die Aufwertung der gründerzeitlichen Wohnquartiere, die Sanierung des einstigen Rittergutsbezirks und der Marienkirche und die Umwandlung von Industriebrachen zum Ortsteilzentrum an der Holzhäuser Straße."
+exkursionsende = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5"
+exkursionslaenge = 6.0
+exkursionsstart = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5"
+exkursionsstationen = 12.0
+exkursionstypen = ["Fuß", "Fahrrad"]
+fremdexkursion = false
+id = "78_E_535"
 literaturangaben = ["Vorschaubild: Stötteritzer Wasserturm mit Völkerschlachtdenkmalsbau, Ansichtskarte um 1908. IfL: PKL-Prob001", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Heydick, Lutz (1990): Leipzig. Historischer Führer zu Stadt und Land. – Leipzig, Jena, Berlin.", "Hocquél, Wolfgang (2010): Leipzig – Architektur von der Romanik bis zur Gegenwart; 3. stark erweiterte Aufl. – Leipzig.", "Kunerl, Dietmar (2003): Stötteritz als Tabaksdorf. 2., verb. Aufl. – Leipzig.", "Poenicke, G.A. (Hrsg.): Album der Rittergüter und Schlösser im Königreiche Sachsen I. Section: Leipziger Kreis. Leipzig, um 1860", "Rüdiger, Bernd u. Thomas Nabert (1996): Stötteritz. Eine historische und städtebauliche Studie (hg. von Pro Leipzig e. V.). – Leipzig.", "Schwendler, Gerhild (2014): Stötteritz. Ein Leipziger Stadtteillexikon. (hg. von Pro Leipzig e. V.). – Leipzig."]
-#verwandte themen = [""]
-#verwandte exkursionen = [""]
+titelbild = "78_E_535-mapbanner.jpg"
+title = "Stötteritz – Sanierung und Neugestaltung"
+vg_wort_code = "1d1585cb22e541eb96fb66d85a47f468"
+vorschaubild = "78_E_535-vorschaubild.jpg"
+zoomstufe = 14.0
 
 [[exkursion]]
-  nr = 1
   lat = 51.324779
-  lon = 12.412120
+  lon = 12.41212
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.325598
   lon = 12.414317
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.324611
   lon = 12.422801
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.321517
   lon = 12.423847
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.321007
   lon = 12.424335
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
-  lat = 51.319790
+  lat = 51.31979
   lon = 12.424818
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.319696
   lon = 12.427076
+  nr = 7.0
 
 [[exkursion]]
-  nr = 8
   lat = 51.315365
   lon = 12.417785
+  nr = 8.0
 
 [[exkursion]]
-  nr = 9
   lat = 51.315975
   lon = 12.417372
+  nr = 9.0
 
 [[exkursion]]
-  nr = 10
   lat = 51.319203
   lon = 12.419373
+  nr = 10.0
 
 [[exkursion]]
-  nr = 11
   lat = 51.321158
   lon = 12.413215
+  nr = 11.0
 
 [[exkursion]]
-  nr = 12
   lat = 51.321587
   lon = 12.419239
-
+  nr = 12.0
 
 +++
 

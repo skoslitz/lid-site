@@ -1,62 +1,56 @@
 +++
-id ="78_E_514"
-vg_wort_code = "81933d3bc85546e59cf41f8b7a2ba460"
-title = "Probstheida – Auf dem Boden der Völkerschlacht"
-# previewtitle = "Unterwegs in Probstheida – Auf dem Boden der Völkerschlacht"
 autor = "Heinz Peter Brogiato"
-date = "2015-06-15"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_514-vorschaubild.jpg"
-titelbild = "78_E_514-mapbanner.jpg"
-exkursionsstart = "Prager Straße/Ecke Pauliner Weg"
-exkursionsende = "Connewitzer Straße/Ecke Dösner Straße"
-exkursionsstationen = 7
-exkursionslaenge = 2
 centroid = [51.306123, 12.425193]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 8
-# optional Angabe ob Fremdexkursion
-fremdexkursion = false
+date = "2015-06-15"
 description = "Weitgehend ohne Industrialisierung entwickelte sich Probstheida vom Angerdorf zum Leipziger Wohnvorort. Von der Prager Straße aus führt der Rundweg durch die alte Dorflage, in der stets die Völkerschlacht von 1813 präsent ist. Neben der gründerzeitlichen Bebauung wird der Ortsteil von interessanten Wohnsiedlungen der 1920er und 1930er Jahre geprägt."
+exkursionsende = "Connewitzer Straße/Ecke Dösner Straße"
+exkursionslaenge = 2.0
+exkursionsstart = "Prager Straße/Ecke Pauliner Weg"
+exkursionsstationen = 7.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_514"
 literaturangaben = ["Vorschaubild: Gasthof Probstheida mit dem Völkerschlachtdenkmal im Hintergrund, Ansichtskarte um 1915. IfL: PKL-Prob011", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2013): Über den Dächern von Leipzig. Luftbilder 1909–1935. 2. Aufl. – Leipzig.", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Kretzschmar, Karl-Heinz (1971): Probstheida – vom Dorf zum Großstadtteil. Eine siedlungsgeographische Untersuchung, in: Arbeitsberichte zur Geschichte der Stadt Leipzig 9, Nr. 20, S. 44–74.", "Mewes, Petra u. Peter Benecken (2013): Leipzigs Grün. Ein Park- und Gartenführer. – Leipzig."]
-#verwandte themen = ["Völkerschlachtdenkmal", "Südfriedhof"]
-#verwandte exkursionen = [""]
+titelbild = "78_E_514-mapbanner.jpg"
+title = "Probstheida – Auf dem Boden der Völkerschlacht"
+vg_wort_code = "81933d3bc85546e59cf41f8b7a2ba460"
+vorschaubild = "78_E_514-vorschaubild.jpg"
+zoomstufe = "15"
 
 [[exkursion]]
-  nr = 1
   lat = 51.308752
   lon = 12.420735
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.308826
   lon = 12.42147
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.306608
   lon = 12.423025
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.306631
   lon = 12.425309
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.303829
   lon = 12.430161
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.302856
   lon = 12.428659
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.304477
   lon = 12.424255
-
+  nr = 7.0
 
 +++
 

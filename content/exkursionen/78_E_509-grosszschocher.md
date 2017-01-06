@@ -1,48 +1,46 @@
 +++
-id ="78_E_509"
-vg_wort_code = "ce4def0c1b44436e9dc108ade11b797a"
-title = "Großzschocher – Vom Rittergut zum Industriedorf"
-# previewtitle = "Unterwegs in Großzschocher – Vom Rittergut zum Industriedorf"
 autor = "Heinz Peter Brogiato"
-date = "2015-04-30"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_509-vorschaubild.jpg"
-titelbild = "78_E_509-mapbanner.jpg"
-exkursionsstart = "Dieskaustraße/Ecke Anton-Zickmantel-Straße"
-exkursionsende = "Wingertgasse"
-exkursionsstationen = 5
-exkursionslaenge = 2
 centroid = [51.299247, 12.327872]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 16
-fremdexkursion = false
+date = "2015-04-30"
 description = "Wie in vielen Stadtteilen Leipzigs zeigt sich auch in Großzschocher das Nebeneinander von dörflichen Strukturen und von Zeugnissen der Industrialisierung und Verstädterung des 19. Jahrhunderts. Die Fußexkursion beginnt in den gründerzeitlichen Quartieren an der Dieskaustraße und endet in den alten Dorfkernen von Großzschocher und Windorf. Hier zeugen noch vereinzelte bauliche Überreste von der vorstädtischen Gutssiedlung und den Anfängen gewerblicher Entwicklung."
+exkursionsende = "Wingertgasse"
+exkursionslaenge = 2.0
+exkursionsstart = "Dieskaustraße/Ecke Anton-Zickmantel-Straße"
+exkursionsstationen = 5.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_509"
 literaturangaben = ["Vorschaubild: Elsterbrücke, Ansichtskarte um 1911. IfL: PKL-GZsch011", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Franke, Werner u. Ingeborg Nörenberg (2005): Die Mühle und ihre Entwicklung bis zur Gegenwart, in: Großzschocher-Windorf. – Leipzig, S. 52–60.", "Franke, Werner u. Thomas Nabert (2007): Straßengeschichten aus Großzschocher und Windorf. Teil 2: Die alten Dorfstraßen, in: Nabert, Thomas: Großzschocher-Windorf, Erg.-Bd. 2 (hgg. von der Interessengemeinschaft „Chronik Großzschocher-Windorf“ und dem Pro Leipzig e.V.). – Leipzig, S. 6–15.", "Hiller, Ralf (2005): Das Körnerhaus, in: Nabert, Thomas: Großzschocher-Windorf (hgg. von der Interessengemeinschaft „Chronik Großzschocher-Windorf“ und dem Pro Leipzig e.V.). – Leipzig, S. 42–44.", "John, Franz (1966): Großzschocher. Vom Dorf zum Arbeitervorort. Versuch eines Überblicks bis zur Eingemeindung im Jahre 1922, in: Arbeitsberichte zur Geschichte der Stadt Leipzig, Nr. 10, S. 1–36.", "Nabert, Thomas (2005): Die Apostelkirche – acht Jahrhunderte lesbare Geschichte, in: Nabert, Thomas: Großzschocher-Windorf (hgg. von der Interessengemeinschaft „Chronik Großzschocher-Windorf“ und dem Pro Leipzig e.V.). – Leipzig, S. 16–22.", "Nabert, Thomas (2006): Straßengeschichten aus Großzschocher und Windorf. Teil I: Dieskaustraße, in: Nabert, Thomas: Großzschocher-Windorf, Erg.-Bd. 1 (hgg. von der Interessengemeinschaft „Chronik Großzschocher-Windorf“ und dem Pro Leipzig e.V.). – Leipzig, S. 6–21.", "Werge, Elke u. Helmut Bayer (2005): Die Entwicklung des Schulwesens in Großzschocher, in: Nabert, Thomas: Großzschocher-Windorf (hgg. von der Interessengemeinschaft „Chronik Großzschocher-Windorf“ und dem Pro Leipzig e.V.). – Leipzig, S. 68–72."]
+titelbild = "78_E_509-mapbanner.jpg"
+title = "Großzschocher – Vom Rittergut zum Industriedorf"
+vg_wort_code = "ce4def0c1b44436e9dc108ade11b797a"
+vorschaubild = "78_E_509-vorschaubild.jpg"
+zoomstufe = "16"
 
 [[exkursion]]
-  nr = 1
   lat = 51.300609
   lon = 12.32802
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.299955
   lon = 12.327854
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.300634
   lon = 12.330505
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.298076
   lon = 12.327759
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.297499
   lon = 12.326009
+  nr = 5.0
 
 +++
 

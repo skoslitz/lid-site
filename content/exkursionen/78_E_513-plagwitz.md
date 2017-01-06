@@ -1,87 +1,81 @@
 +++
-id ="78_E_513"
-vg_wort_code = "b45e0496f87e4a2988c265d53b3dcf99"
-title = "Plagwitz – Das Erbe Karl Heines"
-# previewtitle = "Unterwegs in Plagwitz – Das Erbe Karl Heines"
 autor = "Heinz Peter Brogiato"
-date = "2015-06-01"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_513-vorschaubild.jpg"
-titelbild = "78_E_513-mapbanner.jpg"
-exkursionsstart = "Käthe-Kollwitz-Straße/Ecke Klingerweg"
-exkursionsende = "Nonnenstraße/Ecke Karl-Heine-Straße "
-exkursionsstationen = 12
-exkursionslaenge = 3
 centroid = [51.331101, 12.343997]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-zoomstufe = 16
-# optional Angabe ob Fremdexkursion
-fremdexkursion = false
+date = "2015-06-01"
 description = "In Plagwitz stoßen auf engstem Raum sehr unterschiedliche Siedlungsstrukturen aneinander. Der Rundgang beginnt im Villenviertel an der Karl-Heine-Straße, führt durch den städtisch völlig überprägten Ortskern und endet an der Nonnenstraße. Hier begann in der Mitte des 19. Jahrhunderts der Aufstieg zum Industrieviertel, und hier stehen heute die beeindruckendsten Baudenkmäler des Industriezeitalters."
+exkursionsende = "Nonnenstraße/Ecke Karl-Heine-Straße "
+exkursionslaenge = 3.0
+exkursionsstart = "Käthe-Kollwitz-Straße/Ecke Klingerweg"
+exkursionsstationen = 12.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_513"
 literaturangaben = ["Vorschaubild: Buntgarnwerke, Blick von der Weißen Elster. Foto: Andreas Höhn", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2013): Über den Dächern von Leipzig. Luftbilder 1909–1935. 2. Aufl. – Leipzig.", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Jentzsch, Helga (2008): Plagwitz. Eine historische und städtebauliche Studie. überarb. Aufl. (hg. von Pro Leipzig e. V.). – Leipzig.", "Kröber, Paul (1965): Plagwitz im 19. Jahrhundert. Material zur Geschichte des Dorfes und seiner Verstädterung, in: Arbeitsberichte zur Geschichte der Stadt Leipzig 9, S. 11–33.", "Leonhardt, Peter (2007): Moderne in Leipzig. Architektur und Städtebau 1918 bis 1933. – Leipzig.", "Paul, Alfred E. Otto (2014): Die Kunst im Stillen. Kunstschätze auf Leipziger Friedhöfen, Nr. 5. – Leipzig.", "Schmidt, Helga (1996): Plagwitz – Chancen und Probleme der Revitalisierung eines innerstädtischen Mischgebietes, in: Grundmann, Luise; Tzschaschel, Sabine u. Meike Wollkopf (Hgg.): Leipzig. Ein geographischer Führer durch Stadt und Umland. – Leipzig, S. 120–137.", "Schubert, Susann (2005): Die Buntgarnwerke in Plagwitz, in: Topfstedt, Thomas u. Hartmut Zwahr (Hgg.): Industriekultur – Stadtentwicklung – soziale Milieus. Leipzig im 19. und 20. Jahrhundert. (Leipziger Kalender; Sonderband 2005). – Leipzig, S. 196–204."]
-#verwandte themen = [""]
-#verwandte exkursionen = ["Lindenau, Kleinzschocher"]
+titelbild = "78_E_513-mapbanner.jpg"
+title = "Plagwitz – Das Erbe Karl Heines"
+vg_wort_code = "b45e0496f87e4a2988c265d53b3dcf99"
+vorschaubild = "78_E_513-vorschaubild.jpg"
+zoomstufe = "16"
 
 [[exkursion]]
-  nr = 1
   lat = 51.332672
   lon = 12.351062
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.332161
   lon = 12.348533
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.332222
   lon = 12.345453
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.33306
   lon = 12.342463
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.332438
   lon = 12.338773
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.332908
   lon = 12.339023
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.330028
   lon = 12.337324
+  nr = 7.0
 
 [[exkursion]]
-  nr = 8
   lat = 51.330491
   lon = 12.33982
+  nr = 8.0
 
 [[exkursion]]
-  nr = 9
   lat = 51.330182
   lon = 12.340827
+  nr = 9.0
 
 [[exkursion]]
-  nr = 10
   lat = 51.329278
   lon = 12.340377
+  nr = 10.0
 
 [[exkursion]]
-  nr = 11
   lat = 51.328546
   lon = 12.342925
+  nr = 11.0
 
 [[exkursion]]
-  nr = 12
   lat = 51.328967
   lon = 12.343681
-
+  nr = 12.0
 
 +++
 

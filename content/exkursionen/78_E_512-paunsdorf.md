@@ -1,61 +1,56 @@
 +++
-id ="78_E_512"
-vg_wort_code = "67828b4f8e9548d2a2cc71ff797a40b6"
-title = "Alt-Paunsdorf – Vom Kern zur Peripherie"
-# previewtitle = "Unterwegs in Alt-Paunsdorf – Vom Kern zur Peripherie"
 autor = "Heinz Peter Brogiato"
-date = "2015-06-11"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_512-vorschaubild.jpg"
-titelbild = "78_E_512-mapbanner.jpg"
-exkursionsstart = "Riesaer Straße/ Ecke Theodor-Heuß-Straße"
-exkursionsende = "Riesaer Straße/ Ecke Theodor-Heuß-Straße"
-exkursionsstationen = 7
-exkursionslaenge = 2
 centroid = [51.347327, 12.449419]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-zoomstufe = 16
-fremdexkursion = false
+date = "2015-06-11"
 description = "Der Rundgang führt durch den alten Dorfkern von Paunsdorf, der durch die jüngeren Entwicklungen (Großwohnsiedlung Paunsdorf-Nord, Paunsdorf Center) an den Rand gedrängt wurde. Vom alten Gutsdorf hat sich kaum etwas erhalten, geprägt wird Alt-Paunsdorf von den städtebaulichen Entwicklungen seit dem Ende des 19. Jahrhunderts: Gründerzeitliche Wohnviertel, Kleinsiedlungen aus der ersten Hälfte des 20. Jahrhunderts und Industrieflächen entlang der Eisenbahn."
-literaturangaben = ["Vorschaubild: Fabrikhalle der ehemaligen Maschinenfabrik Christian Mansfeld. Foto: Thomas Chudy, 2015", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Kühn, Christoph (1997b): Die Ortslage Leipzig-Paunsdorf. Überlegungen zur suburbanen Planung, in: Landesverein Sächsischer Heimatschutz (Hrsg.): Mitteilungen, H.3, S. 62–67.", "Poser, Steffen (2008): Denkmale zur Völkerschlacht. – Leipzig.", "Specht, Arno u. Uwe Schimunek (2014): Geisterstätten Leipzig. Vergessene Orte. – Berlin." ]
-#verwandte themen = [""]
-#verwandte exkursionen = [""]
+exkursionsende = "Riesaer Straße/ Ecke Theodor-Heuß-Straße"
+exkursionslaenge = 2.0
+exkursionsstart = "Riesaer Straße/ Ecke Theodor-Heuß-Straße"
+exkursionsstationen = 7.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_512"
+literaturangaben = ["Vorschaubild: Fabrikhalle der ehemaligen Maschinenfabrik Christian Mansfeld. Foto: Thomas Chudy, 2015", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Kühn, Christoph (1997b): Die Ortslage Leipzig-Paunsdorf. Überlegungen zur suburbanen Planung, in: Landesverein Sächsischer Heimatschutz (Hrsg.): Mitteilungen, H.3, S. 62–67.", "Poser, Steffen (2008): Denkmale zur Völkerschlacht. – Leipzig.", "Specht, Arno u. Uwe Schimunek (2014): Geisterstätten Leipzig. Vergessene Orte. – Berlin."]
+titelbild = "78_E_512-mapbanner.jpg"
+title = "Alt-Paunsdorf – Vom Kern zur Peripherie"
+vg_wort_code = "67828b4f8e9548d2a2cc71ff797a40b6"
+vorschaubild = "78_E_512-vorschaubild.jpg"
+zoomstufe = "16"
 
 [[exkursion]]
-  nr = 1
   lat = 51.346275
   lon = 12.445358
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.347113
   lon = 12.445626
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.348821
   lon = 12.447442
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.347699
   lon = 12.449097
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.347597
   lon = 12.450076
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.345901
   lon = 12.453134
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.345482
-  lon = 12.452230
-
+  lon = 12.45223
+  nr = 7.0
 
 +++
 

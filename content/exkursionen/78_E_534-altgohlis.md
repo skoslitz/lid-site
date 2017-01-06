@@ -1,80 +1,76 @@
 +++
-id ="78_E_534"
-vg_wort_code = "a134e53d1b9544f684f736f0f63d0e73"
-title = "Alt-Gohlis – Dorf und Großstadtviertel"
-# previewtitle = "Unterwegs in Alt-Gohlis – Dorf und Großstadtviertel"
 autor = "Luise Grundmann"
-date = "2015-06-01"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_534-vorschaubild.JPG"
-titelbild = "78_E_534-mapbanner.jpg"
-exkursionsstart = "Kirchplatz/Ecke Gohliser Straße"
-exkursionsende = "Lützowstraße 32, S-Bahnhof Gohlis"
-exkursionsstationen = 11
-exkursionslaenge = 2.7
 centroid = [51.360017, 12.366485]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 14
-fremdexkursion = false
+date = "2015-06-01"
 description = "Von der Friedenskirche aus erschließen sich über die Menckestraße, die einstige Hauptstraße des Dorfes Gohlis, charakteristische Baustrukturen aus fast drei Jahrhunderten. Architektonisch und kulturgeschichtlich beeindruckend sind das spätbarocke Gohliser Schlösschen, das Schillerhaus als letztes erhaltenes Bauerngut von 1717 sowie die teilweise im Jungendstil errichteten Wohnhäuser in der Menckestraße. Am Schillerweg erhielten sich mehrere Landhäuser Leipziger Bürger. Der südlich gelegene Poetenweg repräsentiert ein Villenviertel vom Beginn des 19. Jahrhunderts."
+exkursionsende = "Lützowstraße 32, S-Bahnhof Gohlis"
+exkursionslaenge = 2.7
+exkursionsstart = "Kirchplatz/Ecke Gohliser Straße"
+exkursionsstationen = 11.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_534"
 literaturangaben = ["Vorschaubild: Gohliser Schlösschen. Foto: Jörg Kosinski, 2015", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Bürgerverein Gohlis e.V. (Hrsg., 1997): 680 Jahre Gohlis 1317–1997 (= Gohliser Historische Hefte 2). – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Ebert, Willy (1926): Gohlis. Aus der Geschichte eines Leipziger Vorortes. – Leipzig.", "Frey, Axel (2000): Die Friedenskirche zu Leipzig-Gohlis (= Gohliser Historische Hefte 5). – Leipzig.", "Hocquél-Schneider, Sabine; Schwarz, Alberto u. Brunhild Vollstädt (2000): Das Gohliser Schlösschen zu Leipzig (hg. vom Freundeskreis Gohliser Schlösschen e. V.). – Leipzig.", "Nabert, Thomas u. Bernd Rüdiger (1996): Alt-Gohlis. Eine historische und städtebauliche Studie (hg. von Pro Leipzig e. V.). – Leipzig."]
-#verwandte themen = [""]
-#verwandte exkursionen = [""]
+titelbild = "78_E_534-mapbanner.jpg"
+title = "Alt-Gohlis – Dorf und Großstadtviertel"
+vg_wort_code = "a134e53d1b9544f684f736f0f63d0e73"
+vorschaubild = "78_E_534-vorschaubild.JPG"
+zoomstufe = "15"
 
 [[exkursion]]
-  nr = 1
   lat = 51.358081
   lon = 12.368111
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.357453
   lon = 12.366053
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.357083
   lon = 12.364272
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.35653
   lon = 12.362757
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.356269
   lon = 12.360418
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.358681
   lon = 12.360297
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.358771
   lon = 12.362561
+  nr = 7.0
 
 [[exkursion]]
-  nr = 8
   lat = 51.358198
   lon = 12.365055
+  nr = 8.0
 
 [[exkursion]]
-  nr = 9
   lat = 51.361237
   lon = 12.365195
+  nr = 9.0
 
 [[exkursion]]
-  nr = 10
   lat = 51.362438
   lon = 12.36545
+  nr = 10.0
 
 [[exkursion]]
-  nr = 11
   lat = 51.363029
   lon = 12.373322
+  nr = 11.0
 
 +++
 

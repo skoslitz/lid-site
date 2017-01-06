@@ -1,52 +1,46 @@
 +++
-id ="78_E_510"
-vg_wort_code = "b51061941e904816b4627eba2994c4a7"
-title = "Kleinzschocher – Am Rande der Industrie"
-# previewtitle = "Unterwegs in Kleinzschocher – Am Rande der Industrie"
 autor = "Heinz Peter Brogiato"
-date = "2015-05-06"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_510-vorschaubild.jpg"
-titelbild = "78_E_510-mapbanner.jpg"
-exkursionsstart = "Antonienstraße/Ecke Altranstädter Straße"
-exkursionsende = "Windorfer Straße/Ecke Dieskauer Straße"
-exkursionsstationen = 5
-exkursionslaenge = 1.6
 centroid = [51.317269, 12.328763]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 8
-fremdexkursion = false
+date = "2015-05-06"
 description = "Im 19. Jahrhundert geriet Kleinzschocher in den Sog der Industrialisierung. Von Plagwitz aus wuchsen die Industrieflächen in Richtung Süden, hinzu kamen großflächige Arbeiterwohnquartiere. Die Fußexkursion führt durch diese Gebiete mit Mietshausbebauung aus der Gründerzeit, die heute große Herausforderungen an die Stadterneuerung stellen. Im alten Dorfkern haben sich bäuerliche Häuser erhalten, ebenso Reste des Rittergutes."
+exkursionsende = "Windorfer Straße/Ecke Dieskauer Straße"
+exkursionslaenge = 1.6
+exkursionsstart = "Antonienstraße/Ecke Altranstädter Straße"
+exkursionsstationen = 5.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_510"
 literaturangaben = ["Vorschaubild: Leipzig-Kleinzschocher: Kirche, Ansichtskarte um 1921. IfL: PKL-KZsch012", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Rüdiger, Bernd; Lorz, Andrea und Christiane Klaucke (1995): Kleinzschocher. Eine historische und städtebauliche Studie (hg. von Pro Leipzig e.V.). – Leipzig.", "Uhlrich-Jehnichen, Ilse und Anett Hunger (1994): Die Taborkirche Leipzig-Kleinzschocher in ihrem historischen Umfeld: Vergangenheit und Perspektiven eines Wohngebietes; zum 90jährigen Kirchenjubiläum im Jahre 1994.", "LiD - Band Leipzig"]
-#verwandte themen = [""]
-#verwandte exkursionen = [""]
-
+titelbild = "78_E_510-mapbanner.jpg"
+title = "Kleinzschocher – Am Rande der Industrie"
+vg_wort_code = "b51061941e904816b4627eba2994c4a7"
+vorschaubild = "78_E_510-vorschaubild.jpg"
+zoomstufe = "16"
 
 [[exkursion]]
-  nr = 1
   lat = 51.319375
   lon = 12.334136
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.319133
   lon = 12.328698
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.315056
   lon = 12.327239
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.314843
   lon = 12.328223
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
-  lat = 51.312950
+  lat = 51.31295
   lon = 12.326939
-
+  nr = 5.0
 
 +++
 

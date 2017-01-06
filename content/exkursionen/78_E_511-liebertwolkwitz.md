@@ -1,52 +1,46 @@
 +++
-id ="78_E_511"
-vg_wort_code = "849f360d6b47496895b02e892a6ea984"
-title = "Liebertwolkwitz – Gewerbliches Kleinzentrum im Südosten"
-# previewtitle = "Unterwegs in Liebertwolkwitz – Gewerbliches Kleinzentrum im Südosten"
 autor = "Heinz Peter Brogiato"
+centroid = [51.28236, 12.464525]
 date = "2015-06-10"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_511-vorschaubild.jpg"
-titelbild = "78_E_511-mapbanner.jpg"
-exkursionsstart = "Am Angerteich"
-exkursionsende = "Muldentalstraße/Ecke Bornaer Straße"
-exkursionsstationen = 5
-exkursionslaenge = 2
-centroid = [51.282360, 12.464525]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-zoomstufe = 16
-# optional Angabe ob Fremdexkursion
-fremdexkursion = false
 description = "An einem wichtigen Handelsweg nach Leipzig gelegen, konnte sich Liebertwolkwitz zu einem ländlichen Kleinzentrum im Umland der Großstadt entwickeln. Die Exkursion führt durch den Ortskern, wo sich zahlreiche kleinstädtische Strukturen erhalten haben."
-literaturangaben = ["Vorschaubild: Gesamtansicht Liebertwolkwitz vom Wasserturm aus gesehen, Ansichtskarte um 1910. IfL: PKL-Liebert009", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Cottin, Markus; Kretzschmar, Karl-Heinz; Kürschner, Dieter u. Ilona Petzold (2009): Leipziger Denkmale. Bd. 2 – Beucha.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Poser, Steffen (2008): Denkmale zur Völkerschlacht. – Leipzig.", "Stams, Werner (1956 / 57): Struktur und Entwicklung der Gemeinde Liebertwolkwitz bei Leipzig, in: Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig. Math.-Nat. Reihe 6, S. 109–156." ]
-#verwandte themen = [""]
-#verwandte exkursionen = [""]
+exkursionsende = "Muldentalstraße/Ecke Bornaer Straße"
+exkursionslaenge = 2.0
+exkursionsstart = "Am Angerteich"
+exkursionsstationen = 5.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_511"
+literaturangaben = ["Vorschaubild: Gesamtansicht Liebertwolkwitz vom Wasserturm aus gesehen, Ansichtskarte um 1910. IfL: PKL-Liebert009", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Cottin, Markus; Kretzschmar, Karl-Heinz; Kürschner, Dieter u. Ilona Petzold (2009): Leipziger Denkmale. Bd. 2 – Beucha.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Poser, Steffen (2008): Denkmale zur Völkerschlacht. – Leipzig.", "Stams, Werner (1956 / 57): Struktur und Entwicklung der Gemeinde Liebertwolkwitz bei Leipzig, in: Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig. Math.-Nat. Reihe 6, S. 109–156."]
+titelbild = "78_E_511-mapbanner.jpg"
+title = "Liebertwolkwitz – Gewerbliches Kleinzentrum im Südosten"
+vg_wort_code = "849f360d6b47496895b02e892a6ea984"
+vorschaubild = "78_E_511-vorschaubild.jpg"
+zoomstufe = "16"
 
 [[exkursion]]
-  nr = 1
   lat = 51.284068
   lon = 12.460765
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.282319
   lon = 12.461811
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.282712
   lon = 12.463957
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.283108
   lon = 12.469353
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.282215
   lon = 12.461156
-
+  nr = 5.0
 
 +++
 

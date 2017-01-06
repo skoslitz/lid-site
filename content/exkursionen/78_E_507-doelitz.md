@@ -1,62 +1,56 @@
 +++
-id ="78_E_507"
-vg_wort_code = "8903b6d0c8ac4577bd6395d145c5b98c"
-title = "Dölitz – Villenvorort und Braunkohlenbergbau"
-# previewtitle = "Unterwegs in Dölitz – Villenvorort und Braunkohlenbergbau"
 autor = "Heinz Peter Brogiato"
-date = "2015-06-01"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_507-vorschaubild.jpg"
-titelbild = "78_E_507-mapbanner.jpg"
-exkursionsstart = "Friederikenstraße, Braunkohleschacht"
-exkursionsende = "Bornaische Straße, agra-Veranstaltungsgelände"
-exkursionsstationen = 7
-exkursionslaenge = 3
 centroid = [51.289244, 12.392921]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 8
-# optional Angabe ob Fremdexkursion
-fremdexkursion = false
+date = "2015-06-01"
 description = "Die Fußexkursion beginnt an den für Leipzig einmaligen Hinterlassenschaften des untertägigen Braunkohleabbaus. Großflächige Naherholungsgebiete auf den Bruchfeldern des Bergbaus, in der Pleißenaue und dem agra-Gelände prägen Dölitz. Im 19. Jahrhundert entwickelte sich der Ort zu einem beliebten Wohnstandort reicher Leipziger Bürger. Ihre Villen und Parks sind wichtige Kulturlandschaftselemente des Ortsteils."
+exkursionsende = "Bornaische Straße, agra-Veranstaltungsgelände"
+exkursionslaenge = 3.0
+exkursionsstart = "Friederikenstraße, Braunkohleschacht"
+exkursionsstationen = 7.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_507"
 literaturangaben = ["Vorschaubild: Förderturm Dölitz. Foto: Romana Schwarz, 2015", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Freese, Stephen (1996): Die Dölitzer Wassermühle, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 128–129.", "Heß, Ulrich (1996): Die Stadt und die Kohle. Zur Geschichte einer schwierigen Beziehung im Leipziger Süden, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 155–161.", "Immisch, Horst (1989): Der Braunkohlenschacht Dölitz, in: Leipziger Blätter, Nr. 15, S. 27–29.", "Immisch, Horst (1996a): Das Dölitzer Schloß, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 94–97.", "Immisch, Horst (1996b): Die Bornaische – eine Straßenbekanntschaft, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 111–113.", "Immisch, Horst (2002): Dölitz. Zur Geschichte eines Leipziger Stadtteils. – Leipzig.", "Kauschke, Hartmut (1999): Schacht Dölitz. Diplomarbeit, Bauhaus-Universität Weimar, Fakultät Architektur, Stadt- und Regionalplanung, Lehrstuhl für Bauaufnahme und Denkmalpflege. – Weimar.", "Kauschke, Hartmut; Holz, Angela u. Gerhard Steinbach (2008): Schacht Dölitz, in: Förderverein Chemnitzer Industriemuseum (Hrsg.): Museumskurier des Chemnitzer Industriemuseum und seines Fördervereins. Ausgabe Nr. 21. – Chemnitz, S. 11–13.", "Kirchner, Matthias (1996b): Zur Geschichte der Agra und des Agra-Parks, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 107–110.", "Krahnstöver, Henriette (1996): Das Landschaftsschutzgebiet Lößnig-Dölitz und sein Erholungspark, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 175–177.", "Krahnstöver, Henriette (2008): „Da ging ich nun in Deinem Paradiese …“ Das Oesersche Sommerdomizil in Dölitz, in: Leipziger Blätter, H.53, S. 73–75.", "Stier, Peter (1996): Das Torhaus Dölitz, in: Pro Leipzig e. V. (Hrsg.): Im Leipziger Pleißeland. Connewitz, Lößnig, Dölitz. – Leipzig, S. 130–132.", "Wellner, Markus (2008): Dölitz. Eine historische und städtebauliche Studie. überarb. Aufl. (hg. von Pro Leipzig e. V.). – Leipzig."]
-# verwandte themen = ["Förderschacht Dölitz, 78_B_153-foerderschacht-doelitz.md"]
-# verwandte exkursionen = [""]
+titelbild = "78_E_507-mapbanner.jpg"
+title = "Dölitz – Villenvorort und Braunkohlenbergbau"
+vg_wort_code = "8903b6d0c8ac4577bd6395d145c5b98c"
+vorschaubild = "78_E_507-vorschaubild.jpg"
+zoomstufe = "15"
 
 [[exkursion]]
-  nr = 1
   lat = 51.293308
   lon = 12.401486
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
   lat = 51.293082
   lon = 12.38808
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.290239
   lon = 12.390646
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.289001
   lon = 12.388686
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.287513
   lon = 12.387803
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.286545
   lon = 12.395482
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.284239
   lon = 12.394729
-
+  nr = 7.0
 
 +++
 

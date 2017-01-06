@@ -13,7 +13,6 @@ exkursionsende = "Bielastraße/Ecke Heinrich-Heine-Straße"
 exkursionsstationen = 7
 exkursionslaenge = 2
 centroid = [51.358703, 12.293282]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
 zoomstufe = 16
 fremdexkursion = false
 description = "Der Rundgang führt durch die beiden bereits im 19. Jahrhundert zusammengewachsenen Orte. Die Nähe zur Großstadt und die Ansiedlung zahlreicher Industriebetriebe gaben Böhlitz-Ehrenberg ein kleinstädtisches Gepräge. Gründerzeitliche Straßenzüge, Neubaugebiete, aber auch brachliegende und umgenutzte Gewerbeflächen charakterisieren den Ortsteil."

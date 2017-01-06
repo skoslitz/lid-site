@@ -1,66 +1,61 @@
 +++
-id ="78_E_533"
-vg_wort_code = "03da0d8340f249cdaec1a6bf5f89100d"
-title = "Das Musikviertel – Pracht- und Monumentalbauten des Historismus"
-# previewtitle = "Unterwegs im Musikviertel – Pracht- und Monumentalbauten des Historismus"
 autor = "Luise Grundmann"
-date = "2015-06-12"
-exkursionstypen = ["Fuß"]
-vorschaubild = "78_E_533-vorschaubild.jpg"
-titelbild = "78_E_533-mapbanner.jpg"
-exkursionsstart = "Simsonplatz"
-exkursionsende = "Simsonplatz"
-exkursionsstationen = 8
-exkursionslaenge = 3
 centroid = [51.331576, 12.366786]
-# Zoomstufe nur angeben wenn nötig, ansonsten auskommentieren
-# zoomstufe = 8
-fremdexkursion = false
+date = "2015-06-12"
 description = "Südwestlich des Neuen Rathauses beginnt eine Route durch das mit öffentlichen Monumentalgebäuden, prachtvollen Stadtpalais und Villen des ausgehenden 19. Jahrhundert ausgestattete Musikviertel. Struktur und Architektur einzelner Quartiere des nach 1880 gründerzeitlich angelegten Viertels erschließen sich bei einem Rundgang vom Simsonplatz aus. Die nach bedeutenden Musikern und Leipziger Persönlichkeiten benannten Straßen führen zu zahlreichen, für Bildung, Kultur oder Wohnen genutzten historischen Gebäuden. Die Karl-Tauchnitz-Straße mit den locker bebauten Villengrundstücken leitet in die Parkanlagen über."
+exkursionsende = "Simsonplatz"
+exkursionslaenge = 3.0
+exkursionsstart = "Simsonplatz"
+exkursionsstationen = 8.0
+exkursionstypen = ["Fuß"]
+fremdexkursion = false
+id = "78_E_533"
 literaturangaben = ["Vorschaubild: Blick vom Rathausturm auf das Musikviertel, Ansichtskarte um 1908. IfL: PKL-Mus.V.054", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)", "Brogiato, Heinz Peter (2009): Leipzig um 1900. Zweiter Band. Die Stadtteile in kolorierten Ansichtskarten aus dem Archiv des Leibniz-Instituts für Länderkunde Leipzig e.V. – Leipzig.", "Denzer, Vera; Dix, Andreas; Porada, Haik Thomas (Hrsg.) (2015): Leipzig: Eine landeskundliche Bestandsaufnahme. Landschaften in Deutschland, Bd. 78. – Köln.", "Dorsch, Thomas G. (1999): Der Reichsgerichtsbau in Leipzig. Anspruch und Wirklichkeit einer Staatsarchitektur (Europäische Hochschulschriften/ 37; 21). - Frankfurt am Main u. a.", "Hocquél, Wolfgang (2010): Leipzig – Architektur von der Romanik bis zur Gegenwart; 3. Stark erweiterte Aufl. – Leipzig.", "Kühn, Christoph (1999): Bachstraßenviertel und Musikviertel. Eine historische und städtebauliche Studie (hg. von Pro Leipzig e. V.). – Leipzig.", "Musikviertel e.V. (Hrsg., 2007): Wohn- und Bürgerhäuser im Leipziger Musikviertel. – Beucha."]
-#verwandte themen = [""]
-#verwandte exkursionen = ["Notenspur ? ..."]
+titelbild = "78_E_533-mapbanner.jpg"
+title = "Das Musikviertel – Pracht- und Monumentalbauten des Historismus"
+vg_wort_code = "03da0d8340f249cdaec1a6bf5f89100d"
+vorschaubild = "78_E_533-vorschaubild.jpg"
+zoomstufe = "15"
 
 [[exkursion]]
-  nr = 1
   lat = 51.333293
   lon = 12.370685
+  nr = 1.0
 
 [[exkursion]]
-  nr = 2
-  lat = 51.332170
+  lat = 51.33217
   lon = 12.368368
+  nr = 2.0
 
 [[exkursion]]
-  nr = 3
   lat = 51.333279
   lon = 12.366887
+  nr = 3.0
 
 [[exkursion]]
-  nr = 4
   lat = 51.334144
   lon = 12.363824
+  nr = 4.0
 
 [[exkursion]]
-  nr = 5
   lat = 51.331449
-  lon = 12.360370
+  lon = 12.36037
+  nr = 5.0
 
 [[exkursion]]
-  nr = 6
   lat = 51.327586
   lon = 12.369288
+  nr = 6.0
 
 [[exkursion]]
-  nr = 7
   lat = 51.328972
   lon = 12.368878
+  nr = 7.0
 
 [[exkursion]]
-  nr = 8
   lat = 51.332096
   lon = 12.370154
-
+  nr = 8.0
 
 +++
 
