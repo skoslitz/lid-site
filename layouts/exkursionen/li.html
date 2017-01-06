@@ -1,15 +1,9 @@
-{{ $type := .Type }}  
-{{ $id := .Params.id }}   
-{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
-
+{{ $type := .Type }}
+{{ $bandnummer := substr .Params.id 0 2 }}
 
 <a href="{{ .Permalink }}">
-	{{ if isset .Params "vorschaubild" }}
-		<img class="vorschaubild" src="/img/{{ substr $id 0 2 }}{{ $path }}{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
-	{{ else }}
-		<img class="vorschaubild" src="/img/previews/exkursionen-mre-wasserroute.png">
-	{{ end }}
-	<h4>{{ .Title}}</h4>
+  <img class="vorschaubild" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.vorschaubild }}">
+  <h4>{{ .Title}}</h4>
 </a>
 <p>
 	{{ if isset .Params "exkursionsstationen" }} {{ .Params.exkursionsstationen }} Stationen,{{ end }}

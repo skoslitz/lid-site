@@ -6,8 +6,9 @@ title = "Alt-Gohlis – Dorf und Großstadtviertel"
 autor = "Luise Grundmann"
 date = "2015-06-01"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Kirchplatz/Ecke Gohliser Straße" 
+vorschaubild = "78_E_534-vorschaubild.JPG"
+titelbild = "78_E_534-mapbanner.jpg"
+exkursionsstart = "Kirchplatz/Ecke Gohliser Straße"
 exkursionsende = "Lützowstraße 32, S-Bahnhof Gohlis"
 exkursionsstationen = 11
 exkursionslaenge = 2.7
@@ -24,7 +25,7 @@ literaturangaben = ["Vorschaubild: Gohliser Schlösschen. Foto: Jörg Kosinski, 
   nr = 1
   lat = 51.358081
   lon = 12.368111
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.357453
@@ -34,32 +35,32 @@ literaturangaben = ["Vorschaubild: Gohliser Schlösschen. Foto: Jörg Kosinski, 
   nr = 3
   lat = 51.357083
   lon = 12.364272
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.35653
   lon = 12.362757
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.356269
-  lon = 12.360418  
+  lon = 12.360418
 
 [[exkursion]]
   nr = 6
   lat = 51.358681
   lon = 12.360297
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.358771
   lon = 12.362561
-  
+
 [[exkursion]]
   nr = 8
   lat = 51.358198
   lon = 12.365055
-  
+
 [[exkursion]]
   nr = 9
   lat = 51.361237
@@ -92,7 +93,7 @@ Für weitere Informationen zu Alt-Gohlis siehe Denzer et al. 2015 ab Seite 214.
 {{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="Friedenskirche" quellenangaben="Foto: Jörg Kosinski, 2015" %}}
 {{% bild pfad="abbildung2.jpg" clickable="true" titel="Gohlis: Partie an der Kirche, Ansichtskarte um 1907" quellenangaben="IfL: PKL-Goh072" %}}
 
-Der Kirchplatz am nördlichen Ende der Gohliser Straße empfiehlt sich als Ausgangspunkt für einen Rundgang durch Alt-Gohlis. Der frühere Lindenplatz, am östlichen Rand des alten Dorfes Gohlis gelegen, erhielt seinen heutigen Namen nach der dort zwischen 1871 und 1873 errichteten Friedenskirche. Die dreischiffige, neugotische Hallenkirche entstand nach Plänen des Leipziger Architekten Hugo Altendorf (1843–1933), nachdem Gohlis durch den Anstieg der Einwohnerzahl eine eigene Kirche benötigte. Heute wird die Kirche vorwiegend für Konzerte und Ausstellungen genutzt. 
+Der Kirchplatz am nördlichen Ende der Gohliser Straße empfiehlt sich als Ausgangspunkt für einen Rundgang durch Alt-Gohlis. Der frühere Lindenplatz, am östlichen Rand des alten Dorfes Gohlis gelegen, erhielt seinen heutigen Namen nach der dort zwischen 1871 und 1873 errichteten Friedenskirche. Die dreischiffige, neugotische Hallenkirche entstand nach Plänen des Leipziger Architekten Hugo Altendorf (1843–1933), nachdem Gohlis durch den Anstieg der Einwohnerzahl eine eigene Kirche benötigte. Heute wird die Kirche vorwiegend für Konzerte und Ausstellungen genutzt.
 
 {{% stationstitel titel="Menckestraße" nummer="2" %}}
 
@@ -133,9 +134,9 @@ Sanierte Restgebäude vom Ende des 19. Jahrhunderts und Neubauten erinnern am we
 
 {{% stationstitel titel="Schillerhaus" nummer="7" %}}
 
-Auf unserem Rundgang kommen wir erneut in die Menckestraße, die in ihrem westlichen Abschnitt als Unterdorf bezeichnet wurde. Straßenverlauf und Bebauung passten sich dem umbiegenden Terrassenrand der Pleiße an, die bis zu den Gewässerregulierungen um 1900 südlich des Ortes in einem Bogen vorbeifloss. Im Gegensatz zum Oberdorf entstanden im Unterdorf kleinere Anwesen. 
+Auf unserem Rundgang kommen wir erneut in die Menckestraße, die in ihrem westlichen Abschnitt als Unterdorf bezeichnet wurde. Straßenverlauf und Bebauung passten sich dem umbiegenden Terrassenrand der Pleiße an, die bis zu den Gewässerregulierungen um 1900 südlich des Ortes in einem Bogen vorbeifloss. Im Gegensatz zum Oberdorf entstanden im Unterdorf kleinere Anwesen.
 
-Eines davon ist das „Schillerhaus“ (Menckestraße Nr. 42). Es handelt sich um ein 1717 erbautes Bauerngut mit Wohn- und Kastellanhaus sowie Bauerngarten. Das heute kulturell genutzten Gebäude, in dem Friedrich Schiller (1759–1805) den Sommer des Jahres 1785 verbrachte und u.a. die bekannte „Ode an die Freude“ schrieb, ist das älteste erhaltene Bauernanwesen Leipzigs. 
+Eines davon ist das „Schillerhaus“ (Menckestraße Nr. 42). Es handelt sich um ein 1717 erbautes Bauerngut mit Wohn- und Kastellanhaus sowie Bauerngarten. Das heute kulturell genutzten Gebäude, in dem Friedrich Schiller (1759–1805) den Sommer des Jahres 1785 verbrachte und u.a. die bekannte „Ode an die Freude“ schrieb, ist das älteste erhaltene Bauernanwesen Leipzigs.
 
 {{% bild pfad="abbildung14.jpg" flow="preview" clickable="true" titel="Schillerhaus, Ansichtskarte um 1905" quellenangaben="IfL: PKL-Goh136" %}}
 {{% bild pfad="abbildung15.jpg" flow="preview" clickable="true" titel="Schillerhaus" quellenangaben="Foto: Andreas Höhn, 2015" %}}
@@ -151,7 +152,7 @@ Zurück zum Schillerhaus: wenige Schritte weiter biegen wir in den Schillerweg e
 
 {{% bild pfad="abbildung17.jpg" flow="preview" clickable="true" titel="Blick in den Schillerweg" quellenangaben="Foto: Jörg Kosinski, 2015" %}}
 
-Am Schillerweg, vorher Lindenstraße, erfolgte ebenfalls Ende des 19. Jahrhunderts eine Erweiterung des Ortes in Richtung Norden. Es wurden vor allem zweigeschossige Landhäuser für Leipziger Bürger gebaut. Mehrere dieser baugeschichtlich interessanten Gebäude (Nr. 6, 8, 14, 17, 19, 23) sind erhalten und verleihen, ergänzt durch angepasste neue Stadthäuser, diesem Wohnviertel einen besonderen Charme. 
+Am Schillerweg, vorher Lindenstraße, erfolgte ebenfalls Ende des 19. Jahrhunderts eine Erweiterung des Ortes in Richtung Norden. Es wurden vor allem zweigeschossige Landhäuser für Leipziger Bürger gebaut. Mehrere dieser baugeschichtlich interessanten Gebäude (Nr. 6, 8, 14, 17, 19, 23) sind erhalten und verleihen, ergänzt durch angepasste neue Stadthäuser, diesem Wohnviertel einen besonderen Charme.
 
 {{% stationstitel titel="Gründerzeitlicher Wohnungsbau" nummer="9" %}}
 
@@ -169,7 +170,7 @@ Die nördlich anschließenden Quartiere bis zur einstigen, 1907 neu verlegten Th
 
 {{% bild pfad="abbildung19.jpg" flow="preview" clickable="true" titel="Brückenbogen der Eisenbahn mit Obelisken" quellenangaben="Foto: Jörg Kosinski, 2015" %}}
 
-An den Bahnanlagen der ehemaligen Thüringer Bahn und der neuen S-Bahnstrecke zwischen Leipzig und Halle endet Alt-Gohlis. In der Lützowstraße wird der neue S-Bahnhof Gohlis erreicht, der hier in ein 300 m langes Brückenbauwerk eingefügt wurde. Ein 19 m hoher Brückenbogen aus gelbem Klinker mit zwei vorgebauten Obelisken aus Sandstein markiert den Übergang zu Neu-Gohlis. 
+An den Bahnanlagen der ehemaligen Thüringer Bahn und der neuen S-Bahnstrecke zwischen Leipzig und Halle endet Alt-Gohlis. In der Lützowstraße wird der neue S-Bahnhof Gohlis erreicht, der hier in ein 300 m langes Brückenbauwerk eingefügt wurde. Ein 19 m hoher Brückenbogen aus gelbem Klinker mit zwei vorgebauten Obelisken aus Sandstein markiert den Übergang zu Neu-Gohlis.
 
 {{% clear  %}}
 

@@ -9,12 +9,12 @@ exkursions_url = "http://www.leipzig.de/freizeit-kultur-und-tourismus/parks-wael
 # autor = ""
 date = "2014-05-20"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_E_550-vorschaubild.jpg"
 vorschaubild_titel = "Wildpark, ca. 1912, IfL: PKL-Conn089"
 exkursionsstationen = 13
 exkursionslaenge = 7
 
-exkursionsstart = "Objekt der Abteilung Stadtforsten" 
+exkursionsstart = "Objekt der Abteilung Stadtforsten"
 exkursionsende = "Spielplatz \"Märchenburg\""
 
 

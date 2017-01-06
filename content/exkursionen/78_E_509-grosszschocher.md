@@ -6,8 +6,9 @@ title = "Großzschocher – Vom Rittergut zum Industriedorf"
 autor = "Heinz Peter Brogiato"
 date = "2015-04-30"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Dieskaustraße/Ecke Anton-Zickmantel-Straße" 
+vorschaubild = "78_E_509-vorschaubild.jpg"
+titelbild = "78_E_509-mapbanner.jpg"
+exkursionsstart = "Dieskaustraße/Ecke Anton-Zickmantel-Straße"
 exkursionsende = "Wingertgasse"
 exkursionsstationen = 5
 exkursionslaenge = 2
@@ -22,7 +23,7 @@ literaturangaben = ["Vorschaubild: Elsterbrücke, Ansichtskarte um 1911. IfL: PK
   nr = 1
   lat = 51.300609
   lon = 12.32802
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.299955
@@ -32,12 +33,12 @@ literaturangaben = ["Vorschaubild: Elsterbrücke, Ansichtskarte um 1911. IfL: PK
   nr = 3
   lat = 51.300634
   lon = 12.330505
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.298076
   lon = 12.327759
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.297499
@@ -78,14 +79,14 @@ Neben der Kirche steht als stattlicher Winkelbau die Schule. Das alte Schulgebä
 
 Für die Schule entschloss man sich daher 1895/ 96 zu einem Neubau, der 1904 um einen Süd- und 1912 um einen Nordflügel erweitert wurde. Die Zahl der Schulkinder versechsfachte sich zwischen 1853 (200) und 1912 (1200). Heute beherbergt das Gebäude die 56. Schule. Eine zweite allgemeinbildende Schule erhielt Großzschocher erst 1969 an der Martin-Herrmann-Straße im Neubaugebiet (120. Schule).
 
-Die Huttenstraße (bis 1928 Schulstraße) führte zum Rittergut. Gegenüber der Kirche steht das Pfarramt, ein Gebäude aus der Mitte des 18. Jahrhunderts. Ansonsten herrschen in der kurzen Stichstraße Mietshäuser aus den ersten Jahren des 20. Jahrhunderts vor. 
+Die Huttenstraße (bis 1928 Schulstraße) führte zum Rittergut. Gegenüber der Kirche steht das Pfarramt, ein Gebäude aus der Mitte des 18. Jahrhunderts. Ansonsten herrschen in der kurzen Stichstraße Mietshäuser aus den ersten Jahren des 20. Jahrhunderts vor.
 
 {{% stationstitel titel="Körnerhaus" nummer="3" %}}
 
 {{% bild pfad="abbildung4.jpg" flow="preview" clickable="true" titel="Körnerhaus, Ansichtskarte um 1910" quellenangaben="IfL: PKL-GZsch014"  %}}
 {{% bild pfad="abbildung13.jpg" flow="preview" clickable="true" titel="Körnerhaus" quellenangaben="Foto: Benedict Linn, 2015"  %}}
 
-Als letztes Haus an der nördlichen Straßenseite (Nr. 2a) steht das so genannte Körnerhaus. Nach seiner schweren Verwundung bei Kitzen am 17. Juni 1813 war der Dichter und Freiheitskämpfer Theodor Körner (1791–1813) von Bauern hier versteckt worden. Eine Gedenktafel am Haus erinnert daran. Seit 1997 kümmert sich ein Bürgerverein um die Restaurierung des Hauses und führt jährlich ein Körnerhausfest durch. Bei dem Gebäude aus dem 18. Jahrhundert handelt es sich um das Gärtnerhaus des Ritterguts Großzschocher. 
+Als letztes Haus an der nördlichen Straßenseite (Nr. 2a) steht das so genannte Körnerhaus. Nach seiner schweren Verwundung bei Kitzen am 17. Juni 1813 war der Dichter und Freiheitskämpfer Theodor Körner (1791–1813) von Bauern hier versteckt worden. Eine Gedenktafel am Haus erinnert daran. Seit 1997 kümmert sich ein Bürgerverein um die Restaurierung des Hauses und führt jährlich ein Körnerhausfest durch. Bei dem Gebäude aus dem 18. Jahrhundert handelt es sich um das Gärtnerhaus des Ritterguts Großzschocher.
 
 {{% clear  %}}
 
@@ -99,7 +100,7 @@ Vom Gut selbst sind lediglich die Stallungen erhalten, die von einem Reitverein 
 
 {{% bild pfad="abbildung15.jpg" flow="preview" clickable="true" titel="Blick in die Buttergasse" quellenangaben="Foto: Benedict Linn, 2015"  %}}
 
-Die Buttergasse (bis 1928 Mittelstraße) liegt leicht erhöht über der Elsteraue. Von hier aus nahm einst Großzschocher seine Entwicklung. Heute befinden sich noch mehrere dörfliche Häuser aus der ersten Hälfte des 19. Jahrhunderts in der Straße, wie die Gehöfte Nr. 28 und 30 und das Häuslerwohnhaus Nr. 36. Das älteste erhaltene Gebäude der Gasse dürfte das Wohnhaus Nr. 41 sein, welches 1725 erbaut wurde. In dem Mitte des 19. Jahrhunderts erbauten Fachwerk-Gehöft Nr. 44/ 46 hat seit über 100 Jahren ein kleines Familienunternehmen seinen Sitz, das 1910 mit der Produktion von Druckwellen begann. 
+Die Buttergasse (bis 1928 Mittelstraße) liegt leicht erhöht über der Elsteraue. Von hier aus nahm einst Großzschocher seine Entwicklung. Heute befinden sich noch mehrere dörfliche Häuser aus der ersten Hälfte des 19. Jahrhunderts in der Straße, wie die Gehöfte Nr. 28 und 30 und das Häuslerwohnhaus Nr. 36. Das älteste erhaltene Gebäude der Gasse dürfte das Wohnhaus Nr. 41 sein, welches 1725 erbaut wurde. In dem Mitte des 19. Jahrhunderts erbauten Fachwerk-Gehöft Nr. 44/ 46 hat seit über 100 Jahren ein kleines Familienunternehmen seinen Sitz, das 1910 mit der Produktion von Druckwellen begann.
 
 {{% clear  %}}
 
@@ -123,11 +124,11 @@ Die kurze Straße führt zum ehemaligen Mühlenareal am Knauthainer Elstermühlg
 
 {{% stationstitel titel="Windorf" nummer="5" %}}
 
-Unmittelbar südlich des Mühlenareals beginnt die Gemarkung Windorf. Der Ort – erstmals 1327 urkundlich erwähnt – war grundherrschaftlich, kirchlich und schulisch stets eng an das größere Großzschocher gebunden. Vieles von dem, was für Großzschocher gesagt wurde, gilt daher auch für Windorf. 
+Unmittelbar südlich des Mühlenareals beginnt die Gemarkung Windorf. Der Ort – erstmals 1327 urkundlich erwähnt – war grundherrschaftlich, kirchlich und schulisch stets eng an das größere Großzschocher gebunden. Vieles von dem, was für Großzschocher gesagt wurde, gilt daher auch für Windorf.
 
 {{% bild pfad="abbildung19.jpg" flow="preview" clickable="true" titel="Ehemalige Schäferei des Vorwerks in Windorf" quellenangaben="Foto: Benedict Linn, 2015"  %}}
 
-Auch in Windorf existierte ein Rittergut, das allerdings nach einem Brand 1683 nur noch als Vorwerk mit Schäferei dem Gut Großzschocher diente. Von der Schäferei ist noch ein Gebäude an der Dieskaustraße (Nr. 235) vorhanden. 
+Auch in Windorf existierte ein Rittergut, das allerdings nach einem Brand 1683 nur noch als Vorwerk mit Schäferei dem Gut Großzschocher diente. Von der Schäferei ist noch ein Gebäude an der Dieskaustraße (Nr. 235) vorhanden.
 
 {{% clear  %}}
 

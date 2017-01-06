@@ -6,8 +6,9 @@ title = "Stötteritz – Sanierung und Neugestaltung"
 autor = "Luise Grundmann"
 date = "2015-06-15"
 exkursionstypen = ["Fuß", "Fahrrad"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5" 
+vorschaubild = "78_E_535-vorschaubild.jpg"
+titelbild = "78_E_535-mapbanner.jpg"
+exkursionsstart = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5"
 exkursionsende = "S-Bahnhof Leipzig-Stötteritz, Papiermühlstraße 5"
 exkursionsstationen = 12
 exkursionslaenge = 6
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Stötteritzer Wasserturm mit Völkerschlachtd
   nr = 1
   lat = 51.324779
   lon = 12.412120
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.325598
@@ -50,7 +51,7 @@ literaturangaben = ["Vorschaubild: Stötteritzer Wasserturm mit Völkerschlachtd
   nr = 6
   lat = 51.319790
   lon = 12.424818
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.319696
@@ -75,11 +76,11 @@ literaturangaben = ["Vorschaubild: Stötteritzer Wasserturm mit Völkerschlachtd
   nr = 11
   lat = 51.321158
   lon = 12.413215
-  
+
 [[exkursion]]
   nr = 12
   lat = 51.321587
-  lon = 12.419239  
+  lon = 12.419239
 
 
 +++
@@ -101,7 +102,7 @@ Für weitere Informationen zu Stötteritz siehe Denzer et al. 2015 ab Seite 307.
 {{% bild pfad="abbildung1.jpg" flow="around" clickable="true" titel="Leipzig-Stötteritz: Partie an der Leipziger- u. Schönbachstr., Bahnhof, Ansichtskarte um 1907" quellenangaben="IfL: PKL-Stoett001"  %}}
 {{% bild pfad="abbildung8.jpg" flow="preview" clickable="true" titel="Historisches Bahnhofsgebäude" quellenangaben="Foto: Christian Hanewinkel, 2015"  %}}
 
-Die vorgeschlagene Exkursionsroute beginnt und endet am neuen S-Bahnhof Stötteritz und soll auf Veränderungen in den einst dörflichen und gründerzeitlichen Vierteln aufmerksam machen. Die alten Eisenbahnanlagen der 1878 eröffneten Leipzig-Hofer Verbindungsbahn wurden Ende 2013 durch neue Gleise, eine Brücke über die Papiermühlstraße sowie eine Station im Zuge des neuen S-Bahnnetzes ersetzt. Das historische Bahnhofsgebäude von 1905 steht ungenutzt an der Papiermühlstraße. 
+Die vorgeschlagene Exkursionsroute beginnt und endet am neuen S-Bahnhof Stötteritz und soll auf Veränderungen in den einst dörflichen und gründerzeitlichen Vierteln aufmerksam machen. Die alten Eisenbahnanlagen der 1878 eröffneten Leipzig-Hofer Verbindungsbahn wurden Ende 2013 durch neue Gleise, eine Brücke über die Papiermühlstraße sowie eine Station im Zuge des neuen S-Bahnnetzes ersetzt. Das historische Bahnhofsgebäude von 1905 steht ungenutzt an der Papiermühlstraße.
 
 {{% clear  %}}
 
@@ -111,13 +112,13 @@ Die vorgeschlagene Exkursionsroute beginnt und endet am neuen S-Bahnhof Stötter
 
 {{% bild pfad="abbildung9.jpg" flow="preview" clickable="true" titel="Medienhof Melscher Straße" quellenangaben="Foto: Christian Hanewinkel, 2015"  %}}
 
-Östlich der S-Bahntrasse vollzieht sich im Bereich der Melscher Straße seit Mitte der 1990er Jahre die Umgestaltung eines Industrieareals, das nach 1900 planmäßig auf einem ehemaligen Flurstück, dem „Schwarzen Acker“, entstanden war. Das denkmalgeschützte, fünfgeschossige Eckgebäude, Melscher Straße Nr. 1 wurde 1994–1995 zum Medienhof für Betriebe der Medienbranche umgebaut. Der Bau war 1906 für die Kunstdruckanstalt Eschebach und Schäfer entstanden. 
+Östlich der S-Bahntrasse vollzieht sich im Bereich der Melscher Straße seit Mitte der 1990er Jahre die Umgestaltung eines Industrieareals, das nach 1900 planmäßig auf einem ehemaligen Flurstück, dem „Schwarzen Acker“, entstanden war. Das denkmalgeschützte, fünfgeschossige Eckgebäude, Melscher Straße Nr. 1 wurde 1994–1995 zum Medienhof für Betriebe der Medienbranche umgebaut. Der Bau war 1906 für die Kunstdruckanstalt Eschebach und Schäfer entstanden.
 
-Weitere, nach Norden und Osten anschließende Flächen, werden gegenwärtig als ein 4,9 ha großes Gewerbegebiet neu vermarktet, gründerzeitliche Industriegebäude werden umgebaut. 
+Weitere, nach Norden und Osten anschließende Flächen, werden gegenwärtig als ein 4,9 ha großes Gewerbegebiet neu vermarktet, gründerzeitliche Industriegebäude werden umgebaut.
 
 {{% stationstitel titel="Naherholungsgebiet Stötteritzer Wäldchen" nummer="3" %}}
 
-Im Osten schließt sich mit dem Stötteritzer Wäldchen ein 14,5 ha großes Naherholungsgebiet an. Das Gelände hatte der damalige Rittergutsbesitzer und Buchautor Christian Felix Weiße (1726–1804) in der Aue der Östlichen Rietzschke unter Einbeziehung des einstigen Rittergutsteiches im Stil eines englischen Landschaftsparks anlegen lassen. 
+Im Osten schließt sich mit dem Stötteritzer Wäldchen ein 14,5 ha großes Naherholungsgebiet an. Das Gelände hatte der damalige Rittergutsbesitzer und Buchautor Christian Felix Weiße (1726–1804) in der Aue der Östlichen Rietzschke unter Einbeziehung des einstigen Rittergutsteiches im Stil eines englischen Landschaftsparks anlegen lassen.
 
 {{% bild pfad="abbildung10.jpg" clickable="true" titel="Landschaftspark im Naherholungsgebiet \"Stötteritzer Wäldchen\"" quellenangaben="Foto: Christian Hanewinkel, 2015"  %}}
 
@@ -127,7 +128,7 @@ Im Osten schließt sich mit dem Stötteritzer Wäldchen ein 14,5 ha großes Nahe
 
 {{% bild pfad="abbildung11.jpg" flow="preview" clickable="true" titel="Herrenhaus des Ritterguts \"unteren Teils\"" quellenangaben="Foto: Christian Hanewinkel, 2015"  %}}
 
-Der südliche Teil des Stötteritzer Wäldchens geht in das einstige Rittergut an der Oberdorfstraße über. Die Gutsanlagen blieben zu großen Teilen erhalten und bilden bis heute mit der gegenüberliegenden Kirche das kulturhistorisch wertvollste Bauensemble von Stötteritz. Beeindruckend ist der fast vollständig erhaltene Gutskomplex mit dem 1780–1790 errichteten barocken Herrenhaus, dem großen Gutshof und Wirtschaftsgebäuden sowie Teilen des alten Wassergrabens. 
+Der südliche Teil des Stötteritzer Wäldchens geht in das einstige Rittergut an der Oberdorfstraße über. Die Gutsanlagen blieben zu großen Teilen erhalten und bilden bis heute mit der gegenüberliegenden Kirche das kulturhistorisch wertvollste Bauensemble von Stötteritz. Beeindruckend ist der fast vollständig erhaltene Gutskomplex mit dem 1780–1790 errichteten barocken Herrenhaus, dem großen Gutshof und Wirtschaftsgebäuden sowie Teilen des alten Wassergrabens.
 
 Das Gut, zur Unterscheidung von einem zweiten Stötteritzer Rittergut als das „Gut unteren Teils“ bezeichnet, war Mitte des 19. Jahrhunderts von der Stadt übernommen worden. Nach 1966 diente es als Lager für einen Industriebetrieb. Die desolaten Lager- und Wirtschaftsgebäude konnten nach 1990 im Rahmen des Sanierungsgebietes „Alte Ortslage Stötteritz“ erneuert und dem Verein zur Wiedereingliederung psychosozial geschädigter Menschen zur Nutzung übergeben werden. Das sanierte Herrenhaus wird  seit 1992 als Wohnheim genutzt. Ein ehemaliges Wirtschaftsgebäude wurde zwischen 1993 und 1995 zum Begegnungszentrum des Vereins umgebaut.
 
@@ -137,7 +138,7 @@ Das Gut, zur Unterscheidung von einem zweiten Stötteritzer Rittergut als das �
 
 Zwischen den beiden Gutsbereichen liegt die frühbarocke Dorfkirche, seit 1906 Marienkirche. Das Gotteshaus ist der einzige vollständig erhaltene barocke Kirchenbau Leipzigs. Nach Abriss eines Vorgängerbaus, erbaute Johann Christian Senckeisen 1702–1703 den schlichten, einschiffigen Saalbau mit abgesetztem Chorraum. 1712–1713 wurde der markante Westturm mit einer flachen Zwiebelhaube und Laterne hinzugefügt; ebenso das Hauptportal mit einer 1911 gut eingefügten Figurengruppe. Der Zugang zur Kirche liegt an der Lochmannstraße.
 
-Ursprünglich stand an dieser Straße das höher gelegene Rittergut „oberen Teils“. Nach Abriss aller Gebäude des Guts zu Beginn des 20. Jahrhunderts wurde die Fläche mit Mietshäusern bebaut. Der alte Friedhof an der Kirche wurde nach 1872 zur Grünanlage. Kirche und Grünanlage konnten nach 1990 saniert werden. 
+Ursprünglich stand an dieser Straße das höher gelegene Rittergut „oberen Teils“. Nach Abriss aller Gebäude des Guts zu Beginn des 20. Jahrhunderts wurde die Fläche mit Mietshäusern bebaut. Der alte Friedhof an der Kirche wurde nach 1872 zur Grünanlage. Kirche und Grünanlage konnten nach 1990 saniert werden.
 
 {{% clear  %}}
 
@@ -149,9 +150,9 @@ Südlich der alten Ortslage entstand zwischen der Holzhäuser- und der Schlesier
 
 {{% stationstitel titel="Gewerbegebiet Holzhäuser-/Kolmstraße" nummer="7" %}}
 
-Ebenfalls in der Umgestaltung befindet sich das östlich an der Holzhäuser Straße anschließende Gelände. Auf dem etwa 5 ha großen Industrieareal des ehemaligen VEB Geräte- und Reglerwerk entwickelt sich ein Gewerbegebiet, insbesondere für Betriebe der Elektronik und des Nachrichtenwesens. 
+Ebenfalls in der Umgestaltung befindet sich das östlich an der Holzhäuser Straße anschließende Gelände. Auf dem etwa 5 ha großen Industrieareal des ehemaligen VEB Geräte- und Reglerwerk entwickelt sich ein Gewerbegebiet, insbesondere für Betriebe der Elektronik und des Nachrichtenwesens.
 
-Nach Südwesten, in Richtung Probstheida, gelangt man in Erweiterungsgebiete mit Siedlungen und Versorgungseinrichtungen vom Ende des 19. Jahrhunderts bis in die 1930er Jahre. 
+Nach Südwesten, in Richtung Probstheida, gelangt man in Erweiterungsgebiete mit Siedlungen und Versorgungseinrichtungen vom Ende des 19. Jahrhunderts bis in die 1930er Jahre.
 
 {{% stationstitel titel="Kommunales Wasserwerk" nummer="8" %}}
 
@@ -177,7 +178,7 @@ Im Gebiet zwischen der Naunhofer, der Ludolf-Colditz-Straße (früher Connewitze
 
 Auf dem Platz ließen 1903 die Allgemeine Deutsche Creditanstalt und die Leipziger Immobilien Gesellschaft 7000 der beim Bau der Siedlung geborgenen kaltzeitlichen Gerölle (Findlinge) zu einer etwa 6 m hohen „Gletschersteinpyramide“ zusammen fügen. Das Umfeld wurde zur Grünanlage gestaltet.
 
-Unser Weg führt uns durch die Ludolf-Colditz-Straße, die die Marienhöhe mit der Holzhäuser Straße verbindet. 
+Unser Weg führt uns durch die Ludolf-Colditz-Straße, die die Marienhöhe mit der Holzhäuser Straße verbindet.
 
 {{% clear  %}}
 

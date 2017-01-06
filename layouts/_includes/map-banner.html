@@ -1,6 +1,5 @@
-{{ $type := .Type }}  
-{{ $id := .Params.id }}   
-{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+{{ $type := .Type }}
+{{ $bandnummer := substr .Params.id 0 2 }}
 
 <!-- deactivate static api due to performance reasons -->
 {{ if isset .Params "centroid" }}
@@ -11,8 +10,8 @@
 {{ end  }}
 
 <div class="banner-container">
-	<meta itemprop="image" content="/img/78{{ $path }}mapbanner.jpg"/>
-	<img class="img-responsive" src="/img/78{{ $path }}mapbanner.jpg" />
+	<meta itemprop="image" content="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}"/>
+  <img class="img-responsive" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}" />
 	{{ if eq .Params.actionbound nil }}
 	<div class="attribution">&copy; Mapbox &copy; OpenStreetMap</div>
 	{{ end }}

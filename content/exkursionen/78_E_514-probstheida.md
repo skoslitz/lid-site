@@ -6,8 +6,9 @@ title = "Probstheida – Auf dem Boden der Völkerschlacht"
 autor = "Heinz Peter Brogiato"
 date = "2015-06-15"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Prager Straße/Ecke Pauliner Weg" 
+vorschaubild = "78_E_514-vorschaubild.jpg"
+titelbild = "78_E_514-mapbanner.jpg"
+exkursionsstart = "Prager Straße/Ecke Pauliner Weg"
 exkursionsende = "Connewitzer Straße/Ecke Dösner Straße"
 exkursionsstationen = 7
 exkursionslaenge = 2
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Gasthof Probstheida mit dem Völkerschlachtde
   nr = 1
   lat = 51.308752
   lon = 12.420735
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.308826
@@ -35,22 +36,22 @@ literaturangaben = ["Vorschaubild: Gasthof Probstheida mit dem Völkerschlachtde
   nr = 3
   lat = 51.306608
   lon = 12.423025
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.306631
   lon = 12.425309
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.303829
-  lon = 12.430161 
+  lon = 12.430161
 
 [[exkursion]]
   nr = 6
   lat = 51.302856
   lon = 12.428659
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.304477
@@ -76,7 +77,7 @@ Für weitere Informationen zu Probstheida, dem Südfriedhof und dem Völkerschla
 {{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="Humanitas: Heim für gebrechliche Kinder, Luftbild um 1931" quellenangaben="IfL: PKL-Krank034"  %}}
 {{% bild pfad="abbildung7.jpg" flow="preview" clickable="true" titel="Humanitas-Heim" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Wenn man stadtauswärts fährt, ist gleich das erste Wohnhaus (Nr. 214) eine Villa im Landhausstil aus dem beginnenden 20. Jahrhundert. Dahinter, von der Straße zurückversetzt, befindet sich ein bemerkenswertes Baudenkmal der Neuen Sachlichkeit. Bauherr war der in Leipzig 1909 gegründete Verein Humanitas, dessen Ziel es ist, Menschen mit Behinderungen zu fördern, auszubilden und medizinisch zu betreuen. 1929 bezog der Verein sein „Heim für gebrechliche Kinder“ am Rand des Südfriedhofs. Der Architekt Georg Wünschmann (1868–1937), vor dem Ersten Weltkrieg ein Hauptvertreter des Historismus in Leipzig, errichtete ein Backsteingebäude mit einem L-förmigen Grundriss. Im Gebäude waren Klinik, Krankenheim und Schule untergebracht. 
+Wenn man stadtauswärts fährt, ist gleich das erste Wohnhaus (Nr. 214) eine Villa im Landhausstil aus dem beginnenden 20. Jahrhundert. Dahinter, von der Straße zurückversetzt, befindet sich ein bemerkenswertes Baudenkmal der Neuen Sachlichkeit. Bauherr war der in Leipzig 1909 gegründete Verein Humanitas, dessen Ziel es ist, Menschen mit Behinderungen zu fördern, auszubilden und medizinisch zu betreuen. 1929 bezog der Verein sein „Heim für gebrechliche Kinder“ am Rand des Südfriedhofs. Der Architekt Georg Wünschmann (1868–1937), vor dem Ersten Weltkrieg ein Hauptvertreter des Historismus in Leipzig, errichtete ein Backsteingebäude mit einem L-förmigen Grundriss. Im Gebäude waren Klinik, Krankenheim und Schule untergebracht.
 
 {{% clear  %}}
 
@@ -105,21 +106,21 @@ An der Kreuzung mit der Russenstraße beginnt der eigentliche alte Dorfkern von 
 
 {{% bild pfad="abbildung11.jpg" flow="preview" clickable="true" titel="Pfarramt in Probstheida" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Entlang der Russenstraße befindet sich der Dorfanger, dessen Umgebung sich durch Gebäudeabrisse, Um- und Neubauten stark verändert hat. Die ehemalige Hauptstraße wurde 1911 in Erinnerung an die Beteiligung der russischen Armee an der Völkerschlacht in Russenstraße umbenannt. An der nördlichen Seite des Platzes stehen noch einige historische Gebäude, darunter das Pfarramt (Nr. 23) aus dem Jahr 1907/ 08. 
+Entlang der Russenstraße befindet sich der Dorfanger, dessen Umgebung sich durch Gebäudeabrisse, Um- und Neubauten stark verändert hat. Die ehemalige Hauptstraße wurde 1911 in Erinnerung an die Beteiligung der russischen Armee an der Völkerschlacht in Russenstraße umbenannt. An der nördlichen Seite des Platzes stehen noch einige historische Gebäude, darunter das Pfarramt (Nr. 23) aus dem Jahr 1907/ 08.
 
 {{% stationstitel titel="Immanuelkirche" nummer="4" %}}
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Probstheida: Blick aus der Russenstraße auf den Anger, in der Bildmitte ist die alte Schule zu sehen, dahinter der Kirchturm, Ansichtskarte um 1927" quellenangaben="IfL: PKL-Prob022"  %}}
 {{% bild pfad="abbildung12.jpg" flow="preview" clickable="true" titel="Immanuelkirche" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Auf dem Anger steht die klassizistische Immanuelkirche. Nach der Zerstörung des Vorgängerbaus während der Kämpfe von 1813 wurde der Neubau 1818 eingeweiht. Ein 1913 auf dem Anger gesetzter Gedenkstein erinnert an die Völkerschlacht. 
+Auf dem Anger steht die klassizistische Immanuelkirche. Nach der Zerstörung des Vorgängerbaus während der Kämpfe von 1813 wurde der Neubau 1818 eingeweiht. Ein 1913 auf dem Anger gesetzter Gedenkstein erinnert an die Völkerschlacht.
 
 {{% clear  %}}
 
 {{% bild pfad="abbildung13.jpg" flow="preview" clickable="true" titel="Alte Schule" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 {{% bild pfad="abbildung14.jpg" flow="preview" clickable="true" titel="Ehemaliges Schulgebäude in der Nieritzstraße" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Am östlichen Ende des Platzes befindet sich die 1843 erbaute alte Schule, die nach 1887 als Polizeiwache diente. Damals wurde ein neues, dreigeschossiges Schulgebäude einige Meter entfernt in der Nieritzstraße (Nr. 9) errichtet. 
+Am östlichen Ende des Platzes befindet sich die 1843 erbaute alte Schule, die nach 1887 als Polizeiwache diente. Damals wurde ein neues, dreigeschossiges Schulgebäude einige Meter entfernt in der Nieritzstraße (Nr. 9) errichtet.
 
 Eines der ältesten Mietshäuser (Nr. 49) aus der Mitte des 19. Jahrhunderts befindet sich an der Abzweigung der Täschnerstraße. Von kulturhistorischer Bedeutung ist auch die Russenstraße Nr. 46. Hier befand sich eine kleine Druckerei, in der Lenin 1901/ 02 die ersten Nummern der revolutionären Zeitung „Iskra“ (Funke) produzieren ließ. Zwischen 1956 und 1991 befand sich im Gebäude eine Gedenkstätte.
 
@@ -127,7 +128,7 @@ Eines der ältesten Mietshäuser (Nr. 49) aus der Mitte des 19. Jahrhunderts bef
 
 {{% bild pfad="abbildung15.jpg" clickable="true" titel="Ehemalige Iskra-Gedenkstätte" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Auf einem Fußweg gelangt man von der Russen- zur Strümpellstraße. Hier streift die Route einen Krankenhauskomplex, der mit mehr als 2500 Beschäftigten inzwischen auch ein bedeutender Wirtschaftsfaktor ist. Die private Helios-Gruppe betreibt an diesem Standort drei Kliniken, darunter eine Klinik für Suchterkrankungen und eines der größten Herzzentren der Welt. 
+Auf einem Fußweg gelangt man von der Russen- zur Strümpellstraße. Hier streift die Route einen Krankenhauskomplex, der mit mehr als 2500 Beschäftigten inzwischen auch ein bedeutender Wirtschaftsfaktor ist. Die private Helios-Gruppe betreibt an diesem Standort drei Kliniken, darunter eine Klinik für Suchterkrankungen und eines der größten Herzzentren der Welt.
 
 {{% stationstitel titel="\"Leipziger Schultyp\"" nummer="5" %}}
 
@@ -137,7 +138,7 @@ Die kurze Zweifelstraße ist an ihrer östlichen Seite lückenlos von einer Wohn
 
 {{% stationstitel titel="Wohnungsbau der 1920er Jahre" nummer="6" %}}
 
-Kurz vor der Einmündung der Wunderlichstraße in die Prager Straße führt der Weg vorbei an einem architektonisch auffallenden Wohnblock. Auf der Grundlage eines 1919 veröffentlichten Bebauungsplans der Leipzig-Probstheidaer Terraingesellschaft entstanden hier zwischen 1920 und 1926 neue Wohnbauten. In geschlossener Bebauung umschließen die Wohnblöcke einen großen begrünten Innenhof. Nach vollständiger Sanierung zwischen 1999 und 2001 befinden sich heute 216 Wohneinheiten in dem Objekt. 
+Kurz vor der Einmündung der Wunderlichstraße in die Prager Straße führt der Weg vorbei an einem architektonisch auffallenden Wohnblock. Auf der Grundlage eines 1919 veröffentlichten Bebauungsplans der Leipzig-Probstheidaer Terraingesellschaft entstanden hier zwischen 1920 und 1926 neue Wohnbauten. In geschlossener Bebauung umschließen die Wohnblöcke einen großen begrünten Innenhof. Nach vollständiger Sanierung zwischen 1999 und 2001 befinden sich heute 216 Wohneinheiten in dem Objekt.
 
 {{% bild pfad="abbildung17.jpg" clickable="true" titel="Wohnblock der 1920er Jahre" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 

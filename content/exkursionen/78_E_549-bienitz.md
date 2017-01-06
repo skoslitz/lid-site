@@ -9,12 +9,12 @@ exkursions_url = "http://www.leipzig.de/freizeit-kultur-und-tourismus/parks-wael
 # autor = ""
 date = "2014-05-20"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_E_549-vorschaubild.jpg"
 vorschaubild_titel = "Bienitz: Louisenquell, ca. 1912. IfL: PKL-Burgh005"
 exkursionsstationen = 15
 exkursionslaenge = 5
 
-exkursionsstart = "Alte Wache (Leipzig-Burghausen)" 
+exkursionsstart = "Alte Wache (Leipzig-Burghausen)"
 exkursionsende = "Schießbahn"
 
 

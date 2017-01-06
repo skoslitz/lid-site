@@ -6,8 +6,9 @@ title = "Dölitz – Villenvorort und Braunkohlenbergbau"
 autor = "Heinz Peter Brogiato"
 date = "2015-06-01"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Friederikenstraße, Braunkohleschacht" 
+vorschaubild = "78_E_507-vorschaubild.jpg"
+titelbild = "78_E_507-mapbanner.jpg"
+exkursionsstart = "Friederikenstraße, Braunkohleschacht"
 exkursionsende = "Bornaische Straße, agra-Veranstaltungsgelände"
 exkursionsstationen = 7
 exkursionslaenge = 3
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Förderturm Dölitz. Foto: Romana Schwarz, 20
   nr = 1
   lat = 51.293308
   lon = 12.401486
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.293082
@@ -35,33 +36,33 @@ literaturangaben = ["Vorschaubild: Förderturm Dölitz. Foto: Romana Schwarz, 20
   nr = 3
   lat = 51.290239
   lon = 12.390646
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.289001
   lon = 12.388686
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.287513
-  lon = 12.387803  
+  lon = 12.387803
 
 [[exkursion]]
   nr = 6
   lat = 51.286545
   lon = 12.395482
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.284239
   lon = 12.394729
-  
+
 
 +++
 
 ### Einleitung
 
-Der Dorfkern von Dölitz, das als sorbisches Gassendorf am östlichen Rand der Pleißeniederung entstand, lag westlich der Bornaischen Straße im Bereich der heutigen Helenenstraße. Hier haben sich Reste der alten Bebauung aus dem 18. und 19. Jahrhundert erhalten. Die gutsherrschaftliche Dominanz des Ortes hatte Auswirkungen auf die Sozial- und Bebauungsstruktur: Überdurchschnittlich viele Bewohner waren landlose Tagelöhner, die in kleinen Häusern mit Gärten wohnten. 
+Der Dorfkern von Dölitz, das als sorbisches Gassendorf am östlichen Rand der Pleißeniederung entstand, lag westlich der Bornaischen Straße im Bereich der heutigen Helenenstraße. Hier haben sich Reste der alten Bebauung aus dem 18. und 19. Jahrhundert erhalten. Die gutsherrschaftliche Dominanz des Ortes hatte Auswirkungen auf die Sozial- und Bebauungsstruktur: Überdurchschnittlich viele Bewohner waren landlose Tagelöhner, die in kleinen Häusern mit Gärten wohnten.
 
 Bereits um 1880 hatte die Entwicklung des Dorfes zur vorstädtischen Wohnsiedlung begonnen. Schon seit dem 18. Jahrhundert war Dölitz zu einer beliebten Sommerfrische für Leipziger wohlhabende Bürger geworden, die sich Grundstücke kauften und darauf Landhäuser und Villen errichteten.
 
@@ -71,14 +72,14 @@ Für weitere Informationen zu Dölitz siehe Denzer et al. 2015 ab Seite 337.
 
 {{% stationstitel titel="Braunkohleschacht Dölitz" nummer="1" %}}
 
-Am östlichen Ende der Friederikenstraße befindet sich ein für Leipzig einmaliges Industriedenkmal: der Braunkohlenschacht Dölitz. Hier wurde zwischen 1903 und 1959 Braunkohle aus etwa 65–70 m Tiefe gefördert. Wichtigster Abnehmer war seit 1910 das Elektrizitätswerk Süd in Lößnig, seit 1917 gehörten 90 % der Kuxe der Stadt Leipzig, für deren Energieversorgung die Dölitzer Braunkohle von erheblicher Bedeutung war. 
+Am östlichen Ende der Friederikenstraße befindet sich ein für Leipzig einmaliges Industriedenkmal: der Braunkohlenschacht Dölitz. Hier wurde zwischen 1903 und 1959 Braunkohle aus etwa 65–70 m Tiefe gefördert. Wichtigster Abnehmer war seit 1910 das Elektrizitätswerk Süd in Lößnig, seit 1917 gehörten 90 % der Kuxe der Stadt Leipzig, für deren Energieversorgung die Dölitzer Braunkohle von erheblicher Bedeutung war.
 
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Förderturm" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Die technischen Anlagen des Förderschachts Dölitz stehen heute in der Liste der Kulturdenkmal der Stadt Leipzig" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Mit einer Belegschaft von etwa 150 Bergleuten (in den 1950er Jahren sogar ca. 300) förderte die Grube jährlich ca. 120.000 t zur Produktion von Nasspresssteinen. Der aktive Bergbau in Dölitz endete 1959, später wurden die untertägigen Strecken und Schächte verfüllt und verplombt. Die technischen Anlagen übertage sind fast vollständig erhalten und stehen seit 1993 in der Liste der Kulturdenkmale der Stadt. Trotz umfangreicher Sanierungsmaßnahmen und einer engagierten Interessengemeinschaft ist es bisher allerdings nicht gelungen, ein tragfähiges museales Konzept umzusetzen. 
+Mit einer Belegschaft von etwa 150 Bergleuten (in den 1950er Jahren sogar ca. 300) förderte die Grube jährlich ca. 120.000 t zur Produktion von Nasspresssteinen. Der aktive Bergbau in Dölitz endete 1959, später wurden die untertägigen Strecken und Schächte verfüllt und verplombt. Die technischen Anlagen übertage sind fast vollständig erhalten und stehen seit 1993 in der Liste der Kulturdenkmale der Stadt. Trotz umfangreicher Sanierungsmaßnahmen und einer engagierten Interessengemeinschaft ist es bisher allerdings nicht gelungen, ein tragfähiges museales Konzept umzusetzen.
 
-Aus der Anfangszeit der Schachtanlage 1907 stammen der Förderturm und die 600-Tonnen-Halle zum Verladen der Kohle. Andere historische Gebäude, wie die Kaue (Waschkammer), das Sozialhaus oder der Südwerkbunker entstanden in den 1920er Jahren, als der Schacht umfassend modernisiert wurde. Auf dem Betriebsgelände haben sich nach 1990 Bildungs- und Forschungseinrichtungen niedergelassen. Viele Gebäude, wie z.B. die ehemalige Bergingenieurschule und die Lehrlingswohnheime, sind jedoch ungenutzt. 
+Aus der Anfangszeit der Schachtanlage 1907 stammen der Förderturm und die 600-Tonnen-Halle zum Verladen der Kohle. Andere historische Gebäude, wie die Kaue (Waschkammer), das Sozialhaus oder der Südwerkbunker entstanden in den 1920er Jahren, als der Schacht umfassend modernisiert wurde. Auf dem Betriebsgelände haben sich nach 1990 Bildungs- und Forschungseinrichtungen niedergelassen. Viele Gebäude, wie z.B. die ehemalige Bergingenieurschule und die Lehrlingswohnheime, sind jedoch ungenutzt.
 
 {{% bild pfad="abbildung4.jpg" flow="preview" clickable="true" titel="Naherholungsgebiet Lößnig-Dölitz" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
@@ -88,13 +89,13 @@ Auf den Bruchfeldern des Bergwerks, wo sich durch Bergsenkungen ein bewegtes Rel
 
 {{% bild pfad="abbildung3.jpg" clickable="true" titel="Naherholungsgebiet Lößnig-Dölitz mit Blick auf das Völkerschlachtdenkmal" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Die Friederikenstraße (bis 1912 Probstheidaer Straße) wurde nach Friederike Oeser (1748–1829), der Freundin Goethes, benannt. Ihr Vater, Adam Friedrich Oeser (1717–1799) war als Direktor der Leipziger Kunstakademie 1771 einer der ersten gewesen, die in Dölitz ein Grundstück erworben hatten. Im westlichen Straßenabschnitt befand sich mit dem „Neudörfchen“ eine der Keimzellen von Dölitz. Von der ursprünglichen, kleinteiligen Bebauung sind allerdings kaum noch Spuren vorhanden. Die ältesten Gebäude sind zweigeschossige Mietshäuser aus der Mitte des 19. Jahrhunderts (Nr. 3 und 4), ansonsten herrschen dreigeschossige Mietshäuser aus der Gründerzeit vor. 
+Die Friederikenstraße (bis 1912 Probstheidaer Straße) wurde nach Friederike Oeser (1748–1829), der Freundin Goethes, benannt. Ihr Vater, Adam Friedrich Oeser (1717–1799) war als Direktor der Leipziger Kunstakademie 1771 einer der ersten gewesen, die in Dölitz ein Grundstück erworben hatten. Im westlichen Straßenabschnitt befand sich mit dem „Neudörfchen“ eine der Keimzellen von Dölitz. Von der ursprünglichen, kleinteiligen Bebauung sind allerdings kaum noch Spuren vorhanden. Die ältesten Gebäude sind zweigeschossige Mietshäuser aus der Mitte des 19. Jahrhunderts (Nr. 3 und 4), ansonsten herrschen dreigeschossige Mietshäuser aus der Gründerzeit vor.
 
 {{% stationstitel titel="Bornaische  Straße" nummer="2" %}}
 
 {{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Eckhaus Bornaische Straße/Friederikenstraße" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Das Eckhaus (Nr. 1) an der Bornaischen Straße, erbaut 1891, gilt als eines der ältesten städtischen Mietshäuser in Dölitz. Nördlich der Einmündung der Friederikenstraße bietet die Randbebauung der Bornaischen Straße ein sehr unterschiedliches Bild. Auf der östlichen Straßenseite lässt ein Parkplatz eines Autohauses vermuten, dass die Fläche einst bebaut war. Hier stand bis 2008 ein Gebäude aus dem 18. Jahrhundert, in dem 1875 die Gaststätte „Deutsches Haus“ eröffnete. 
+Das Eckhaus (Nr. 1) an der Bornaischen Straße, erbaut 1891, gilt als eines der ältesten städtischen Mietshäuser in Dölitz. Nördlich der Einmündung der Friederikenstraße bietet die Randbebauung der Bornaischen Straße ein sehr unterschiedliches Bild. Auf der östlichen Straßenseite lässt ein Parkplatz eines Autohauses vermuten, dass die Fläche einst bebaut war. Hier stand bis 2008 ein Gebäude aus dem 18. Jahrhundert, in dem 1875 die Gaststätte „Deutsches Haus“ eröffnete.
 
 {{% clear  %}}
 
@@ -102,7 +103,7 @@ Das Eckhaus (Nr. 1) an der Bornaischen Straße, erbaut 1891, gilt als eines der 
 
 An der Bornaischen Straße befanden sich mehrere solcher Gasthäuser, die sich im 19. Jahrhundert großer Beliebtheit als Ausflugslokale der Leipziger Bevölkerung erfreuten. Die stattlichen dreigeschossigen Häuser in der Giebnerstraße, darunter mehrere Doppelmietshäuser, deuten auf gehobenes Wohnen um 1900.
 
-Auf der gegenüberliegenden Seite der Bornaischen Straße lockert die Bebauung inmitten eines parkähnlichen Laubwaldes deutlich auf. Hier, beidseits der Gemarkungsgrenze zu Lößnig, hatte der Leipziger Kaufmann Paul Bernhard Limburger (1826–1891) 1859 Land erworben. Zwischen Straße und Mühlpleiße ließ die Familie in den darauf folgenden Jahren einen Park anlegen und mehrere Gebäude errichten. Die Limburgerschen Villen waren ein Treffpunkt des Leipziger Musiklebens. Johannes Brahms oder die Kapellmeister des Gewandhausorchesters Carl Reinecke und Arthur Nickisch zählten zu den Gästen. 
+Auf der gegenüberliegenden Seite der Bornaischen Straße lockert die Bebauung inmitten eines parkähnlichen Laubwaldes deutlich auf. Hier, beidseits der Gemarkungsgrenze zu Lößnig, hatte der Leipziger Kaufmann Paul Bernhard Limburger (1826–1891) 1859 Land erworben. Zwischen Straße und Mühlpleiße ließ die Familie in den darauf folgenden Jahren einen Park anlegen und mehrere Gebäude errichten. Die Limburgerschen Villen waren ein Treffpunkt des Leipziger Musiklebens. Johannes Brahms oder die Kapellmeister des Gewandhausorchesters Carl Reinecke und Arthur Nickisch zählten zu den Gästen.
 
 Während sich die Villen an der Mühlpleiße auf Lößniger Flur befinden, stehen an der Bornaischen Straße in Dölitz ein Chalet im Schweizerstil (um 1870 erbaut) und Wirtschaftsgebäude. Unmittelbar südlich davon befinden sich die Reste des Sommerhauses, das sich der Maler Adam Friedrich Oeser (1717–1799) im Jahr 1771 errichten ließ (Bornaische Str. 146/ 148). Nach Umbauten und Kriegszerstörungen ist von der alten Pracht allerdings nicht mehr viel zu erkennen.
 
@@ -126,7 +127,7 @@ Die Vollhardtstraße ist eine kurze Sackgasse, benannt nach einem Gerichtsschöf
 
 {{% bild pfad="abbildung10.jpg" flow="preview" clickable="true" titel="Dölitzer Wassermühle" quellenangaben="Foto: Romana Schwarz, 2015"  %}}
 
-Die Vollhardtstraße führt zum Technischen Denkmal Dölitzer Wassermühle, die 1540 erstmals urkundlich erwähnt wird. Das heutige Fachwerkgebäude an der Mühlpleiße entstand nach der Zerstörung durch die Kämpfe von 1813. Bis 1974 (mit einer Unterbrechung von 1920 bis 1950) diente die Mühle ihrem Zweck, die Mühlentechnik stammt zum Teil noch aus dem Anfang des 20. Jahrhunderts. 
+Die Vollhardtstraße führt zum Technischen Denkmal Dölitzer Wassermühle, die 1540 erstmals urkundlich erwähnt wird. Das heutige Fachwerkgebäude an der Mühlpleiße entstand nach der Zerstörung durch die Kämpfe von 1813. Bis 1974 (mit einer Unterbrechung von 1920 bis 1950) diente die Mühle ihrem Zweck, die Mühlentechnik stammt zum Teil noch aus dem Anfang des 20. Jahrhunderts.
 
 Nach 1990 begann eine Phase der Rekonstruktion, die noch nicht abgeschlossen ist. Die noch vorhandenen Gebäude wurden saniert und um historische Bauten ergänzt. So wurde 1999 eine Fachwerkscheune eines 1831/ 32 errichteten Guts aus dem abgebaggerten Breunsdorf aufgestellt. Dadurch konnte das ursprüngliche Ensemble eines Vierseithofes wieder hergestellt werden. Nach Abschluss der Bauarbeiten soll die Mühle als Museum mit funktionstüchtiger Technik zugänglich gemacht werden.
 
@@ -154,7 +155,7 @@ Die Helenenstraße mündet wieder in die Bornaische Straße, wo an der Ecke Lein
 
 {{% bild pfad="abbildung16.jpg" flow="preview" clickable="true" titel="Dritte Schule von Dölitz, Ansichtskarte um 1910" quellenangaben="IfL: PKL-Doelitz007"  %}}
 
-Unweit entfernt, in der Wincklerstraße (Nr. 3/ 5), steht das dritte Schulgebäude, das 1904/ 05 erbaut wurde, 1912/ 13 einen Erweiterungsbau erhielt und seit 1992 einer Grundschule dient. 
+Unweit entfernt, in der Wincklerstraße (Nr. 3/ 5), steht das dritte Schulgebäude, das 1904/ 05 erbaut wurde, 1912/ 13 einen Erweiterungsbau erhielt und seit 1992 einer Grundschule dient.
 
 {{% clear  %}}
 

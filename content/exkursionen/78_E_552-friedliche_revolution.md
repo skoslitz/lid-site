@@ -9,13 +9,13 @@ exkursions_url = "http://www.runde-ecke-leipzig.de/index.php?id=500&L=-1%27"
 # autor = ""
 date = "2014-05-20"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_E_552-vorschaubild.jpg"
 vorschaubild_titel = "Orte der Friedlichen Revolution, www.runde-ecke-leipzig.de/"
 exkursionsstationen = 20
 # noch ergänzen
-exkursionslaenge = "einige" 
+exkursionslaenge = "einige"
 
-exkursionsstart = "Petersstraße/Ecke Peterskirchhof" 
+exkursionsstart = "Petersstraße/Ecke Peterskirchhof"
 exkursionsende = "Augustusplatz/Ecke Goethestraße"
 
 

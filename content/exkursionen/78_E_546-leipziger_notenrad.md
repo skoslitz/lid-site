@@ -9,12 +9,12 @@ exkursions_url = "http://www.notenspur-leipzig.de/notenrad"
 # autor = ""
 date = "2014-05-20"
 exkursionstypen = ["Fahrrad"]
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_E_546-vorschaubild.jpg"
 vorschaubild_titel = "www.notenspur-leipzig.de/"
 exkursionsstationen = 20
 exkursionslaenge = 40
 
-exkursionsstart = "Bach Denkmal (Thomaskirche)" 
+exkursionsstart = "Bach Denkmal (Thomaskirche)"
 exkursionsende = "Neues Gewandhaus"
 
 

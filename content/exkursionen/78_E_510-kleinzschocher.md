@@ -6,8 +6,9 @@ title = "Kleinzschocher – Am Rande der Industrie"
 autor = "Heinz Peter Brogiato"
 date = "2015-05-06"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Antonienstraße/Ecke Altranstädter Straße" 
+vorschaubild = "78_E_510-vorschaubild.jpg"
+titelbild = "78_E_510-mapbanner.jpg"
+exkursionsstart = "Antonienstraße/Ecke Altranstädter Straße"
 exkursionsende = "Windorfer Straße/Ecke Dieskauer Straße"
 exkursionsstationen = 5
 exkursionslaenge = 1.6
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Leipzig-Kleinzschocher: Kirche, Ansichtskarte
   nr = 1
   lat = 51.319375
   lon = 12.334136
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.319133
@@ -46,7 +47,7 @@ literaturangaben = ["Vorschaubild: Leipzig-Kleinzschocher: Kirche, Ansichtskarte
   lat = 51.312950
   lon = 12.326939
 
-  
+
 +++
 
 ### Einleitung
@@ -55,7 +56,7 @@ Kleinzschocher entwickelte sich während des hochmittelalterlichen Landesausbaus
 
 Noch um 1850 waren Landwirtschaft und Handwerk die prägenden Wirtschaftsfaktoren im Dorf. Doch schon bald darauf änderte sich die wirtschaftliche und soziale Struktur durch die fortschreitende Industrialisierung vollständig. Die Einwohnerzahl stieg von 724 im Jahr 1834 über 2231 (1871) und 8656 (1890) auf 16.615 (1900). Mitte der 1920er Jahre erreichte der Stadtteil den historischen Höchststand mit ca. 30.000 Einwohnern.
 
-Für weitere Informationen zu Kleinzschocher siehe Denzer et al. 2015 ab Seite 350. 
+Für weitere Informationen zu Kleinzschocher siehe Denzer et al. 2015 ab Seite 350.
 
 {{% stationstitel titel="Antonienstraße, Ecke Altranstädter Straße" nummer="1" %}}
 
@@ -83,7 +84,7 @@ Im älteren, westlichen Abschnitt der Altranstädter Straße haben sich zwischen
 
 {{% bild pfad="abbildung4.jpg" clickable="true" titel="Beispiel für ein ehemals kleinbäuerliches Wohnhaus, dahinter moderne Mietshäuser" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 
-Über die Altranstädter Straße gelangt man zur Windorfer Straße, der alten Hauptstraße des Dorfes. Auch hier deuten Brachen oder neue Wohnhäuser aus jüngster Zeit (Nr. 23–27) auf Abbrüche älterer Bebauung. Nicht unbedingt zu erahnen ist dies bei einem Fachwerkhaus, das 2010 anstelle eines Biedermeierhauses (Nr. 42) errichtet wurde. In dem kleinen Gebäude daneben richtete sich wahrscheinlich 1674 die erste Dorfschule ein (Nr. 44). Ein um 1800 erbautes Bauernhaus, an dem noch 2014 die Aufschrift „Ausschank“ erkennen ließ, dass hier eine Gastwirtschaft mit Hausbrauerei bestand, wurde inzwischen abgerissen. 
+Über die Altranstädter Straße gelangt man zur Windorfer Straße, der alten Hauptstraße des Dorfes. Auch hier deuten Brachen oder neue Wohnhäuser aus jüngster Zeit (Nr. 23–27) auf Abbrüche älterer Bebauung. Nicht unbedingt zu erahnen ist dies bei einem Fachwerkhaus, das 2010 anstelle eines Biedermeierhauses (Nr. 42) errichtet wurde. In dem kleinen Gebäude daneben richtete sich wahrscheinlich 1674 die erste Dorfschule ein (Nr. 44). Ein um 1800 erbautes Bauernhaus, an dem noch 2014 die Aufschrift „Ausschank“ erkennen ließ, dass hier eine Gastwirtschaft mit Hausbrauerei bestand, wurde inzwischen abgerissen.
 
 {{% stationstitel titel="Taborkirche" nummer="3" %}}
 
@@ -98,7 +99,7 @@ Das stattliche Art-Déco-Gebäude Nr. 45a ist das 1926 errichtete Gemeindehaus d
 
 {{% stationstitel titel="Ehemaliges Rittergut" nummer="4" %}}
 
-Hinter der Kirche führt der Kantatenweg zum ehemaligen Rittergut, von dem allerdings nur noch das Verwalterhaus und einige Wirtschaftsgebäude erhalten sind. 
+Hinter der Kirche führt der Kantatenweg zum ehemaligen Rittergut, von dem allerdings nur noch das Verwalterhaus und einige Wirtschaftsgebäude erhalten sind.
 
 Als erste Besitzer eines Herrensitzes wurde 1350 die Familie von Hayn erwähnt. Beim Übergang des Ritterguts an den Kammerherrn Carl Heinrich von Dieskau 1742 komponierte Johann Sebastian Bach die Bauernkantate „Mir hahn en neue Oberkeet“ und führte sie im Rittergut auf. Heute erinnert eine Tafel am Eingangstor zum Gut daran.
 
@@ -108,7 +109,7 @@ Der bedeutendste Besitzer des Ritterguts war der Leipziger Verleger und Mäzen C
 
 {{% bild pfad="abbildung8.jpg" flow="around" clickable="true" titel="„Gruß aus dem Reichsverweser“, Ansichtskarte um 1913" quellenangaben="IfL: PKL-KZsch021"  %}}
 
-Südlich der Kirche befindet sich heute eine Grünanlage (Martinsplatz). Hier war der Standort des alten Dorfgasthofs „Grauer Wolf“, der 1849 in „Reichsverweser“ umbenannt wurde. In den 1950er Jahren wurde das Gasthaus abgerissen. Das Gebäude Nr. 92 wurde 1837 errichtet und diente als Dorfschule. 
+Südlich der Kirche befindet sich heute eine Grünanlage (Martinsplatz). Hier war der Standort des alten Dorfgasthofs „Grauer Wolf“, der 1849 in „Reichsverweser“ umbenannt wurde. In den 1950er Jahren wurde das Gasthaus abgerissen. Das Gebäude Nr. 92 wurde 1837 errichtet und diente als Dorfschule.
 
 {{% stationstitel titel="Villa Tauchnitz" nummer="5" %}}
 

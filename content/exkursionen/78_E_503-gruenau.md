@@ -6,8 +6,9 @@ title = "Grünau – Probleme und Chancen einer Großwohnsiedlung"
 autor = "Evelin Müller"
 date = "2015-06-23"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Eingang des PEP-Centers, Straßenbahnhaltestelle Schönauer Ring" 
+vorschaubild = "78_E_503-vorschaubild.jpg"
+titelbild = "78_E_503-mapbanner.jpg"
+exkursionsstart = "Eingang des PEP-Centers, Straßenbahnhaltestelle Schönauer Ring"
 exkursionsende = "Rodelberg in Lausen-Grünau /Straße am See"
 exkursionsstationen = 16
 exkursionslaenge = 6
@@ -22,7 +23,7 @@ bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin
   nr = 1
   lat = 51.3227798
   lon = 12.2873087
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.3188264
@@ -37,7 +38,7 @@ bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin
   nr = 4
   lat = 51.3169631
   lon = 12.2913889
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.3158920
@@ -52,7 +53,7 @@ bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin
   nr = 7
   lat = 51.3149338
   lon = 12.2905442
-  
+
 [[exkursion]]
   nr = 8
   lat = 51.3158675
@@ -67,7 +68,7 @@ bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin
   nr = 10
   lat = 51.3126028
   lon = 12.2807051
-  
+
 [[exkursion]]
   nr = 11
   lat = 51.3144839
@@ -82,7 +83,7 @@ bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin
   nr = 13
   lat = 51.3099789
   lon = 12.2649709
-  
+
 [[exkursion]]
   nr = 14
   lat = 51.3129520
@@ -92,7 +93,7 @@ bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin
   nr = 15
   lat = 51.3095465
   lon = 12.2613832
-  
+
 [[exkursion]]
   nr = 16
   lat = 51.3096971
@@ -133,7 +134,7 @@ Diese Einrichtung des Amtes für Familie, Jugend und Bildung ist ein offener Fre
 
 {{% bild pfad="abbildung6.jpg" flow="preview" clickable="true" titel="Schwimmhalle \"Grünauer Welle\"" quellenangaben="Foto: Evelin Müller, 2014"  %}}
 
-Bei den Grünauern bestand seit den ersten Befragungen ab 1979 im Rahmen der Intervallstudie Grünau der Wunsch nach einer Schwimmhalle. Da es keinen privaten Investor gab, ließ die Stadt Leipzig (Sport-und Bäderamt) die „Grünauer Welle“ errichten, die 1999 eingeweiht wurde. Entworfen hat sie das namhafte Architektenbüro Behnisch Architekten. 
+Bei den Grünauern bestand seit den ersten Befragungen ab 1979 im Rahmen der Intervallstudie Grünau der Wunsch nach einer Schwimmhalle. Da es keinen privaten Investor gab, ließ die Stadt Leipzig (Sport-und Bäderamt) die „Grünauer Welle“ errichten, die 1999 eingeweiht wurde. Entworfen hat sie das namhafte Architektenbüro Behnisch Architekten.
 
 {{% stationstitel titel="Sportplätze" nummer="7" %}}
 
@@ -170,7 +171,7 @@ Kirchenbauten wurden in der DDR nur sehr selten errichtet. Da Grünau aber ein v
 
 {{% stationstitel titel="Siedlungsgebiet" nummer="12" %}}
 
-Eingeschlossen von der Großwohnsiedlung liegen die beiden Siedlungen Kirschbergsiedlung und Siedlung Grünau. Sie entstanden in 1920er/30er Jahren vor den Toren der Stadt Leipzig. Von 2000 bis Ende 2014 erfolgte die Erschließung der Siedlungen durch die Kommunalen Wasserwerke, was als größtes innerstädtisches Projekt galt. Zuvor hatte jedes Haus seine eigene Abwasserkläranlage. 
+Eingeschlossen von der Großwohnsiedlung liegen die beiden Siedlungen Kirschbergsiedlung und Siedlung Grünau. Sie entstanden in 1920er/30er Jahren vor den Toren der Stadt Leipzig. Von 2000 bis Ende 2014 erfolgte die Erschließung der Siedlungen durch die Kommunalen Wasserwerke, was als größtes innerstädtisches Projekt galt. Zuvor hatte jedes Haus seine eigene Abwasserkläranlage.
 
 {{% bild pfad="abbildung13.jpg" flow="preview" clickable="true" titel="Kirschbergsiedlung" quellenangaben="Foto: Evelin Müller, 2015"  %}}
 {{% bild pfad="abbildung14.jpg" flow="preview" clickable="true" titel="Siedlung Grünau" quellenangaben="Foto: Evelin Müller, 2015"  %}}
@@ -179,7 +180,7 @@ Eingeschlossen von der Großwohnsiedlung liegen die beiden Siedlungen Kirschberg
 
 {{% bild pfad="abbildung23.jpg" flow="preview" clickable="true" titel="Gshelka-Klub und Jugend- und Altenhilfeverein an der Ratzelwiese" quellenangaben="Foto: Evelin Müller, 2015"  %}}
 
-Der große Platz ist umgeben vom ehemaligen Ratzelgymnasium, einem Gebäude mit Dienstleistungs- und Freizeiteinrichtungen im Erdgeschoss und einem Elfgeschosser. Dieser gehörte ehemals einer Wohnungsgenossenschaft, wurde 2003 verkauft und später weiterverkauft. Durch den gegenwärtigen Eigentümer wurden erstmals Sanierung- und Aufwertungsmaßnahmen umgesetzt. Fördermaßnahmen zur Umgestaltung der Alten Salzstraße, die 2013 abgeschlossen wurden, führten zu einer Verkehrsberuhigung. Gestaltungselemente und Bäume werten den Bereich zusätzlich auf. Im Umfeld entstanden größere ungenutzte Freiflächen durch Abrisse. 
+Der große Platz ist umgeben vom ehemaligen Ratzelgymnasium, einem Gebäude mit Dienstleistungs- und Freizeiteinrichtungen im Erdgeschoss und einem Elfgeschosser. Dieser gehörte ehemals einer Wohnungsgenossenschaft, wurde 2003 verkauft und später weiterverkauft. Durch den gegenwärtigen Eigentümer wurden erstmals Sanierung- und Aufwertungsmaßnahmen umgesetzt. Fördermaßnahmen zur Umgestaltung der Alten Salzstraße, die 2013 abgeschlossen wurden, führten zu einer Verkehrsberuhigung. Gestaltungselemente und Bäume werten den Bereich zusätzlich auf. Im Umfeld entstanden größere ungenutzte Freiflächen durch Abrisse.
 
 {{% clear %}}
 
@@ -201,11 +202,11 @@ Eigene Abrissflächen einer Genossenschaft boten die Möglichkeiten für mehrges
 
 {{% stationstitel titel="Rodelberg" nummer="16" %}}
 
-Aus dem Aushub vom Bau der S-Bahnstrecke wurde ein Berg am Rande der Stadt geformt, der natürlich auch zum Rodeln genutzt wird, aber vor allem einen phantastischen Blick über den Kulkwitzer See bis zum Kraftwerk Lippendorf bietet und einen beliebten Treffpunkt darstellt. Das Naherholungsgebiet Kulkwitzer See entstand aus einem Braunkohlentagebaurestloch. Braunkohle wurde erst im Tiefbau bis 1937, dann im Tagebau bis 1963 abgebaut. Der See hat eine Fläche von ca. 150 ha und ist 35 m tief. Der Rundweg beträgt 8 km. 
+Aus dem Aushub vom Bau der S-Bahnstrecke wurde ein Berg am Rande der Stadt geformt, der natürlich auch zum Rodeln genutzt wird, aber vor allem einen phantastischen Blick über den Kulkwitzer See bis zum Kraftwerk Lippendorf bietet und einen beliebten Treffpunkt darstellt. Das Naherholungsgebiet Kulkwitzer See entstand aus einem Braunkohlentagebaurestloch. Braunkohle wurde erst im Tiefbau bis 1937, dann im Tagebau bis 1963 abgebaut. Der See hat eine Fläche von ca. 150 ha und ist 35 m tief. Der Rundweg beträgt 8 km.
 
 {{% bild pfad="abbildung20.jpg" clickable="true" titel="Kulkwitzer See" quellenangaben="Foto: Evelin Müller, 2015"  %}}
 
-Die planmäßige Rekultivierung und Erschließung begann gleich nach dem Ende des Tagebaus. Seit 1972 steht der alte Saalekahn „Frieda“ als Gaststätte am Ufer. 1973 wurde das Naherholungsgebiet offiziell eröffnet. Die Hochkippe auf der Markranstädter Seite umfasst ca. 100 ha und ist 15–20 m hoch. 
+Die planmäßige Rekultivierung und Erschließung begann gleich nach dem Ende des Tagebaus. Seit 1972 steht der alte Saalekahn „Frieda“ als Gaststätte am Ufer. 1973 wurde das Naherholungsgebiet offiziell eröffnet. Die Hochkippe auf der Markranstädter Seite umfasst ca. 100 ha und ist 15–20 m hoch.
 
 Das 1911 in Betrieb genommene Kraftwerk Kulkwitz versorgte ursprünglich – mit Braunkohle gespeist – das gesamte Gebiet Grünau. 1994 wurde es auf Erdgas umgestellt. Heute produziert das Spitzenlast-Heizwerk Kulkwitz auf Grundlage von Gas nur noch Fernwärme.
 

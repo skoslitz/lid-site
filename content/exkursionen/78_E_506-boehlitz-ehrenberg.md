@@ -6,8 +6,9 @@ title = "Böhlitz-Ehrenberg – Kleinstädtisches Gepräge"
 autor = "Heinz Peter Brogiato"
 date = "2015-04-30"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Leipziger Straße/Ecke Auenstraße" 
+vorschaubild = "78_E_506-vorschaubild.jpg"
+titelbild = "78_E_506-mapbanner.jpg"
+exkursionsstart = "Leipziger Straße/Ecke Auenstraße"
 exkursionsende = "Bielastraße/Ecke Heinrich-Heine-Straße"
 exkursionsstationen = 7
 exkursionslaenge = 2
@@ -24,7 +25,7 @@ literaturangaben = ["Vorschaubild: Auenstraße und Leipziger Straße, Ansichtska
   nr = 1
   lat = 51.35958
   lon = 12.297614
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.360628
@@ -49,13 +50,13 @@ literaturangaben = ["Vorschaubild: Auenstraße und Leipziger Straße, Ansichtska
   nr = 6
   lat = 51.358029
   lon = 12.290341
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.356737
   lon = 12.290744
 
-   
+
 +++
 
 ### Einleitung
@@ -72,7 +73,7 @@ Für weitere Informationen zu Böhlitz-Ehrenberg siehe bei Denzer et al. 2015 ab
 
 Am östlichen Ende der Auenstraße (Nr. 14) befindet sich das Wohnhaus der Familie Schlobach, deren Name mit der Entwicklung Böhlitz-Ehrenbergs untrennbar verbunden ist. 1846 kaufte Carl Wilhelm Franz Schlobach (1824–1907), Sohn des Besitzers der Thomasmühle, von seinem Schwager die Böhlitzer Mühle. Sie nutzte die Wasserkraft der Luppe und ist bereits seit dem 13. Jahrhundert belegt. Von der Mühle gingen erste Ansätze einer Industrialisierung in Böhlitz-Ehrenberg aus. Kurz nach dem Erwerb begann Franz Schlobach ein Furniersägewerk einzurichten. Bereits wenige Jahre später galt das Schlobachsche Unternehmen als eines der größten seiner Art in Deutschland.
 
-Das Haus  der Familie wurde 1849 von Franz Schlobach erbaut, später jedoch mehrfach verändert. 1896 kam der Turm dazu, 1921/ 22 erfolgte ein villenartiger Umbau durch Walter Schlobach, der auch 1936 das Tor des nach 1920 abgebrochenen Johannishospitals in die Gartenmauer einbauen ließ. Zwei Informationstafeln, die der Förderverein Ortsgeschichte Böhlitz-Ehrenberg anbringen ließ, erinnern an die Geschichte der Villa Schlobach. 
+Das Haus  der Familie wurde 1849 von Franz Schlobach erbaut, später jedoch mehrfach verändert. 1896 kam der Turm dazu, 1921/ 22 erfolgte ein villenartiger Umbau durch Walter Schlobach, der auch 1936 das Tor des nach 1920 abgebrochenen Johannishospitals in die Gartenmauer einbauen ließ. Zwei Informationstafeln, die der Förderverein Ortsgeschichte Böhlitz-Ehrenberg anbringen ließ, erinnern an die Geschichte der Villa Schlobach.
 
 Die Auenstraße, an der die Siedlungsanfänge der beiden Teilorte zu suchen sind, macht noch einen teils dörflichen Eindruck, auch wenn kaum noch alte Bausubstanz vorhanden ist. Das älteste Gebäude ist das ehemalige Ehrenberger Forsthaus (Nr. 29) aus dem Jahr 1787, das lange unsaniert zum Verkauf stand, zwischenzeitlich jedoch saniert werden konnte.
 
@@ -83,9 +84,9 @@ Die Auenstraße, an der die Siedlungsanfänge der beiden Teilorte zu suchen sind
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Vergnügungs-Etablissement „Zur grünen Aue“, Ansichtskarte um 1913 | *weitere Bilder verfügbar*" quellenangaben="IfL: PKL-Boehl012"  %}}
 {{% bild pfad="abbildung10.jpg" clickable="true" hidden="true" titel="Gasthof Grüne Aue" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 
-Wie üblich, befanden sich früher an der Dorfstraße mehrere Gasthöfe. In Böhlitz-Ehrenberg ist hiervon nicht mehr viel zu sehen. Am historischen Standort (Nr. 33), in einem Neubau aus den 1990er Jahren, lädt die „Grüne Aue“ nach wie vor Gäste ein. Im ehemaligen „Waldmeister“ (Nr. 54) hat sich ein Möbelhaus eingerichtet, das den Traditionsnamen fortführt. 
+Wie üblich, befanden sich früher an der Dorfstraße mehrere Gasthöfe. In Böhlitz-Ehrenberg ist hiervon nicht mehr viel zu sehen. Am historischen Standort (Nr. 33), in einem Neubau aus den 1990er Jahren, lädt die „Grüne Aue“ nach wie vor Gäste ein. Im ehemaligen „Waldmeister“ (Nr. 54) hat sich ein Möbelhaus eingerichtet, das den Traditionsnamen fortführt.
 
-Im heute unscheinbaren Haus Nr. 53, inmitten des alten Böhlitzer Dorfkerns, befand sich einst die „Erbschenke“, die erstmals 1625 erwähnt wurde. Der Besitzer der Schänke besaß nicht nur die Braugerechtigkeit, sondern auch die niedere Gerichtsbarkeit. Zu den Besitzern der Gaststätte, die nach 1900 den Namen „Zum Nordpol“ führte, gehörte der Vater [Karl Heines]({{< relref "exkursionen/78_E_513-plagwitz.md" >}}), Johann Carl Friedrich Heine (1771–1843), der auch das Rittergut Neuscherbitz besaß. 
+Im heute unscheinbaren Haus Nr. 53, inmitten des alten Böhlitzer Dorfkerns, befand sich einst die „Erbschenke“, die erstmals 1625 erwähnt wurde. Der Besitzer der Schänke besaß nicht nur die Braugerechtigkeit, sondern auch die niedere Gerichtsbarkeit. Zu den Besitzern der Gaststätte, die nach 1900 den Namen „Zum Nordpol“ führte, gehörte der Vater [Karl Heines]({{< relref "exkursionen/78_E_513-plagwitz.md" >}}), Johann Carl Friedrich Heine (1771–1843), der auch das Rittergut Neuscherbitz besaß.
 
 {{% stationstitel titel="Haus \"Capelle\"" nummer="2" %}}
 
@@ -97,7 +98,7 @@ Gegenüber schließt sich ein Neubaugebiet an, das auf dem Betriebsgelände des 
 
 {{% bild pfad="abbildung12.jpg" clickable="true" titel="Straßennamen erinnern an ehemalige wirtschaftliche Nutzung" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 
-Durch die Untere Mühlenstraße gelangt man zur Leipziger Straße, die sich durch ihre städtischen Mietshäuser deutlich von der Auenstraße abhebt. Allerdings ist die Bebauung längst nicht so geschlossen und einheitlich wie z.B. in Leutzsch, Lindenau oder Plagwitz. 
+Durch die Untere Mühlenstraße gelangt man zur Leipziger Straße, die sich durch ihre städtischen Mietshäuser deutlich von der Auenstraße abhebt. Allerdings ist die Bebauung längst nicht so geschlossen und einheitlich wie z.B. in Leutzsch, Lindenau oder Plagwitz.
 
 {{% bild pfad="abbildung4.jpg" flow="preview" clickable="true" titel="Leipziger Straße, Ansichtskarte um 1914" quellenangaben="IfL: PKL-Boehl011"  %}}
 {{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Gasthof zur Großen Eiche, Ansichtskarte um 1907" quellenangaben="IfL: PKL-Boehl002"  %}}
@@ -112,7 +113,7 @@ Die Leipziger Straße ist die Verlängerung der Georg-Schwarz-Straße und eine w
 
 Der Rundgang setzt sich stadteinwärts fort. In der Südstraße Nr. 10 hat sich der Förderverein „Ortsgeschichte Böhlitz-Ehrenberg“ niedergelassen und eine Heimatstube eingerichtet. Das Gebäude wurde 1877 als erstes Schulhaus von Böhlitz-Ehrenberg eröffnet, zuvor mussten die Kinder der damals etwa 500 Einwohner zählenden Gemeinde nach Gundorf ca. 1,5 km zur Schule gehen.
 
-Die rasch wachsende Schülerzahl (1877: 76, 1900: 429) machte Anbauten notwendig, bis sich die Gemeinde zu einem Neubau in der Pestalozzistraße entschied. Die alte Schule diente fortan ab 1903 als Gemeindeamt. 
+Die rasch wachsende Schülerzahl (1877: 76, 1900: 429) machte Anbauten notwendig, bis sich die Gemeinde zu einem Neubau in der Pestalozzistraße entschied. Die alte Schule diente fortan ab 1903 als Gemeindeamt.
 
 {{% bild pfad="abbildung7.jpg" flow="around" clickable="true" titel="Obstweinschenke \"Schloss Ehrenberg\", Ansichtskarte um 1905" quellenangaben="IfL: PKL-Boehl005"  %}}
 {{% bild pfad="abbildung15.jpg" flow="preview" clickable="true" titel="Ehemalige Obstweinschänke \"Schloss Ehrenberg\"" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
@@ -123,7 +124,7 @@ Die nördliche Seite der Leipziger Straße an der Kreuzung zur Entsbergerstraße
 
 {{% stationstitel titel="Evangelisches Gemeindehaus" nummer="4" %}}
 
-Einige Meter weiter stadteinwärts befindet sich eine kleine Parkanlage. Der Johannes-Weyrauch-Platz hieß bis 2001 Platz des Friedens. Sein ursprünglicher Name Kirchplatz weist aber am ehesten auf die ehemalige Funktion hin. Obwohl die Gemeinde Böhlitz-Ehrenberg 1900 bereits circa 2000 Einwohner hatte, galt weiterhin die seit der Reformation bestehende Pfarrzugehörigkeit zu Gundorf. Der Ort verfügte über keine eigene Kirche. 
+Einige Meter weiter stadteinwärts befindet sich eine kleine Parkanlage. Der Johannes-Weyrauch-Platz hieß bis 2001 Platz des Friedens. Sein ursprünglicher Name Kirchplatz weist aber am ehesten auf die ehemalige Funktion hin. Obwohl die Gemeinde Böhlitz-Ehrenberg 1900 bereits circa 2000 Einwohner hatte, galt weiterhin die seit der Reformation bestehende Pfarrzugehörigkeit zu Gundorf. Der Ort verfügte über keine eigene Kirche.
 
 {{% bild pfad="abbildung16.jpg" flow="preview" clickable="true" titel="Gemeindehaus mit Glockenturm" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 
@@ -138,14 +139,14 @@ Der Johannes-Weyrauch-Platz stößt auf die Pestalozzistraße, die an dieser Ste
 {{% bild pfad="abbildung20.jpg" flow="preview" clickable="true" hidden="true" titel="gründerzeitliche Wohn- und Mietshäuser: Entsbergerstraße 24" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 {{% bild pfad="abbildung21.jpg" flow="preview" clickable="true" hidden="true" titel="Kirche St. Hedwig" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 
-Die Pestalozzistraße, wie auch die Querstraßen (Pflaume-, Süd-, Biela-, Untere Mühlenstraße), sind geprägt von gründerzeitlichen Wohn- und Mietshäusern aus der Zeit zwischen ca. 1900 und 1914, aber in der für Böhlitz-Ehrenberg typischen aufgelockerten Bebauung. Am Beginn der Stefan-Zweig-Straße, die erst König-Albert- und später Schillerstraße hieß, stehen zwei Villen. Im Eckhaus (Nr. 1) wohnte der Schuldirektor und Ortschronist Clemens Bartsch, in der ca. 1902 erbauten Landhausvilla Nr. 3 befindet sich heute ein Ärztehaus. Ähnlich der Obstweinschänke an der Leipziger Straße nannte sich die ehemalige Gaststätte im Eckhaus an der Pflaumestraße (Pestalozzistr. 21) „Schloss“. Doch auch hier lässt sich die einstige Pracht des Schlosses Wettin kaum noch erahnen. 
+Die Pestalozzistraße, wie auch die Querstraßen (Pflaume-, Süd-, Biela-, Untere Mühlenstraße), sind geprägt von gründerzeitlichen Wohn- und Mietshäusern aus der Zeit zwischen ca. 1900 und 1914, aber in der für Böhlitz-Ehrenberg typischen aufgelockerten Bebauung. Am Beginn der Stefan-Zweig-Straße, die erst König-Albert- und später Schillerstraße hieß, stehen zwei Villen. Im Eckhaus (Nr. 1) wohnte der Schuldirektor und Ortschronist Clemens Bartsch, in der ca. 1902 erbauten Landhausvilla Nr. 3 befindet sich heute ein Ärztehaus. Ähnlich der Obstweinschänke an der Leipziger Straße nannte sich die ehemalige Gaststätte im Eckhaus an der Pflaumestraße (Pestalozzistr. 21) „Schloss“. Doch auch hier lässt sich die einstige Pracht des Schlosses Wettin kaum noch erahnen.
 
-In der Pestalozzistraße (Nr. 17) erhielt die katholische Minderheit 1953/ 54 eine kleine, der heiligen Hedwig geweihte Kirche. 
-Auf die St.-Hedwigs-Kirche zu verläuft schnurgerade die Entsbergerstraße. An ihr stehen Mietsvillen unterschiedlichster Architekturstile. Neben einer Villa im Landhausstil (Nr. 22) steht ein 30 Jahre jüngeres Mietshaus (Nr. 24) mit expressionistischen Zügen. Hinter beiden Häusern befinden sich noch Gebäude der ehemaligen Elektrotechnischen Fabrik Julius Kalb & Co. 
+In der Pestalozzistraße (Nr. 17) erhielt die katholische Minderheit 1953/ 54 eine kleine, der heiligen Hedwig geweihte Kirche.
+Auf die St.-Hedwigs-Kirche zu verläuft schnurgerade die Entsbergerstraße. An ihr stehen Mietsvillen unterschiedlichster Architekturstile. Neben einer Villa im Landhausstil (Nr. 22) steht ein 30 Jahre jüngeres Mietshaus (Nr. 24) mit expressionistischen Zügen. Hinter beiden Häusern befinden sich noch Gebäude der ehemaligen Elektrotechnischen Fabrik Julius Kalb & Co.
 
 {{% stationstitel titel="Heinrich-Pestalozzischule" nummer="6" %}}
 
-Das größte Gebäude an der Pestalozzistraße ist die Pestalozzischule (Nr. 39/ 41). Der Bau erfolgte 1903, nachdem die alte Schule in der Südstraße keine Erweiterungsmöglichkeiten mehr bot. Als die Schülerzahlen weiter anstiegen (1903: 494, 1914: 1150), wurde zwischen 1908 und 1914 im Westen ein Flügel angebaut, sodass der bestehende Winkelbau entstand. Die Heinrich-Pestalozzi-Schule beherbergt heute eine Oberschule. 
+Das größte Gebäude an der Pestalozzistraße ist die Pestalozzischule (Nr. 39/ 41). Der Bau erfolgte 1903, nachdem die alte Schule in der Südstraße keine Erweiterungsmöglichkeiten mehr bot. Als die Schülerzahlen weiter anstiegen (1903: 494, 1914: 1150), wurde zwischen 1908 und 1914 im Westen ein Flügel angebaut, sodass der bestehende Winkelbau entstand. Die Heinrich-Pestalozzi-Schule beherbergt heute eine Oberschule.
 
 {{% bild pfad="abbildung22.jpg" clickable="true" titel="Heinrich-Pestalozzischule" quellenangaben="Foto: Kai Zaschel, 2015"  %}}
 
@@ -157,6 +158,6 @@ Kurz vor der Schule quert die Bielastraße die Pestalozzistraße. An ihr steht d
 
 {{% bild pfad="boehlitz-ehrenberg-grafik.jpg" flow="preview" clickable="true"  %}}
 
-Südlich der Biela- und entang der Heinrich-Heine-Straße schließt sich ein Gewerbegebiet an, das auf den ehemaligen Industriestandort Böhlitz-Ehrenberg verweist. Der Ort war bis 1990 bekannt für seine Maschinenbau-Betriebe. Daneben zeigt sich aber auch eine Vielfalt an weiteren Wirtschaftszweigen, die in Böhlitz-Ehrenberg vertreten waren.  
+Südlich der Biela- und entang der Heinrich-Heine-Straße schließt sich ein Gewerbegebiet an, das auf den ehemaligen Industriestandort Böhlitz-Ehrenberg verweist. Der Ort war bis 1990 bekannt für seine Maschinenbau-Betriebe. Daneben zeigt sich aber auch eine Vielfalt an weiteren Wirtschaftszweigen, die in Böhlitz-Ehrenberg vertreten waren.
 
 {{% download pfad="boehlitz-ehrenberg-grafik-tabelle.pdf" lizenz="alle Rechte beim IfL" titel="Tabelle und Grafik der Industriebranchen in Böhlitz-Ehrenberg um 1988" stand="27.05.2015" format="pdf" %}}

@@ -97,16 +97,15 @@
 		</div>
 
 		{{ range .Data.Pages }}
-			{{ $type := .Type }}  
-			{{ $id := .Params.id }}   
-			{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
-			
+			{{ $type := .Type }}
+      {{ $bandnummer := substr .Params.id 0 2 }}
+
    			{{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion true) }}
 			<div class="col-mre simple-border lower-shadow">
 			<a href="{{ .Params.exkursions_url }}" target="_blank">
 				{{ if isset .Params "vorschaubild" }}
 					<div class="preview-container">
-						<img class="vorschaubild" src="/img/{{ substr $id 0 2 }}{{ $path }}{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
+						<img class="vorschaubild" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
 						<div class="attribution"> {{ .Params.vorschaubild_titel }} </div>
 					</div>
 				{{ end }}

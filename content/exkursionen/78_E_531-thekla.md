@@ -6,8 +6,9 @@ title = "Thekla – Parthedörfer und neue Siedlungen"
 autor = "Luise Grundmann"
 date = "2015-06-19"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Tauchaer Straße, Endhaltestelle der Straßenbahnlinie 9" 
+vorschaubild = "78_E_531-vorschaubild.jpg"
+titelbild = "78_E_531-mapbanner.jpg"
+exkursionsstart = "Tauchaer Straße, Endhaltestelle der Straßenbahnlinie 9"
 exkursionsende = "Naherholungsgebiet \"Naturbad Nordost\""
 exkursionsstationen = 11
 exkursionslaenge = 3.3
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Kirche Hohen Thekla. Foto: Andreas Höhn, 201
   nr = 1
   lat = 51.379633
   lon = 12.425392
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.381129
@@ -35,42 +36,42 @@ literaturangaben = ["Vorschaubild: Kirche Hohen Thekla. Foto: Andreas Höhn, 201
   nr = 3
   lat = 51.379900
   lon = 12.431942
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.381460
   lon = 12.435724
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.382214
   lon = 12.434876
-  
+
 [[exkursion]]
   nr = 6
   lat = 51.382947
   lon = 12.434147
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.383335
   lon = 12.436990
-  
+
 [[exkursion]]
   nr = 8
   lat = 51.382701
   lon = 12.440723
-  
+
 [[exkursion]]
   nr = 9
   lat = 51.381082
   lon = 12.446265
-  
+
 [[exkursion]]
   nr = 10
   lat = 51.378969
   lon = 12.436641
-  
+
 [[exkursion]]
   nr = 11
   lat = 51.377111
@@ -82,7 +83,7 @@ literaturangaben = ["Vorschaubild: Kirche Hohen Thekla. Foto: Andreas Höhn, 201
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Leipzig-Thekla: Hauptstraße mit Blick auf die Kirche, Ansichtskarte um 1913" quellenangaben="IfL: PKL-Thekla013" %}}
 
-Thekla bestand als selbstständige Landgemeinde mit damals 1391 Einwohnern nur 41 Jahre vom Zusammenschluss der drei benachbarten Parthedörfer Cleuden, Neutzsch und Plösen am 9. März 1889 bis zur Eingemeindung nach Leipzig 1930. Den Namen gab sich die neue Gemeinde nach der südlich der Dörfer gelegenen Kirche Hohen Thekla, zu deren Kirchspiel alle drei Orte gehörten. Die auf einer Moränenkuppe gelegene Kirche war in Notzeiten der Zufluchtsort für die Bewohner des Dorfes Teichla, das im 15. Jahrhundert wüst fiel. 
+Thekla bestand als selbstständige Landgemeinde mit damals 1391 Einwohnern nur 41 Jahre vom Zusammenschluss der drei benachbarten Parthedörfer Cleuden, Neutzsch und Plösen am 9. März 1889 bis zur Eingemeindung nach Leipzig 1930. Den Namen gab sich die neue Gemeinde nach der südlich der Dörfer gelegenen Kirche Hohen Thekla, zu deren Kirchspiel alle drei Orte gehörten. Die auf einer Moränenkuppe gelegene Kirche war in Notzeiten der Zufluchtsort für die Bewohner des Dorfes Teichla, das im 15. Jahrhundert wüst fiel.
 
 {{% clear  %}}
 

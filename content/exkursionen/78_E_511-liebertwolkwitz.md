@@ -6,8 +6,9 @@ title = "Liebertwolkwitz – Gewerbliches Kleinzentrum im Südosten"
 autor = "Heinz Peter Brogiato"
 date = "2015-06-10"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Am Angerteich" 
+vorschaubild = "78_E_511-vorschaubild.jpg"
+titelbild = "78_E_511-mapbanner.jpg"
+exkursionsstart = "Am Angerteich"
 exkursionsende = "Muldentalstraße/Ecke Bornaer Straße"
 exkursionsstationen = 5
 exkursionslaenge = 2
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Gesamtansicht Liebertwolkwitz vom Wasserturm 
   nr = 1
   lat = 51.284068
   lon = 12.460765
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.282319
@@ -35,16 +36,16 @@ literaturangaben = ["Vorschaubild: Gesamtansicht Liebertwolkwitz vom Wasserturm 
   nr = 3
   lat = 51.282712
   lon = 12.463957
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.283108
   lon = 12.469353
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.282215
-  lon = 12.461156  
+  lon = 12.461156
 
 
 +++
@@ -53,7 +54,7 @@ literaturangaben = ["Vorschaubild: Gesamtansicht Liebertwolkwitz vom Wasserturm 
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Liebertwolkwitzer Bauwerke als Bild im Rathaus Liebertwolkwitz" quellenangaben="Foto: Jana Moser, 2015"  %}}
 
-Die ca. 10 km südöstlich des Leipziger Stadtzentrums gelegene Siedlung Liebertwolkwitz entwickelte sich früh zu einem Verkehrsknotenpunkt mit gewerblichem Charakter. Dadurch unterschied sie sich von den bis weit ins 19. Jahrhundert rein agrarisch geprägten Orten des Umlandes. Mit seinen Handwerksbetrieben und den zweimal im Jahr stattfindenden Märkten besaß Liebertwolkwitz einen kleinstädtischen Charakter und nahm zentrale Versorgungsfunktionen für den ländlichen Nahraum ein. 
+Die ca. 10 km südöstlich des Leipziger Stadtzentrums gelegene Siedlung Liebertwolkwitz entwickelte sich früh zu einem Verkehrsknotenpunkt mit gewerblichem Charakter. Dadurch unterschied sie sich von den bis weit ins 19. Jahrhundert rein agrarisch geprägten Orten des Umlandes. Mit seinen Handwerksbetrieben und den zweimal im Jahr stattfindenden Märkten besaß Liebertwolkwitz einen kleinstädtischen Charakter und nahm zentrale Versorgungsfunktionen für den ländlichen Nahraum ein.
 
 Während der Völkerschlacht 1813 war Liebertwolkwitz einer der Hauptkampfplätze. Der Ort wurde dabei nahezu vollständig zerstört, so dass man heute kaum noch ältere Bausubstanz vorfindet. Mehrere Denkmäler, Apelsteine und auch Straßennamen erinnern heute an die Ereignisse von 1813.
 
@@ -68,7 +69,7 @@ Den besten Panoramablick über Liebertwolkwitz hätte man sicher vom 55 m hohen 
 
 Nur wenige Meter entfernt und zumindest leicht erhöht steht die Geschwister-Scholl-Schule, die durch ihre Lage am Angerteich zu den schönsten Schulstandorten in Leipzig zählt. Der gelbe Ziegelbau wurde 1889 von 532 Volksschülern bezogen, der Anbau des Ostflügels erfolgte 1901/ 1902 und diente zunächst als Mädchenschule, wie man der historischen Beschriftung entnehmen kann. Heute befindet sich im Gebäude eine Oberschule. Die neue Sporthalle von 1998 ist bereits die dritte Turnhalle der Schule; als weiteres Gebäude befindet sich eine Grundschule, 1979 als Plattenbau errichtet, auf der Anhöhe.
 
-Die Vorgängerschule steht am Rand des Parks an der Jahnstraße (Nr. 1). Das Gebäude aus dem Jahr 1863 steht leer und macht einen verwahrlosten Eindruck. 
+Die Vorgängerschule steht am Rand des Parks an der Jahnstraße (Nr. 1). Das Gebäude aus dem Jahr 1863 steht leer und macht einen verwahrlosten Eindruck.
 
 {{% bild pfad="abbildung4.jpg" flow="preview" clickable="true" titel="Liebertwolkwitz: Park-Anlagen mit Schule, Ansichtskarte um 1911" quellenangaben="IfL: PKL-Liebert012"  %}}
 {{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Geschwister-Scholl-Schule" quellenangaben="Foto: Jana Moser, 2015"  %}}
@@ -87,12 +88,12 @@ Die Kirchstraße führt zum Liebertwolkwitzer Markt, neben dem Roßmarkt einer d
 
 {{% bild pfad="abbildung9.jpg" clickable="true" titel="Liebertwolkwitz: Marktplatz mit Rathaus und Teichmann-Denkmal, Ansichtskarte um 1922" quellenangaben="IfL: PKL-Liebert013"  %}}
 
-Der Markt wird gesäumt von mehreren ehemaligen Bauerngütern, deren Gebäude zum Teil aus dem ausgehenden 19. Jahrhundert stammen. Eine Baulücke existiert, wo bis zu seinem Abriss 2006 das Wohnhaus des bedeutendsten Hofs am Platz stand: der erstmals 1551 als Vorwerk des Stiftes Merseburg erwähnte „Herrenhof“ (Nr. 11). Seit 2011 kümmert sich ein Verein („Hofgenossenschaft Stiftsgut“) um die Erhaltung und Nutzung des Grundstücks und der Nebengebäude. 
+Der Markt wird gesäumt von mehreren ehemaligen Bauerngütern, deren Gebäude zum Teil aus dem ausgehenden 19. Jahrhundert stammen. Eine Baulücke existiert, wo bis zu seinem Abriss 2006 das Wohnhaus des bedeutendsten Hofs am Platz stand: der erstmals 1551 als Vorwerk des Stiftes Merseburg erwähnte „Herrenhof“ (Nr. 11). Seit 2011 kümmert sich ein Verein („Hofgenossenschaft Stiftsgut“) um die Erhaltung und Nutzung des Grundstücks und der Nebengebäude.
 
 {{% bild pfad="abbildung10.jpg" flow="preview" clickable="true" titel="Ehemaliges Bauerngut gegenüber des Liebertwolkwitzer Marktes" quellenangaben="Foto: Jana Moser, 2015"  %}}
 {{% bild pfad="abbildung11.jpg" flow="preview" clickable="true" titel="Nutzung des Bauerngutes durch Märkte" quellenangaben="Foto: Jana Moser, 2015"  %}}
 
-Auffallend am Liebertwolkwitzer Markt ist zudem eine Jugendstilvilla, die sich um 1901 der vormalige Besitzer des Herrenhofs errichten ließ. 
+Auffallend am Liebertwolkwitzer Markt ist zudem eine Jugendstilvilla, die sich um 1901 der vormalige Besitzer des Herrenhofs errichten ließ.
 
 {{% clear  %}}
 
@@ -104,7 +105,7 @@ Vom Markt aus führt die Teichmannstraße in Richtung Südosten. Die Bebauung mi
 
 {{% bild pfad="abbildung13.jpg" flow="preview" clickable="true" titel="Gruss aus Liebertwolkwitz: Bahnhofstrasse, Stationsgebäude, Ansichtskarte um 1905" quellenangaben="IfL: PKL-Liebert026"  %}}
 
-Dahinter biegt die kurze Bahnhofsallee ab, deren Bebauung mit Mietshäusern und Villen aus den 1890er Jahren stammt. Sie führt schnurgerade auf den 1887 eröffneten Bahnhof zu. Das Gebäude und die Bahnsteige stammen noch aus der Anfangszeit. 
+Dahinter biegt die kurze Bahnhofsallee ab, deren Bebauung mit Mietshäusern und Villen aus den 1890er Jahren stammt. Sie führt schnurgerade auf den 1887 eröffneten Bahnhof zu. Das Gebäude und die Bahnsteige stammen noch aus der Anfangszeit.
 
 {{% clear  %}}
 

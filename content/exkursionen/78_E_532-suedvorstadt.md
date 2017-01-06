@@ -6,8 +6,9 @@ title = "Südvorstadt – Rund um die \"Karli\""
 autor = "Luise Grundmann"
 date = "2015-06-01"
 exkursionstypen = ["Fahrrad", "Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Südplatz (Karl-Liebknecht Straße / Ecke Körnerstraße)" 
+vorschaubild = "78_E_532-vorschaubild.jpg"
+titelbild = "78_E_532-mapbanner.jpg"
+exkursionsstart = "Südplatz (Karl-Liebknecht Straße / Ecke Körnerstraße)"
 exkursionsende = "Kurt-Eisner-Straße / Ecke August-Bebel-Straße"
 exkursionsstationen = 9
 exkursionslaenge = 6
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: MDR-Sendezentrale auf dem ehemaligen Schlacht
   nr = 1
   lat = 51.324343
   lon = 12.373598
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.323759
@@ -35,37 +36,37 @@ literaturangaben = ["Vorschaubild: MDR-Sendezentrale auf dem ehemaligen Schlacht
   nr = 3
   lat = 51.320648
   lon = 12.378501
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.318727
   lon = 12.382873
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.315629
-  lon = 12.382916  
+  lon = 12.382916
 
 [[exkursion]]
   nr = 6
   lat = 51.317551
   lon = 12.380905
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.314741
   lon = 12.373234
-  
+
 [[exkursion]]
   nr = 8
   lat = 51.317206
   lon = 12.36219
-  
+
 [[exkursion]]
   nr = 9
   lat = 51.320923
   lon = 12.368888
-  
+
 +++
 
 ### Einleitung
@@ -103,20 +104,20 @@ Nach Kriegsschäden wieder aufgebaut wurde die Vierflügelanlage des nach Pläne
 
 {{% clear %}}
 
-Die im Krieg stark zerstörte Gegend um die anschließende Bernhard-Göhring- und Arthur-Hoffmann-Straße wurde in den 1960er Jahren mit Wohnblöcken neu bebaut. 
+Die im Krieg stark zerstörte Gegend um die anschließende Bernhard-Göhring- und Arthur-Hoffmann-Straße wurde in den 1960er Jahren mit Wohnblöcken neu bebaut.
 
 {{% stationstitel titel="Kurt-Eisner-Straße" nummer="3" %}}
 
 {{% bild pfad="abbildung5.jpg" flow="around" clickable="true" titel="Kronprinzenstraße, Ansichtskarte um 1919" quellenangaben="IfL: PKL-S.V.073" %}}
 
-In der Ost-West gerichteten Kurt-Eisner-Straße, von 1876 bis 1945 Kronprinzstraße, blieben dagegen architektonisch attraktive Wohnhäuser der Erstbebauung erhalten. Dazu gehören die gründerzeitlichen Eckgebäude zur Arthur-Hoffmann-Straße Nr. 88 und Nr. 95 sowie mehrere Wohnhäuser mit Jugendstilelementen. 
+In der Ost-West gerichteten Kurt-Eisner-Straße, von 1876 bis 1945 Kronprinzstraße, blieben dagegen architektonisch attraktive Wohnhäuser der Erstbebauung erhalten. Dazu gehören die gründerzeitlichen Eckgebäude zur Arthur-Hoffmann-Straße Nr. 88 und Nr. 95 sowie mehrere Wohnhäuser mit Jugendstilelementen.
 
 {{% clear %}}
 
 {{% bild pfad="abbildung13.jpg" flow="preview" clickable="true" titel="Eckgebäude Kurt-Eisner/Arthur-Hoffmann-Straße" quellenangaben="Foto: Tom Hoyer, 2015" %}}
 {{% bild pfad="abbildung14.jpg" flow="preview" clickable="true" titel="Eckgebäude Kurt-Eisner/Arthur-Hoffmann-Straße" quellenangaben="Foto: Tom Hoyer, 2015" %}}
 
-Die stark befahrene Straße verbindet über die neue Semmelweisbrücke (S-Bahn) die Südvorstadt mit den östlichen Stadtteilen. 
+Die stark befahrene Straße verbindet über die neue Semmelweisbrücke (S-Bahn) die Südvorstadt mit den östlichen Stadtteilen.
 
 {{% stationstitel titel="Media-City Leipzig" nummer="4" %}}
 
@@ -138,7 +139,7 @@ Auf dem südlichen Teil des ehemaligen Schlachthofes entstand zwischen 1997 und 
 
 {{% stationstitel titel="Wohnanlagen Stein- und Fichtestraße" nummer="6" %}}
 
-Das Wohngebiet westlich der Altenburger Straße besteht bis zur Arthur-Hoffmann-Straße aus mehreren kommunalen und genossenschaftlichen Anlagen. Nördlich der Steinstraße entstanden 1912/ 13 fünfzehn viergeschossige Wohnhäuser durch den „Bauverein zur Beschaffung Preiswerter Wohnungen“. Südlich davon bebaute die Stadt 1924/ 25 nach Plänen von Carl James Bühring zwei Wohnkarrees zwischen Stein- und Fichtestraße, die einer mittelalterlichen Stadt nachempfunden sind. 
+Das Wohngebiet westlich der Altenburger Straße besteht bis zur Arthur-Hoffmann-Straße aus mehreren kommunalen und genossenschaftlichen Anlagen. Nördlich der Steinstraße entstanden 1912/ 13 fünfzehn viergeschossige Wohnhäuser durch den „Bauverein zur Beschaffung Preiswerter Wohnungen“. Südlich davon bebaute die Stadt 1924/ 25 nach Plänen von Carl James Bühring zwei Wohnkarrees zwischen Stein- und Fichtestraße, die einer mittelalterlichen Stadt nachempfunden sind.
 
 {{% bild pfad="abbildung16.jpg" clickable="true" titel="Einer mittelalterlichen Stadt nachempfundene Wohnbebauung" quellenangaben="Foto: Tom Hoyer, 2015" %}}
 

@@ -6,8 +6,9 @@ title = "Plagwitz – Das Erbe Karl Heines"
 autor = "Heinz Peter Brogiato"
 date = "2015-06-01"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Käthe-Kollwitz-Straße/Ecke Klingerweg" 
+vorschaubild = "78_E_513-vorschaubild.jpg"
+titelbild = "78_E_513-mapbanner.jpg"
+exkursionsstart = "Käthe-Kollwitz-Straße/Ecke Klingerweg"
 exkursionsende = "Nonnenstraße/Ecke Karl-Heine-Straße "
 exkursionsstationen = 12
 exkursionslaenge = 3
@@ -25,7 +26,7 @@ literaturangaben = ["Vorschaubild: Buntgarnwerke, Blick von der Weißen Elster. 
   nr = 1
   lat = 51.332672
   lon = 12.351062
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.332161
@@ -35,22 +36,22 @@ literaturangaben = ["Vorschaubild: Buntgarnwerke, Blick von der Weißen Elster. 
   nr = 3
   lat = 51.332222
   lon = 12.345453
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.33306
   lon = 12.342463
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.332438
-  lon = 12.338773 
+  lon = 12.338773
 
 [[exkursion]]
   nr = 6
   lat = 51.332908
   lon = 12.339023
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.330028
@@ -90,7 +91,7 @@ Plagwitz erfindet sich zum zweiten Mal neu: In den vergangenen 20 Jahren ist der
 
 {{% bild pfad="abbildung1.jpg" flow="around" clickable="true" titel="Carl Heine Denkmal, Ansichtskarte um 1901" quellenangaben="IfL: PKL-Denk112"  %}}
 
-Karl Heine war durch seine Mutter in den Besitz von Reichels Garten (vormals Apels Garten) gekommen. Durch Landzukäufe erwarb er das gesamte Areal im Westen der Innenstadt, das er ab 1844 trocken legen, erschließen und bebauen ließ. Durch weiteren Landerwerb schuf er systematisch die infrastrukturellen Voraussetzungen für die Industrialisierung des Leipziger Westens. Heines Name verbindet sich vor allem mit dem Bau des ersten Industriebahnhofs Europa 1873 und der Anlage eines engmaschigen privaten Schienennetzes für die sich ansiedelnden Industriebetriebe. 
+Karl Heine war durch seine Mutter in den Besitz von Reichels Garten (vormals Apels Garten) gekommen. Durch Landzukäufe erwarb er das gesamte Areal im Westen der Innenstadt, das er ab 1844 trocken legen, erschließen und bebauen ließ. Durch weiteren Landerwerb schuf er systematisch die infrastrukturellen Voraussetzungen für die Industrialisierung des Leipziger Westens. Heines Name verbindet sich vor allem mit dem Bau des ersten Industriebahnhofs Europa 1873 und der Anlage eines engmaschigen privaten Schienennetzes für die sich ansiedelnden Industriebetriebe.
 
 {{% clear  %}}
 
@@ -100,7 +101,7 @@ Für weitere Informationen zu den wirtschaftlichen Unternehmungen Heines, zum Ka
 
 {{% bild pfad="abbildung2.jpg" flow="around" clickable="true" titel="Dr. Heine Denkmal, Ansichtskarte um 1910" quellenangaben="IfL: PKL-Denk146"  %}}
 
-Es gebührt dem „Erfinder“ von Plagwitz, einen Gang durch den Stadtteil an seinem Denkmal zu beginnen. Der Leipziger Bildhauer Carl Seffner (1861–1932), der für viele Denkmale in Leipzig (z.B. Goethe und Bach) verantwortlich war, entwarf 1896 die Bronzestatue des Industriepioniers Karl Heine, die im darauf folgenden Jahr am Eingang zum Palmengarten aufgestellt wurde. Als man 1938 begann, das Gelände des Palmengartens für die 1940 geplante Gutenberg-Ausstellung umzugestalten, wurde das Heine-Denkmal auf die gegenüberliegende Straßenseite umgesetzt. 1943 endete die Bronzestatue als „Metallspende des deutschen Volkes“ im Schmelzofen. 
+Es gebührt dem „Erfinder“ von Plagwitz, einen Gang durch den Stadtteil an seinem Denkmal zu beginnen. Der Leipziger Bildhauer Carl Seffner (1861–1932), der für viele Denkmale in Leipzig (z.B. Goethe und Bach) verantwortlich war, entwarf 1896 die Bronzestatue des Industriepioniers Karl Heine, die im darauf folgenden Jahr am Eingang zum Palmengarten aufgestellt wurde. Als man 1938 begann, das Gelände des Palmengartens für die 1940 geplante Gutenberg-Ausstellung umzugestalten, wurde das Heine-Denkmal auf die gegenüberliegende Straßenseite umgesetzt. 1943 endete die Bronzestatue als „Metallspende des deutschen Volkes“ im Schmelzofen.
 
 {{% clear  %}}
 
@@ -109,7 +110,7 @@ Es gebührt dem „Erfinder“ von Plagwitz, einen Gang durch den Stadtteil an s
 
 Seit 2001 schmückt ein originalgetreuer Nachguss auf dem alten Sockel und am Standort von 1938 wieder den kleinen Platz an der Brücke über das Elsterflutbett. Gleichzeitig steht sie damit an der Verbindungsstraße nach Leipzig, für deren Verwirklichung Heine 20 Jahre lang gekämpft hatte.
 
-Im Jahr der Eingemeindung und drei Jahre nach seinem Tod beschloss die Stadt 1891, die bisherige Leipziger Straße in Plagwitz nach Karl Heine umzubenennen. Sie beginnt auf der Plagwitzer Brücke über die Weiße Elster, die Heine 1858 zunächst als Holzbrücke hatte errichten lassen und zehn Jahre später durch einen Steinbau ersetzen ließ. Heute stoßen hier drei Ortsteile aneinander: Lindenau, Plagwitz und Schleußig. 
+Im Jahr der Eingemeindung und drei Jahre nach seinem Tod beschloss die Stadt 1891, die bisherige Leipziger Straße in Plagwitz nach Karl Heine umzubenennen. Sie beginnt auf der Plagwitzer Brücke über die Weiße Elster, die Heine 1858 zunächst als Holzbrücke hatte errichten lassen und zehn Jahre später durch einen Steinbau ersetzen ließ. Heute stoßen hier drei Ortsteile aneinander: Lindenau, Plagwitz und Schleußig.
 
 Die Karl-Heine-Straße entwickelte sich im 19. Jahrhundert zu einer wichtigen Geschäftsstraße im Leipziger Westen. Die historische Bebauung der Straße weist auf höchst unterschiedliche Sozialstrukturen hin. Der östliche Straßenabschnitt vermittelt an der nördlichen Seite durch mehrere Villen einen ausgesprochen großbürgerlichen Eindruck.
 
@@ -125,19 +126,19 @@ Beim ersten Gebäude (Nr. 2) der Straße handelt es sich um die Villa Klinger. D
 
 Nach Max Klinger wurden in der Nähe seines Ateliers der Klingerweg (1920, vorher Nonnenweg), die Brücke über das Elsterflutbett (1928) und eine Schule (1927) benannt. Den Ritterwerder, eine kleine Grünanlage am Palmengarten, hatte man schon zu Lebenszeiten des Künstlers 1917 in Klingerhain umgetauft.
 
-Auf dem Grundstück von Klingers Atelier errichtete die Neuapostolische Gemeinde 1954–1956 eine Kirche; in der Villa an der Straße (Nr. 8) haben die Siebenten-Tags-Adventisten seit 1951 ihr Gemeindehaus. 
+Auf dem Grundstück von Klingers Atelier errichtete die Neuapostolische Gemeinde 1954–1956 eine Kirche; in der Villa an der Straße (Nr. 8) haben die Siebenten-Tags-Adventisten seit 1951 ihr Gemeindehaus.
 
 Gleich neben der Klinger-Villa stand bis zum Abriss vor einigen Jahren die Fabrikantenvilla der Familie Giesecke (Nr. 4). Ihr gehörte die 1819 gegründete Schriftgießerei und Maschinenfabrik Schelter & Giesecke, die 1897 nach Plagwitz verlagert worden war.
 
 {{% stationstitel titel="Villen mit bewegter Vergangenheit" nummer="3" %}}
 
-Eine prächtige Villa (Nr. 12) auf einem 6000 m² großen Parkgrundstück ließ sich 1909 Fritz Sack erbauen. Fritz Sack war der älteste Sohn des Firmengründers Rudolph Christian Sack, der seit 1863 in Plagwitz Pflüge herstellte. Die Villa wurde vom bekannten Architektenbüro Schmidt & Johlige entworfen, das für die Familie Sack auch den privaten Park mit „Schloss“ in [Kleinzschocher]({{< relref "exkursionen/78_E_510-kleinzschocher.md">}}) (Robert-Koch-Park) geplant hatte. Nach einer Komplettsanierung zog 1997 der 5. Strafsenat des Bundesgerichtshofs in das Neobarockpalais. Zur Geschichte des Hauses gehört auch, dass die Gestapo hier 1940 ein Gefängnis einrichtete. Nach dem Krieg erhielt der VEB Schwermaschinenbau S.M. Kirow die Villa als „Klubhaus der Freundschaft“ zur Nutzung. 
+Eine prächtige Villa (Nr. 12) auf einem 6000 m² großen Parkgrundstück ließ sich 1909 Fritz Sack erbauen. Fritz Sack war der älteste Sohn des Firmengründers Rudolph Christian Sack, der seit 1863 in Plagwitz Pflüge herstellte. Die Villa wurde vom bekannten Architektenbüro Schmidt & Johlige entworfen, das für die Familie Sack auch den privaten Park mit „Schloss“ in [Kleinzschocher]({{< relref "exkursionen/78_E_510-kleinzschocher.md">}}) (Robert-Koch-Park) geplant hatte. Nach einer Komplettsanierung zog 1997 der 5. Strafsenat des Bundesgerichtshofs in das Neobarockpalais. Zur Geschichte des Hauses gehört auch, dass die Gestapo hier 1940 ein Gefängnis einrichtete. Nach dem Krieg erhielt der VEB Schwermaschinenbau S.M. Kirow die Villa als „Klubhaus der Freundschaft“ zur Nutzung.
 
 {{% bild pfad="abbildung19.jpg" clickable="true" titel="Villa Sack" quellenangaben="Foto: Marek Wejwoda, 2015"  %}}
 
-In der benachbarten Villa (Nr. 14), die sich durch ihren Landhausstil von den übrigen Gebäuden abhebt, unterhält das älteste Leipziger Studentencorps ein Wohnheim („Lausitzerhaus“). 
+In der benachbarten Villa (Nr. 14), die sich durch ihren Landhausstil von den übrigen Gebäuden abhebt, unterhält das älteste Leipziger Studentencorps ein Wohnheim („Lausitzerhaus“).
 
-Die Villa Nr. 16 ist ein Bau von Fritz Schade aus dem Jahr 1889, den sich Curt Berger (1869–1948) errichten ließ. Berger war Schwiegersohn Ernst Meys (1844–1903) und übernahm nach dessen Tod das Unternehmen Mey & Edlich, das mit Papierwäsche erfolgreich wurde und als Begründer des Versandhandels gilt. Zwischen 1949 und 1993 diente das mondäne Wohnhaus dem in der DDR renommierten Fachbuchverlag als Verlagssitz. 
+Die Villa Nr. 16 ist ein Bau von Fritz Schade aus dem Jahr 1889, den sich Curt Berger (1869–1948) errichten ließ. Berger war Schwiegersohn Ernst Meys (1844–1903) und übernahm nach dessen Tod das Unternehmen Mey & Edlich, das mit Papierwäsche erfolgreich wurde und als Begründer des Versandhandels gilt. Zwischen 1949 und 1993 diente das mondäne Wohnhaus dem in der DDR renommierten Fachbuchverlag als Verlagssitz.
 
 Das Wohnhaus Nr. 22 aus dem letzten Viertel des 19. Jahrhunderts gehörte wiederum einem Fabrikanten: F. A. Sieglitz hatte seine 1876 gegründete Rauchwaren-Färberei 1881 nach Plagwitz (Nonnenstr. 7) verlegt und sich privat im nahen Villenviertel niedergelassen. Seine Fabrik verlegte Sieglitz 1910 nach Lindenau in die Angerstraße 30, wo die Gebäude noch vorhanden sind.
 
@@ -163,7 +164,7 @@ Die erste Straße, die die Karl-Heine-Straße quert, ist die Erich-Zeigner-Allee
 
 {{% stationstitel titel="Felsenkeller" nummer="5" %}}
 
-An der nächsten großen Kreuzung der Karl-Heine-Straße mit der Zschocherschen Straße befindet sich eines der bekanntesten Plagwitzer Gebäude: der Felsenkeller. Einige Meter entfernt hatte der Brauereibesitzer Carl Wilhelm Naumann 1844 an der Zschocherschen Straße (Nr. 12) eine Gaststätte gleichen Namens eröffnet. Der Name rührte von den Kellergewölben her, in denen er sein Bier kühl lagern konnte. 
+An der nächsten großen Kreuzung der Karl-Heine-Straße mit der Zschocherschen Straße befindet sich eines der bekanntesten Plagwitzer Gebäude: der Felsenkeller. Einige Meter entfernt hatte der Brauereibesitzer Carl Wilhelm Naumann 1844 an der Zschocherschen Straße (Nr. 12) eine Gaststätte gleichen Namens eröffnet. Der Name rührte von den Kellergewölben her, in denen er sein Bier kühl lagern konnte.
 
 {{% bild pfad="abbildung9.jpg" flow="preview" clickable="true" titel="Plagwitz: Felsenkeller, Ansichtskarte um 1912" quellenangaben="IfL: PKL-Plag011"  %}}
 {{% bild pfad="abbildung23.jpg" flow="preview" clickable="true" titel="Felsenkeller" quellenangaben="Foto: Marek Wejwoda, 2015"  %}}
@@ -174,9 +175,9 @@ Das Gebäude wurde 1943 zerstört, in den Kellergewölben richtete sich in den 1
 
 {{% bild pfad="abbildung10.jpg" flow="around" clickable="true" titel="Etablissement Felsenkeller, Ansichtskarte um 1924" quellenangaben="IfL: PKL-Plag014"  %}}
 
-Ein neuer Felsenkeller entstand durch das Architektenbüro Schmidt und Johlige im Auftrag der Brauerei 1890 am heutigen Standort. Neben einem großen Ballsaal, in dem 1000 Besucher Platz fanden, entstand in neobarocken Formen ein mit einer Kuppel versehener Eckturm. Umgeben wurde der Baukomplex von einer ausgedehnten Gartenanlage. 
+Ein neuer Felsenkeller entstand durch das Architektenbüro Schmidt und Johlige im Auftrag der Brauerei 1890 am heutigen Standort. Neben einem großen Ballsaal, in dem 1000 Besucher Platz fanden, entstand in neobarocken Formen ein mit einer Kuppel versehener Eckturm. Umgeben wurde der Baukomplex von einer ausgedehnten Gartenanlage.
 
-Schon bald entwickelte sich der Felsenkeller zum Versammlungsort der Leipziger Arbeiterbewegung. Auf einem Parteitag Ende März 1946 beschloss die Leipziger SPD im Felsenkeller den sofortigen Zusammenschluss mit der KPD zur SED. Seit der Schließung des gastronomischen Betriebs 1989 wurde lange nach einer dauerhaften Nutzung des Gebäudes gesucht. Seit Ende 2014 ist der Felsenkeller wieder geöffnet und bietet eine kulturelle Mischung aus Konzerten, Lesungen und Partys. 
+Schon bald entwickelte sich der Felsenkeller zum Versammlungsort der Leipziger Arbeiterbewegung. Auf einem Parteitag Ende März 1946 beschloss die Leipziger SPD im Felsenkeller den sofortigen Zusammenschluss mit der KPD zur SED. Seit der Schließung des gastronomischen Betriebs 1989 wurde lange nach einer dauerhaften Nutzung des Gebäudes gesucht. Seit Ende 2014 ist der Felsenkeller wieder geöffnet und bietet eine kulturelle Mischung aus Konzerten, Lesungen und Partys.
 
 In der Fabrikantenvilla nebenan, die sich der Brauereibesitzer Naumann um 1900 errichten ließ, befindet sich heute eine Kindertagesstätte.
 
@@ -190,7 +191,7 @@ Dem Felsenkeller schräg gegenüber befindet sich in der Zschocherschen Str. 21 
 
 {{% bild pfad="abbildung11.jpg" flow="around" clickable="true" titel="Carl Heine Straße: in der Bildmitte befindet sich die ehemalige Leipziger Vereinsbank, Ansichtskarte um 1904" quellenangaben="IfL: PKL-Plag015"  %}}
 
-Westlich der Zschocherschen Straße ändert die Karl-Heine-Straße im weiteren Verlauf allmählich ihr Gesicht. Hier beginnt der ehemalige Arbeiterstadtteil mit Mietshäusern und inzwischen aufgelassenen Fabrikarealen. Wo einst die Güterproduktion im Vordergrund stand, lädt heute der Stadtteilpark Plagwitz zum Verweilen am renaturierten Karl-Heine-Kanal ein. 
+Westlich der Zschocherschen Straße ändert die Karl-Heine-Straße im weiteren Verlauf allmählich ihr Gesicht. Hier beginnt der ehemalige Arbeiterstadtteil mit Mietshäusern und inzwischen aufgelassenen Fabrikarealen. Wo einst die Güterproduktion im Vordergrund stand, lädt heute der Stadtteilpark Plagwitz zum Verweilen am renaturierten Karl-Heine-Kanal ein.
 
 
 Doch zurück zur Kreuzung Karl-Heine- und Zschochersche Straße. Die Zschochersche Straße verläuft etwa parallel zur Erich-Zeigner-Allee und verbindet Lindenau und Kleinzschocher. Die Straße hieß zwischen 1953 und 1991 nach Philipp Müller (1931–1952), einem westdeutschen Kommunisten, der bei einer Demonstration gegen die Wiederbewaffnung von der Polizei in Essen erschossen worden war.
@@ -207,14 +208,14 @@ Ein paar Schritte weiter, im Karree zwischen Zschocherscher, Lauchstädter und W
 
 {{% stationstitel titel="Heilandskirche" nummer="8" %}}
 
-Im rechten Winkel zur Zschocherschen Straße und parallel zueinander stoßen die im 19. Jahrhundert angelegten Rudolph-Sack-, Weißenfelser, Amalien-, Schmiede- und Lauchstädter Straße auf die Zschochersche Straße. Die bedeutendste von ihnen ist die Weißenfelser Straße, die den gesamten Stadtteil auf einer Länge von 1,5 km in ost-westlicher Richtung durchquert. 
+Im rechten Winkel zur Zschocherschen Straße und parallel zueinander stoßen die im 19. Jahrhundert angelegten Rudolph-Sack-, Weißenfelser, Amalien-, Schmiede- und Lauchstädter Straße auf die Zschochersche Straße. Die bedeutendste von ihnen ist die Weißenfelser Straße, die den gesamten Stadtteil auf einer Länge von 1,5 km in ost-westlicher Richtung durchquert.
 
 {{% bild pfad="abbildung13.jpg" flow="preview" clickable="true" titel="Heilandskirche, Ansichtskarte um 1916" quellenangaben="IfL: PKL-Plag005"  %}}
 {{% bild pfad="abbildung25.jpg" flow="preview" clickable="true" titel="Heilandskirche" quellenangaben="Foto: Marek Wejwoda, 2015"  %}}
 
-Sie führt zur ev.-luth. Pfarrkirche von Plagwitz. Die Kirche ist ein neogotischer Backsteinbau mit einem 85 m hohen Turm. Sie entstand zwischen 1886 und 1888, nachdem Plagwitz kirchlich von Kleinzschocher gelöst und zu einer eigenen Pfarrei erhoben worden war. 1916 erhielt das Gotteshaus den Namen „Heilandskirche“. Im Zweiten Weltkrieg schwer beschädigt, konnte die Gemeinde den allmählichen Verfall des großen Gebäudes nicht vollständig aufhalten; seit 1979 war die Kirche aus Sicherheitsgründen sogar gesperrt. Die notwendigen Sanierungen laufen seit Anfang der 1990er Jahre in kleinen Schritten. 
+Sie führt zur ev.-luth. Pfarrkirche von Plagwitz. Die Kirche ist ein neogotischer Backsteinbau mit einem 85 m hohen Turm. Sie entstand zwischen 1886 und 1888, nachdem Plagwitz kirchlich von Kleinzschocher gelöst und zu einer eigenen Pfarrei erhoben worden war. 1916 erhielt das Gotteshaus den Namen „Heilandskirche“. Im Zweiten Weltkrieg schwer beschädigt, konnte die Gemeinde den allmählichen Verfall des großen Gebäudes nicht vollständig aufhalten; seit 1979 war die Kirche aus Sicherheitsgründen sogar gesperrt. Die notwendigen Sanierungen laufen seit Anfang der 1990er Jahre in kleinen Schritten.
 
-Unmittelbar an der Heilandskirche und ebenso alt wie die Kirche steht ein großes Gebäude, das dem Diakonischen Werk als Pflegeheim dient. Der ursprüngliche Name ziert die Fassade: „Heim für alleinstehende Frauen und Mädchen“. 
+Unmittelbar an der Heilandskirche und ebenso alt wie die Kirche steht ein großes Gebäude, das dem Diakonischen Werk als Pflegeheim dient. Der ursprüngliche Name ziert die Fassade: „Heim für alleinstehende Frauen und Mädchen“.
 
 Der Kirche gegenüber befindet sich ein Schulgebäude (seit 1880 Erich-Zeigner-Grundschule), das mehrfach erweitert und deren Turnhalle von Max Bösenberg (1847–1918) erbaut wurde.
 
@@ -235,20 +236,20 @@ Schräg gegenüber vom Rathaus dürfte das älteste erhaltene Bauensemble der Pl
 
 {{% bild pfad="abbildung15.jpg" flow="preview" clickable="true" titel="Buntgarnwerke, Blick von der Weißen Elster" quellenangaben="Foto: Andreas Höhn"  %}}
 
-Die Weißenfelser Straße mündet in die Nonnenstraße. Hier stößt die Route auf das größte gründerzeitliche Industriedenkmal in Deutschland, die ehemaligen Buntgarnwerke. Wie schon erwähnt, bildete sich in den 1850er Jahren hier an der Weißen Elster die erste Industriegasse in Plagwitz, begann Karl Heine mit den Ausschachtungen für den Kanal, nahm die Entwicklung von Plagwitz zum Leipziger Industrievorort ihren Anfang. 
+Die Weißenfelser Straße mündet in die Nonnenstraße. Hier stößt die Route auf das größte gründerzeitliche Industriedenkmal in Deutschland, die ehemaligen Buntgarnwerke. Wie schon erwähnt, bildete sich in den 1850er Jahren hier an der Weißen Elster die erste Industriegasse in Plagwitz, begann Karl Heine mit den Ausschachtungen für den Kanal, nahm die Entwicklung von Plagwitz zum Leipziger Industrievorort ihren Anfang.
 
 {{% clear  %}}
 
 {{% bild pfad="abbildung16.jpg" flow="around" titel="Karte ausgewählter denkmalgeschützte Gewerbe- und Fabrikgebäude in ihrer heutigen Nutzung in Plagwitz-Lindenau" quellenangaben="IfL in Denzer et al. (2015), Seite 387"  %}}
 
-Nach der Wende entwickelte sich kein Plagwitzer Gebiet so schnell wie die Nonnenstraße. Schon Mitte der 1990er Jahre galt das Areal als Leuchtturm des Stadtumbaus. Die Industriebauten der ehemaligen Sächsischen Wollgarnspinnerei bilden ein einzigartiges architektonisches Ensemble. Obwohl sie über einen Zeitraum von mehreren Jahrzehnten entstanden und verschiedene Architekten am Bau beteiligt waren, vermitteln sie einen in sich geschlossenen Eindruck. Die roten Backsteinbauten machen durch die dekorative Fassadengestaltung und mehrere Dach- und Ecktürme einen schlossartigen Eindruck. 
+Nach der Wende entwickelte sich kein Plagwitzer Gebiet so schnell wie die Nonnenstraße. Schon Mitte der 1990er Jahre galt das Areal als Leuchtturm des Stadtumbaus. Die Industriebauten der ehemaligen Sächsischen Wollgarnspinnerei bilden ein einzigartiges architektonisches Ensemble. Obwohl sie über einen Zeitraum von mehreren Jahrzehnten entstanden und verschiedene Architekten am Bau beteiligt waren, vermitteln sie einen in sich geschlossenen Eindruck. Die roten Backsteinbauten machen durch die dekorative Fassadengestaltung und mehrere Dach- und Ecktürme einen schlossartigen Eindruck.
 
 {{% clear  %}}
 
 {{% bild pfad="abbildung28.jpg" flow="preview" clickable="true" titel="Fassadengestaltung der ehemaligen Buntgarnwerke" quellenangaben="Foto: Marek Wejwoda, 2015"  %}}
 {{% bild pfad="abbildung29.jpg" flow="preview" clickable="true" titel="Fassadengestaltung der ehemaligen Buntgarnwerke" quellenangaben="Foto: Jana Moser, 2014"  %}}
 
-Nach dem Ende der Produktion 1990 wurde der Komplex an drei Investoren verkauft, die ihn denkmalgerecht sanierten und umbauten. Bereits 1993 konnte der Elster-Business-Park mit Büro- und Gewerbeflächen, aber auch Behörden und Mietern aus dem kulturellen Bereich eröffnet werden. 
+Nach dem Ende der Produktion 1990 wurde der Komplex an drei Investoren verkauft, die ihn denkmalgerecht sanierten und umbauten. Bereits 1993 konnte der Elster-Business-Park mit Büro- und Gewerbeflächen, aber auch Behörden und Mietern aus dem kulturellen Bereich eröffnet werden.
 
 Auch die gegenüber liegenden Fabrikgebäude (Nr. 42/ 44) wurden bereits Anfang der 1990er Jahre zu Büroflächen und einem Ärztehaus umgebaut. Dabei handelt es sich um die 1878 gegründete Gummiwarenfabrik Phil. Penin, die 1926 von der Wollgarnspinnerei übernommen worden war. Entlang der Weißen Elster und des Karl-Heine-Kanals entstanden außerdem zahlreiche hochwertige Wohnanlagen.
 

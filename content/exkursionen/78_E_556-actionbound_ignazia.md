@@ -8,7 +8,8 @@ actionbound = true
 exkursions_anbieter = "Ifl & Actionbound.de"
 name_des_bounds = "ifl-leipzigentdecken"
 date = "2016-07-18"
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_E_556-vorschaubild.jpg"
+titelbild = "78_E_665-mapbanner.jpg"
 #vorschaubild_titel wird im Bild auf transparentem Hintergrund dargestellt
 #vorschaubild_titel = "actionbound://bound/ifl-leipzigentdecken"
 exkursionsdauer = 1.5
@@ -19,10 +20,10 @@ description = "Hilf Ignazia ihre Zettel in der Leipziger Innenstadt wiederzufind
 
 ### So geht’s:
 
-1) App [„Actionbound“](https://actionbound.com/download) (iOS / Android) auf Smartphone/Tablet herunterladen: 
+1) App [„Actionbound“](https://actionbound.com/download) (iOS / Android) auf Smartphone/Tablet herunterladen:
 a. [iOS-Link](https://itunes.apple.com/de/app/actionbound/id582660833)
-b. [Android-Link](https://play.google.com/store/apps/details?id=de.actionbound&hl=de) 
+b. [Android-Link](https://play.google.com/store/apps/details?id=de.actionbound&hl=de)
 
-2) App öffnen und den Bound manuell suchen („Mit Ignazia F. Lotterich Leipzig entdecken“) oder diesem [Link](actionbound://bound/ifl-leipzigentdecken) vom Handy aus folgen. 
+2) App öffnen und den Bound manuell suchen („Mit Ignazia F. Lotterich Leipzig entdecken“) oder diesem [Link](actionbound://bound/ifl-leipzigentdecken) vom Handy aus folgen.
 
 3) Boundinhalte herunterladen und das Spiel starten.

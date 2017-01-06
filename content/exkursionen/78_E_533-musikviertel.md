@@ -6,8 +6,9 @@ title = "Das Musikviertel – Pracht- und Monumentalbauten des Historismus"
 autor = "Luise Grundmann"
 date = "2015-06-12"
 exkursionstypen = ["Fuß"]
-vorschaubild = "vorschaubild.jpg"
-exkursionsstart = "Simsonplatz" 
+vorschaubild = "78_E_533-vorschaubild.jpg"
+titelbild = "78_E_533-mapbanner.jpg"
+exkursionsstart = "Simsonplatz"
 exkursionsende = "Simsonplatz"
 exkursionsstationen = 8
 exkursionslaenge = 3
@@ -24,7 +25,7 @@ literaturangaben = ["Vorschaubild: Blick vom Rathausturm auf das Musikviertel, A
   nr = 1
   lat = 51.333293
   lon = 12.370685
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.332170
@@ -34,33 +35,33 @@ literaturangaben = ["Vorschaubild: Blick vom Rathausturm auf das Musikviertel, A
   nr = 3
   lat = 51.333279
   lon = 12.366887
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.334144
   lon = 12.363824
-  
+
 [[exkursion]]
   nr = 5
   lat = 51.331449
-  lon = 12.360370  
+  lon = 12.360370
 
 [[exkursion]]
   nr = 6
   lat = 51.327586
   lon = 12.369288
-  
+
 [[exkursion]]
   nr = 7
   lat = 51.328972
   lon = 12.368878
-  
+
 [[exkursion]]
   nr = 8
   lat = 51.332096
   lon = 12.370154
-  
-  
+
+
 +++
 
 ### Einleitung
@@ -93,7 +94,7 @@ Im Zweiten Weltkrieg wurde das Gebäude stark zerstört. Nach seiner Wiederherst
 {{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Neue Universitätsbibliothek, Ansichtskarte um 1900" quellenangaben="IfL: PKL-Bib026"  %}}
 {{% bild pfad="abbildung6.jpg" flow="preview" clickable="true" titel="Bibliotheca Albertina" quellenangaben="Foto: Thomas Zimmermann, 2015"  %}}
 
-Die Südseite des Gerichtsgebäudes ist zur Beethovenstraße gerichtet. Der mittlere Straßenabschnitt wird von zwei Gebäudekomplexe der Universität dominiert: Die Universitätsbibliothek „Bibliotheca Albertina“ (Beethovenstraße Nr. 6) entstand zwischen 1887 und 1891 nach Plänen von Arwed Roßbach (1844–1902) mit Stilelementen der italienischen Hochrenaissance und des Barock. Das Bibliotheksgebäude wurde 1943 teilweise stark zerstört. Zwischen 1992 und 2002 wurde es saniert bzw. neu ausgebaut. Neben den eindrucksvoll ausgestalteten Sandsteinfassaden mit figürlichem Schmuck sind insbesondere die hohe Eingangshalle und der neue Lesesaal im östlichen Lichthof beachtenswert. 
+Die Südseite des Gerichtsgebäudes ist zur Beethovenstraße gerichtet. Der mittlere Straßenabschnitt wird von zwei Gebäudekomplexe der Universität dominiert: Die Universitätsbibliothek „Bibliotheca Albertina“ (Beethovenstraße Nr. 6) entstand zwischen 1887 und 1891 nach Plänen von Arwed Roßbach (1844–1902) mit Stilelementen der italienischen Hochrenaissance und des Barock. Das Bibliotheksgebäude wurde 1943 teilweise stark zerstört. Zwischen 1992 und 2002 wurde es saniert bzw. neu ausgebaut. Neben den eindrucksvoll ausgestalteten Sandsteinfassaden mit figürlichem Schmuck sind insbesondere die hohe Eingangshalle und der neue Lesesaal im östlichen Lichthof beachtenswert.
 
 {{% clear  %}}
 
@@ -106,13 +107,13 @@ Der Bibliothek gegenüber und im baulichen Kontrast dazu steht das 2002 eingewei
 
 {{% bild pfad="abbildung9.jpg" flow="preview" clickable="true" titel="Roßbachhaus" quellenangaben="Foto: Thomas Zimmermann, 2015"  %}}
 
-Das Eckhaus Beethovenstraße Nr. 8 (Roßbachhaus) repräsentiert den Typ der mehrgeschossigen Wohnpalais im westlichen Musikviertel, der auch in der Ferdinand-Rhode-Straße und Schwägrichenstraße vorherrscht. 
+Das Eckhaus Beethovenstraße Nr. 8 (Roßbachhaus) repräsentiert den Typ der mehrgeschossigen Wohnpalais im westlichen Musikviertel, der auch in der Ferdinand-Rhode-Straße und Schwägrichenstraße vorherrscht.
 
 {{% stationstitel titel="Repräsentativbauten für die Bildung" nummer="3" %}}
 
 {{% bild pfad="abbildung10.jpg" flow="around" clickable="true" titel="Königliches Konservatorium, Ansichtskarte um 1910" quellenangaben="IfL: PKL-Musik036"  %}}
 
-Nach  Norden folgen zwischen Beethoven- und Wächterstraße weitere mehrgeschossige Repräsentativbauten: Die Hochschule für Musik und Theater „Felix Mendelssohn Bartholdy“ nutzt das zwischen 1885 und 1887 nach Entwürfen von Hugo Licht (1841–1923) erbaute Königliche Konservatorium für Musik (Grassistraße Nr. 8). 
+Nach  Norden folgen zwischen Beethoven- und Wächterstraße weitere mehrgeschossige Repräsentativbauten: Die Hochschule für Musik und Theater „Felix Mendelssohn Bartholdy“ nutzt das zwischen 1885 und 1887 nach Entwürfen von Hugo Licht (1841–1923) erbaute Königliche Konservatorium für Musik (Grassistraße Nr. 8).
 
 Das daran anschließende Gebäude mit der Hauptfront zur Wächterstraße (Nr. 13) war zwischen 1889 und 1896 als Städtische Gewerbeschule erbaut worden und beherbergt heute die Hochschule für Technik, Wirtschaft und Kultur. In der Wächterstraße Nr. 11 befindet sich die Hochschule für Grafik und Buchkunst im 1887–1890 für die Königliche Akademie für Graphik und Buchgewerbe errichteten Gebäudekomplex. Die Nordseite der Wächterstraße ist mit gründerzeitlichen Villen vorwiegend im Stil der italienischen Renaissance bebaut, die heute u.a. von wissenschaftlichen Einrichtungen (Nr. 30, 32, 34) genutzt werden.
 
@@ -132,7 +133,7 @@ Das daran anschließende Gebäude mit der Hauptfront zur Wächterstraße (Nr. 13
 
 An der Karl-Tauchnitz-Straße, als eine äußere Ringstraße um das Viertel angelegt, setzen sich die Villengrundstücke fort. In Nr. 3, der einstigen Villa des Geologen Hermann Credner, befindet sich die Galerie für Zeitgenössische Kunst.
 
-Auf drei im Zweiten Weltkrieg zerstörten Villengrundstücken wurden in den 1960er Jahren drei Wohnhochhäuser gebaut, die hier das Viertel zum Johannapark begrenzen. Dieser englische Landschaftspark wurde vom Bankier und Eisenbahnpionier Wilhelm Seyfferth (1807–1881) initiiert und zwischen 1861 und 1865 vom Landschaftsarchitekten Peter Joseph Lenné (1789–1866) entworfen. Der Park befindet sich seit 1881 in städtischem Besitz, nachdem ihn Seyfferth in seinem Testament der Stadt Leipzig stiftete unter der Bedingung, dass das Grundstück für immer unbebaut bleiben sollte. Seinen Namen erhielt der Johannapark zur Erinnerung an Seyfferths Tochter. Der Park trennt ebenso wie der sich im Süden anschließende Clara-Zetkin-Park das Musik- vom Bachstraßenviertel. 
+Auf drei im Zweiten Weltkrieg zerstörten Villengrundstücken wurden in den 1960er Jahren drei Wohnhochhäuser gebaut, die hier das Viertel zum Johannapark begrenzen. Dieser englische Landschaftspark wurde vom Bankier und Eisenbahnpionier Wilhelm Seyfferth (1807–1881) initiiert und zwischen 1861 und 1865 vom Landschaftsarchitekten Peter Joseph Lenné (1789–1866) entworfen. Der Park befindet sich seit 1881 in städtischem Besitz, nachdem ihn Seyfferth in seinem Testament der Stadt Leipzig stiftete unter der Bedingung, dass das Grundstück für immer unbebaut bleiben sollte. Seinen Namen erhielt der Johannapark zur Erinnerung an Seyfferths Tochter. Der Park trennt ebenso wie der sich im Süden anschließende Clara-Zetkin-Park das Musik- vom Bachstraßenviertel.
 
 {{% bild pfad="abbildung18.jpg" clickable="true" titel="Johannapark mit Lutherkirche" quellenangaben="Foto: Thomas Zimmermann, 2015"  %}}
 
@@ -157,7 +158,7 @@ Der weitere Weg führt uns entlang der Karl-Tauchnitz-Straße nach Süden vorbei
 
 {{% bild pfad="abbildung23.jpg" flow="preview" clickable="true" titel="„Wohnscheiben“ neben Altbauten" quellenangaben="Foto: Thomas Zimmermann, 2015"  %}}
 
-Am Standort Telemann-/Ecke Grassistraße eröffnet sich dem Besucher der Blick auf die Baustrukturen des mittleren und südlichen Musikviertels: Hier wurden in den 1970er Jahren die im Krieg zerstörten gründerzeitlichen Wohnquartiere durch fünf elfgeschossige „Wohnscheiben“ in Plattenbauweise ersetzt. 
+Am Standort Telemann-/Ecke Grassistraße eröffnet sich dem Besucher der Blick auf die Baustrukturen des mittleren und südlichen Musikviertels: Hier wurden in den 1970er Jahren die im Krieg zerstörten gründerzeitlichen Wohnquartiere durch fünf elfgeschossige „Wohnscheiben“ in Plattenbauweise ersetzt.
 
 {{% stationstitel titel="Simson- und Lampestraße" nummer="7" %}}
 
@@ -167,7 +168,7 @@ Am Standort Telemann-/Ecke Grassistraße eröffnet sich dem Besucher der Blick a
 
 {{% clear  %}}
 
-Die ursprünglich quartierstypische, geschlossene Blockrandbebauung mit mehrgeschossigen Wohnpalästen des Großbürgertums kann noch gut an der 1883–1886 bebauten Simson- und Lampestraße erkannt werden. Beide Straßen begleiteten ursprünglich als Uferstraßen den Pleißemühlgraben und waren über die Simson-, Lampe- und Sidonienbrücke verbunden. Seit der Überwölbung des Wasserlaufes 1951 trennt ein Grünstreifen die architektonisch prachtvoll gestalteten Häuserfronten mit architektonisch besonders betonten Eckgebäuden. 
+Die ursprünglich quartierstypische, geschlossene Blockrandbebauung mit mehrgeschossigen Wohnpalästen des Großbürgertums kann noch gut an der 1883–1886 bebauten Simson- und Lampestraße erkannt werden. Beide Straßen begleiteten ursprünglich als Uferstraßen den Pleißemühlgraben und waren über die Simson-, Lampe- und Sidonienbrücke verbunden. Seit der Überwölbung des Wasserlaufes 1951 trennt ein Grünstreifen die architektonisch prachtvoll gestalteten Häuserfronten mit architektonisch besonders betonten Eckgebäuden.
 
 {{% clear  %}}
 {{% bild pfad="abbildung24.jpg" clickable="true" titel="Grünstreifen über dem unterirdisch verlaufenden Pleißemühlgraben" quellenangaben="Foto: Thomas Zimmermann, 2015"  %}}
