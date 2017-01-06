@@ -15,9 +15,9 @@
                <a href="{{ .Permalink }}">
                    <div class="article simple-border white-bg shadow top-border">
                        {{ $type := .Type }}
-                       {{ $id := .Params.id }}
-                       {{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
-                       <img class="img-responsive" src="/img/78{{ $path }}{{ .Params.vorschaubild }}" />
+                       {{ $bandnummer := substr .Params.id 0 2 }}
+
+                       <img class="img-responsive" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.vorschaubild }}" />
                        <h4>{{ .Title}} &ndash; von {{ .Params.autor }}</h4>
                    </div>
                </a>
@@ -27,9 +27,9 @@
                <a href="{{ .Permalink }}">
                    <div class="article simple-border white-bg shadow top-border">
                        {{ $type := .Type }}
-                       {{ $id := .Params.id }}
-                       {{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
-                       <img class="img-responsive" src="/img/78{{ $path }}{{ .Params.vorschaubild }}" />
+                       {{ $bandnummer := substr .Params.id 0 2 }}
+
+                       <img class="img-responsive" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.vorschaubild }}" />
                        <h4>{{ .Title}} &ndash; von {{ .Params.autor }}</h4>
                    </div>
                </a>
