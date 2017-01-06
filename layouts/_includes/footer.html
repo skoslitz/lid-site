@@ -4,7 +4,7 @@
 			<div class="linespace"></div>
 			<p class="text-center text-footer">
 				<br/>
-				&copy; <a href="http://www.ifl-leipzig.de" target="_blank">Leibniz-Institut f&uuml;r L&auml;nderkunde</a> 2015 - 2016
+				&copy; <a href="http://www.ifl-leipzig.de" target="_blank">Leibniz-Institut f&uuml;r L&auml;nderkunde</a> 2015 - {{.Now.Format "2006"}}
 			</p>
 			<div class="linespace"></div>
 		</div>
@@ -13,13 +13,13 @@
 			<a href="/meta/impressum/">Impressum</a> | <a href="/meta/kontakt/">Kontakt</a> | <a href="/meta/datenschutzhinweise/">Datenschutz</a> | <a href="/suche/">Suche</a>
 			<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
 			<!-- Bootstrap js for toogle button -->
-			<script src="/js/bootstrap.min.js"></script>			
+			<script src="/js/bootstrap.min.js"></script>
 			<!-- PIWIK Statistik -->
-			{{ template "_includes/piwik.html" . }}			
+			{{ template "_includes/piwik.html" . }}
 		</div>
 
 	</footer>
-	
+
 	<!-- Open all extern links with target blank -->
 	<script>
 	var links = document.links;
@@ -27,7 +27,7 @@
 	for (var i = 0, linksLength = links.length; i < linksLength; i++) {
 	   if (links[i].hostname != window.location.hostname) {
 	       links[i].target = '_blank';
-	   } 
+	   }
 	}
 	</script>
 
