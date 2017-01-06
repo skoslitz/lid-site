@@ -5,10 +5,10 @@ autor = "Michael Börngen und Birger Tinz"
 date = "2015-06-29"
 rubriken = ["Natur & Landschaft"]
 # Höhere Auflösung und Rechteklärung
-titelbild = "titelbild.jpg"
+titelbild = "78_B_139-titelbild.jpg"
 titelbild_titel = "Blitz über Leipzig (Mike Worbs)"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_139-vorschaubild.jpg"
 title = "Der Klimawandel"
 subtitle = "Die Folgen für Leipzig"
 description = "Als globales Phänomen ist der „Klimawandel“ in aller Munde. Regional und lokal sind die Auswirkungen freilich sehr unterschiedlich: Im Südpazifik droht ganzen Inselstaaten der Untergang, Nordeuropa und Sibirien werden von neuen Chancen in Ackerbau, Rohstoffsuche und Tourismus profitieren. Was aber werden die Folgen für Leipzig sein?"
@@ -26,7 +26,7 @@ bildnachweise = ["Titelbild / Vorschaubild (Ausschnitt): Blitz über Leipzig, 11
 
 ### **Klima ist veränderlich**
 
-Klimaschwankungen sind eine inhärente Eigenschaft des Klimasystems. Es hat sie seit der Ausbildung der Atmosphäre auf der Erde immer gegeben. Im Verlauf der Entwicklung der Erde kam es zu ausgeprägten Warmzeiten (weitgehend ohne permanentes Eisvorkommen auf der Erde) und Kaltzeiten (Eisvorkommen insbesondere an den Polen und in den Hochgebirgen, in den Eiszeiten auf der Nordhalbkugel weit nach Süden vordringend). 
+Klimaschwankungen sind eine inhärente Eigenschaft des Klimasystems. Es hat sie seit der Ausbildung der Atmosphäre auf der Erde immer gegeben. Im Verlauf der Entwicklung der Erde kam es zu ausgeprägten Warmzeiten (weitgehend ohne permanentes Eisvorkommen auf der Erde) und Kaltzeiten (Eisvorkommen insbesondere an den Polen und in den Hochgebirgen, in den Eiszeiten auf der Nordhalbkugel weit nach Süden vordringend).
 
 Diese meist langsam verlaufenden Klimaänderungen haben natürliche Ursachen wie Änderungen der Sonnenstrahlung, der Erdbahnparameter und der Zusammensetzung der Atmosphäre sowie Vulkanausbrüche bzw. innere Rückkopplungen im Klimasystem. Spätestens seit der Industrialisierung beeinflusst auch der Mensch das Klima. Der durch ihn verursachte anthropogene Klimawandel beruht überwiegend auf der Anreicherung der Atmosphäre mit strahlungsaktiven Spurengasen, u.a. Kohlendioxid und Methan, die den natürlichen Treibhauseffekt verstärken.
 

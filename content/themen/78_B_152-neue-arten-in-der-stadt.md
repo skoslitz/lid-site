@@ -4,14 +4,14 @@ vg_wort_code = "538f507eb74947678f2c688fd6432b7f"
 autor = "Stefan Klotz"
 date = "2015-06-29"
 rubriken = ["Natur & Landschaft"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_152-titelbild.jpg"
 titelbild_titel = "Waschbär"
 titelbild_quelle = "A. Künzelmann, Umweltforschungszentrum"
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_152-vorschaubild.jpg"
 title = "Neue Arten in der Stadt"
 subtitle = ""
 description = "Städte sind gekennzeichnet durch eine große Anzahl fremdländischer Arten, die bewusst für Landschaftsgestaltung, Gartenbau, Forst- oder Landwirtschaft eingeführt wurden oder unbewusst als Transportbegleiter (Anhaftungen an Fahrzeugen, in Verpackungsmaterial und in anderen Transportgütern) in die Städte gekommen sind. Von den bewusst eingebrachten Arten bleibt ein großer Teil von der Pflege durch den Menschen abhängig und kann sich nicht selbstständig vermehren. Ein kleiner Teil von ihnen schafft es aber, sich spontan auszubreiten und ohne direkte Hilfe des Menschen langfristig zu überleben."
-literaturangaben = ["Gutte, P., Klotz, S., Lahr, C. & A. Trefflich (1987): Ailanthus altissima (Mill.) Swingle: eine vergleichend pflanzengeographische Studie, in: Folia Geobotanica & Phytotaxonomica, Vol. 22, No. 3. 241-262.", "Lahr, C. (1983): Die Verbreitung einiger Neophyten in Leipzig unter besonderer Berücksichtigung von Ailanthus altissima (Mill.) Swingle. Dipl.-Arb. Universität Leipzig."] 
+literaturangaben = ["Gutte, P., Klotz, S., Lahr, C. & A. Trefflich (1987): Ailanthus altissima (Mill.) Swingle: eine vergleichend pflanzengeographische Studie, in: Folia Geobotanica & Phytotaxonomica, Vol. 22, No. 3. 241-262.", "Lahr, C. (1983): Die Verbreitung einiger Neophyten in Leipzig unter besonderer Berücksichtigung von Ailanthus altissima (Mill.) Swingle. Dipl.-Arb. Universität Leipzig."]
 
 # Anwendung liegt im Ordner /static/flash/78_B_152
 flash_animation = "78_B_152"

@@ -5,10 +5,10 @@ autor = "Gudrun Mayer"
 date = "2015-06-29"
 rubriken = ["Kultur & Soziales", "Vergangenheit & Erinnerung"]
 title = "Stätten der Forschung und Lehre"
-titelbild = "titelbild.jpg"
+titelbild = "78_B_125-titelbild.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
-vorschaubild = "vorschaubild2.jpg"
+vorschaubild = "78_B_125-vorschaubild2.jpg"
 description = "Leipzig ist einer der ältesten Universitätsstandorte Deutschlands. Seit 1409 ist die Universität mit ihren Gebäuden physisch in der Stadt präsent, prägt ihr Erscheinungsbild und beeinflusst die städtebauliche und räumliche Entwicklung. In der Neuzeit sind neben die Universität eine Vielzahl weiterer wissenschaftlicher Institutionen getreten, sodass Leipzig heute ein vielfältiger und lebendiger Wissenschaftsstandort ist. Die räumliche Verteilung der wissenschaftlichen Einrichtungen in der Stadt zeigt die animierte Karte. Ein Video führt Sie auf einen virtuellen Rundgang durch das Leipziger Universitätsviertel um 1800."
 doi = "doi: ...."
 

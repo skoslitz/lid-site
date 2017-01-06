@@ -4,10 +4,10 @@ vg_wort_code = "dfdc1cbd862f4f18b58ff039decef92d"
 autor = "Ulrike Weiland"
 date = "2015-06-29"
 rubriken = ["Siedlung & Bevölkerung", "Kultur & Soziales"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_150-titelbild.jpg"
 titelbild_titel = "(Ulrike Weiland)"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_150-vorschaubild.jpg"
 title = "Gemeinschaftsgärten in Leipzig"
 subtitle = "Urbanes Gärtnern als Beitrag zu einer lebenswerten Stadt"
 description = "**Gemeinschaftsgärten in Leipzig** - das ist viel mehr als Gemüse ziehen, sondern jeder Garten ist auf seine Weise ein sozio-kulturelles Projekt, Aktions- und Lernfeld für ein gesünderes, sozial- und umweltverträgliches Leben in einer globalisierten Welt **und** in der Stadt."
@@ -31,7 +31,7 @@ Mit der Produktion von gesundem Gemüse, Obst und z.T. auch von Geflügel, Eiern
 
 {{% bild pfad="gartenkinder.jpg" flow="preview" clickable="true" titel="'Gartenkinder' einer Leipziger Kindertagesstätte zu Besuch im ANNALINDE Gemeinschaftsgarten"  quellenangaben="Foto: C. Raschke" %}}
 
-Darüber hinaus spielen bei der Gründung eines Gemeinschaftsgartens oft weitere kulturelle und soziale Motive eine Rolle. Die Gärten sind Lernorte in vielerlei Hinsicht, und in einigen Gärten werden Fortbildungsveranstaltungen für Interessierte angeboten. 
+Darüber hinaus spielen bei der Gründung eines Gemeinschaftsgartens oft weitere kulturelle und soziale Motive eine Rolle. Die Gärten sind Lernorte in vielerlei Hinsicht, und in einigen Gärten werden Fortbildungsveranstaltungen für Interessierte angeboten.
 Man kann in einer solchen Initiative nicht nur Gärtnern, Kochen und Einwecken lernen, sondern auch Erfahrungen in einem selbstverwalteten Projekt sammeln und Spielregeln demokratischen Entscheidens einüben. Neue Bewohnerinnen und Bewohner eines Stadtteils können im Garten Gleichgesinnte kennenlernen und sich so im Stadtteil verwurzeln. Urbanes Gärtnern ist somit nicht nur ein praktisches, sondern auch ein sozio-kulturelles Lernfeld.
 
 Hinter dem urbanen Gärtnern steht ein neues Verständnis vom guten Leben in der Stadt. Es geht zumindest in Leipzig nicht vorrangig um die Nahrungsmittelproduktion zur Ernährungssicherung, sondern das urbane Gärtnern kann als soziokulturelles Projekt verstanden werden, in dem versucht wird, die Lebensbedingungen in der Stadt nach eigenen Vorstellungen zu gestalten. Die neuen Gärtnerinnen und Gärtner wollen aktiv dazu beitragen, in einer globalisierten Welt *und* in der Stadt gesünder, sozial- und umweltverträglicher zu leben.

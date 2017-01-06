@@ -1,14 +1,8 @@
-{{ $type := .Type }}  
-{{ $id := .Params.id }}   
-{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
-
+{{ $type := .Type }}
+{{ $bandnummer := substr .Params.id 0 2 }}
 
 <a href="{{ .Permalink }}">
-	{{ if isset .Params "vorschaubild" }}
-		<img class="vorschaubild" src="/img/{{ substr $id 0 2 }}{{ $path }}{{ .Params.vorschaubild }}">
-	{{ else }}
-		<h3 class="text-center"><i class="fa fa-book fa-3x"></i></h3>
-	{{ end }}
+	<img class="vorschaubild" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.vorschaubild }}">
 	<h4>{{ .Title}}</h4>
 </a>
 <p>

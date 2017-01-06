@@ -8,10 +8,10 @@ date = "2015-06-29"
 rubriken = ["Siedlung & Bevölkerung", "Vergangenheit & Erinnerung"]
 title = "Die Meyerschen Häuser"
 subtitle = "Sozialer Wohnungsbau um 1900"
-titelbild = "titelbild.jpg"
+titelbild = "78_B_106-titelbild.jpg"
 titelbild_titel = "Meyersche Häuser in"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_106-vorschaubild.jpg"
 centroid = [51.334298, 12.370262]
 zoomstufe = 12
 description = "Hinter den denkmalgeschützten, großzügigen Wohnanlagen mit ihren charakteristischen Barocktürmchen und Gauben verbirgt sich ein über 100 Jahre altes Leipziger Wohnungsbauunternehmen der besonderen Art. Was es mit diesen Häusern auf sich hat und warum sie als Vorläufer des sozialen Wohnungsbaus in Deutschland gelten, erfahren Sie hier."
@@ -23,7 +23,7 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   nr = 1
   lat = 51.336849
   lon = 12.395040
-  
+
 [[exkursion]]
   nr = 2
   lat = 51.341047
@@ -33,7 +33,7 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   nr = 3
   lat = 51.334103
   lon = 12.352996
-  
+
 [[exkursion]]
   nr = 4
   lat = 51.333592
@@ -49,19 +49,19 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   color='#69315F'
   lat = 51.339653
   lon = 12.335665
-  
+
 [[exkursion]]
   nr = 7
   color='#69315F'
   lat = 51.363986
   lon = 12.391644
-  
+
 [[exkursion]]
   nr = 8
   color='#69315F'
   lat = 51.327636
   lon = 12.412369
-  
+
 [[exkursion]]
   nr = 9
   lat = 51.326466
@@ -72,12 +72,12 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   color='#69315F'
   lat = 51.315028
   lon = 12.310594
-  
+
 [[exkursion]]
   nr = 11
   lat = 51.313738
   lon = 12.308789
-  
+
 [[exkursion]]
   nr = 12
   lat = 51.329369
@@ -87,12 +87,12 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   nr = 13
   lat = 51.334424
   lon = 12.364140
-  
+
 [[exkursion]]
   nr = 14
   lat = 51.334453
   lon = 12.352998
-  
+
 [[exkursion]]
   nr = 15
   lat = 51.333772
@@ -102,12 +102,12 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   nr = 16
   lat = 51.331303
   lon = 12.366139
-  
+
 [[exkursion]]
   nr = 17
   lat = 51.310592
   lon = 12.410219
-  
+
 [[exkursion]]
   nr = 18
   lat = 51.339326
@@ -117,12 +117,12 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   nr = 19
   lat = 51.334158
   lon = 12.374958
-  
+
 [[exkursion]]
   nr = 20
   lat = 51.337628
   lon = 12.387196
-  
+
 [[exkursion]]
   nr = 21
   lat = 51.346811
@@ -132,7 +132,7 @@ bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Meyersche Häuser in Lind
   nr = 22
   lat = 51.338055
   lon = 12.385651
-  
+
 [[exkursion]]
   nr = 23
   lat = 51.342559
@@ -151,7 +151,7 @@ Um in dieser von Wohnungsnot geprägten Zeit erschwingliche Wohnungen für einko
 
 Insgesamt wurden an vier Standorten 89 Mietshäuser mit 2659 Wohnungen errichtet. Baumeister der Wohnhäuser war der Architekt Max Pommer (1847–1915). Die ersten Wohnungen entstanden in Lindenau 1889–1898. Es folgten Häuser in Eutritzsch 1899–1901, in Reudnitz 1903–1908 sowie ab 1907 bis 1938 in Kleinzschocher. Eine fünfte geplante Anlage in Probstheida kam aufgrund der Wirren des Ersten Weltkrieges und des Todes Pommers nicht mehr zur Umsetzung.
 Die Meyerschen Häuser wurden als in sich geschlossene homogene Wohnanlagen konzipiert, deren Häuser eine ähnliche bzw. einheitliche Fassadengestaltung und gleiche Höhe aufweisen. Ergänzt wurden die Anlagen durch Gemeinschaftseinrichtungen wie Kindergärten, Bade- und Waschhäuser, Leihbibliotheken und Verwaltung. Besonders bemerkenswert für die damalige Zeit war die großzügige Freiraumgestaltung der Blockinnenbereiche. Statt Hinterhaus und Hofbebauung wurden Kleingärten, Spielplätze  und sogar teilweise parkähnliche Gartenhofbereiche geschaffen.
- 
+
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Mietergärten im Hof der Lindenauer Anlage" quellenangaben="Foto: Anne-Katrin Schultz" %}}
 
 Die Wohnungen waren schlicht und funktional. Ihre Grundfläche betrug durchschnittlich 40 m<sup>2</sup>. Mit Küche, Wasseranschluss und kleinen Balkonen waren sie jedoch deutlich besser ausgestattet als die üblichen Mietskasernen und durchaus zeitgemäß.

@@ -4,10 +4,10 @@ vg_wort_code = "8cc965dc6bc441bfa84da422f4a4cd69"
 autor = "Elke Leinhoß"
 date = "2015-06-29"
 rubriken = ["Kultur & Soziales"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_122-titelbild.jpg"
 titelbild_titel = "Konzertflügel im Schumann-Haus (Elke Leinhoß)"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_122-vorschaubild.jpg"
 title = "Leipzig – Die klingende Stadt"
 subtitle = ""
 description = "*„Ach wie beneide ich immer Leipzig um seine Musik!“* (Clara Schumann)  –  Musikstadt: eines jener Attribute, mit denen sich die schöne Tausendjährige völlig zu Recht schmückt. Auch Messestadt – unbedingt, denn die Messe begründete den Reichtum Leipzigs und öffnete die Stadt der Welt. Und Buchstadt – na selbstverständlich, war doch im Grafischen Viertel der Konzentrationspunkt des Verlagswesens schlechthin. Sportstadt, Wasserstadt – die Attribute der Neuzeit. Aber die Musik begleitet Leipzig inzwischen schon über 800 Jahre, seit 1212 der Thomanerchor gegründet wurde. Berühmte Komponisten  wohnten, arbeiteten, lebten und liebten hier. Warum? Die Musik ist in Leipzig zu Hause!"
@@ -22,15 +22,15 @@ bildnachweise = ["Titelbild: Konzertflügel im Schumann-Haus (Foto: Elke Leinho�
 
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Thomaskirche, Fotografie, um 1880" quellenangaben="IfL, Eu068-2078" %}}
 
-Zwei große Blütezeiten prägten die Musikstadt. Zunächst im Barock mit Georg Philipp **Telemann**, der in Leipzig seine ersten musikalischen Erfolge feierte, sowie mit dem Wirken Johann Sebastian **Bach**s als Director musices und Thomaskantor in Leipzig von 1723 bis zu seinem Tode 1750. 
+Zwei große Blütezeiten prägten die Musikstadt. Zunächst im Barock mit Georg Philipp **Telemann**, der in Leipzig seine ersten musikalischen Erfolge feierte, sowie mit dem Wirken Johann Sebastian **Bach**s als Director musices und Thomaskantor in Leipzig von 1723 bis zu seinem Tode 1750.
 
-Die nächste Blütezeit erlebt Leipzig als „Nabel der musikalischen Welt“ in der Romantik, Mitte bis Ende des 19. Jahrhunderts, personifiziert im Schaffen von Felix **Mendelssohn** Bartholdy, Robert und Clara **Schumann**, Richard **Wagner**, Edvard **Grieg**, Albert **Lortzing**, die in Leipzig wirkten. Die berühmten Musikverlage – **Breitkopf & Härtel**, 1719 gegründet und damit der älteste Musikverlag der Welt sowie Erfinder des Notendrucks mit beweglichen Lettern, **C.F. Peter**s, Friedrich **Hofmeister**, u.a. – taten das Ihrige dazu durch die Veröffentlichung und Verbreitung der Kompositionen, durch Werksausgaben und Editionen. 
+Die nächste Blütezeit erlebt Leipzig als „Nabel der musikalischen Welt“ in der Romantik, Mitte bis Ende des 19. Jahrhunderts, personifiziert im Schaffen von Felix **Mendelssohn** Bartholdy, Robert und Clara **Schumann**, Richard **Wagner**, Edvard **Grieg**, Albert **Lortzing**, die in Leipzig wirkten. Die berühmten Musikverlage – **Breitkopf & Härtel**, 1719 gegründet und damit der älteste Musikverlag der Welt sowie Erfinder des Notendrucks mit beweglichen Lettern, **C.F. Peter**s, Friedrich **Hofmeister**, u.a. – taten das Ihrige dazu durch die Veröffentlichung und Verbreitung der Kompositionen, durch Werksausgaben und Editionen.
 
 {{% clear %}}
 
 ### **Ausbildungsstätten**
 
-Zahlreiche spätere Nationalkomponisten ihres Landes (z. B. der Litauer Mikalojus K. **Čiurlionis**) studierten am Leipziger Konservatorium, das 1843 von Mendelssohn als erste musikalische Hochschule Deutschlands gegründet wurde und sich sehr schnell zu einer der renommiertesten Ausbildungseinrichtungen Europas entwickelte. 
+Zahlreiche spätere Nationalkomponisten ihres Landes (z. B. der Litauer Mikalojus K. **Čiurlionis**) studierten am Leipziger Konservatorium, das 1843 von Mendelssohn als erste musikalische Hochschule Deutschlands gegründet wurde und sich sehr schnell zu einer der renommiertesten Ausbildungseinrichtungen Europas entwickelte.
 
 {{% bild pfad="abbildung3.jpg" clickable="true" flow="around" titel="Leipziger Konservatorium, Ansichtskarte, um 1910" quellenangaben="IfL, PKL-Musik002" %}}
 
@@ -40,15 +40,15 @@ Die Leipziger Universität spielt ebenfalls eine wichtige Rolle als Ausbildungs-
 
 ### **Instrumentenbau**
 
-Eine weitere und nicht zu vernachlässigende Tatsache, die Leipzigs Aufstieg zur europäischen Musik-Metropole beförderte, war der Musikinstrumentenbau und die Herstellung von Musikautomaten. 
+Eine weitere und nicht zu vernachlässigende Tatsache, die Leipzigs Aufstieg zur europäischen Musik-Metropole beförderte, war der Musikinstrumentenbau und die Herstellung von Musikautomaten.
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Im Sommersaal des Bosehauses/Bachmuseum" quellenangaben="Foto: Elke Leinhoß" %}}
 
 Was in den Werkstätten so berühmter Familien wie der Geigenbauerfamilie **Hoffmann** oder der Julius **Blüthner** Piano Forte Fabrik erdacht, entwickelt und gebaut wurde, setzt noch heute Maßstäbe für den Instrumentenbau. Die Exponate und Sammlungen des Museums für Musikinstrumente im Grassimuseum legen auch dafür eindrucksvoll Zeugnis ab.
 
-### **Klangkörper** 
+### **Klangkörper**
 
-Nicht zuletzt sorgen musikalische Klangkörper von herausragender Qualität für die internationale Ausstrahlung Leipzigs als Musikstadt bis in die heutige Zeit. Das erste bürgerliche Orchester im deutschsprachigen Raum, 1743 aus 16 Musikern – zumeist ehemaligen Stadtpfeifern – entstanden, verzaubert noch immer als „Gewandhausorchester“ Musikliebhaber in der ganzen Welt. Berühmte Gewandhauskapellmeister, z.B. Felix **Mendelssohn** Bartholdy, Arthur **Nikisch**, Wilhelm **Furtwängler**,  Franz **Konwitschny**, Kurt **Masur**, Herbert **Blomstedt**, Riccardo **Chailly**, schrieben nicht nur in Leipzig Musik- und Interpretationsgeschichte. 
+Nicht zuletzt sorgen musikalische Klangkörper von herausragender Qualität für die internationale Ausstrahlung Leipzigs als Musikstadt bis in die heutige Zeit. Das erste bürgerliche Orchester im deutschsprachigen Raum, 1743 aus 16 Musikern – zumeist ehemaligen Stadtpfeifern – entstanden, verzaubert noch immer als „Gewandhausorchester“ Musikliebhaber in der ganzen Welt. Berühmte Gewandhauskapellmeister, z.B. Felix **Mendelssohn** Bartholdy, Arthur **Nikisch**, Wilhelm **Furtwängler**,  Franz **Konwitschny**, Kurt **Masur**, Herbert **Blomstedt**, Riccardo **Chailly**, schrieben nicht nur in Leipzig Musik- und Interpretationsgeschichte.
 
 Das MDR Sinfonieorchester, gegründet 1923, ist eines der ersten Rundfunkorchester weltweit und seit seiner Gründung besonders eng der Neuen Musik verbunden. Unter Dirigenten wie Fabio **Luisi**, Jun **Märkel** oder Kristjan **Järvi** ist es auch auf Tourneen ein vielbeachteter Klangkörper.
 Und schließlich ist mit seiner über 800-jährigen Geschichte und außergewöhnlichen Meisterschaft der Thomanerchor Botschafter der Musikstadt Leipzig in der ganzen Welt.
@@ -59,9 +59,9 @@ Leipzig bebt förmlich, wenn während des Bachfestes Zehntausende Besucher nach 
 
 ### **Leipziger Notenspur-Initiative**
 
-Kaum ein Komponist von Weltgeltung, der nicht wenigstens einmal in seinem Leben einen Fuß nach Leipzig gesetzt hat:  Außer den oben bereits erwähnten hinterließen auch  N. **Paganini**, W.A. **Mozart**, L. v. **Beethoven**, P.I. **Tschaikowski**, F. **Liszt**, J. **Brahms**, F. **Chopin**, E.T.A. **Hoffmann**, C.M. v. **Weber**, G. **Mahler**, Richard **Strauss** und viele andere  ihre Spuren in Leipzig – „Notenspuren“ – denen die **Leipziger Notenspur**-Initiative nach“spürt“. 
+Kaum ein Komponist von Weltgeltung, der nicht wenigstens einmal in seinem Leben einen Fuß nach Leipzig gesetzt hat:  Außer den oben bereits erwähnten hinterließen auch  N. **Paganini**, W.A. **Mozart**, L. v. **Beethoven**, P.I. **Tschaikowski**, F. **Liszt**, J. **Brahms**, F. **Chopin**, E.T.A. **Hoffmann**, C.M. v. **Weber**, G. **Mahler**, Richard **Strauss** und viele andere  ihre Spuren in Leipzig – „Notenspuren“ – denen die **Leipziger Notenspur**-Initiative nach“spürt“.
 
-Was vor 15 Jahren noch die Idee eines Einzelnen, des Physikers Prof. Dr. Werner Schneider, war, hat sich inzwischen zum Vorzeigeprojekt gemausert, das stolz sagen kann „Musik bewegt die Stadt“. Dabei verlief die Entwicklung der Notenspur gar nicht geradlinig. Nach zwei erfolglosen Versuchen, die Stadt für das Anliegen zu gewinnen, hat sich 2005 eine Initiative aus der Bürgerschaft gebildet. Die Idee: Leipzigs außergewöhnliches Musikerbe mit der Stadt – ihren Gebäuden und öffentlichen Räumen, ihrer Geschichte und ihren Persönlichkeiten – zu verknüpfen und über Generations- und Bildungsgrenzen hinweg erlebbar und hörbar zu machen.  
+Was vor 15 Jahren noch die Idee eines Einzelnen, des Physikers Prof. Dr. Werner Schneider, war, hat sich inzwischen zum Vorzeigeprojekt gemausert, das stolz sagen kann „Musik bewegt die Stadt“. Dabei verlief die Entwicklung der Notenspur gar nicht geradlinig. Nach zwei erfolglosen Versuchen, die Stadt für das Anliegen zu gewinnen, hat sich 2005 eine Initiative aus der Bürgerschaft gebildet. Die Idee: Leipzigs außergewöhnliches Musikerbe mit der Stadt – ihren Gebäuden und öffentlichen Räumen, ihrer Geschichte und ihren Persönlichkeiten – zu verknüpfen und über Generations- und Bildungsgrenzen hinweg erlebbar und hörbar zu machen.
 
 Die Leipziger Notenspur mit ihrem Wege- und Audioleitsystem wurde 2012 feierlich eröffnet. Zwei weitere musikalische Erkundungsrouten – das Leipziger Notenrad und der Leipziger Notenbogen – werden folgen.
 

@@ -4,10 +4,10 @@ vg_wort_code = "ebad506cdc50421da1e5a592c53bca22"
 autor = "Giulia Montanari"
 date = "2015-06-29"
 rubriken = ["Siedlung & Bevölkerung"]
-titelbild = "titelbild2.jpg"
+titelbild = "78_B_107-titelbild2.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_107-vorschaubild.jpg"
 title = "Leerstand in Leipzig"
 subtitle = ""
 description = "Der Wohnungsmarkt in Leipzig ist in Bewegung, daher verändern sich auch die Leerstände in der Stadt. Die Zahl baufälliger Gebäude nimmt ab, Wohnungen werden schneller vermietet. Die genaue Beobachtung der Entwicklung des Leerstands allerdings ist schwierig."
@@ -21,13 +21,13 @@ bildnachweise = ["Titelbild: Dachrinne eines leerstehenden Hauses in der Kröner
 
 Leerstehende und verfallene Gebäude üben auf viele Menschen eine derart große Faszination aus, dass sich nicht Wenige der Erkundung und Dokumentation von ungenutzten Häusern und Fabrikgebäuden widmen. So findet man im Internet unter dem Stichwort "urban exploration" oder "lost places" viele Fotoserien, die den morbiden Charme leerstehender Gebäude festhalten. Für die Städte und Gemeinden allerdings stellt Leerstand je nach Ausmaß ein großes Problem dar, betroffen sind besonders Regionen, in denen die Bevölkerung abnimmt. Leerstehende Gebäude müssen gepflegt werden, damit sie später auch wieder genutzt werden können. Das ist mit Kosten verbunden ([Thema: Projekte Wächter- und Ausbauhäuser]({{< relref "themen/78_B_102-projekte-waechter-und-ausbauhaeuser.md" >}})). Gleichzeitig deuten hohe Leerstandszahlen auf ein Überangebot hin, das zu sinkenden Immobilienpreisen und Mieten führt. Was für die Mieter von Vorteil ist, stellt immobilienwirtschaftliche Akteure vor ein Problem, dem mitunter mit Abrissen begegnet wird. Eine solche Marktbereinigung haben u.a. die bundesweiten "Stadtumbau"-Programme zum Ziel, mit denen der Rückbau staatlich gefördert wird.
 
-Auch in Leipzig musste man sich lange Zeit mit hohen Leerstandszahlen beschäftigen. Noch 2011 standen 12 % der Leipziger Wohnungen in Wohngebäuden leer. Zum Vergleich: In München standen 2011 nur 2 % der Wohnungen leer, in Hamburg sogar nur 1,5 %. Ein Blick auf die Karte zeigt, wie ungleich sich die Leerstände wiederum innerhalb der Stadt verteilen. 
+Auch in Leipzig musste man sich lange Zeit mit hohen Leerstandszahlen beschäftigen. Noch 2011 standen 12 % der Leipziger Wohnungen in Wohngebäuden leer. Zum Vergleich: In München standen 2011 nur 2 % der Wohnungen leer, in Hamburg sogar nur 1,5 %. Ein Blick auf die Karte zeigt, wie ungleich sich die Leerstände wiederum innerhalb der Stadt verteilen.
 
 {{% clear %}}
 
 {{% karte_statistik karte_statistik_titel="Wohnungsleerstand in Leipzig nach Ortsteilen, 2011" karte_statistik="78_B_107" %}}
 
-Mit am stärksten vom Leerstand geprägt sind bestimmte Quartiere des Leipziger Ostens (Volkmarsdorf und Neustadt-Neuschönefeld) sowie Lindenau. Aber auch Standorte der Plattenbaubestände im Leipziger Westen sind betroffen, u.a. Teile von Grünau. 
+Mit am stärksten vom Leerstand geprägt sind bestimmte Quartiere des Leipziger Ostens (Volkmarsdorf und Neustadt-Neuschönefeld) sowie Lindenau. Aber auch Standorte der Plattenbaubestände im Leipziger Westen sind betroffen, u.a. Teile von Grünau.
 
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Leerstand im Leipziger Osten: Wurzener Straße"  quellenangaben="Foto: Marek Wejwoda" %}}
 

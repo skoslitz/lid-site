@@ -2,25 +2,16 @@
 id = "78_B_108"
 vg_wort_code = "9e782b78586c4f35b9c90f11b22607e4"
 autor = "Evelin Müller"
-
 date = "2015-06-29"
-
 rubriken = ["Siedlung & Bevölkerung"]
-
 title = "Leipzig-Grünau im städtebaulichen Wandel"
-
-titelbild = "titelbild.jpg"
+titelbild = "78_B_108-titelbild.jpg"
 titelbild_titel = "Kunst in der Stuttgarter Allee (Evelin Müller)"
 titelbild_quelle = ""
-
-vorschaubild = "vorschaubild.jpg"
-
+vorschaubild = "78_B_108-vorschaubild.jpg"
 description = "Städtisch wohnen – naturnah leben: Das bietet der Stadtteil im Westen Leipzigs. Wo einst mehr als 90.000 Menschen wohnten, wurden aufgrund von Wegzug und Leerstand zahlreiche Wohngebäude zurückgebaut. Dabei flossen erhebliche Fördermittel in die Gestaltung des Wohnumfeldes. Heute ist das Grün aus dem Stadtteilnamen zum charakteristischen Merkmal geworden. Naherholungsmöglichkeiten finden sich fast vor der Haustür und dank guter Verkehrsanbindung ist die Leipziger Innenstadt bequem erreichbar."
-
 literaturangaben=["BMBau (Bundesministerium für Raumordnung, Bauwesen und Städtebau), Freistaat Sachsen und Stadt Leipzig (Hgg., 1997): Fachveranstaltung zur Städtebaulichen Weiterentwicklung großer Neubaugebiete anlässlich des 20jährigen Bestehens des Stadtteils Leipzig-Grünau. – Bonn, Berlin, Leipzig.", "BMVBW (Bundesministerium für Verkehr, Bau- und Wohnungswesen) (Hg., 1999): Eine Zukunft für die Plattenbausiedlungen. – Bonn, Berlin.", "Helmholtz-Zentrum für Umweltforschung GmbH (Hg., 2010): Grünau 2009, Einwohnerbefragung im Rahmen der Intervallstudie 'Wohnen und Leben in Leipzig-Grünau', Ergebnisbericht. – Leipzig.", "Kahl, Alice (2003): Erlebnis Plattenbau. eine Langzeitstudie. – Opladen.", "Rat der Stadt Leipzig (Hg., 1985): Neubaugebiet Leipzig-Grünau 1976-1986. – Leipzig.", "Stadt Leipzig, Dezernat Stadtentwicklung und Bau (Hg., 2007): Entwicklungsstrategie Grünau 2020. – Leipzig."]
-
 bildnachweise = ["Titelbild: Kunst in der Stuttgarter Allee (Foto: Evelin Müller)", "Vorschaubild: Innenhof im WK 8 nach dem Umbau (Foto: Evelin Müller)"]
-
 [[video]]
   id = "126752008"
   titel = "Phantom Groß-Siedlung"
@@ -69,7 +60,7 @@ Die letzte Intervallstudie von 2009 konstatierte eine weitgehende Zustimmung der
 
 ### Stadtsanierung und Wohnraumentwicklung am Beispiel von Grünau
 
-Grünau unterscheidet sich von anderen Leipziger Stadtteilen nicht nur darin, dass es eine Großwohnsiedlung ist. Gegen manches Vorurteil hat sich hier in den vergangenen Jahren viel verändert. Grünau ist in der Tat ein grüner Stadtteil, der mit dem attraktiven Naherholungsgebiet Kulkwitzer See verbunden ist. Seine Bewohner schätzen saubere Luft, ein gutes Radwegenetz und energieeffizientes Wohnen. 
+Grünau unterscheidet sich von anderen Leipziger Stadtteilen nicht nur darin, dass es eine Großwohnsiedlung ist. Gegen manches Vorurteil hat sich hier in den vergangenen Jahren viel verändert. Grünau ist in der Tat ein grüner Stadtteil, der mit dem attraktiven Naherholungsgebiet Kulkwitzer See verbunden ist. Seine Bewohner schätzen saubere Luft, ein gutes Radwegenetz und energieeffizientes Wohnen.
 
 **Engagierte Bürgerschaft**
 
@@ -127,6 +118,6 @@ Für die Aufwertung des lange Zeit vernachlässigten, im Stadtumbaugürtel liege
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Kulkwitzer See"  quellenangaben="Quelle:Evelin Müller" %}}
 
-Nachdem Grünau seit einiger Zeit leichten Zuzug zu verzeichnen hat, entstehen seit März 2014 tatsächlich erstmals wieder große Neubauten – drei sechsgeschossige Terrassenhäuser im WK 8 mit Blick auf den Kulkwitzer See. 
+Nachdem Grünau seit einiger Zeit leichten Zuzug zu verzeichnen hat, entstehen seit März 2014 tatsächlich erstmals wieder große Neubauten – drei sechsgeschossige Terrassenhäuser im WK 8 mit Blick auf den Kulkwitzer See.
 
-Zweifellos sind diese Entwicklungen auch ein Erfolg bürgerschaftlichen Engagements. Die Grünauer Bürger selbst haben nach dem massiven Wegzug der 1990er Jahre viel dazu beigetragen, um die DDR-Plattenbausiedlung zu gestalten, ein positives Lebensgefühl zu entfachen und Grünau eine Zukunft zu geben. 
+Zweifellos sind diese Entwicklungen auch ein Erfolg bürgerschaftlichen Engagements. Die Grünauer Bürger selbst haben nach dem massiven Wegzug der 1990er Jahre viel dazu beigetragen, um die DDR-Plattenbausiedlung zu gestalten, ein positives Lebensgefühl zu entfachen und Grünau eine Zukunft zu geben.

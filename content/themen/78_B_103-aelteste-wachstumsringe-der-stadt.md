@@ -4,10 +4,10 @@ vg_wort_code = "e0058b64feb84a5eb474a28261b0b52e"
 autor = "Luise Grundmann"
 date = "2015-06-29"
 rubriken = ["Siedlung & Bevölkerung", "Vergangenheit & Erinnerung"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_103-titelbild.jpg"
 titelbild_titel = "Archiv für Geographie, IfL, PKL-W.V.012"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_103-vorschaubild.jpg"
 title = "Die Entwicklung der Vorstädte im zweiten Drittel des 19. Jahrhunderts"
 subtitle = ""
 

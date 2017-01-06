@@ -4,10 +4,10 @@ vg_wort_code = "be437cb906954c3eb64e0ef3b4f3da02"
 autor = "Andreas Berkner"
 date = "2015-06-29"
 rubriken = ["Wirtschaft & Verkehr", "Vergangenheit & Erinnerung"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_153-titelbild.JPG"
 titelbild_titel = "Andreas Berkner"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_153-vorschaubild.jpg"
 title = "Der Förderschacht Leipzig-Dölitz – Monument der Industriekultur"
 subtitle = ""
 description = "Die urkundlichen Nachweise der Braunkohlenförderung im Stadtgebiet reichen bis 1704 zurück. Nachdem der Abbau um 1900 durch Tiefbaubetriebe geprägt war, prägten an der Peripherie der Stadtregion ab 1930 im Norden (Breitenfeld), Süden (Zwenkau, Cospuden, Espenhain) und Westen (Kulkwitz-Miltitz) Tagebaue das Bild. Der bis 1961 betriebene Förderschacht Dölitz erinnert als letztes derartiges Monument der Industriekultur in Mitteldeutschland, an den früher weit verbreiteten untertägigen Abbau und an einen Montanstandort mit mehreren Funktionen."
@@ -18,16 +18,16 @@ bildnachweise = ["Titelbild/Vorschaubild: Förderturm Dölitz (Foto: Andreas Ber
 
 +++
 
-Als **einziger Sachzeuge des Braunkohlentiefbaus** in Leipzig fixiert der Schacht zugleich den Beginn des industriellen Kohlenabbaus im Stadtgebiet. Nach Probebohrungen 1894 erfolgte 1895 durch die Firma "Wilhelm Schurath" der erste Spatenstich. Erst 1903 wurde der Förderschacht bis 73 m abgeteuft und die erste Kohle gefördert. Die anfangs mit dem Streckenvortrieb abgebaute Kohle wurde vorrangig für den Eigenbedarf zum Betrieb der Förderanlage und der Wasserförderung benötigt. 
+Als **einziger Sachzeuge des Braunkohlentiefbaus** in Leipzig fixiert der Schacht zugleich den Beginn des industriellen Kohlenabbaus im Stadtgebiet. Nach Probebohrungen 1894 erfolgte 1895 durch die Firma "Wilhelm Schurath" der erste Spatenstich. Erst 1903 wurde der Förderschacht bis 73 m abgeteuft und die erste Kohle gefördert. Die anfangs mit dem Streckenvortrieb abgebaute Kohle wurde vorrangig für den Eigenbedarf zum Betrieb der Förderanlage und der Wasserförderung benötigt.
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Schema des Förderschachts in Dölitz"  quellenangaben="Entwurf: Andreas Berkner; Quelle: verändert nach Modell der Schachtförderanlage \"Gewerkschaft Leipzig-Döhlitzer Kohlenwerke\"; Redaktion/Bearbeitung: Birgit Hölzel" %}}
 
 Nachdem das Braunkohlenunternehmen 1902 in die "Gewerkschaft Leipzig-Dölitzer Kohlenwerke" umgewandelt worden war, begannen die Umbaumaßnahmen zur Vorbereitung des planmäßigen Abbaus im Pfeilerbruchbau. Bis 1905 wurde das Holzgerüst durch eine neue Anlage ersetzt. Das den bestehenden Förderturm (Stahlfachwerk) umgebende Schachthaus wurde als Ziegelbau ausgeführt, worauf das Obergeschoss ruhte. Nördlich schloss sich die Sortieranlage an, deren vier Säulenpaare die Kohlenbunker trugen und das Füllen der Pferdefuhrwerke ermöglichten.
 
 Die mit dem planmäßigen Abbau ab 1905 auftretenden Geländesenkungen betrugen bis zu 6,5 m und führten zu erkennbaren Veränderungen des Landschaftsbilds in der Umgebung. Fiel das Niveau unter den Grundwasserspiegel, bildeten sich sumpfige Flächen und Teiche. Über den Bruchfeldern, die sich nach maximal zehn Jahren ausgebildet hatten, wurden später an verschiedenen Stellen Kleingartenvereine angelegt.
- 
+
 Das Elektrizitätswerk Süd bildete ab 1910 einen neuen Hauptabnehmer. Seit 1917 gehörten 90 % der Kuxe der Stadt. Die Jahresfördermenge stieg bis 1923 auf 75.000 t. 1925–1930 wurde der gesamte Komplex modernisiert. 1927 / 28 erfolgte der Transport von Kohle und Asche zwischen Schacht und Kraftwerk über eine Drahtseilbahn, die die Bornaische Straße in Höhe des "Stern" überquerte und damit auch Wohngebiete tangierte. Die Drahtseilbahn löste Beschwerden über Staub- und Lärmbelästigungen aus, die schließlich zur ihrer Stilllegung führten.
- 
+
 Zur Ertüchtigung wurde der Ziegelbau des Schachthauses aufgestockt. Das Fördergerüst erhielt mit 30,35 m die endgültige Höhe. Im Hängebankgeschoss, das auf dem Schachthaus ruht, wurden die Kohlenhunte auf eine Gleisanlage abgezogen und liefen über eine Förderbrücke zur Neuen Sortierung. Darunter befand sich die Füllstation für die Wagen. Die bauliche Logik der Anlage veranschaulicht sowohl die Funktion der Einzelbauten als auch den Ablauf des übertägigen Förderbetriebes, wobei nunmehr 150 Kumpel 120.000 t/a Kohle förderten.
 
 Nach 1945 unterstand der Schacht der Aufsicht der sowjetischen Militäradministration. Anschließend ging er in Volkseigentum über. In den 1950er Jahren entstanden am Ort die Hauptstelle für Grubenrettungswesen und eine Bergingenieurschule. Obwohl 300 Kumpel inzwischen 150.000 t jährlich förderten, wurde am 13. Juni 1959 wegen Unrentabilität die letzte reguläre Förderschicht gefahren. Ein Restabbau fand bis 1961 statt. Nach der Stilllegung erfolgte die Umnutzung der Schachtanlage zu Büros und Forschungslabors für die Oberste Bergbehörde der DDR und das Institut für Bergbausicherheit. Sämtliche technischen Einrichtungen wurden verschrottet. Der Versatz des Förderschachtes erfolgte 1984 (Wetterschacht 1964, Fluchtschacht 1973). Ab 1968 wurden die Senkungsfelder einschließlich der "Trümmerhalde" für die AGRA zu Demonstrationsflächen der Melioration umgestaltet. 1975 begann die Umgestaltung der Senkungsfelder zum Freizeit- und Erholungspark Lößnig. Aufgrund mangelnder Unterhaltungsarbeiten verfiel die Schachtanlage zunehmend. 1974 wurde sie zwar in die Denkmalliste der Stadt Leipzig aufgenommen, 1979 aber nach Einspruch des Instituts für Bergbausicherheit wieder gestrichen. Fehlende Finanzen verhinderten den Abriss. Allerdings verschrottete man die Gabelbahn zum Südwerkbunker. Die Ziegelgefache der Förderbrücke und der südlichen Auskragung des Hängebankgeschosses wurden ausgebrochen.

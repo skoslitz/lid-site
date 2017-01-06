@@ -4,10 +4,10 @@ vg_wort_code = "199437c3efcf44b0b86f769e6fd72e54"
 autor = "Volker Bode und Heinz Peter Brogiato"
 date = "2015-06-30"
 rubriken = ["Vergangenheit & Erinnerung"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_131-titelbild.jpg"
 titelbild_titel = "IfL, Eu068-1348"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_131-vorschaubild.jpg"
 title = "Die zerbombte Stadt"
 subtitle = ""
 description = "Am 20. Oktober 1943 erlebten die Leipziger den ersten großen Luftangriff auf ihre Stadt. Bis Kriegsende sollte kaum ein Monat vergehen, in dem die Sirenen nicht heulten und die alliierten Flugzeuge nicht ihre tödliche Last auf die Stadt entluden. Als die Amerikaner im April 1945 in die Stadt einzogen, fanden sie ein zu 40–60 % zerstörtes Leipzig vor. Mehr als 5000 Personen hatten durch die Luftangriffe ihr Leben verloren, die Überlebenden hausten zwischen 5 Millionen Kubikmetern Trümmerschutt."
@@ -31,7 +31,7 @@ Verfallene und ausgebrannte Gebäudekomplexe und eine unvorstellbare Masse von e
 
 ### **Die Schadensbilanz am Leipziger Wohnungsbestand**
 
-Von den 225.389 Wohnungen im Jahre 1942 waren bei Kriegsende rund 45.000 Wohnungen total zerstört. Dies bedeutete einen Verlust von etwa 20 Prozent. Weitere 20 Prozent der Wohnungen wiesen leichte bis schwere Schäden auf; dementsprechend blieben ca. 60 Prozent des Bestandes (135.500 Wohnungen) verschont. Die umfangreichen Zerstörungen betrafen neben den Wohngebäuden auch zahlreiche öffentliche Gebäude (Krankenhäuser, Schulen usw.), Industrie-, Handwerks- und Dienstleistungsbetriebe sowie die technische Infrastruktur (Verkehr, Energie- und Wasserversorgung). In zahlreichen Quartieren kam das städtische Leben nahezu zum Erliegen. Massive Schäden erlitt auch die 48 Hektar große Innenstadt, die zu etwa 50 bis 60 Prozent zerstört wurde. Das Ausmaß war jedoch, im Unterschied zu anderen Großstädten wie Köln, Düsseldorf, Essen, Dortmund, Hannover, Dresden und Magdeburg deutlich geringer. 
+Von den 225.389 Wohnungen im Jahre 1942 waren bei Kriegsende rund 45.000 Wohnungen total zerstört. Dies bedeutete einen Verlust von etwa 20 Prozent. Weitere 20 Prozent der Wohnungen wiesen leichte bis schwere Schäden auf; dementsprechend blieben ca. 60 Prozent des Bestandes (135.500 Wohnungen) verschont. Die umfangreichen Zerstörungen betrafen neben den Wohngebäuden auch zahlreiche öffentliche Gebäude (Krankenhäuser, Schulen usw.), Industrie-, Handwerks- und Dienstleistungsbetriebe sowie die technische Infrastruktur (Verkehr, Energie- und Wasserversorgung). In zahlreichen Quartieren kam das städtische Leben nahezu zum Erliegen. Massive Schäden erlitt auch die 48 Hektar große Innenstadt, die zu etwa 50 bis 60 Prozent zerstört wurde. Das Ausmaß war jedoch, im Unterschied zu anderen Großstädten wie Köln, Düsseldorf, Essen, Dortmund, Hannover, Dresden und Magdeburg deutlich geringer.
 
 ### **Kriegsschäden im Stadtbild vereinzelt immer noch sichtbar**
 
@@ -39,7 +39,7 @@ Auch 70 Jahre nach Kriegsende gibt es in Leipzig noch kriegsbedinge innerstädti
 
 ### **Hauptschadensgebiete**
 
-Die von den Luftangriffen besonders stark betroffenen Stadtteile und Quartiere in Leipzig werden aus der Karte Kriegszerstörungen 1945 ersichtlich. Die thematische Karte basiert auf der verkleinerten Zusammenschau von insgesamt fünf Kartenblättern im Maßstab 1:15.000, die 1946 im Atlas Leipzig gestern, heute, morgen veröffentlicht wurden: 
+Die von den Luftangriffen besonders stark betroffenen Stadtteile und Quartiere in Leipzig werden aus der Karte Kriegszerstörungen 1945 ersichtlich. Die thematische Karte basiert auf der verkleinerten Zusammenschau von insgesamt fünf Kartenblättern im Maßstab 1:15.000, die 1946 im Atlas Leipzig gestern, heute, morgen veröffentlicht wurden:
 
 - die Innenstadt innerhalb des Promenadenrings;
 + das unmittelbar im Norden angrenzende Quartier zwischen dem Rosental im Westen, dem Nordplatz im Norden, dem Hauptbahnhof und seinen Gleisanlagen im Osten; Gohlis-Süd;
@@ -52,7 +52,7 @@ Die von den Luftangriffen besonders stark betroffenen Stadtteile und Quartiere i
 
 ### **Leipzig in Trümmern**
 
-Besonders hart waren die Innenstadt und die Vorstädte beim stärksten Bombardement in den frühen Morgenstunden des 4. Dezembers 1943 getroffen worden. Teile der Vorstädte glichen einer Trümmerwüste. Die historischen Fotos, die Johannes Baufeld 1945 / 46 aufnahm, vermitteln einen Eindruck von den Zerstörungen, aber auch von ersten Aufräumarbeiten. Gegenübergestellt sind hier Ansichtskarten aus dem ersten Drittel des 20. Jahrhunderts. Manche Gebäude, wie Bildermuseum oder Gewandhaus, hätte die Stadtverwaltung, bei entsprechendem politischem Willen, sicher wieder aufbauen können. 
+Besonders hart waren die Innenstadt und die Vorstädte beim stärksten Bombardement in den frühen Morgenstunden des 4. Dezembers 1943 getroffen worden. Teile der Vorstädte glichen einer Trümmerwüste. Die historischen Fotos, die Johannes Baufeld 1945 / 46 aufnahm, vermitteln einen Eindruck von den Zerstörungen, aber auch von ersten Aufräumarbeiten. Gegenübergestellt sind hier Ansichtskarten aus dem ersten Drittel des 20. Jahrhunderts. Manche Gebäude, wie Bildermuseum oder Gewandhaus, hätte die Stadtverwaltung, bei entsprechendem politischem Willen, sicher wieder aufbauen können.
 
 Starten Sie die Bildergalerie mit einem Klick auf das Vorschaubild.
 
@@ -78,7 +78,7 @@ Starten Sie die Bildergalerie mit einem Klick auf das Vorschaubild.
 {{% bild pfad="slideshow1-abb10.jpg"   hidden="" flow="preview" clickable="true" titel= "Alte Waage. Etwa zeitgleich mit dem Rathaus entstand am Markt die Alte Waage an der Ecke Katharinenstraße. Hier mussten alle auswärtigen Kaufleute ihre Waren wiegen und verzollen lassen. Das Gebäude, in dem sich seit 1917 das Messeamt befand, wurde 1943 völlig zerstört. Der 1963/64 errichtete Neubau für das Reisebüro der DDR erhielt zum Markt hin seine historische Fassade." quellenangaben= "IfL, Eu068-1442; PKL-Markt109 (Ansichtskarte von ca. 1929)" %}}
 
 {{% bild pfad=" slideshow1-abb11.jpg"   hidden="" flow="preview" clickable="true" titel= "Altes Theater. Auf den Fundamenten der geschleiften Rannischen Bastei wurde 1766 das „Komödienhaus“ errichtet, das bis zu seiner Zerstörung 1943 als städtisches Schauspielhaus diente und nach der Eröffnung des Neuen Theaters am Augustusplatz 1868 „Altes“ Theater genannt wurde. Der Blick über die Theaterruine geht zum Tröndlinring, wo der Turm der Reformierten Kirche und das Hotel Fürstenhof erkennbar sind." quellenangaben= "IfL, Eu068-1520; PKL-Theater052 (Ansichtskarte von ca. 1916)" %}}
-  
+
 {{% bild pfad="slideshow2-abb1.jpg"   hidden="" flow="preview" clickable="true" titel= "Das Gewandhaus in der Beethovenstraße. In den Jahren 1882–1884 errichtete die Stadt für ihr berühmtes Gewandhausorchester ein eigenes Konzerthaus in dem neu entstehenden „Musikviertel“. Das Gebäude zwischen Beethoven- und Mozartstraße erlitt am 20. Februar 1944 Bombenschäden. Bis 1968 stand die Ruine, ehe sie – zum Leidwesen vieler Leipziger – gesprengt wurde. Seit 2003 befindet sich am Standort das Geisteswissenschaftliche Zentrum der Universität." quellenangaben= "IfL, Eu068-1330; PKL-Gewand052 (Ansichtskarte von ca. 1910)" %}}
 
 {{% bild pfad="slideshow2-abb2.jpg"   hidden="" flow="preview" clickable="true" titel= "Trümmerwüste Leipzig – Ruinen in der Brüderstraße, Ecke Turnerstraße" quellenangaben= "IfL, Eu068-1340" %}}
@@ -96,7 +96,7 @@ Starten Sie die Bildergalerie mit einem Klick auf das Vorschaubild.
 {{% bild pfad="slideshow2-abb8.jpg"   hidden="" flow="preview" clickable="true" titel= "Im Innenhof des Neuen Grassimuseums. Am Johannisplatz erhielten die städtischen Museen in den 1920er Jahren ein neues Domizil. Das monumentale Neue Grassimuseum wurde als doppelte Vierflügelanlage um zwei große Innenhöfe 1925–1929 errichtet. Nach den Kriegszerstörungen begannen die Aufräumarbeiten und die Wiederinstandsetzung. Doch erst in jüngster Zeit konnte die denkmalgerechte Restaurierung abgeschlossen werden." quellenangaben= "IfL, EuGrassi02" %}}
 
 {{% bild pfad="slideshow2-abb9.jpg"   hidden="" flow="preview" clickable="true" titel= "Czermaks Garten. An Czermaks Garten, einer kurzen Straße im Graphischen Viertel zwischen Quer- und Salomonstraße, erinnern nur noch zwei Mietshäuser und ein leerstehendes Fabrikgebäude an die gründerzeitliche Bebauung. Heute finden sich hier Neubauten (z. B. Abendgymnasium) und Grünflächen (z. B. wo bis 2003 Thiemes Hof stand)." quellenangaben= "IfL, 5 Cermaks Garten; PKL-Hotel027 (Ansichtskarte von ca. 1912)" %}}
- 
+
 
 {{% bild pfad="slideshow3-abb1.jpg"   hidden="" flow="preview" clickable="true" titel= "Aufräumarbeiten" quellenangaben= "IfL, Eu068-1004" %}}
 

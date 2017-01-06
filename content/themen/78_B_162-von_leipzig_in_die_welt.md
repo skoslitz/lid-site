@@ -4,16 +4,16 @@ autor = "Yannik Brach"
 date = "2015-12-18"
 rubriken = ["Siedlung & Bevölkerung", "Vergangenheit & Erinnerung"]
 title = "Von Leipzig in die Welt - Hans Meyers Weltreise 1881-1883"
-titelbild = "titelbild.jpg"
+titelbild = "78_B_162-titelbild.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_162-vorschaubild.jpg"
 
 description = "Hans Meyer (1858-1929), Leipziger Verleger und Forschungsreisender, ist vor allem durch seine Expeditionen am Kilimandscharo bekannt geworden. Er war der erste, der Afrikas höchsten Berg bezwang. Hier soll es aber weniger um seine Verdienste in Ostafrika als vielmehr um seine zweijährige Weltreise gehen auf der ihn vor allem Südostasien faszinierte. Grundlage für diesen Beitrag bildet sein 1885 veröffentlichtes Reisetagebuch, in dem er alles festhielt, was ihn während der zwei Jahre faszinierte und bewegte."
 
 bildnachweise = ["Titelbild: Reiseroute von Hans Meyer 1881 - 1883. Bearbeitung: Yannik Brach, 2015", "Vorschaubild: Im Hafen von Singapur. In: Eine Weltreise. Plaudereien aus einer zweijährigen Erdumsegelung; mit einem Anhang: \"die Igorroten\". Ort, Verlag Leipzig: Verl. des Bibliogr. Inst. (Quelle: IfL)"]
 
-quellenangaben = ["Brogiato, Heinz Peter (Hrsg., 2008): Meyers Universum. Zum 150. Geburtstag des Leipziger Verlegers und Geographen Hans Meyer (1858-1929). – Leipzig.", "Meyer, Hans (1885): Eine Weltreise. Plaudereien aus einer zweijährigen Erdumsegelung. – Leipzig. Online unter: https://archive.org/details/eineweltreisepl00meyegoog (11.12.2015).", "Hanle, Adolf (1994): Artikel: Meyer, Hans. In: Neue Deutsche Biographie 17, S. 298–299. Online-Ausgabe: http://www.deutsche-biographie.de/pnd119239353.html (18.12.2015)", "Brogiato, Heinz Peter (2009): Meyer, Hans Heinrich Joseph. In: Sächsische Biografie, hrsg. vom Institut für Sächsische Geschichte und Volkskunde e.V., bearb. von Martina Schattkowsky. Online-Ausgabe: http://www.isgv.de/saebi/ (18.12.2015)"] 
+quellenangaben = ["Brogiato, Heinz Peter (Hrsg., 2008): Meyers Universum. Zum 150. Geburtstag des Leipziger Verlegers und Geographen Hans Meyer (1858-1929). – Leipzig.", "Meyer, Hans (1885): Eine Weltreise. Plaudereien aus einer zweijährigen Erdumsegelung. – Leipzig. Online unter: https://archive.org/details/eineweltreisepl00meyegoog (11.12.2015).", "Hanle, Adolf (1994): Artikel: Meyer, Hans. In: Neue Deutsche Biographie 17, S. 298–299. Online-Ausgabe: http://www.deutsche-biographie.de/pnd119239353.html (18.12.2015)", "Brogiato, Heinz Peter (2009): Meyer, Hans Heinrich Joseph. In: Sächsische Biografie, hrsg. vom Institut für Sächsische Geschichte und Volkskunde e.V., bearb. von Martina Schattkowsky. Online-Ausgabe: http://www.isgv.de/saebi/ (18.12.2015)"]
 
 worldmap = "ja"
 kartentitel = "Hans Meyers Reiseroute 1881 - 1883"
@@ -46,7 +46,7 @@ zoomstufe = 2
   color='#343465'
   lat = 47.497912
   lon = 19.040235
-  
+
 [[exkursion]]
   nr = 3
   click = 0
@@ -69,7 +69,7 @@ zoomstufe = 2
   lon = 28.682394
 
 
-  
+
 [[exkursion]]
   nr = 7
   click = 0
@@ -83,23 +83,23 @@ zoomstufe = 2
   color='#343465'
   lat = 33.888628
   lon = 35.495479
-  
+
 [[exkursion]]
   nr = 9
   click = 0
   color ='#343465'
   lat = 31.768319
   lon = 35.213709
-  
+
 [[exkursion]]
   nr = 10
   click = 0
   color='#343465'
   lat = 28.979312
   lon = 32.900625
-  
 
-  
+
+
 [[exkursion]]
   nr = 12
   click = 0
@@ -177,7 +177,7 @@ zoomstufe = 2
   color='#343465'
   lat = 17.333268
   lon = 85.625964
-  
+
 [[exkursion]]
   nr = 24
   click = 0
@@ -300,7 +300,7 @@ zoomstufe = 2
   color='#343465'
   lat = 14.599512
   lon = 120.984219
-  
+
 [[exkursion]]
   nr = 43
   click = 0
@@ -330,14 +330,14 @@ zoomstufe = 2
   lon = 139.638025
 
 
-  
+
 [[exkursion]]
   nr = 48
   click = 0
   color='#343465'
   lat = 35.964789
   lon = -171.117539
-  
+
 [[exkursion]]
   nr = 49
   click = 0
@@ -477,7 +477,7 @@ zoomstufe = 2
   color='#C9252B'
   lat = 35.689487
   lon = 139.691706
-  
+
 [[exkursion]]
   nr = 61
   click = 1

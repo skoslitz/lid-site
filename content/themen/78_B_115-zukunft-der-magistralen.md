@@ -5,10 +5,10 @@ autor = "Anne-Katrin Schultz"
 date = "2015-06-29"
 rubriken = ["Wirtschaft & Verkehr"]
 title = "Zukunft der Magistralen"
-titelbild = "titelbild.jpg"
+titelbild = "78_B_115-titelbild.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_115-vorschaubild.jpg"
 description = "Verwaiste Geschäfte, leerstehende Wohnungen, verwahrloste Bausubstanz und Imageprobleme. Viele Magistralen in Leipzig haben neben dem generellen Problem der hohen Lärmbelästigung auch mit solchen Missständen zu kämpfen. Ein Paradebeispiel ist sicherlich die Eisenbahnstraße, die in den Boulevardmedien immer wieder als Gruselkulisse herhalten muss. Dass diese und weitere Problemstraßen seit einiger Zeit einen Wandel erleben, wissen allerdings nur wenige."
 
 literaturangaben = ["Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS) (Hrsg.) 2013: Innerstädtische Hauptverkehrsstraßen – Visitenkarte und Problemzone für die Wohnungsmarktentwicklung. BMVBS-Online-Publikation, Nr. 09/2013. Online verfügbar unter: http://www.bbsr.bund.de/BBSR/DE/Veroeffentlichungen/BMVBS/Online/2013/ON092013.html.", "Daab, Karlfried (2011): Städtebauliches Entwicklungskonzept Georg-Schwarz-Straße. Online verfügbar unter http://www.leipzig.de/bauen-und-wohnen/foerdergebiete/georg-schwarz-strasse/– Leipzig.", "Nuß, Daniela (2015): Internetauftritt Georg-Schwarz-Straße. Online verfügbar unter  http://www.georg-schwarz-strasse.de/– Leipzig.", "StadtLabor, Bürogemeinschaft Gauly & Heck u. Deutsche Stadt- und Grundstücksentwicklungsgesellschaft (2009): Experimentierlabor Magistralenentwicklung. Integriertes Handlungskonzept Georg-Schumann-Straße. Online verfügbar unter http://www.leipzig.de/bauen-und-wohnen/foerdergebiete/georg-schumann-strasse/ – Leipzig.", "Stadt Leipzig, Amt für Stadterneuerung und Wohnungsbauförderung (2015): Internetauftritt Georg-Schumann-Straße. Online verfügbar unter http://www.schumann-magistrale. de/– Leipzig.", "Stadt Leipzig, Amt für Statistiken (Hrsg., 2014): Statistischer Quartalsbericht II/2014. – Leipzig, S. 15-18.", "Stadt Leipzig, Dezernat Stadtentwicklung und Bau (Hrsg., 2014): Leipzig 2020. Integriertes Stadtentwicklungskonzept (SEKo). Langfassung Stand Mai 2014.  Online verfügbar unter: http://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/stadtentwicklungskonzept-seko/ – Leipzig."]
@@ -31,7 +31,7 @@ Allerdings haben hohes Verkehrsaufkommen und die damit verbundenen Beeinträchti
 
 Dazu zählen neben der Eisenbahnstraße, die zwischen 1993 und 2003 fast 60% ihrer Bevölkerung verloren hat, u.a. auch die Georg-Schwarz-Straße im Westen und die Georg-Schumann-Straße im Nordwesten der Stadt. Diese haben ebenfalls im gleichen Zeitraum massiv an Bevölkerung verloren (siehe Abbildung 2). Abbildung 3 und 4 verdeutlichen die wirtschaftlichen Probleme der Magistralen mit Handlungsbedarf. 2013 standen auf der Georg-Schwarz-Straße rund 39 % der kartierten Einzelhandelsgeschäfte leer. Auf der Eisenbahnstraße war 2014 sogar fast jedes zweite Geschäft von Leerstand betroffen.
 
-{{% bild pfad="abbildung3.jpg"  clickable="true" titel="Abbildung 3: Einzelhandels- und Dienstleistungsstruktur in der Eisenbahnstraße 2014" quellenangaben="Entwurf: Beatrice Diez; Erhebung: Junker und Kruse / Stadtplanungsamt Leipzig, Basiskarte verändert nach Stadt Leipzig, Amt für Geoinformation und Bodenordnung 2013; Kartenredaktion: Birgit Hölzel, Kartographie: Romana Schwarz" %}} 
+{{% bild pfad="abbildung3.jpg"  clickable="true" titel="Abbildung 3: Einzelhandels- und Dienstleistungsstruktur in der Eisenbahnstraße 2014" quellenangaben="Entwurf: Beatrice Diez; Erhebung: Junker und Kruse / Stadtplanungsamt Leipzig, Basiskarte verändert nach Stadt Leipzig, Amt für Geoinformation und Bodenordnung 2013; Kartenredaktion: Birgit Hölzel, Kartographie: Romana Schwarz" %}}
 
 {{% clear %}}
 

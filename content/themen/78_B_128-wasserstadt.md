@@ -5,10 +5,10 @@ title = "Wasserstadt Leipzig"
 autor = "Andreas Berkner und Heinz Peter Brogiato"
 date = "2015-06-29"
 rubriken = ["Kultur & Soziales", "Natur & Landschaft", "Vergangenheit & Erinnerung"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_128-titelbild.jpg"
 titelbild_titel = "Cospudener See, Zöbigker Winkel (Andreas Berkner)"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_128-vorschaubild.jpg"
 subtitle = ""
 description = "Auch wenn Leipzig ein großer, prägender Strom fehlt, war die Stadtentwicklung stets auf das Engste mit dem Wasser verknüpft. Mühlgräben zur Wasserkraftnutzung, Floßgräben zum Scheitholztransport und schiffbare Kanäle, einst für den Transport von Massengütern, heute mit wassertouristischer Orientierung, prägten die Entwicklungen im Laufe der Zeiten. Mit den Tagebauseen im Leipziger Neuseenland wurde seit Anfang der 1990er Jahre zudem völlig neue Freizeit- und Erholungsqualitäten geschaffen."
 
@@ -37,7 +37,7 @@ Im 20. Jahrhundert waren Flussbaumaßnahmen vom Hochwasserschutz geprägt. Dabei
 Das Abflussregime der Leipziger Vorfluter wird durch die Pegel als Messstellen erfasst. So verfügt die Weiße Elster am Pegel Kleindalzig südlich von Leipzig über einen langjährigen mittleren Durchfluss von 17 m³/s, die Pleiße in Böhlen über knapp 7 m³/s und die Parthe in Leipzig-Thekla über 1 m³/s. Damit werden am Ausgang des Stadtgebiets rund 25 m³/s abflusswirksam. Nicht selten sind „Wasserklemmen“ infolge längerer Trockenperioden mit kaum einem Fünftel der angegeben Durchflussmenge. Dagegen wurden bei Hochwässern wie im Juli 1954 und zuletzt im Juni 2013 dramatische Durchflüsse beobachtet, die ohne Steuerungsmöglichkeiten jeweils 1.000 m³/s erreicht und weitflächige Überflutungen im Stadtgebiet bewirkt hätten. Glücklicherweise verfügen die Flusseinzugsgebiete von Weißer Elster und Pleiße oberhalb von Leipzig über umfangreiche Systeme von Talsperren, Rückhaltebecken und Speichern, mit denen größere Schäden abzuwenden waren. So nahm der Zwenkauer See 2013 rund 26 Mio. m³ Wasser auf und kappte damit den Scheiteldurchfluss um ein Viertel.
 
 
-Ausgehend von den bereits seit Mitte des 19. Jahrhunderts aufgekommenen und bis zu den 1930er Jahren wassertouristischen Angeboten mit Flussbadeanstalten, Kahnpartien und Gastronomie erfolgt nach Jahrzehnten des Niedergangs seit 1990 eine Neubelebung, zu der Initiativen wie „Pleiße ans Licht“ und die jährlichen Wasserfeste maßgeblich beitragen. Das Schlüsselprojekt „Gewässerverbund Region Leipzig“ wird ausgehend von ersten Ideen 1994 schrittweise entwickelt, um Stadt-, Auenwald- und Bergbaufolgelandschaften miteinander zu verknüpfen. Dabei wird auf die Landschaftsverträglichkeit mit gewässerangepassten Bootstypen („LeipzigBoot“) und Regelungen zur Besucherlenkung großer Wert gelegt. 
+Ausgehend von den bereits seit Mitte des 19. Jahrhunderts aufgekommenen und bis zu den 1930er Jahren wassertouristischen Angeboten mit Flussbadeanstalten, Kahnpartien und Gastronomie erfolgt nach Jahrzehnten des Niedergangs seit 1990 eine Neubelebung, zu der Initiativen wie „Pleiße ans Licht“ und die jährlichen Wasserfeste maßgeblich beitragen. Das Schlüsselprojekt „Gewässerverbund Region Leipzig“ wird ausgehend von ersten Ideen 1994 schrittweise entwickelt, um Stadt-, Auenwald- und Bergbaufolgelandschaften miteinander zu verknüpfen. Dabei wird auf die Landschaftsverträglichkeit mit gewässerangepassten Bootstypen („LeipzigBoot“) und Regelungen zur Besucherlenkung großer Wert gelegt.
 
 {{% bild pfad="abbildung1.jpg" titel="Im Kajak unterwegs auf der Elster" quellenangaben="Foto: Marek Wejwoda" %}}
 
@@ -47,11 +47,11 @@ Meilensteine bildeten dabei der Bau des Stadthafens am Elstermühlgraben, die In
 {{% bild pfad="gewaesserverbund.jpg" clickable="true" titel="Leitplan Gewässerverbund" quellenangaben="Grüner Ring Leipzig" %}}
 
 
-### Wasserstadt  Leipzig – Historische Ansichten 
+### Wasserstadt  Leipzig – Historische Ansichten
 
 Leipzig liegt weder an der Küste, noch an einem Binnensee, noch an einem großen Fluss. Und doch ist die Stadt von vielen Wassern gewaschen. Weiße Elster, Pleiße und Parthe mit ihren zahlreichen Nebenarmen, kleineren Zuflüssen und abgezweigten Kanälen machen den Wasserknoten Leipzig hydrologisch äußerst kompliziert, touristisch aber höchst attraktiv.
 
-Im 20. Jahrhundert, vor allem während der DDR-Zeit, hatte man den Spruch am Mägdebrunnen „Wer rein Wasser will muss reine Kannen han“ wohl vergessen und viele Fließgewässer zu Abwasserkloaken verkommen lassen und sie unter die Erde verlegt. Das hat sich nach 1990 grundlegend geändert. Durch Sanierung, Renaturierung und Offenlegung verrohrter Strecken sind wieder lebenswerte Stadträume am Wasser entstanden. Diese Maßnahmen werden auch in Zukunft fortgeführt, und selbst der alte Leipziger Traum von einer Wasserverbindung zum offenen Meer scheint keine Utopie mehr. 
+Im 20. Jahrhundert, vor allem während der DDR-Zeit, hatte man den Spruch am Mägdebrunnen „Wer rein Wasser will muss reine Kannen han“ wohl vergessen und viele Fließgewässer zu Abwasserkloaken verkommen lassen und sie unter die Erde verlegt. Das hat sich nach 1990 grundlegend geändert. Durch Sanierung, Renaturierung und Offenlegung verrohrter Strecken sind wieder lebenswerte Stadträume am Wasser entstanden. Diese Maßnahmen werden auch in Zukunft fortgeführt, und selbst der alte Leipziger Traum von einer Wasserverbindung zum offenen Meer scheint keine Utopie mehr.
 
 Ob das Neuseenland im Südraum oder die befahrbaren Flüsse und Kanäle in der Stadt: für die Leipziger Bevölkerung hat sich das wassergebundene Freizeitangebot in den letzten Jahren erheblich verbessert. Damit knüpft Leipzig an eine alte Tradition an, denn Wasser spielte auch in der „guten, alten Zeit“ eine wichtige Rolle im Freizeitverhalten der bürgerlichen Gesellschaft. Historische Ansichtskarten illustrieren diesen kulturhistorischen Aspekt der Wassernutzung.
 

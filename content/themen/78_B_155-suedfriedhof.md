@@ -4,10 +4,10 @@ vg_wort_code = "fd5ddd0167bf425680d807ec63efc3bf"
 autor = "Heinz Peter Brogiato"
 date = "2015-06-29"
 rubriken = ["Vergangenheit & Erinnerung"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_155-titelbild.jpg"
 titelbild_titel = ""
 titelbild_quelle = "Archiv für Geographie, IfL, PKL-Fhf025"
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_155-vorschaubild.jpg"
 title = "Der Südfriedhof – eine Symbiose aus Natur und Kultur"
 subtitle = ""
 description = "Seit 130 Jahren bestatten die Leipziger ihre Toten auf dem Südfriedhof. Im Laufe der Zeit ist eine Parklandschaft entstanden, die nicht nur zum stillen Gedenken an die Verstorbenen einlädt. Der Friedhof ist eine Insel der Ruhe inmitten des geschäftigen Treibens der Stadt. Ob die imposanten Grabdenkmäler einer beeindruckenden Sepulkralarchitektur, ob die üppige und vielfältige Vegetation: der Südfriedhof bietet viele Facetten, die einen Besuch lohnen."
@@ -18,7 +18,7 @@ bildnachweise = ["Titelbild und Vorschaubild (Ausschnitt): Leipzig. Krematorium,
 # {{% bild pfad="abbildung2.jpg" clickable="true" titel="Südfriedhof aus der Luft" quellenangaben="Foto: Baudiss" %}}
 +++
 
-Jahrhundertelang hatten die Leipziger ihre Toten auf dem Alten Johannisfriedhof an der Johanniskirche beerdigt. Da hier keine Erweiterungsmöglichkeiten bestanden, eröffnete die Stadt 1846 zwischen Windmühlenstraße und Reitzenhainer Straße (heute Prager Straße) einen Neuen Johannisfriedhof. Doch das sprunghafte Ansteigen der Einwohnerzahl und die immer näher rückende Bebauung von Thonberg und Neureudnitz ließen auch diese Begräbnisstätte bald als zu klein erscheinen. 
+Jahrhundertelang hatten die Leipziger ihre Toten auf dem Alten Johannisfriedhof an der Johanniskirche beerdigt. Da hier keine Erweiterungsmöglichkeiten bestanden, eröffnete die Stadt 1846 zwischen Windmühlenstraße und Reitzenhainer Straße (heute Prager Straße) einen Neuen Johannisfriedhof. Doch das sprunghafte Ansteigen der Einwohnerzahl und die immer näher rückende Bebauung von Thonberg und Neureudnitz ließen auch diese Begräbnisstätte bald als zu klein erscheinen.
 
 {{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Plan vom Südfriedhof"  quellenangaben="Stadt Leipzig, Amt für Stadtgrün und Gewässer, Abt. Friedhöfe 2014; Rat der Stadt Leipzig 1903, Bl. 88; Basiskarte verändert nach Stadt Leipzig, Amt für Geoinformation und Bodenordnung 2013; Kartenredaktion: Birgit Hölzel, Kartographie: Romana Schwarz" %}}
 

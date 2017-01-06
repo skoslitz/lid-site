@@ -1,6 +1,5 @@
-{{ $type := .Type }}  
-{{ $id := .Params.id }}   
-{{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
+{{ $type := .Type }}
+{{ $bandnummer := substr .Params.id 0 2 }}
 
 {{ template "_includes/header.html" . }}
 
@@ -14,8 +13,8 @@
 
 			<div class="col-md-10 titelbild bs-callout bs-callout-grasgruen shadow">
 
-				<meta itemprop="image" content="/img/78{{ $path }}{{ .Params.titelbild }}"/>
-				<img class="img-responsive" src="/img/78{{ $path }}{{ .Params.titelbild }}" />
+				<meta itemprop="image" content="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}"/>
+				<img class="img-responsive" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}" />
 
 				<div class="tags text-muted">Themenbereiche
 					{{ range .Params.rubriken }}
@@ -50,7 +49,7 @@
 			</div>
 
 		</div>
-		
+
 		{{ if isset .Params "karte" }}
 		<!-- Karte -->
 	    <div class="row">

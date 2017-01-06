@@ -4,10 +4,10 @@ vg_wort_code = "b00c182dd34e4c42b1b3bfda9cecf07c"
 autor = "Thomas Mayer"
 date = "2015-06-29"
 rubriken = ["Vergangenheit & Erinnerung"]
-titelbild = "titelbild2.jpg"
+titelbild = "78_B_133-titelbild2.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_133-vorschaubild.jpg"
 title = "Die Heldenstadt – Leipzig und die Friedliche Revolution"
 subtitle = ""
 description = "Leipzig und die Friedliche Revolution – ein Weltereignis nahm vor allem in der sächsischen Metropole im Jahr 1989 seinen nicht mehr aufzuhaltenden Lauf. Was mit dem Protest einiger weniger Bürgerrechtler begann, mündete am 9. Oktober 1989 in eine friedliche Demonstration von 70.000 Menschen. Es war der Anfang vom Ende der SED-Diktatur."
@@ -26,7 +26,7 @@ Leipzigs Bürger, die am 9. Oktober 1989 trotz der aufmarschierten Staatsmacht 7
 
 Mutige Bürgerrechtler begannen, die Angst vor dem SED-Staat zu verlieren. So am 11. Januar 1989. 5000 Flugblätter wurden verteilt, die zur Teilnahme an einer Demonstration "Zur demokratischen Erneuerung unserer Gesellschaft" anlässlich des staatlichen Gedenkens an Rosa Luxemburg und Karl Liebknecht am 15. Januar aufriefen. Die Opposition nutzte das Luxemburg-Zitat "Die Freiheit ist immer die Freiheit des Andersdenkenden" für ihren Protest. 500 Menschen folgten dem Aufruf, 53 wurden verhaftet.
 
-7\. Mai 1989: Es war der Tag der Kommunalwahl. Oppositionelle kontrollierten die Stimmauszählung, z.B. im Markuskirchamt wurden die Fakten gesammelt. Erstmals konnte der SED-Führung Wahlbetrug nachgewiesen werden. Wahlbeteiligung und Ja-Stimmen lagen um bis zu zehn Prozent niedriger als offiziell verkündet wurde. 
+7\. Mai 1989: Es war der Tag der Kommunalwahl. Oppositionelle kontrollierten die Stimmauszählung, z.B. im Markuskirchamt wurden die Fakten gesammelt. Erstmals konnte der SED-Führung Wahlbetrug nachgewiesen werden. Wahlbeteiligung und Ja-Stimmen lagen um bis zu zehn Prozent niedriger als offiziell verkündet wurde.
 
 10\. Juni 1989: In der Innenstadt fand das Straßenmusikfestival statt. Und das trotz Verbot seitens der staatlichen Organe. Bis gegen Mittag wurde Musik gemacht, dann schlug die Volkspolizei zu. Musiker wurden samt ihrer Instrumente auf Lkw "verladen", es kam zu heftigen Protesten unter den Passanten, die an einem Sonnabend zahlreich in der Stadt waren.
 

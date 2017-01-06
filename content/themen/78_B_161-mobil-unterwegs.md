@@ -5,22 +5,22 @@ autor = "Tilman A. Schenk"
 date = "2015-06-29"
 rubriken = ["Wirtschaft & Verkehr"]
 # Hinweis: Titelfoto muss möglicherweise noch ersetzt werden bzw. stark bearbeitet/ausgeschnitten werden, da Personen im Vordergrund
-titelbild = "titelbild.jpg"
+titelbild = "78_B_161-titelbild.jpg"
 titelbild_titel = "Thomas Naumann"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_161-vorschaubild.jpg"
 title = "Die Mobilität der Leipziger"
 subtitle = ""
 description = "Mobil zu sein ist ein wichtiger Bestandteil unseres modernen Alltags und unserer persönlichen Freiheit. Aber Mobilität hat auch negative Auswirkungen auf unsere Umwelt und unsere Mitmenschen. In Städten, in denen viele Menschen auf engem Raum leben und mobil sein wollen, kann dies besonders gravierend sein. Deshalb ist es wichtig, das Verkehrsgeschehen einer Stadt zu verstehen und nach Einflussmöglichkeiten zu suchen. Mit dem – nach Berlin – zweitgrößten Straßenbahnnetz Deutschlands ist Leipzig für eine Zukunft mit sauberer Mobilität gut gerüstet."
 literaturangaben = ["Stadt Leipzig (Hg., o.J.): Unterwegs in Richtung Zukunft. Mobilität in Leipzig und Umland: Analysen – Tendenzen – Chancen. Die zentralen Ergebnisse der Studie Mobilität in Städten – SrV 2008. Online verfügbar unter http://www.leipzig.de/umwelt-und-verkehr/verkehrsplanung/verkehrsbefragungen/?eID=dam_frontend_push&docID=3970. – Leipzig."]
 
-bildnachweise = ["Titelbild: Mobilität für Fortgeschrittene (Foto: Thomas Naumnn)", "Vorschaubild: Lützner Straße vor dem Umbau 2011 (Ausschnitt, Foto: Thomas Naumann)"] 
+bildnachweise = ["Titelbild: Mobilität für Fortgeschrittene (Foto: Thomas Naumnn)", "Vorschaubild: Lützner Straße vor dem Umbau 2011 (Ausschnitt, Foto: Thomas Naumann)"]
 
 +++
 
 ### **Ausgangssituation**
 
-Wie die meisten Städte in den neuen Bundesländern war auch Leipzig in den Jahren nach 1990 von einem Bevölkerungsrückgang betroffen. Viele wanderten in die Altbundesländer ab, um dort zu arbeiten, oder zogen in die Umlandgemeinden von Leipzig, in denen große Neubaugebiete mit Einfamilienhäusern entstanden. Gleichzeitig nahm die Motorisierung, d.h. die Ausstattung privater Haushalte mit einem eigenen Auto, stark zu und glich sich dem Wert westdeutscher Städte an. Besaß 1987 noch nicht einmal jeder fünfte Leipziger einen Pkw, so ist es heute fast jeder Zweite. Wer ein Auto besitzt, benutzt es auch – das kann man in der Veränderung des „Modal Split“ sehen. 
+Wie die meisten Städte in den neuen Bundesländern war auch Leipzig in den Jahren nach 1990 von einem Bevölkerungsrückgang betroffen. Viele wanderten in die Altbundesländer ab, um dort zu arbeiten, oder zogen in die Umlandgemeinden von Leipzig, in denen große Neubaugebiete mit Einfamilienhäusern entstanden. Gleichzeitig nahm die Motorisierung, d.h. die Ausstattung privater Haushalte mit einem eigenen Auto, stark zu und glich sich dem Wert westdeutscher Städte an. Besaß 1987 noch nicht einmal jeder fünfte Leipziger einen Pkw, so ist es heute fast jeder Zweite. Wer ein Auto besitzt, benutzt es auch – das kann man in der Veränderung des „Modal Split“ sehen.
 
 {{% bild pfad="abbildung1.jpg" clickable="true" titel="Entwicklung der Verkehrsmittelwahl und der Bevölkerungszahlen in Leipzig 1987-2008" quellenangaben="Quelle: Stadt Leipzig, o.J." %}}
 
@@ -36,7 +36,7 @@ Auf diesem Kernnetz treiben die LVB die Modernisierung des Betriebs weiter voran
 
 ### **Blick in die Zukunft**
 
-Wie viele Städte in Europa begreift auch Leipzig die Straßenbahn inzwischen als Instrument moderner Stadtentwicklung. Sie trägt dazu bei, öffentliche Straßenräume attraktiver zu machen und damit Quartiere aufzuwerten. 
+Wie viele Städte in Europa begreift auch Leipzig die Straßenbahn inzwischen als Instrument moderner Stadtentwicklung. Sie trägt dazu bei, öffentliche Straßenräume attraktiver zu machen und damit Quartiere aufzuwerten.
 
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Lützner Straße vor dem Umbau 2011" quellenangaben="Foto: Thomas Naumann" %}}
 {{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="Lützner Straße kurz vor Abschluss der Umbauarbeiten 2014" quellenangaben="Foto: Tilman Schenk" %}}

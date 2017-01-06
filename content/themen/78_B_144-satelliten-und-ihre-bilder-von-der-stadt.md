@@ -4,10 +4,10 @@ vg_wort_code = "a4292271564b46a18b0ee090a561a11d"
 autor = "Bernd Fichtelmann, Erik Borg, Marcus Apel und Maximilian Müller"
 date = "2015-06-29"
 rubriken = ["Natur & Landschaft"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_144-titelbild.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_144-vorschaubild.jpg"
 title = "LANDSAT, RapidEye und Co – Leipzig aus der Satellitenbildperspektive"
 subtitle = ""
 description = "Satelliten mit optischen Sensoren unterschiedlicher geometrischer Auflösung (1 km bis 0,6 m) sind nicht mehr wegzudenkende Helfer in der Fernerkundung. Die dabei als Nebenprodukt anfallenden Bilder unseres Planeten üben auf den Betrachter immer wieder einen besonderen Reiz aus. Satellitenbilder von Leipzig würden sich bei 1 km Auflösung nur aus wenigen Pixeln zusammensetzen. Bei 30 m Auflösung erhält man eine gute Übersicht vom Stadtgebiet. Bei einer Auflösung von 6 m und besser lassen sich aus ca. 700 km Höhe Details sehr gut erkennen."
@@ -38,7 +38,7 @@ Für eine bessere Detailauflösung oder für eine höhere Bildschärfe werden je
 
 Passend zum LANDSAT-Datensatz vom 1. Mai 2011 wurde ein zeitnaher, geometrisch höher aufgelöster wolkenfreier RapidEye-Datensatz vom 27. Juni 2011 für Abbildung 2 verwendet. Darin wird das in Abbildung 1 gekennzeichnete Untersuchungsgebiet in Echtfarbdarstellung mit den Spektralkanälen Rot, Grün und Blau gezeigt. Die Darstellung entspricht dem üblichen Farbempfinden eines Betrachters, wobei sich Vegetation grün bis dunkelgrün abzeichnet. Gerade für dunkelgrüne Flächen ist die bereits erwähnte Unterscheidung zu den sich nahezu schwarz abbildenden Wasserflächen nicht immer eindeutig gegeben, wie das beispielsweise auf den Markleeberger und Störmthaler See am unteren Bildrand, zwischen denen die A 38 verläuft, im Vergleich mit dem nahegelegenen Waldgebiet in der rechten unteren Bildecke zutrifft. Auch der Verlauf von Pleiße und Elster zeichnet sich in dieser Darstellung nicht deutlich gegenüber den umliegenden Grünflächen ab. Selbst das zentral gelegene, langgestreckte Elsterflutbecken ist, im Gegensatz zur Falschfarbendarstellung der LANDSAT-Aufnahme (Abbildung 1), nur schwer zu erkennen.
 
-In gleichzeitig anderen möglichen Falschfarbendarstellungen dieser RapidEye-Szene werden deutlich mehr Details erkennbar, an denen sich der Betrachter orientieren kann. Das hohe Auflösungsvermögen der Daten erlaubt es, dass der gleiche Ausschnitt in Abbildung 3 nicht nur vergrößert dargestellt wird, sondern auch einen relativ scharfen Eindruck vermittelt. 
+In gleichzeitig anderen möglichen Falschfarbendarstellungen dieser RapidEye-Szene werden deutlich mehr Details erkennbar, an denen sich der Betrachter orientieren kann. Das hohe Auflösungsvermögen der Daten erlaubt es, dass der gleiche Ausschnitt in Abbildung 3 nicht nur vergrößert dargestellt wird, sondern auch einen relativ scharfen Eindruck vermittelt.
 
 {{% bild pfad="abbildung3.jpg" clickable="true" titel="Abbildung 3: Bildausschnitt (vergrößerte Darstellung von Abbildung 2) aus einer RapidEye Satellitenszene des Inventurgebietes „Leipzig“ vom 27.6.2011 in RGB-Darstellung (R: Rot, G: Grün, B:Blau) der Kanäle 3, 2, 1 (Echtfarbdarstellung)" quellenangaben="Entwurf: Erik Borg u. Bernd Fichtelmann. Mit freundlicher Genehmigung durch die Firma [BlackBridge](http://www.blackbridge.com/) und das DLR, EOC" %}}
 
@@ -63,13 +63,13 @@ Interpretationsschlüssel für die Betrachtung der RapidEye-Szenen (nach Fichtel
 ### **Erhöhung der Detailschärfe**
 
 Die Verwendung der RapidEye-Daten zeigt bereits in der einfachen Darstellung in Abbildung 2 oder in Abbildung 3, dass gegenüber den LANDSAT-Daten in Abbildung 1 eine deutlich höhere Detailschärfe erzielt werden kann. Mit der heutigen Technik können noch schärfere Aufnahmen erzielt werden. So liefert der IKONOS-Satellit aus ähnlicher Bahnhöhe multispektrale Daten mit einer geometrischen Auflösung von 4 m. Zudem liefert dieser Satellit ein panchromatisches Band mit einer geometrischen Auflösung von 1 m. Mit Hilfe mathematischer Verfahren können die multispektralen Bänder künstlich in die geometrische Auflösung des panchromatischen Bandes transformiert werden.
- 
+
 Abbildung 5 zeigt dazu einen Vergleich des Auflösungsvermögens der drei genannten Sensoren am Beispiel des Völkerschlachtdenkmals.
 
 {{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Abbildung 5: Darstellung der Detailschärfe für einen Bildausschnitt mit dem Völkerschlachtdenkmal: a) aus der LANDSAT 5 / TM Satellitenszene vom 1.5.2011, b) aus dem RapidEye-Datensatz vom 27.6.2011, c) dem IKONOS-Datensatz vom 22.7.2013 und d) dem mittels des PAN-Kanals in der Auflösung verbesserten IKONOS-Datensatz auf 1 m. e) zeigt einen Ausschnitt aus c) und f) zeigt den dazugehörigen Ausschnitt aus d)" quellenangaben="Entwurf: Erik Borg u. Bernd Fichtelmann. Verwendung der IKONOS-Daten mit freundlicher Genehmigung durch die Firma [EUSI](http://www.euspaceimaging.com/) und das DLR, EOC" %}}
 
 Während für den LANDSAT-Datensatz die Struktur der Anlage um das Völkerschlachtdenkmal mit einer Pixelauflösung von 30 m mehr erahnt werden muss (Abbildung 5a), lassen die RapidEye Daten in Abbildung 5b schon die Anlage erkennen, die dann bei einer Auflösung der IKONOS-Daten von 4 m in dieser Bildgröße schon fast scharf erscheint (Abbildung 5c). Unter Hinzunahme des 1 m aufgelösten PAN-Kanals kann ein noch schärferes Bild erzeugt werden (Abbildung 5d). Noch deutlicher wird diese Qualitätszunahme, wenn man aus den Bildern 5c und 5d jeweils den gleichen Ausschnitt vergrößert darstellt (Abbildung 5e und 5f). Mit Satelliten wie Worldview 2 können mit Hilfe solcher Bildschärfungsverfahren sogar Pixelauflösungen von 0,6 m erzielt werden.
- 
+
 Die Frage, warum nicht alle Satelliten nach einer solch hohen Auflösung streben, lässt sich unter anderem damit beantworten, dass für ein globales Monitoring solche Detailtreue in der Landschaft nicht unbedingt notwendig ist. Andererseits produziert eine hohe Auflösung auch eine hohe Datenmenge, die dann vom Satelliten zur Bodenstation übertragen, dort verarbeitet und gespeichert werden muss.
 
 Die im Beitrag gezeigte gleichzeitige Nutzung von Daten dreier unterschiedlicher Satellitensysteme verdeutlicht, dass die Kombination von geometrisch hoch aufgelösten Daten zu einer verbesserten zeitlichen Auflösung im Monitoring der verschiedensten Regionen führen kann. Wissenschaftliche Untersuchungen stehen bei der Auswertung solcher Daten im Vordergrund und die gezeigten Bilder sind dabei eigentlich nur Nebenprodukte, die allerdings dem Betrachter sehr eindrucksvolle Ansichten von oben vermitteln können.
@@ -79,4 +79,4 @@ Die im Beitrag gezeigte gleichzeitige Nutzung von Daten dreier unterschiedlicher
 {{% bild pfad="blackbridge-logo.jpg" titel="" quellenangaben="" %}}
 {{% bild pfad="eusi-logo.jpg" titel="" quellenangaben="" %}}
 
-Wir danken den Firmen [Blackbridge](www.blackbridge.com) und [European Space Imaging](http://www.euspaceimaging.com/) (EUSI) für die Überlassung der Satellitenbilder.  
+Wir danken den Firmen [Blackbridge](www.blackbridge.com) und [European Space Imaging](http://www.euspaceimaging.com/) (EUSI) für die Überlassung der Satellitenbilder.

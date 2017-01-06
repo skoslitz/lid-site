@@ -4,10 +4,10 @@ vg_wort_code = "1a2be49623844b67aa4da3fd3f62a319"
 autor = "Andreas Berkner"
 date = "2015-06-29"
 rubriken = ["Wirtschaft & Verkehr", "Vergangenheit & Erinnerung"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_116-titelbild.jpg"
 titelbild_titel = "(Andreas Berkner)"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_116-vorschaubild.jpg"
 title = "Energiemetropole Leipzig"
 featured = "true"
 subtitle = ""
@@ -37,7 +37,7 @@ Die ohnehin schon problematische Wassersituation wurde Anfang des 19. Jahrhunder
 
 ### Gas- und Elektroenergieversorgung
 
-Parallel dazu kamen ab dem frühen 19. Jahrhundert industrielle Formen der Energiebereitstellung auf. So nahm die Leipziger Gasbeleuchtungsanstalt 1838 ihren Betrieb auf, maßgeblich um die Straßenbeleuchtung im Innenstadtbereich sicherzustellen. 1895 wurde mit dem Elektrizitätswerk Nord das erste Kraftwerk im Stadtgebiet versorgungswirksam, 1913 begann die Fernwärmeversorgung (Stadtbad). 
+Parallel dazu kamen ab dem frühen 19. Jahrhundert industrielle Formen der Energiebereitstellung auf. So nahm die Leipziger Gasbeleuchtungsanstalt 1838 ihren Betrieb auf, maßgeblich um die Straßenbeleuchtung im Innenstadtbereich sicherzustellen. 1895 wurde mit dem Elektrizitätswerk Nord das erste Kraftwerk im Stadtgebiet versorgungswirksam, 1913 begann die Fernwärmeversorgung (Stadtbad).
 
 {{% bild pfad="abbildung1.jpg" clickable="true" titel="Gasometer in der Richard-Lehmann-Straße"  quellenangaben="Archiv Stadtwerke Leipzig GmbH" %}}
 
@@ -67,7 +67,7 @@ Eine Besonderheit bei der Fernwärmeversorgung der Stadt bildet das 2000 in Betr
 
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Solarpark im Industriegelände Leipzig Nordost"  quellenangaben="Regionaler Planungsverband Leipzig-Westsachsen" %}}
 
-Auch bei der Etablierung von erneuerbaren Energien zur Stromerzeugung nahm Leipzig eine Vorreiterrolle in der Region ein, was insbesondere die energetische Windnutzung und die Solarenergie betraf. So nahm bereits 1995 die erste, 2010 zurückgebaute Windenergieanlage auf dem ehemaligen QUELLE-Gelände südlich der Neuen Messe mit einer Leistung von 150 kW ihren Betrieb auf. Im Südwesten des Stadtgebiets zwischen den Ortsteilen Großzschocher, Knautkleeberg, Rehbach und Knautnaundorf gingen 1996–2006 zehn Anlagen mit Leistungen zwischen 0,6 und 1,5 MW ans Netz. 2013 wurden auf dem BMW-Werksgelände vier Anlagen der 2,5 MW-Leistungsklasse und mit Gesamthöhen von 190 m als Bestandteil der CO2-freien Stromversorgung zur Produktion von Elektrofahrzeugen in Betrieb genommen. Insgesamt umfasst die installierte Leistung von Windenergieanlagen im Stadtgebiet 21 MW (2013). 
+Auch bei der Etablierung von erneuerbaren Energien zur Stromerzeugung nahm Leipzig eine Vorreiterrolle in der Region ein, was insbesondere die energetische Windnutzung und die Solarenergie betraf. So nahm bereits 1995 die erste, 2010 zurückgebaute Windenergieanlage auf dem ehemaligen QUELLE-Gelände südlich der Neuen Messe mit einer Leistung von 150 kW ihren Betrieb auf. Im Südwesten des Stadtgebiets zwischen den Ortsteilen Großzschocher, Knautkleeberg, Rehbach und Knautnaundorf gingen 1996–2006 zehn Anlagen mit Leistungen zwischen 0,6 und 1,5 MW ans Netz. 2013 wurden auf dem BMW-Werksgelände vier Anlagen der 2,5 MW-Leistungsklasse und mit Gesamthöhen von 190 m als Bestandteil der CO2-freien Stromversorgung zur Produktion von Elektrofahrzeugen in Betrieb genommen. Insgesamt umfasst die installierte Leistung von Windenergieanlagen im Stadtgebiet 21 MW (2013).
 
 Die Nutzung von Solarenergie konzentrierte sich bis 2009 auf Dach- und Fassadenbereiche von Bestands- und Neubauten. Zweifellos die bekannteste dieser Anlagen wurde auf dem Dach der Nikolaikirche installiert. Sie ging 2000 auf einer Fläche von 40 m² und mit einer elektrischen Arbeit von 3500 kWh/a in Betrieb. Seit 2010 entstanden mehrere große Anlagen im Freiraum vorwiegend auf unbebauten Industriegebieten oder Brachflächen, zu denen die in der Brahestraße und in der Richard-Lehmann-Straße (Bürgerkraftwerk, 3,5 bzw. 1,6 MW), in Althen (7,35 MW), Breitenfeld I/II (8,5 MW), in Holzhausen (2,6 MW) und in der Gerhard-Ellrodt-Straße (1,1 MW) zählen.
 
@@ -75,6 +75,6 @@ Die Nutzung von Solarenergie konzentrierte sich bis 2009 auf Dach- und Fassadenb
 
 {{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="Gas- und Dampfturbinenkraftwerk der Stadtwerke Leipzig"  quellenangaben="Stadtwerke Leipzig" %}}
 
-Die Energiemetropole Leipzig ist heute Sitz namhafter Unternehmen der Energiebranche. So stellen die Stadtwerke Leipzig heute die Versorgung mit Strom, Erdgas und Fernwärme sicher und engagieren sich auch im Bereich der erneuerbaren Energien und der Elektromobilität, wozu Beteiligungen an Windparks und Biomassekraftwerken außerhalb des Stadtgebiets beitragen. 
+Die Energiemetropole Leipzig ist heute Sitz namhafter Unternehmen der Energiebranche. So stellen die Stadtwerke Leipzig heute die Versorgung mit Strom, Erdgas und Fernwärme sicher und engagieren sich auch im Bereich der erneuerbaren Energien und der Elektromobilität, wozu Beteiligungen an Windparks und Biomassekraftwerken außerhalb des Stadtgebiets beitragen.
 
 Die Verbundnetz Gas (VNG) AG mit ihrer Firmenzentrale in der Braunstraße ist in der gesamten Wertschöpfungskette der deutschen und europäischen Erdgaswirtschaft aktiv und konzentriert sich auf die Kerngeschäftsbereiche Exploration und Produktion, Handel und Dienstleistungen, Transport sowie Speicherung. Seit dem Jahr 2002 verfügt Leipzig mit der European Energy Exchange (EEX) AG  zudem über den wichtigsten Marktplatz für Energie in Kontinentaleuropa, an dem 22 Staaten beteiligt sind. Der Geschäftssitz befindet sich im City-Hochhaus am Augustusplatz. Neben Strom, CO2-Zertifikaten und Kohle wird hier seit 2007 auch Erdgas gehandelt. Spot- und Terminmärkte bedienen die gesamte Bandbreite zwischen tagesaktuellen und langfristigen Lieferbeziehungen, wobei insbesondere die kurzfristigen Stromgeschäfte, der Emissionsrechtehandel, expandieren.

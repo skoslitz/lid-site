@@ -5,10 +5,10 @@ title = "Naturschutz im Nördlichen Auenwald"
 autor = "Andreas Berkner"
 date = "2015-06-29"
 rubriken = ["Natur & Landschaft", "Kultur & Soziales"]
-titelbild = "titelbild.jpg"
+titelbild = "78_B_142-titelbild.jpg"
 titelbild_titel = "Nördlicher Auenwald (Andreas Berkner)"
 titelbild_quelle = ""
-vorschaubild = "vorschaubild.jpg"
+vorschaubild = "78_B_142-vorschaubild.jpg"
 featured = "true"
 subtitle = ""
 doi = ""
@@ -40,11 +40,11 @@ Das Leipziger Auensystem als Alleinstellungsmerkmal in Mitteleuropa verfügt üb
 
 Der Auenwald zählt unter anderem mit 1000 Pilz- und 750 höheren Pflanzenarten, 42 Säugetier-, 17 Amphibien- und Reptilienarten, 17 Fischarten und 105 Brutvogelarten sowie, 32 Libellen-, 173 holzbewohnenden Käfer- sowie rund 360 Großschmetterlingsarten, darunter zahlreiche aus der Roten Liste, zu den artenreichsten Lebensräumen in Deutschland. Während der Südliche Auenwald durch die Auswirkungen des Braunkohlenbergbaus (Tagebaue Zwenkau und Cospuden) gebietsweise überbaggert bzw. durch großflächige Grundwasserabsenkungswirkungen beeinträchtigt wurde, bietet der Nördliche Auenwald noch ein vergleichsweise kompaktes Landschaftsbild.
 
-Die Ausprägung des Auensystems in seinen heutigen Grundzügen begann in der Weichselkaltzeit vor ca. 100.000 Jahren mit der Ablagerung von Kiesen und Sanden in teilweise bereits im Elster- und Saaleglazial angelegten Talformen von Saale bzw. Mulde, die zeitweise über Leipzig verliefen. Eine weitere landschaftsprägende Zäsur bildeten die holozänen Auenlehmablagerungen (Mächtigkeit verbreitet 1,5–3 m) seit etwa 7500 Jahren in einem engen Kontext zu siedlungsbedingten Rodungen in den Flusseinzugsgebieten. 
+Die Ausprägung des Auensystems in seinen heutigen Grundzügen begann in der Weichselkaltzeit vor ca. 100.000 Jahren mit der Ablagerung von Kiesen und Sanden in teilweise bereits im Elster- und Saaleglazial angelegten Talformen von Saale bzw. Mulde, die zeitweise über Leipzig verliefen. Eine weitere landschaftsprägende Zäsur bildeten die holozänen Auenlehmablagerungen (Mächtigkeit verbreitet 1,5–3 m) seit etwa 7500 Jahren in einem engen Kontext zu siedlungsbedingten Rodungen in den Flusseinzugsgebieten.
 
 {{% bild pfad="abbildung1.jpg" clickable="true" titel="Kulturlandschaft Elster-Luppe-Aue" quellenangaben="Foto: Andreas Berkner" %}}
 
-Für die frühe Entwicklung von Siedlung und Kulturlandschaft stellte der Auenwald entlang der Weißen Elster zwischen Stahmeln und Schkeuditz einen Gunstfaktor dar. Er ermöglichte Lehmgewinnung, z.B. in den Papitzer Lehmlachen, ließ sich für Fischteiche, Bienenzucht und Forstwirtschaft nutzen und fungierte gleichzeitig als Barriere für Straßen und Wege durch die sumpfigen Niederungen. Weitere signifikante Nutzungseinflüsse bildeten die sich seit dem 18. Jahrhundert etablierende Naherholung sowie die in der zweiten Hälfte des 19. Jahrhundert begonnenen Hochwasserregulierungen mit Flutrinnen und Eindeichungen, die die natürliche Dynamik der regelmäßigen Überschwemmungen und Sedimentablagerungen unterbrachen und in der Folge gebietsweise zu Austrocknungen führten. 
+Für die frühe Entwicklung von Siedlung und Kulturlandschaft stellte der Auenwald entlang der Weißen Elster zwischen Stahmeln und Schkeuditz einen Gunstfaktor dar. Er ermöglichte Lehmgewinnung, z.B. in den Papitzer Lehmlachen, ließ sich für Fischteiche, Bienenzucht und Forstwirtschaft nutzen und fungierte gleichzeitig als Barriere für Straßen und Wege durch die sumpfigen Niederungen. Weitere signifikante Nutzungseinflüsse bildeten die sich seit dem 18. Jahrhundert etablierende Naherholung sowie die in der zweiten Hälfte des 19. Jahrhundert begonnenen Hochwasserregulierungen mit Flutrinnen und Eindeichungen, die die natürliche Dynamik der regelmäßigen Überschwemmungen und Sedimentablagerungen unterbrachen und in der Folge gebietsweise zu Austrocknungen führten.
 
 Nach 1990 begannen Renaturierungsmaßnahmen, die sich auf den Waldumbau (Entfernung nicht einheimischer Gehölze und Aufforstung typischer Auenwaldbäume, wie Stieleichen, Eschen, Bergahorn, Feldulme) sowie gezielte Wiedervernässungsmaßnahmen mit Schwerpunkt westliche Aue (Burgauenbach) konzentrieren.
 
