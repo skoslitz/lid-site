@@ -1,0 +1,131 @@
+{{ template "_includes/header.html" . }}
+<body>
+
+	{{ template "_includes/navbar.html" . }}
+
+	<script type="text/javascript">
+
+		function click_filter (target, name) {
+			// clear
+			if (name === 'clear') {
+				$('.exkurs-border').hide()
+				$('.list-all').show()
+				$('.btn.blue.clear').hide()
+				$('.filter-container .blue.btn').removeClass('selected')
+				// update filter-info/counter
+				show_counter('.list-all')
+				return
+			}
+			// hide / cleanup
+			var selector = '.exkurs-border'
+			$(selector).hide()
+			$('.filter-container .blue.btn').removeClass('selected')
+			// show
+			$(target).addClass('selected', true)
+			$(selector + '.' + name).show()
+			$('.btn.blue.clear').show().css('display', 'inline-block')
+			// update filter-info/counter
+			if (name !== 'clear') show_counter('' + selector + '.' + name)
+		}
+
+		function show_counter (selector) {
+			var count = $(selector).length
+			var message = count + " Exkursionen"
+			if (selector === '.list-all') {
+				message = "Insgesamt " +  message
+			}
+			$('.filter-info').html(message)
+		}
+
+	</script>
+
+	<div class="section-content">
+
+		<div class="row">
+			<h1 class="sectionheader text-center">Unterwegs in Leipzig</h1>
+			<div class="filter-container">
+				<p>
+					<br/>
+					Erkunden Sie Leipzig vor Ort. Entdecken Sie bekannte und unbekannte Orte neu. Ob Baudenkmale, Siedlungsentwicklung, Kultur oder Natur &ndash; es ist f&uuml;r jeden etwas dabei. Machen Sie sich auf den Weg.<br/><br/>
+					W&auml;hlen Sie eine Exkursion aus der Liste. Sie k&ouml;nnen Ihre Suche auch einschr&auml;nken, je nachdem, ob Sie zu Fu&szlig; oder mit dem Fahrrad unterwegs sein m&ouml;chten.
+				</p>
+				<!-- h3>Wählen Sie einen Exkursionstyp</h3-->
+				<a class="btn blue" onclick="javascript:click_filter(this, 'fuss')">Fu&szlig;</a>
+				<a class="btn blue" onclick="javascript:click_filter(this, 'fahrrad')">Fahrrad</a>
+				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Exkursionen</a>
+				<span class="filter-info"></span>
+			</div>
+		</div>
+
+		<!-- list all trips -->
+        {{ range .Data.Pages }}
+        {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
+			<div class="col-mre exkurs-border list-all lower-shadow">
+                {{ .Render "li" }}
+			</div>
+        {{ end}}
+        {{ end}}
+
+        <!-- Fuß -->
+        {{ $termname := "fuß" }}
+        {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
+        {{ range $taxonomy.Pages.ByWeight }}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
+                <div style="display:none;" class="col-mre exkurs-border fuss lower-shadow">
+                        {{ .Render "li" }}
+                </div>
+                {{ end }}
+        {{ end }}
+
+        <!-- Fahrrad -->
+        {{ $fahrrad := "fahrrad" }}
+        {{ $taxw := index .Site.Taxonomies.exkursionstypen $fahrrad }}
+        {{ range $taxw.Pages.ByWeight.Reverse }}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
+                <div style="display:none;" class="col-mre exkurs-border fahrrad lower-shadow">
+                        {{ .Render "li" }}
+                </div>
+                {{ end }}
+        {{ end }}
+
+		<div class="linespace"></div>
+		<div class="linespace"></div>
+		<div class="linespace"></div>
+
+		<div>
+			<h3 class="seperator intern">Unterwegs mit Anderen &ndash; Verweise auf externe Webseiten</h3>
+		</div>
+
+		{{ range .Data.Pages }}
+			{{ $type := .Type }}
+      {{ $bandnummer := substr .Params.id 0 2 }}
+
+   			{{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion true) }}
+			<div class="col-mre simple-border lower-shadow">
+			<a href="{{ .Params.exkursions_url }}" target="_blank">
+				{{ if isset .Params "vorschaubild" }}
+					<div class="preview-container">
+						<img class="vorschaubild" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.vorschaubild }}" alt="{{ .Params.vorschaubild_titel }}" title="{{ .Params.vorschaubild_titel }}">
+						<div class="attribution"> {{ .Params.vorschaubild_titel }} </div>
+					</div>
+				{{ end }}
+				<h4>{{ .Title}}</h4>
+			</a>
+			<p>
+				{{ if isset .Params "exkursionsstationen" }} {{ .Params.exkursionsstationen }} Stationen,{{ end }}
+				{{ if isset .Params "exkursionslaenge" }} {{ .Params.exkursionslaenge }} km<br/><br/>{{ end }}
+				<strong class="sans-serif grey">Anbieter</strong><br/> {{.Params.exkursions_anbieter }}
+			</p>
+
+			</div>
+			{{ end }}
+		{{ end }}
+
+	</div>
+
+	<script type="text/javascript">
+		// initial update filter-info/counter
+		show_counter('.list-all')
+	</script>
+
+	{{ template "_includes/footer.html" . }}

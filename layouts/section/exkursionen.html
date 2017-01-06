@@ -1,3 +1,8 @@
+{{ $.Scratch.Add "band-79" 79 }}
+{{ $.Scratch.Add "band-79-name" "Eichsfeld" }}
+{{ $.Scratch.Add "band-78" 78 }}
+{{ $.Scratch.Add "band-78-name" "Leipzig" }}
+
 {{ template "_includes/header.html" . }}
 <body>
 
@@ -5,64 +10,77 @@
 
 	<script type="text/javascript">
 
-		function click_filter (target, name) {
-			// clear
-			if (name === 'clear') {
-				$('.exkurs-border').hide()
-				$('.list-all').show()
-				$('.btn.blue.clear').hide()
-				$('.filter-container .blue.btn').removeClass('selected')
-				// update filter-info/counter
-				show_counter('.list-all')
-				return
-			}
-			// hide / cleanup
-			var selector = '.exkurs-border'
-			$(selector).hide()
-			$('.filter-container .blue.btn').removeClass('selected')
-			// show
-			$(target).addClass('selected', true)
-			$(selector + '.' + name).show()
-			$('.btn.blue.clear').show().css('display', 'inline-block')
-			// update filter-info/counter
-			if (name !== 'clear') show_counter('' + selector + '.' + name)
-		}
+		function clickFilter (target, bandnummer, category) {
+      $('.exkurs-border' + '.' + bandnummer).hide()
+      $('.exkurs-border' + '.' + bandnummer + '.' + category).show();
 
-		function show_counter (selector) {
-			var count = $(selector).length
-			var message = count + " Exkursionen"
-			if (selector === '.list-all') {
-				message = "Insgesamt " +  message
-			}
-			$('.filter-info').html(message)
-		}
+      $('.filter-container .blue.btn').removeClass('selected')
+      $(target).addClass('selected', true)
+      $('.btn.blue.clear' + '.' + bandnummer).show().css('display', 'inline-block')
+
+      // show button Alle Beiträge
+      if (category === 'list-all') {
+        $('.filter-container .blue.btn').removeClass('selected')
+        $('.btn.blue.clear' + '.' + bandnummer).hide()
+
+        $('.exkurs-border' + '.' + bandnummer).hide()
+        $('.list-all' + '.' + bandnummer).show()
+      }
+
+      // update filter-info/counter
+      show_counter(category, bandnummer)
+
+
+    }
+
+    function show_counter (category, bandnummer) {
+      var selector = '.' + category + '.' + bandnummer
+      console.log(selector);
+      var count = $(selector).length
+      var message = count + " Exkursionen"
+      if (category === 'list-all') {
+        message = "Insgesamt " +  message
+      }
+      console.log(message)
+      $('.filter-info' + '.' + bandnummer).html(message)
+    }
 
 	</script>
 
 	<div class="section-content">
+    <h1 class="sectionheader text-center">Unterwegs </h1>
 
-		<div class="row">
-			<h1 class="sectionheader text-center">Unterwegs in Leipzig</h1>
-			<div class="filter-container">
-				<p>
-					<br/>
-					Erkunden Sie Leipzig vor Ort. Entdecken Sie bekannte und unbekannte Orte neu. Ob Baudenkmale, Siedlungsentwicklung, Kultur oder Natur &ndash; es ist f&uuml;r jeden etwas dabei. Machen Sie sich auf den Weg.<br/><br/>
-					W&auml;hlen Sie eine Exkursion aus der Liste. Sie k&ouml;nnen Ihre Suche auch einschr&auml;nken, je nachdem, ob Sie zu Fu&szlig; oder mit dem Fahrrad unterwegs sein m&ouml;chten.
-				</p>
-				<!-- h3>Wählen Sie einen Exkursionstyp</h3-->
-				<a class="btn blue" onclick="javascript:click_filter(this, 'fuss')">Fu&szlig;</a>
-				<a class="btn blue" onclick="javascript:click_filter(this, 'fahrrad')">Fahrrad</a>
-				<a class="btn blue clear" onclick="javascript:click_filter(this, 'clear')">Alle Exkursionen</a>
-				<span class="filter-info"></span>
-			</div>
-		</div>
+<!-- Band 79  ---------------------------------------------------------------- -->
 
-		<!-- list all trips -->
+  <!-- Filter Band 79   ------------------------------------------------------ -->
+    <h3 class="seperator intern">Unterwegs in der Region {{$.Scratch.Get "band-79-name"}}</h3>
+    <div class="row">
+      <div class="filter-container">
+        <p>
+          <br/>
+          Erkunden Sie die Region vor Ort. Entdecken Sie bekannte und unbekannte Orte neu. Ob Baudenkmale, Siedlungsentwicklung, Kultur oder Natur &ndash; es ist f&uuml;r jeden etwas dabei. Machen Sie sich auf den Weg.<br/><br/>
+          W&auml;hlen Sie eine Exkursion aus der Liste. Sie k&ouml;nnen Ihre Suche auch einschr&auml;nken, je nachdem, ob Sie zu Fu&szlig; oder mit dem Fahrrad unterwegs sein m&ouml;chten.
+        </p>
+        <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "fuss")'>
+          Fu&szlig;
+        </a>
+        <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "fahrrad")'>
+          Fahrrad
+        </a>
+        <a class='btn blue clear {{$.Scratch.Get "band-79"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "list-all")'>Alle Beiträge</a>
+        <span class='filter-info {{$.Scratch.Get "band-79"}}'></span>
+      </div>
+    </div>
+
+<!-- Themen Content   ---------------------------------------------------------------- -->
+
+  <!-- list all trips -->
         {{ range .Data.Pages }}
-        {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
-			<div class="col-mre exkurs-border list-all lower-shadow">
+        {{ $bandnummer := substr .Params.id 0 2}}
+        {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "79") }}
+      <div class='col-mre exkurs-border list-all {{$.Scratch.Get "band-79"}} lower-shadow'>
                 {{ .Render "li" }}
-			</div>
+      </div>
         {{ end}}
         {{ end}}
 
@@ -70,8 +88,9 @@
         {{ $termname := "fuß" }}
         {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
         {{ range $taxonomy.Pages.ByWeight }}
-                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
-                <div style="display:none;" class="col-mre exkurs-border fuss lower-shadow">
+        {{ $bandnummer := substr .Params.id 0 2}}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "79")}}
+                <div style="display:none;" class="col-mre exkurs-border fuss {{$bandnummer}} lower-shadow">
                         {{ .Render "li" }}
                 </div>
                 {{ end }}
@@ -81,8 +100,68 @@
         {{ $fahrrad := "fahrrad" }}
         {{ $taxw := index .Site.Taxonomies.exkursionstypen $fahrrad }}
         {{ range $taxw.Pages.ByWeight.Reverse }}
-                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) }}
-                <div style="display:none;" class="col-mre exkurs-border fahrrad lower-shadow">
+        {{ $bandnummer := substr .Params.id 0 2}}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "79")}}
+                <div style="display:none;" class="col-mre exkurs-border fahrrad {{$bandnummer}} lower-shadow">
+                        {{ .Render "li" }}
+                </div>
+                {{ end }}
+        {{ end }}
+
+
+<!-- Band 78  ---------------------------------------------------------------- -->
+
+  <!-- Filter Band 78   ------------------------------------------------------ -->
+    <h3 class="seperator intern">Unterwegs in der Region {{$.Scratch.Get "band-78-name"}}</h3>
+    <div class="row">
+      <div class="filter-container">
+        <p>
+          <br/>
+          Erkunden Sie die Region vor Ort. Entdecken Sie bekannte und unbekannte Orte neu. Ob Baudenkmale, Siedlungsentwicklung, Kultur oder Natur &ndash; es ist f&uuml;r jeden etwas dabei. Machen Sie sich auf den Weg.<br/><br/>
+          W&auml;hlen Sie eine Exkursion aus der Liste. Sie k&ouml;nnen Ihre Suche auch einschr&auml;nken, je nachdem, ob Sie zu Fu&szlig; oder mit dem Fahrrad unterwegs sein m&ouml;chten.
+        </p>
+        <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "fuss")'>
+          Fu&szlig;
+        </a>
+        <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "fahrrad")'>
+          Fahrrad
+        </a>
+        <a class='btn blue clear {{$.Scratch.Get "band-78"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-78"}}, "list-all")'>Alle Beiträge</a>
+        <span class='filter-info {{$.Scratch.Get "band-78"}}'></span>
+      </div>
+    </div>
+
+<!-- Themen Content   ---------------------------------------------------------------- -->
+
+		<!-- list all trips -->
+        {{ range .Data.Pages }}
+        {{ $bandnummer := substr .Params.id 0 2}}
+        {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "78") }}
+			<div class='col-mre exkurs-border list-all {{$.Scratch.Get "band-78"}} lower-shadow'>
+                {{ .Render "li" }}
+			</div>
+        {{ end}}
+        {{ end}}
+
+        <!-- Fuß -->
+        {{ $termname := "fuß" }}
+        {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
+        {{ range $taxonomy.Pages.ByWeight }}
+        {{ $bandnummer := substr .Params.id 0 2}}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "78")}}
+                <div style="display:none;" class="col-mre exkurs-border fuss {{$bandnummer}} lower-shadow">
+                        {{ .Render "li" }}
+                </div>
+                {{ end }}
+        {{ end }}
+
+        <!-- Fahrrad -->
+        {{ $fahrrad := "fahrrad" }}
+        {{ $taxw := index .Site.Taxonomies.exkursionstypen $fahrrad }}
+        {{ range $taxw.Pages.ByWeight.Reverse }}
+        {{ $bandnummer := substr .Params.id 0 2}}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "78")}}
+                <div style="display:none;" class="col-mre exkurs-border fahrrad {{$bandnummer}} lower-shadow">
                         {{ .Render "li" }}
                 </div>
                 {{ end }}
