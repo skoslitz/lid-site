@@ -1,17 +1,17 @@
-{{ $type := .Page.Type }}  
-{{ $id := .Page.Params.id }}   
+{{ $type := .Page.Type }}
+{{ $id := .Page.Params.id }}
+{{ $bandnummer := substr .Page.Params.id 0 2 }}
+
+{{ $imgClass := "img-responsive" }}
+{{ $flow := .Get "flow" }}
 {{ $path := $id | printf "%s/%s" $id | printf "%s/%s" $type | printf "/%s-" }}
 
-	{{ $imgClass := "img-responsive" }}
-	{{ $flow := .Get "flow" }}
-
+<!-- get images with region 78 convention-->
+{{ if eq $bandnummer "78" }}
 	{{ if isset .Params "hidden" }}
-
 		<img class="{{ $imgClass }} clickable hidden" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}"
 			alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{ substr $id 0 2 }}/{{ $path }}300px-{{ .Get "pfad" }}" />
-
 	{{ else }}
-
 		<div class="just-center abbildung {{ .Get "flow" }}">
 
 			{{ if isset .Params "clickable" }}
@@ -24,25 +24,69 @@
 					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/{{ substr $id 0 2 }}/{{ $path }}300px-{{ .Get "pfad" }}"{{ else }}src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}"{{end}} />
 				{{ end }}
 
-				
-	
 			{{ if isset .Params "clickable" }}
 				</a>
 			{{ end }}
 
+		<!-- Concenate string for caption from title and source -->
+		{{ $title := .Get "titel" }}
+		{{ $source := .Get "quellenangaben" }}
+		{{ $caption := $source | printf "%s (%s)" $title | printf "%s" }}
 
-<!-- Concenate string for caption from title and source -->
-{{ $title := .Get "titel" }}  
-{{ $source := .Get "quellenangaben" }}   
-{{ $caption := $source | printf "%s (%s)" $title | printf "%s" }}
-			
-			<!-- Show sources only if not empty -->
-			{{ if ne $source "" }}
-			<div class="bild-caption">
-				{{ $caption | markdownify }}</span>
-			</div>
-			{{ end }}
+				<!-- Show sources only if not empty -->
+				{{ if ne $source "" }}
+				<div class="bild-caption">
+					{{ $caption | markdownify }}</span>
+				</div>
+				{{ end }}
 
 		</div>
-
 	{{ end }}
+
+<!-- get images with current convention (_vorschaubilder folder)-->
+<!-- img/{{$bandnummer}}/{{$type}}/{{$id}}/_vorschaubilder/{{ .Get "pfad" }} -->
+<!-- img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }} -->
+{{ else }}
+	{{ if isset .Params "hidden" }}
+		<img class="{{ $imgClass }} clickable hidden" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}"
+			alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/_vorschaubilder/{{ .Get "pfad" }}" />
+	{{ else }}
+		<div class="just-center abbildung {{ .Get "flow" }}">
+
+			{{ if isset .Params "clickable" }}
+				<a name="{{ .Get "pfad" }}" title="Vollbild">
+			{{ end }}
+
+				{{ if isset .Params "style" }}
+					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" />
+				{{ else }}
+					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/_vorschaubilder/{{ .Get "pfad" }}"{{ else }}src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}"{{end}} />
+				{{ end }}
+
+			{{ if isset .Params "clickable" }}
+				</a>
+			{{ end }}
+
+		<!-- Concenate string for caption from title and source -->
+		{{ $title := .Get "titel" }}
+		{{ $source := .Get "quellenangaben" }}
+		{{ $caption := $source | printf "%s (%s)" $title | printf "%s" }}
+
+				<!-- Show sources only if not empty -->
+				{{ if ne $source "" }}
+				<div class="bild-caption">
+					{{ $caption | markdownify }}</span>
+				</div>
+				{{ end }}
+
+		</div>
+	{{ end }}
+{{ end }}
+
+
+
+
+
+
+
+
