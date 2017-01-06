@@ -14,7 +14,7 @@ title = "Das mittlere Zschopaugebiet"
 umfang = ["33 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Flöha, Augustusburg und Zschopau"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/28/cover-mittleres-zschopaugebiet.jpg"
+titelbild = "cover-mittleres-zschopaugebiet.jpg"
 
 +++
 

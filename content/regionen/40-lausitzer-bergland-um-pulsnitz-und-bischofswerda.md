@@ -14,7 +14,7 @@ title = "Lausitzer Bergland um Pulsnitz und Bischofswerda"
 umfang = ["38 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Pulsnitz und Bischofswerda"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/40/cover-lausitzer-bergland.jpg"
+titelbild = "cover-lausitzer-bergland.jpg"
 
 +++
 

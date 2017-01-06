@@ -14,7 +14,7 @@ title = "Der Kyffhäuser und seine Umgebung"
 umfang = ["34 Abbildungen", "1 Übersichtskarte", "24 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Kelbra und Bad Frankenhausen"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/29/cover-kyffhaeuser.jpg"
+titelbild = "cover-kyffhaeuser.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Das Limbacher Land"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "8 Kunstdruckkarten"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Limbach-Oberfrohna und Hohenstein-Ernstthal"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/05/cover-limbacher-land.jpg"
+titelbild = "cover-limbacher-land.jpg"
 
 +++
 

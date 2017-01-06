@@ -14,7 +14,7 @@ title = "Das Rheinsberg-Fürstenberger Seengebiet"
 umfang = ["30 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Zechlin, Rheinsberg, Fürstenberg und Himmelpfort"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/25/cover-rheinsberg-seengebiet.jpg"
+titelbild = "cover-rheinsberg-seengebiet.jpg"
 
 +++
 

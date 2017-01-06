@@ -14,7 +14,7 @@ title = "Zwischen Tharandter Wald, Freital und dem Lockwitztal"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Freital und Kreischa"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/21/cover-tharandter-wald.jpg"
+titelbild = "cover-tharandter-wald.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Plauen und das mittlere Vogtland"
 umfang = ["37 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Plauen-Nord, Treuen, Plauen-Süd und Oelsnitz"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/44/cover-plauen-mittleres-vogtland.jpg"
+titelbild = "cover-plauen-mittleres-vogtland.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Pirna und seine Umgebung"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Pirna, Heidenau, Dohna"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/09/cover-pirna.jpg"
+titelbild = "cover-pirna.jpg"
 
 +++
 

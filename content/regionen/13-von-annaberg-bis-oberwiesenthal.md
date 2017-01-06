@@ -14,7 +14,7 @@ title = "Von Annaberg bis Oberwiesenthal"
 umfang = ["30 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Elterlein, Annaberg-Buchholz, Oberwiesenthal und Hammerunterwiesenthal"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/13/cover-annaberg-oberwiesenthal.jpg"
+titelbild = "cover-annaberg-oberwiesenthal.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Zwischen Mülsengrund, Stollberg und Zwönitztal"
 umfang = ["35 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Lichtenstein, Oelsnitz, Stollberg und Thalheim"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/35/cover-muelsengrund.jpg"
+titelbild = "cover-muelsengrund.jpg"
 
 +++
 

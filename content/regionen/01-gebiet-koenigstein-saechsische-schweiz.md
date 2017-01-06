@@ -14,7 +14,7 @@ title = "Gebiet Königstein, Sächsische Schweiz"
 umfang = ["21 Abbildungen", "1 Übersichtsblatt"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Königstein / Sächsische Schweiz"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/01/cover-koenigstein-saechsische-schweiz.jpg"
+titelbild = "cover-koenigstein-saechsische-schweiz.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Das Gleichberggebiet"
 umfang = ["65 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Haina und Römhild/Thüringen"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/06/cover-gleichberggebiet.jpg"
+titelbild = "cover-gleichberggebiet.jpg"
 
 +++
 

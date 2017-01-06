@@ -14,7 +14,7 @@ title = "Das Gebiet an der unteren Unstrut"
 umfang = ["41 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Wiehe, Nebra und Freyburg"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/46/cover-untere-unstrut.jpg"
+titelbild = "cover-untere-unstrut.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Elbtal und Lösshügelland bei Meißen"
 umfang = ["38 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Hirschstein und Meißen"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/32/cover-elbtal-meissen.jpg"
+titelbild = "cover-elbtal-meissen.jpg"
 
 +++
 

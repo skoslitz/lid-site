@@ -14,7 +14,7 @@ title = "Das nördliche Vogtland um Greiz"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Greiz, Weida, Berga, Triebes, Hohenleuben, Elsterberg, Mylau und Netzschkau"
 verlag = "Böhlau Verlag"
-titelbild = "/68/cover-noerdliches-vogtland.jpg"
+titelbild = "cover-noerdliches-vogtland.jpg"
 
 +++
 

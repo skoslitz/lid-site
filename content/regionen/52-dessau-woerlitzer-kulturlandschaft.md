@@ -14,7 +14,7 @@ title = "Dessau-Wörlitzer Kulturlandschaft"
 umfang = ["43 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet der mittleren Elbe und unteren Mulde um Dessau, Rosslau, Coswig und Wörlitz"
 verlag = "Selbstverlag des Instituts für Länderkunde"
-titelbild = "/52/cover-dessau-woerlitzer.jpg"
+titelbild = "cover-dessau-woerlitzer.jpg"
 
 +++
 

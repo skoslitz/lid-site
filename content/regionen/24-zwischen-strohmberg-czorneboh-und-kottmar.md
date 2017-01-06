@@ -14,7 +14,7 @@ title = "Zwischen Strohmberg, Czorneboh und Kottmar"
 umfang = ["32 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Hochkirch und Ebersbach"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/24/cover-strohmberg.jpg"
+titelbild = "cover-strohmberg.jpg"
 
 +++
 

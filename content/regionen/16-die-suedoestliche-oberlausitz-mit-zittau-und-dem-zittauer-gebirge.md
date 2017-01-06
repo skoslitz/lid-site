@@ -14,7 +14,7 @@ title = "Die südöstliche Oberlausitz mit Zittau und dem Zittauer Gebirge"
 umfang = ["32 Abbildungen", "1 Übersichtskarte", "32 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Neugersdorf, Zittau, Hirschfelde und. Waltersdorf"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/16/cover-suedoestliche-oberlausitz.jpg"
+titelbild = "cover-suedoestliche-oberlausitz.jpg"
 
 +++
 

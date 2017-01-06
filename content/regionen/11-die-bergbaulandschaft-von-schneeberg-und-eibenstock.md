@@ -14,7 +14,7 @@ title = "Die Bergbaulandschaft von Schneeberg und Eibenstock"
 umfang = ["29 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Schneeberg und Eibenstock"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/11/cover-bergbaulandschaft-schneeberg.jpg" 
+titelbild = "cover-bergbaulandschaft-schneeberg.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Weimar und seine Umgebung"
 umfang = ["79 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme im Raum Weimar und Bad Berka"
 verlag = "Böhlau Verlag"
-titelbild = "/61/cover-weimar.jpg"
+titelbild = "cover-weimar.jpg"
 
 +++
 

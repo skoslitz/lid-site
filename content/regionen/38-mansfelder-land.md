@@ -14,7 +14,7 @@ title = "Mansfelder Land"
 umfang = ["35 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet um Leimbach, Hettstedt, Friedeburg, Mansfeld, Lutherstadt Eisleben, Dederstedt, Holdenstedt, Hornburg und Seeburg"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/38/cover-mansfelder-land.jpg"
+titelbild = "cover-mansfelder-land.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Das obere Vogtland"
 umfang = ["37 Abbildungen", "1 Übersichtskarte", "32 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Adorf, Klingenthal, Bad Elster und Schönberg"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/26/cover-oberes-vogtland.jpg" 
+titelbild = "cover-oberes-vogtland.jpg"
 
 +++
 

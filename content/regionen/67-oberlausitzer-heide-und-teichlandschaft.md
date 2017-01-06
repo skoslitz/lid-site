@@ -14,7 +14,7 @@ title = "Oberlausitzer Heide- und Teichlandschaft"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Lohsa, Klitten, Großdubrau und Baruth"
 verlag = "Böhlau Verlag"
-titelbild = "/67/cover-oberlausitzer-heide.jpg"
+titelbild = "cover-oberlausitzer-heide.jpg"
 
 +++
 

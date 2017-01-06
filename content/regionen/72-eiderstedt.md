@@ -15,7 +15,7 @@ umfang = ["80 Abbildungen", "22 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum St. Peter-Ording, Garding, Tönning und Friedrichstadt"
 verlag = "Böhlau Verlag"
 buy_link = "http://www.boehlau-verlag.com/978-3-412-09906-0.html"
-titelbild = "/72/cover-eiderstedt.jpg"
+titelbild = "cover-eiderstedt.jpg"
 +++
 
 {{% bild_alt flow="preview" clickable="true" pfad="/72/cover-eiderstedt.jpg"   %}}

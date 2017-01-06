@@ -14,7 +14,7 @@ title = "Magdeburg und seine Umgebung"
 umfang = ["34 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Magdeburg und Biederitz"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/19/cover-magdeburg.jpg"
+titelbild = "cover-magdeburg.jpg"
 
 +++
 

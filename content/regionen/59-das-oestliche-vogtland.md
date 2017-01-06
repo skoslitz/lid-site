@@ -14,7 +14,7 @@ title = "Das östliche Vogtland"
 umfang = ["78 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme in den Gebieten Treuen, Auerbach, Oelsnitz und Falkenstein"
 verlag = "Böhlau Verlag"
-titelbild = "/59/cover-oestliches-vogtland.jpg"
+titelbild = "cover-oestliches-vogtland.jpg"
 
 +++
 

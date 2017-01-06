@@ -14,7 +14,7 @@ title = "Brandenburg an der Havel und Umgebung"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Brandenburg an der Havel, Pritzerbe, Reckahn und Wusterwitz"
 verlag = "Böhlau Verlag"
-titelbild = "/69/cover-brandenburg-havel.jpg"
+titelbild = "cover-brandenburg-havel.jpg"
 
 +++
 

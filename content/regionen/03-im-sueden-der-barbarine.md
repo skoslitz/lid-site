@@ -14,7 +14,7 @@ title = "Im Süden der Barbarine"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Rosenthal. Ergänzt durch Aufsätze zu Natur, Geschichte und Kultur der Sächsischen Schweiz."
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/03/cover-sueden-der-barbarine.jpg"
+titelbild = "cover-sueden-der-barbarine.jpg"
 
 +++
 

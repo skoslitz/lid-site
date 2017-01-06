@@ -14,7 +14,7 @@ title = "Freiberger Land"
 umfang = ["43 Abbildungen", "1 Übersichtskarte", "24 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet um Lan, Langhennersdorf, Freiberg, Oederan, Brand-Erbisdorf und Weissenborn"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/47/cover-freiberger-land.jpg"
+titelbild = "cover-freiberger-land.jpg"
 
 +++
 

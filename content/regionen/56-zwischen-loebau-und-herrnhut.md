@@ -14,7 +14,7 @@ title = "Zwischen Löbau und Herrnhut"
 umfang = ["84 Abbildungen", "1 Übersichtskarte"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme im Raum Löbau und Reichenbach/OL"
 verlag = "Böhlau Verlag"
-titelbild = "/56/cover-loebau-herrnhut.jpg"
+titelbild = "cover-loebau-herrnhut.jpg"
 
 +++
 

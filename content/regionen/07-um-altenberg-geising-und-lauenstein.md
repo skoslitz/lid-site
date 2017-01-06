@@ -14,7 +14,7 @@ title = "Um Altenberg, Geising und Lauenstein"
 umfang = ["29 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Altenberg und Fürstenwalde"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/07/cover-altenberg.jpg"
+titelbild = "cover-altenberg.jpg"
 
 +++
 

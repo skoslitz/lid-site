@@ -14,7 +14,7 @@ title = "Zwischen Rennsteig und Sonneberg"
 umfang = ["39 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Lauscha, Steinach, Schalkau und Sonneberg"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/39/cover-rennsteig-sonneberg.jpg"
+titelbild = "cover-rennsteig-sonneberg.jpg"
 
 +++
 

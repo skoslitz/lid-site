@@ -14,7 +14,7 @@ title = "Zwischen Sebnitz, Hinterhermsdorf und den Zschirnsteinen"
 umfang = ["28 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Sebnitz, Hinterhermsdorf, Schöna und am Raumberg"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/02/cover-sebnitz-hinterhermsdorf.jpg"
+titelbild = "cover-sebnitz-hinterhermsdorf.jpg"
 
 +++
 

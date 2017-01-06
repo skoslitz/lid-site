@@ -14,7 +14,7 @@ title = "Das Mittelrheinische Becken"
 umfang = ["86 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Andernach, Bendorf, Koblenz, Mayen, Mendig, Münstermaifeld und Neuwied"
 verlag = "Böhlau Verlag"
-titelbild = "/65/cover-mittelrheinisches-becken.jpg" 
+titelbild = "cover-mittelrheinisches-becken.jpg"
 
 +++
 

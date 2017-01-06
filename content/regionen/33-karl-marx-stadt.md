@@ -14,7 +14,7 @@ title = "Karl-Marx-Stadt"
 umfang = ["44 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Karl-Marx-Stadt"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/33/cover-karl-marx-stadt.jpg"
+titelbild = "cover-karl-marx-stadt.jpg"
 
 +++
 

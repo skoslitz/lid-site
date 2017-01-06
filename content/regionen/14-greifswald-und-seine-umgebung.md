@@ -14,7 +14,7 @@ title = "Greifswald und seine Umgebung"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet südlich des Greifswalder Boddens"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/14/cover-greifswald.jpg"
+titelbild = "cover-greifswald.jpg"
 
 +++
 

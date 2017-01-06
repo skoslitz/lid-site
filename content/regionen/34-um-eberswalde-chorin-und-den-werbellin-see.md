@@ -14,7 +14,7 @@ title = "Um Eberswalde, Chorin und den Werbellin-See"
 umfang = ["35 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Joachimsthal, Gross Ziethen, Eberswalde und Hohenfinow"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/34/cover-eberswalde-chorin.jpg" 
+titelbild = "cover-eberswalde-chorin.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Zwischen Ruhla, Bad Liebenstein und Schmalkalden"
 umfang = ["40 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Ruhla und Schmalkalden"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/48/cover-ruhla-schmalkalden.jpg"
+titelbild = "cover-ruhla-schmalkalden.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Potsdam und seine Umgebung"
 umfang = ["30 Abbildungen", "2 Übersichtskarten", "32 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/15/cover-potsdam.jpg" 
+titelbild = "cover-potsdam.jpg"
 
 +++
 

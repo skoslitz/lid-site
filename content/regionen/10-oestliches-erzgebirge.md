@@ -14,7 +14,7 @@ title = "Östliches Erzgebirge"
 umfang = ["29 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der Heimatkundlichen Bestandsaufnahme im Gebiet von Frauenstein/Nassau (Teil 1)"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/10/cover-oestliches-erzgebirge.jpg"
+titelbild = "cover-oestliches-erzgebirge.jpg"
 
 +++
 

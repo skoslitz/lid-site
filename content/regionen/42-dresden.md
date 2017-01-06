@@ -14,7 +14,7 @@ title = "Dresden"
 umfang = ["51 Abbildungen", "1 Übersichtskarte", "32 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/42/cover-dresden.jpg"
+titelbild = "cover-dresden.jpg"
 
 +++
 

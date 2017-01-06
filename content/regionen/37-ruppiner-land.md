@@ -14,7 +14,7 @@ title = "Ruppiner Land"
 umfang = ["35 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Zühlen, Dierberg, Neuruppin und Lindow"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/37/cover-ruppiner-land.jpg"
+titelbild = "cover-ruppiner-land.jpg"
 
 +++
 

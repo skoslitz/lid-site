@@ -14,7 +14,7 @@ title = "Lössnitz und Moritzburger Teichlandschaft"
 umfang = ["33 Abbildungen", "1 Übersichtskarte", "1 Stadtplan", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Radebeul und Dresden-Klotzsche"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/22/cover-loessnitz.jpg"
+titelbild = "cover-loessnitz.jpg"
 
 +++
 

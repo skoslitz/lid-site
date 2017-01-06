@@ -14,7 +14,7 @@ title = "Um Olbernhau und Seiffen"
 umfang = ["39 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Zöblitz, Olbernhau, Neuwernsdorf und Rübenau"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/43/cover-olbernhau-seiffen.jpg"
+titelbild = "cover-olbernhau-seiffen.jpg"
 
 +++
 

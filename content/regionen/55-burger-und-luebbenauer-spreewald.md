@@ -14,7 +14,7 @@ title = "Burger und Lübbenauer Spreewald"
 umfang = ["89 Abbildungen", "1 Übersichtskarte"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme in den Gebieten von Burg und Lübbenau"
 verlag = "Böhlau Verlag"
-titelbild = "/55/cover-burg-luebbenau.jpg"
+titelbild = "cover-burg-luebbenau.jpg"
 
 +++
 

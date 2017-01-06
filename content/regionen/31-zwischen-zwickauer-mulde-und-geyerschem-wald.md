@@ -14,7 +14,7 @@ title = "Zwischen Zwickauer Mulde und Geyerschem Wald"
 umfang = ["39 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Wildenfels, Lössnitz und Geyer"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/31/cover-zwickauer-mulde.jpg"
+titelbild = "cover-zwickauer-mulde.jpg"
 
 +++
 

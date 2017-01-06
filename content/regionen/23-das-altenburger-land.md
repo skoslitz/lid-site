@@ -14,7 +14,7 @@ title = "Das Altenburger Land"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Altenburg und Regis-Breitingen"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/23/cover-altenburger-land.jpg"
+titelbild = "cover-altenburger-land.jpg"
 
 +++
 

@@ -14,7 +14,7 @@ title = "Bitterfeld und das untere Muldetal"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Bitterfeld, Wolfen, Jeßnitz (Anhalt), Raguhn, Gräfenhainichen und Brehna"
 verlag = "Böhlau Verlag"
-titelbild = "/66/cover-bitterfeld.jpg"
+titelbild = "cover-bitterfeld.jpg"
 
 +++
 

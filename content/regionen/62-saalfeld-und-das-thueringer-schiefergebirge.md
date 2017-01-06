@@ -14,7 +14,7 @@ title = "Saalfeld und das Thüringer Schiefergebirge"
 umfang = ["81 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Saalfeld, Leutenberg und Lauenstein"
 verlag = "Böhlau Verlag"
-titelbild = "/62/cover-saalfeld.jpg"
+titelbild = "cover-saalfeld.jpg"
 
 +++
 

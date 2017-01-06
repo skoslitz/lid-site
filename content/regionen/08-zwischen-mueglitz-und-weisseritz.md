@@ -14,7 +14,7 @@ title = "Zwischen Müglitz und Weisseritz"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse d. heimatkundl. Bestandsaufnahme im Gebiet von Dippoldiswalde/Glashütte"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/08/cover-mueglitz-weisseritz.jpg"
+titelbild = "cover-mueglitz-weisseritz.jpg"
 
 +++
 

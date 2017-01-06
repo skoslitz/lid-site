@@ -14,7 +14,7 @@ title = "Die Halbinsel Fischland-Darß-Zingst und das Barther Land"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Wustrow, Prerow, Zingst und Barth"
 verlag = "Böhlau Verlag"
-titelbild = "/71/cover-halbinsel-fischland.jpg"
+titelbild = "cover-halbinsel-fischland.jpg"
 buy_link = "http://www.boehlau-verlag.com/978-3-412-09806-3.html"
 
 +++

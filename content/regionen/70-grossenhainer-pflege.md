@@ -14,7 +14,7 @@ title = "Großenhainer Pflege"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Großenhain und Radeburg"
 verlag = "Böhlau Verlag"
-titelbild = "/70/cover-grossenhainer-pflege.jpg"
+titelbild = "cover-grossenhainer-pflege.jpg"
 
 +++
 

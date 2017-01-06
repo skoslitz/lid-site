@@ -14,7 +14,7 @@ title = "Havelland um Werder, Lehnin und Ketzin"
 umfang = ["45 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Gross Kreutz, Ketzin, Lehnin und Werder"
 verlag = "Selbstverlag des Instituts für Länderkunde"
-titelbild = "/53/cover-havelland-werder.jpg"
+titelbild = "cover-havelland-werder.jpg"
 
 +++
 

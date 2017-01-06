@@ -14,7 +14,7 @@ title = "Um Gottleuba, Berggiesshübel und Liebstadt"
 umfang = ["25 Abbildungen", "1 Übersichtskarte", "25 Abbildungen"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Gottleuba"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/04/cover-gottleuba.jpg"
+titelbild = "cover-gottleuba.jpg"
 
 +++
 

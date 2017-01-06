@@ -14,7 +14,7 @@ title = "Zwischen Wolkenstein, Marienberg und Jöhstadt"
 umfang = ["40 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Marienberg, Jöhstadt und Reitzenhain"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/41/cover-wolkenstein-marienberg.jpg"
+titelbild = "cover-wolkenstein-marienberg.jpg"
 
 +++
 

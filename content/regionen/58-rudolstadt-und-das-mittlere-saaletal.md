@@ -14,7 +14,7 @@ title = "Rudolstadt und das mittlere Saaletal"
 umfang = ["76 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme im Raum Remda, Rudolstadt und Orlamünde"
 verlag = "Böhlau Verlag"
-titelbild = "/58/cover-rudolstadt.jpg"
+titelbild = "cover-rudolstadt.jpg"
 
 +++
 

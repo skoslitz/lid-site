@@ -14,7 +14,7 @@ title = "Um Eberswalde, Chorin und den Werbellinsee"
 umfang = ["78 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Eberswalde, Hohenfinow und Joachimsthal"
 verlag = "Böhlau Verlag"
-titelbild = "/64/cover-eberswalde-chorin.jpg"
+titelbild = "cover-eberswalde-chorin.jpg"
 
 +++
 

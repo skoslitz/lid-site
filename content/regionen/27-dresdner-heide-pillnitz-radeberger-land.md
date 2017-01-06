@@ -14,7 +14,7 @@ title = "Dresdner Heide, Pillnitz, Radeberger Land"
 umfang = ["34 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Radeberg und Dresden-Pillnitz"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/27/cover-dresdner-heide.jpg"
+titelbild = "cover-dresdner-heide.jpg"
 
 +++
 

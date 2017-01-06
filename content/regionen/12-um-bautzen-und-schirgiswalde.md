@@ -14,7 +14,7 @@ title = "Um Bautzen und Schirgiswalde"
 umfang = ["31 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet von Bautzen und Schirgiswalde"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/12/cover-bautzen-schirgiswalde.jpg"
+titelbild = "cover-bautzen-schirgiswalde.jpg"
 
 +++
 

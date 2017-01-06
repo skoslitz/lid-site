@@ -14,7 +14,7 @@ title = "Eisenhüttenstadt und seine Umgebung"
 umfang = ["41 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme im Gebiet zwischen Oder, Neisse und Schlaubetal um Eisenhüttenstadt und Neuzelle"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/45/cover-eisenhuettenstadt.jpg"
+titelbild = "cover-eisenhuettenstadt.jpg"
 
 +++
 

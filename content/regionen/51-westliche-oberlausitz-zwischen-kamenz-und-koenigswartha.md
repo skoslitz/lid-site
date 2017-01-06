@@ -14,7 +14,7 @@ title = "Westliche Oberlausitz zwischen Kamenz und Königswartha"
 umfang = ["43 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten Bernsdorf, Wittichenau, Kamenz und Kloster St. Marienstern"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/51/cover-westliche-oberlausitz.jpg"
+titelbild = "cover-westliche-oberlausitz.jpg"
 
 +++
 

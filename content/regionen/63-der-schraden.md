@@ -14,7 +14,7 @@ title = "Der Schraden"
 umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Elsterwerda, Lauchhammer, Hirschfeld und Ortrand"
 verlag = "Böhlau Verlag"
-titelbild = "/63/cover-schraden.jpg"
+titelbild = "cover-schraden.jpg"
 
 +++
 

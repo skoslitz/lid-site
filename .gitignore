@@ -2,6 +2,9 @@
 /Regionen
 /Shapes
 
+# Editor Frontend
+/dist
+
 # lid content plus assets
 /static
 /archetypes

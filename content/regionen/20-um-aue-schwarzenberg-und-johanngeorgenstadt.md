@@ -14,7 +14,7 @@ title = "Um Aue, Schwarzenberg und Johanngeorgenstadt "
 umfang = ["34 Abbildungen", "1 Übersichtskarte", "16 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Aue und Johanngeorgenstadt"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/20/cover-aue-schwarzenberg.jpg"
+titelbild = "cover-aue-schwarzenberg.jpg"
 
 +++
 

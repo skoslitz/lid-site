@@ -14,7 +14,7 @@ title = "Das Feldberger Seengebiet"
 umfang = ["58 Abbildungen", "1 Übersichtskarte"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme in den Gebieten Feldberg, Fürstenwerder, Thomsdorf und Boitzenburg"
 verlag = "Böhlau Verlag"
-titelbild = "/57/cover-feldberger-seengebiet.jpg"
+titelbild = "cover-feldberger-seengebiet.jpg"
 
 +++
 

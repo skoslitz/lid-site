@@ -14,7 +14,7 @@ title = "Görlitz und seine Umgebung"
 umfang = ["83 Abbildungen", "1 Übersichtskarte"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme im Raum Görlitz und Ostritz"
 verlag = "Böhlau Verlag"
-titelbild = "/54/cover-goerlitz.jpg"
+titelbild = "cover-goerlitz.jpg"
 
 +++
 

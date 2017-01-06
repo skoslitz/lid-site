@@ -14,7 +14,7 @@ title = "Um Oschatz und Riesa"
 umfang = ["35 Abbildungen", "1 Übersichtskarte", "20 Kunstdrucktafeln"]
 untertitel = "Ergebnisse der heimatkundlichen Bestandsaufnahme in den Gebieten von Wellerswalde, Riesa, Oschatz und Stauchitz"
 verlag = "Akademie-Verlag GmbH"
-titelbild = "/30/cover-oschatz-riesa.jpg"
+titelbild = "cover-oschatz-riesa.jpg"
 
 +++
 

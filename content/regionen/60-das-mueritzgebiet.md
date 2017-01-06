@@ -14,7 +14,7 @@ title = "Das Müritzgebiet"
 umfang = ["70 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Ergebnisse der landeskundlichen Bestandsaufnahme im Raum Waren, Klink, Federow und Rechlin"
 verlag = "Böhlau Verlag"
-titelbild = "/60/cover-mueritzgebiet.jpg"
+titelbild = "cover-mueritzgebiet.jpg"
 
 +++
 
