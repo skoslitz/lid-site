@@ -1,4 +1,4 @@
-{{ $.Scratch.Add "band-75" 75 }}
+{{ $.Scratch.Add "band-79" 79 }}
 {{ $.Scratch.Add "band-78" 78 }}
 
 {{ template "_includes/header.html" . }}
@@ -53,30 +53,30 @@
 
 
 
-<!-- Band 75 ---------------------------------------------------------------- -->
+<!-- Band 79  ---------------------------------------------------------------- -->
 
-	<!-- Filter Band 75  ------------------------------------------------------ -->
-		<h3 class="seperator intern">Themen für Bandnummer {{$.Scratch.Get "band-75"}}</h3>
+	<!-- Filter Band 79   ------------------------------------------------------ -->
+		<h3 class="seperator intern">Themen für Bandnummer {{$.Scratch.Get "band-79"}}</h3>
  		<div class="row">
     	<div class="filter-container">
 				<br>
-				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "sb")'>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "sb")'>
 					Siedlung &amp; Bevölkerung
 				</a>
-				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "wv")'>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "wv")'>
 					Wirtschaft &amp; Verkehr
 				</a>
-				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "nl")'>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "nl")'>
 					Natur &amp; Landschaft
 				</a>
-				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "ve")'>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "ve")'>
 					Vergangenheit &amp; Erinnerung
 				</a>
-				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "ks")'>
+				<a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "ks")'>
 					Kultur &amp; Soziales
 				</a>
-				<a class='btn blue clear {{$.Scratch.Get "band-75"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-75"}}, "list-all")'>Alle Beiträge</a>
-				<span class='filter-info {{$.Scratch.Get "band-75"}}'></span>
+				<a class='btn blue clear {{$.Scratch.Get "band-79"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "list-all")'>Alle Beiträge</a>
+				<span class='filter-info {{$.Scratch.Get "band-79"}}'></span>
 			</div>
     </div>
 
@@ -87,8 +87,8 @@
     <!-- list all themen -->
         {{ range .Data.Pages }}
         {{ $bandnummer := substr .Params.id 0 2}}
-        {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
-      <div class='col-mre themen-border list-all {{$.Scratch.Get "band-75"}} lower-shadow'>
+        {{ if and (eq .Type "themen") (eq $bandnummer "79")}}
+      <div class='col-mre themen-border list-all {{$.Scratch.Get "band-79"}} lower-shadow'>
         {{ .Render "li" }}
       </div>
         {{ end}}
@@ -99,7 +99,7 @@
     {{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
     {{ range $taxonomy.Pages.ByWeight.Reverse }}
     {{ $bandnummer := substr .Params.id 0 2}}
-      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "79")}}
       <div style="display:none;" class="col-mre themen-border sb {{$bandnummer}} lower-shadow">
         {{ .Render "li" }}
       </div>
@@ -111,7 +111,7 @@
     {{ $taxw := index .Site.Taxonomies.rubriken $termw }}
     {{ range $taxw.Pages.ByWeight.Reverse }}
     {{ $bandnummer := substr .Params.id 0 2}}
-      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "79")}}
       <div style="display:none;" class="col-mre themen-border wv {{$bandnummer}} lower-shadow">
         {{ .Render "li" }}
       </div>
@@ -122,7 +122,7 @@
     {{ $taxn := index .Site.Taxonomies.rubriken $termn }}
     {{ range $taxn.Pages.ByWeight.Reverse }}
     {{ $bandnummer := substr .Params.id 0 2}}
-      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "79")}}
       <div style="display:none;" class="col-mre themen-border nl {{$bandnummer}} lower-shadow">
         {{ .Render "li" }}
       </div>
@@ -133,7 +133,7 @@
     {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
     {{ range $taxe.Pages.ByWeight.Reverse }}
     {{ $bandnummer := substr .Params.id 0 2}}
-      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "79")}}
       <div style="display:none;" class="col-mre themen-border ve {{$bandnummer}} lower-shadow">
         {{ .Render "li" }}
       </div>
@@ -144,7 +144,7 @@
     {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
     {{ range $taxe.Pages.ByWeight.Reverse }}
     {{ $bandnummer := substr .Params.id 0 2}}
-      {{ if and (eq .Type "themen") (eq $bandnummer "75")}}
+      {{ if and (eq .Type "themen") (eq $bandnummer "79")}}
       <div style="display:none;" class="col-mre themen-border ks {{$bandnummer}} lower-shadow">
         {{ .Render "li" }}
       </div>
@@ -261,7 +261,7 @@
 
 	<script type="text/javascript">
 		// initial update filter-info/counter
-		show_counter('list-all', '{{$.Scratch.Get "band-75"}}')
+		show_counter('list-all', '{{$.Scratch.Get "band-79"}}')
 		show_counter('list-all', '{{$.Scratch.Get "band-78"}}')
 	</script>
 
