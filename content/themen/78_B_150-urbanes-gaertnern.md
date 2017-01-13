@@ -12,7 +12,6 @@ title = "Gemeinschaftsgärten in Leipzig"
 subtitle = "Urbanes Gärtnern als Beitrag zu einer lebenswerten Stadt"
 description = "**Gemeinschaftsgärten in Leipzig** - das ist viel mehr als Gemüse ziehen, sondern jeder Garten ist auf seine Weise ein sozio-kulturelles Projekt, Aktions- und Lernfeld für ein gesünderes, sozial- und umweltverträgliches Leben in einer globalisierten Welt **und** in der Stadt."
 literaturangaben = ["BMVBS – Bundesministerium für Verkehr, Bau und Stadtentwicklung (Hg., 2008): Städtebauliche, ökologische und soziale Bedeutung des Kleingartenwesens (= Forschungen 133). – Bonn.", "COST – European Cooperation in Science and Technology (2015): Urban Allotment Gardens – COST Action TU 120. Online verfügbar unter http://www.urbanallotments.eu/ (07.02.2015)."]
-literaturangaben = []
 bildnachweise = ["Titelbild/Vorschaubild: Mobile Beete und Gewächshäuser (Foto: Ulrike Weiland)"]
 
 +++
