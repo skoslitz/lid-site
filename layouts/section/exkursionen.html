@@ -67,6 +67,9 @@
         <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "fahrrad")'>
           Fahrrad
         </a>
+        <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "auto")'>
+          Auto/Bus
+        </a>
         <a class='btn blue clear {{$.Scratch.Get "band-79"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-79"}}, "list-all")'>Alle Beiträge</a>
         <span class='filter-info {{$.Scratch.Get "band-79"}}'></span>
       </div>
@@ -103,6 +106,18 @@
         {{ $bandnummer := substr .Params.id 0 2}}
                 {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "79")}}
                 <div style="display:none;" class="col-mre exkurs-border fahrrad {{$bandnummer}} lower-shadow">
+                        {{ .Render "li" }}
+                </div>
+                {{ end }}
+        {{ end }}
+
+        <!-- Auto/Bus -->
+        {{ $termname := "auto" }}
+        {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
+        {{ range $taxonomy.Pages.ByWeight }}
+        {{ $bandnummer := substr .Params.id 0 2}}
+                {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "79")}}
+                <div style="display:none;" class="col-mre exkurs-border auto {{$bandnummer}} lower-shadow">
                         {{ .Render "li" }}
                 </div>
                 {{ end }}
