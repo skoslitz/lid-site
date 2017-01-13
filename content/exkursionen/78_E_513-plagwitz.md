@@ -1,5 +1,6 @@
 +++
 autor = "Heinz Peter Brogiato"
+bildnachweise = []
 centroid = [51.331101, 12.343997]
 date = "2015-06-01"
 description = "In Plagwitz stoßen auf engstem Raum sehr unterschiedliche Siedlungsstrukturen aneinander. Der Rundgang beginnt im Villenviertel an der Karl-Heine-Straße, führt durch den städtisch völlig überprägten Ortskern und endet an der Nonnenstraße. Hier begann in der Mitte des 19. Jahrhunderts der Aufstieg zum Industrieviertel, und hier stehen heute die beeindruckendsten Baudenkmäler des Industriezeitalters."

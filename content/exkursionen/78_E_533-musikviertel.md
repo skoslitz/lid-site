@@ -1,5 +1,6 @@
 +++
 autor = "Luise Grundmann"
+bildnachweise = []
 centroid = [51.331576, 12.366786]
 date = "2015-06-12"
 description = "Südwestlich des Neuen Rathauses beginnt eine Route durch das mit öffentlichen Monumentalgebäuden, prachtvollen Stadtpalais und Villen des ausgehenden 19. Jahrhundert ausgestattete Musikviertel. Struktur und Architektur einzelner Quartiere des nach 1880 gründerzeitlich angelegten Viertels erschließen sich bei einem Rundgang vom Simsonplatz aus. Die nach bedeutenden Musikern und Leipziger Persönlichkeiten benannten Straßen führen zu zahlreichen, für Bildung, Kultur oder Wohnen genutzten historischen Gebäuden. Die Karl-Tauchnitz-Straße mit den locker bebauten Villengrundstücken leitet in die Parkanlagen über."

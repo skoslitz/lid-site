@@ -16,7 +16,8 @@ centroid = [51.3152679, 12.2755331]
 zoomstufe = 14
 fremdexkursion = false
 description = "In der Großwohnsiedlung Grünau, deren Grundsteinlegung 1976 erfolgte, lebten Ende der 1980er Jahre über 90.000 Einwohner. Saubere Luft, ein Naherholungsgebiet in der Umgebung, eine gute Verkehrsanbindung und natürlich die Vollkomfortwohnung bedingten eine hohe Zufriedenheit der Bewohner. Die Entstehung eines freien Wohnungsmarktes, fehlende Arbeitsplätze und enorme Imageprobleme bewirkten allerdings nach der Wende einen dramatischen Rückgang der Einwohnerzahlen. Dieser hatte Wohnungsleerstand und umfangreiche Abrisse zur Folge. Dank vieler Fördermaßnahmen, einer engagierten Bürgerschaft und wachsender Einwohnerzahlen der Stadt insgesamt zeichnen sich auch in Grünau wieder positive Entwicklungstrends ab."
-bildnachweise = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin Müller, 2013", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)",]
+literaturangaben = ["Vorschaubild: Leipzig-Grünau: Regenbogenviertel. Foto: Evelin Müller, 2013", "Titelbild: © Mapbox © OpenStreetMap, Bearbeitung: Vera Schreiner (IfL)",]
+bildnachweise = []
 
 
 [[exkursion]]

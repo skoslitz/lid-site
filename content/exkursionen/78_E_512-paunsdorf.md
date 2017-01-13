@@ -1,5 +1,6 @@
 +++
 autor = "Heinz Peter Brogiato"
+bildnachweise = []
 centroid = [51.347327, 12.449419]
 date = "2015-06-11"
 description = "Der Rundgang führt durch den alten Dorfkern von Paunsdorf, der durch die jüngeren Entwicklungen (Großwohnsiedlung Paunsdorf-Nord, Paunsdorf Center) an den Rand gedrängt wurde. Vom alten Gutsdorf hat sich kaum etwas erhalten, geprägt wird Alt-Paunsdorf von den städtebaulichen Entwicklungen seit dem Ende des 19. Jahrhunderts: Gründerzeitliche Wohnviertel, Kleinsiedlungen aus der ersten Hälfte des 20. Jahrhunderts und Industrieflächen entlang der Eisenbahn."

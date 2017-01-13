@@ -1,5 +1,6 @@
 +++
 id ="78_E_506"
+bildnachweise = []
 vg_wort_code = "d71167cc7d514e10b9aa2a869ab9b5bc"
 title = "Böhlitz-Ehrenberg – Kleinstädtisches Gepräge"
 # previewtitle = "Unterwegs in Böhlitz-Ehrenberg – Kleinstädtisches Gepräge"

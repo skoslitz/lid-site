@@ -12,7 +12,6 @@ vorschaubild = "78_B_105-vorschaubild.jpg"
 subtitle = ""
 description = "Wo Schriftquellen fehlen, kann die Archäologie Licht ins Dunkel bringen. Die Zerstörungen des Zweiten Weltkriegs und der Bauboom nach 1990 haben in der Leipziger Altstadt zahlreiche Grabungen ermöglicht, die gerade für Leipzigs Frühgeschichte vom 9.-12. Jahrhundert einzigartige Einblicke erlauben. Was sagt uns das „Archiv Boden“ über Leipzigs Weg zur mittelalterlichen Stadt?"
 literaturangaben = ["SCHUG, Petra (2014): Die Stadtgrabung L-182 „Hainspitze“. Neues aus der „Keimzelle“ Leipzigs. Ausgrabungen in Sachsen 4, Dresden 2014, 245-256.", "KÜAS, Herbert (1976): Das alte Leipzig in archäologischer Sicht. – Berlin."]
-
 bildnachweise = ["Titelbild: Rekonstruktion der Leipzig Burg im 11. Jahrhundert und LiDAR-Bild der Spornlage der Burg (© Landesamt für Archäologie Sachsen / Küas 1976)", "Vorschaubild: Grabungen an der Hainspitze (© Landesamt für Archäologie Sachsen)"]
 
 +++

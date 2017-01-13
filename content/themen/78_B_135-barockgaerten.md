@@ -11,8 +11,7 @@ vorschaubild = "78_B_135-vorschaubild.jpg"
 title = "Pavillon und Laubengang: Barocke Gartenanlagen in Leipzig"
 subtitle = ""
 description = "Leipzig wurde im 18. Jahrhundert nicht nur für seine Universität und Messen, Gemälde- und Büchersammlungen oder seine prächtigen Handelshäuser gerühmt, auch die großzügigen barocken Gartenanlagen prägten das Bild der Stadt. Doch wer veranlasste, dass diese Gärten angelegt wurden, wie wurden sie gestaltet, was ist aus ihnen geworden?"
-#literaturangaben = [""]
-
+literaturangaben = []
 bildnachweise = ["Vorschaubild: Gerhards Garten mit dem Poniatowskidenkmal (Stadtgeschichtliches Museum, GOS-Nr. vs000864)", "Titelbild: Ansicht der Westvorstadt mit Apels Garten, 1740 (Ausschnitt) (Stadtgeschichtliches Museum, GOS-Nr. gm001792)"]
 
 featured = "true"

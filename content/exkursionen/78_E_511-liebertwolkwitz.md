@@ -1,5 +1,6 @@
 +++
 autor = "Heinz Peter Brogiato"
+bildnachweise = []
 centroid = [51.28236, 12.464525]
 date = "2015-06-10"
 description = "An einem wichtigen Handelsweg nach Leipzig gelegen, konnte sich Liebertwolkwitz zu einem ländlichen Kleinzentrum im Umland der Großstadt entwickeln. Die Exkursion führt durch den Ortskern, wo sich zahlreiche kleinstädtische Strukturen erhalten haben."

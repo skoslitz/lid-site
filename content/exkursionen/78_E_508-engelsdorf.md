@@ -1,5 +1,6 @@
 +++
 id ="78_E_508"
+bildnachweise = []
 vg_wort_code = "8fd01a8cf9b841c89b533c5ecf4568a9"
 title = "Engelsdorf – Die Eisenbahn als Schwungrad"
 # previewtitle = "Unterwegs in Engelsdorf – Die Eisenbahn als Schwungrad"

@@ -1,16 +1,18 @@
 +++
-id = "78_B_138"
-vg_wort_code = "6e56151e59224f3aa7fcbb60fddbfea2"
-title = "Die dreidimensionale Landschaft. Leipzig und Umgebung im Relief"
 autor = "Christian Tinapp"
+bildnachweise = []
 date = "2015-06-29"
-rubriken = ["Natur & Landschaft"]
-titelbild = "78_B_138-titelbild2.jpg"
-titelbild_titel = "Leipzig in 3 D (IfL)"
-titelbild_quelle = ""
-vorschaubild = "78_B_138-vorschaubild.jpg"
-subtitle = ""
 description = "Die dreidimensionale Darstellung führt auch dem Laien sofort vor Augen, dass Leipzig in einer „Tieflandsbucht“ liegt, in die der Braunkohletagebau tiefe Narben geschlagen hat. Doch ein näherer Blick auf das Reliefbild lohnt sich durchaus: Er zeigt, wie stark die Oberflächengestalt von langfristigen geologischen Prozessen, aber auch vom Wirken des Menschen beeinflusst ist."
+id = "78_B_138"
+literaturangaben = []
+rubriken = ["Natur & Landschaft"]
+subtitle = ""
+titelbild = "78_B_138-titelbild2.jpg"
+titelbild_quelle = ""
+titelbild_titel = "Leipzig in 3 D (IfL)"
+title = "Die dreidimensionale Landschaft. Leipzig und Umgebung im Relief"
+vg_wort_code = "6e56151e59224f3aa7fcbb60fddbfea2"
+vorschaubild = "78_B_138-vorschaubild.jpg"
 
 +++
 

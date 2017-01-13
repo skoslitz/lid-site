@@ -1,4 +1,5 @@
 +++
+bildnachweise = []
 autor = "Heinz Peter Brogiato"
 centroid = [51.289244, 12.392921]
 date = "2015-06-01"

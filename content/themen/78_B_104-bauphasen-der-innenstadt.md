@@ -9,9 +9,8 @@ titelbild = "78_B_104-titelbild2.jpg"
 titelbild_titel = ""
 titelbild_quelle = ""
 vorschaubild = "78_B_104-vorschaubild2.jpg"
-
 description = "Die Leipziger Innenstadt ist ein über Jahrhunderte gewachsenes Ensemble von Bauten der verschiedenen Epochen und Stilrichtungen. Die erhaltene Substanz reicht vom späten Mittelalter (Gotik) bis in die jüngste Gegenwart. Die animierte Karte stellt diese miteinander verflochtene Vielfalt dar, löst sie in einzelne Schichten auf und stellt 68 wichtige Gebäude näher vor."
-
+literaturangaben = []
 bildnachweise = ["Vorschaubild: City-Hochhaus Leipzig (Ausschnitt), von Sven Scharr, via wikimedia commons, [cc-by 3.0] (https://creativecommons.org/licenses/by/3.0/)", "Titelbild: Leipzig Innenstadt (Ausschnitt), von André Zehetbauer, via flickr, [cc-by-sa 2.0] (https://creativecommons.org/licenses/by-sa/2.0/)"]
 #titelbild1 und vorschaubild1 sind von Dietmar Baudiß
 

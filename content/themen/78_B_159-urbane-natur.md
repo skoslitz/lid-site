@@ -11,8 +11,7 @@ vorschaubild = "78_B_159-vorschaubild.jpg"
 title = "Urbane Natur"
 subtitle = ""
 description = "Stadt und Natur scheinen sich auszuschließen, dennoch kann die Stadt vielfältige Naturerlebnisse bieten. Dafür sorgen die „Reste“ von ursprünglicher Natur wie die ausgedehnten Auen in Leipzig. Äcker, Wiesen und Weiden und mit ihnen die typische Pflanzen- und Tierwelt der Agrarlandschaft gehören auch zur Stadtnatur. Wenn auch oft nicht so wahrgenommen, sind aber die Gärten, Grünanlagen, Parks, Friedhöfe und selbst der Gehölzbestand an den Straßen das dominierende Element der Stadtnatur. Zahllose Industrie-, Bahn- und andere Brachen bieten der Natur in der Stadt Entfaltungsmöglichkeiten."
-#literaturangaben = [""]
-
+literaturangaben = []
 bildnachweise =["Titelbild: Rotfuchs (Foto: A. Künzelmann, Umweltforschungszentrum)", "Vorschaubild: Wildschweine (Foto: A. Künzelmann, Umweltforschungszentrum)"]
 
 +++

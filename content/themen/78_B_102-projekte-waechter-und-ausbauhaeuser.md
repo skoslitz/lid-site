@@ -12,8 +12,7 @@ title = "Den Leerstand gestalten – Leipzig und seine Wächterhäuser"
 subtitle = ""
 
 description = "Leipzig Mitte der 1990er Jahre – Wegzug und Leerstand drücken der Stadt ihren Stempel auf. Ganze Stadtviertel sind vom Verfall bedroht. Zahlreiche Gebäude aus der Gründerzeit stehen kurz vor dem Abriss. Der Verein HausHalten e.V. hat mit innovativen Nutzungsmodellen aus der Not eine Tugend gemacht, Denkmalschutz mit Stadtteilentwicklung verbunden und ist zum Vorbild für andere geworden."
-#literaturangaben = [""]
-
+literaturangaben = []
 bildnachweise = ["Titelbild und Vorschaubild (Ausschnitt): Arbeiten im Ausbauhaus Gretschelstraße 2 (Quelle: HausHalten e.V.)"]
 
 [[video]]

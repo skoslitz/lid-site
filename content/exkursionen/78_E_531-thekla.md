@@ -1,5 +1,6 @@
 +++
 autor = "Luise Grundmann"
+bildnachweise = []
 centroid = [51.380955, 12.434463]
 date = "2015-06-19"
 description = "Dieser Rundgang erschließt die differenzierte Siedlungsstruktur der erst 1889 durch Zusammenschluss der Dörfer Neutzsch, Plösen und Cleuden entstandenen Gemeinde Thekla. Der Fußweg führt durch die alten Siedlungskerne und die einstigen Dorfstraßen mit Resten dörflicher Bebauung. An die Dorfkerne schließen sich mehrere Einfamilienhaussiedlungen an. Von der Cleudner Straße aus erreicht man in südlicher Richtung die städtebaulich dominierende Wehrkirche Hohen Thekla. Der Rundgang endet am Naherholungsgebiet \"Naturbad Nordost\"."

@@ -18,7 +18,7 @@ description = "Das Aufeinandertreffen napoleonischer und alliierter Truppen in u
 # Abbildungen aller Apelsteine (Martin Geisler, cc-by-sa 3.0) auf https://de.wikipedia.org/wiki/Apelsteine
 
 featured = "true"
-
+literaturangaben = []
 bildnachweise = ["Titelbild (Denkmal am Galgenberg), Vorschaubild (Apelstein 21) und alle Abbildungen der Denkmale in der animierten Karte: © Stadtgeschichtliches Museum Leipzig"]
 
 +++

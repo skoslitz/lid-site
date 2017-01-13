@@ -1,5 +1,6 @@
 +++
 id ="78_E_532"
+bildnachweise = []
 vg_wort_code = "d758ab0e2078402d9d60adaa465691c7"
 title = "Südvorstadt – Rund um die \"Karli\""
 # previewtitle = "Unterwegs in der Südvorstadt – Rund um die \"Karli\""

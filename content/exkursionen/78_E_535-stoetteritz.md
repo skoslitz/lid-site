@@ -1,5 +1,6 @@
 +++
 autor = "Luise Grundmann"
+bildnachweise = []
 centroid = [51.32085, 12.419915]
 date = "2015-06-15"
 description = "Ergebnisse des Stadtumbaus nach 1990 können bei einer Exkursion durch Stötteritz registriert werden. Beispiele sind die Umgestaltung von Fabrikgebäuden in der Melscher Straße zu einem „Medienhof“ oder auch im Sanierungsgebiet „Alte Ortslage Stötteritz“. Hier erfolgte u.a. die Aufwertung der gründerzeitlichen Wohnquartiere, die Sanierung des einstigen Rittergutsbezirks und der Marienkirche und die Umwandlung von Industriebrachen zum Ortsteilzentrum an der Holzhäuser Straße."

@@ -12,7 +12,7 @@ bildnachweise = ["Titelbild: Bodenprofil Parabraunerde-Pseudogley (Lützschena) 
 title = "Unter dem Asphalt – Böden: natürlich entstanden, vom Menschen verändert"
 subtitle = ""
 description = "Der oberste Teil des geologischen Untergrundes ist der Boden. In dem mit Luft, Wasser, und Lebewesen durchsetzten Substrat finden Umsetzungsprozesse statt, die über längere Zeiträume zur Entstehung von Horizonten führen. Seit 7500 Jahren rodet der Mensch in Mitteleuropa Flächen und nimmt massiv Einfluss auf die Bodenentwicklung durch Ackerbau und Bautätigkeit. Als Speicher von Nährstoffen und Wasser für Flora und Fauna sind fruchtbare Böden von immenser Bedeutung für die Ernährung der Menschen weltweit."
-#literaturangaben = [""]
+literaturangaben = []
 karte_image_overlay = "ja"
 
 # Bitte die Koordinaten korrigieren

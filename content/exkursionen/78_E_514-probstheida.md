@@ -1,5 +1,6 @@
 +++
 autor = "Heinz Peter Brogiato"
+bildnachweise = []
 centroid = [51.306123, 12.425193]
 date = "2015-06-15"
 description = "Weitgehend ohne Industrialisierung entwickelte sich Probstheida vom Angerdorf zum Leipziger Wohnvorort. Von der Prager Straße aus führt der Rundweg durch die alte Dorflage, in der stets die Völkerschlacht von 1813 präsent ist. Neben der gründerzeitlichen Bebauung wird der Ortsteil von interessanten Wohnsiedlungen der 1920er und 1930er Jahre geprägt."
@@ -15,7 +16,7 @@ titelbild = "78_E_514-mapbanner.jpg"
 title = "Probstheida – Auf dem Boden der Völkerschlacht"
 vg_wort_code = "81933d3bc85546e59cf41f8b7a2ba460"
 vorschaubild = "78_E_514-vorschaubild.jpg"
-zoomstufe = "15"
+zoomstufe = 15.0
 
 [[exkursion]]
   lat = 51.308752

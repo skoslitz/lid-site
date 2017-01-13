@@ -1,5 +1,6 @@
 +++
 autor = "Heinz Peter Brogiato"
+bildnachweise = []
 centroid = [51.317269, 12.328763]
 date = "2015-05-06"
 description = "Im 19. Jahrhundert geriet Kleinzschocher in den Sog der Industrialisierung. Von Plagwitz aus wuchsen die Industrieflächen in Richtung Süden, hinzu kamen großflächige Arbeiterwohnquartiere. Die Fußexkursion führt durch diese Gebiete mit Mietshausbebauung aus der Gründerzeit, die heute große Herausforderungen an die Stadterneuerung stellen. Im alten Dorfkern haben sich bäuerliche Häuser erhalten, ebenso Reste des Rittergutes."

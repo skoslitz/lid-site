@@ -1,5 +1,6 @@
 +++
 autor = "Heinz Peter Brogiato"
+bildnachweise = []
 centroid = [51.299247, 12.327872]
 date = "2015-04-30"
 description = "Wie in vielen Stadtteilen Leipzigs zeigt sich auch in Großzschocher das Nebeneinander von dörflichen Strukturen und von Zeugnissen der Industrialisierung und Verstädterung des 19. Jahrhunderts. Die Fußexkursion beginnt in den gründerzeitlichen Quartieren an der Dieskaustraße und endet in den alten Dorfkernen von Großzschocher und Windorf. Hier zeugen noch vereinzelte bauliche Überreste von der vorstädtischen Gutssiedlung und den Anfängen gewerblicher Entwicklung."

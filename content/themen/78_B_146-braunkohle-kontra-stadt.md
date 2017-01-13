@@ -11,8 +11,7 @@ vorschaubild = "78_B_146-vorschaubild.jpg"
 title = "Braunkohlenbergbau rund um Leipzig"
 subtitle = ""
 description = "Der Braunkohlenlagerstättenkomplex des „Weißelsterbeckens“ erfasst große Teile der Leipziger Tieflandsbucht und unterlagert auch die Messemetropole selbst. Nach ersten Gräbereien im Stadtgebiet prägten ab ca. 1900 Tagebau- und Tiefbaubetriebe zunehmend das Umfeld der Stadt und bedrohten stellenweise Siedlungsentwicklung und Lebensqualität. Seit 1990 führte der Wandel zum „Leipziger Neuseenland“ zu einer deutlichen Aufwertung der Freizeit-, Erholungs- und Naturschutzpotenziale im einstigen Revier."
-#literaturangaben = [""]
-
+literaturangaben = []
 bildnachweise = ["Titelbild: Tagebau Schleenhain (Foto: Andreas Berkner)", "Vorschaubild: Schaufelradbagger im Tagebau Schleenhain (Foto: Andreas Berkner)"]
 
 +++

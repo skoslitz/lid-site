@@ -15,7 +15,7 @@ description = "Leipzig und die Friedliche Revolution – ein Weltereignis nahm v
 # Bundesarchiv Bild 183-1989-1023-022, Leipzig, Montagsdemonstration by Bundesarchiv, Bild 183-1989-1023-022  Friedrich Gahlbeck  CC-BY-SA 3-0
 
 # titelbild.jpg: Leipzig, Augustusplatz, 9. Oktober 1989 (Foto: Martin Naumann)
-
+literaturangaben = []
 bildnachweise = ["Titelbild: Leipzig, Montagsdemonstration am 23. Oktober 1989 (Foto: Friedrich Gahlbeck; Quelle Bundesarchiv Bild 183-1989-1023-022, via wikimedia commons, [cc-by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en))", "Vorschaubild: Christoph Wonneberger am 5. Oktober 1989 in der Lukaskirche (Foto: Martin Jehnichen)"]
 
 +++

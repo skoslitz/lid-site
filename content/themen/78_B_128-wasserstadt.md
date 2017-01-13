@@ -11,7 +11,7 @@ titelbild_quelle = ""
 vorschaubild = "78_B_128-vorschaubild.jpg"
 subtitle = ""
 description = "Auch wenn Leipzig ein großer, prägender Strom fehlt, war die Stadtentwicklung stets auf das Engste mit dem Wasser verknüpft. Mühlgräben zur Wasserkraftnutzung, Floßgräben zum Scheitholztransport und schiffbare Kanäle, einst für den Transport von Massengütern, heute mit wassertouristischer Orientierung, prägten die Entwicklungen im Laufe der Zeiten. Mit den Tagebauseen im Leipziger Neuseenland wurde seit Anfang der 1990er Jahre zudem völlig neue Freizeit- und Erholungsqualitäten geschaffen."
-
+literaturangaben = []
 bildnachweise = ["Titelbild / Vorschaubild (Ausschnitt): Cospudener See, Zöbigker Winkel (Foto: Andreas Berkner)"]
 
 +++

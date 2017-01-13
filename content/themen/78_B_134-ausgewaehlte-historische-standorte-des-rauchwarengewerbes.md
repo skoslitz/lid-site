@@ -11,7 +11,7 @@ titelbild_quelle = ""
 vorschaubild = "78_B_134-vorschaubild.jpg"
 bildnachweise = ["Titelbild / Vorschaubild: Selterhaus Nikolaistraße 47 (Foto: Martin Stephan)"]
 description = "Leipzig war bis in die erste Hälfte des 20. Jahrhunderts neben London und New York der wichtigste Welthandelsplatz für Rauchwaren, d.h. rohe und zugerichtete Felle von Pelztieren. Neben den Kontoren und Lagerhäusern für die kostbare Ware, die sich vor allem im Viertel um den Brühl konzentrierten, sind in der Stadt und in ihrem Umland aber auch an vielen anderen Stellen noch Spuren zu finden, die in vielfältiger Weise auf die einst große wirtschaftliche und kulturelle Bedeutung dieses Gewerbes hinweisen. Eine Auswahl wird in diesem Beitrag vorgestellt."
-
+literaturangaben = []
 karte = "ja"
 kartentitel = "Standorte des Rauchwarenhandels"
 centroid = [51.34691201978676, 12.385368347167969]

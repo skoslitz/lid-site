@@ -12,7 +12,7 @@ title = "Leipzig – Die klingende Stadt"
 subtitle = ""
 description = "*„Ach wie beneide ich immer Leipzig um seine Musik!“* (Clara Schumann)  –  Musikstadt: eines jener Attribute, mit denen sich die schöne Tausendjährige völlig zu Recht schmückt. Auch Messestadt – unbedingt, denn die Messe begründete den Reichtum Leipzigs und öffnete die Stadt der Welt. Und Buchstadt – na selbstverständlich, war doch im Grafischen Viertel der Konzentrationspunkt des Verlagswesens schlechthin. Sportstadt, Wasserstadt – die Attribute der Neuzeit. Aber die Musik begleitet Leipzig inzwischen schon über 800 Jahre, seit 1212 der Thomanerchor gegründet wurde. Berühmte Komponisten  wohnten, arbeiteten, lebten und liebten hier. Warum? Die Musik ist in Leipzig zu Hause!"
 
-
+literaturangaben = []
 bildnachweise = ["Titelbild: Konzertflügel im Schumann-Haus (Foto: Elke Leinhoß)", "Vorschaubild: Bach-Büste (Foto: Elke Leinhoß)"]
 
 +++

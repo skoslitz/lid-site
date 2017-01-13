@@ -11,8 +11,7 @@ vorschaubild = "78_B_160-vorschaubild.jpg"
 title = "Naturräumliche Grundlagen in der Stadtlandschaft"
 subtitle = ""
 description = "Vom Bismarckturm bei Lützschena gewinnt man bei der sonst überwiegend ebenen Geländeoberfläche einen Eindruck von den Grundzügen der Stadtstruktur. Vom Turm schweift der Blick über den Auenwald in der Elsteraue (Naturschutzgebiet Burgaue) nach Südosten auf die dicht bebaute Innenstadt mit dem Uni-Hochhaus, während am Horizont die Rauchfahnen des Kraftwerkes Lippendorf an den noch aktiven Braunkohleabbau in Stadtnähe erinnern. Ausführliche Informationen über die naturräumlichen Grundlagen in der Stadtlandschaft vermitteln nachfolgende Karte und Tabelle."
-#literaturangaben = [""]
-
+literaturangaben = []
 bildnachweise = ["Titelbild: Blick vom Bismarckturm Lützschena (Foto: Haik Thomas Porada)"]
 
 +++

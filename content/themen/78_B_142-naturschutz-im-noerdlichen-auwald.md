@@ -22,7 +22,7 @@ description = "Der Nördliche Auenwald ist Bestandteil des „grünen Bandes“ 
   laenge = "2:03 Minuten"
 
 bildnachweise = ["Titelbild: Nördlicher Auenwald (Foto: Andreas Berkner)", "Vorschaubild: Im Nördlichen Auenwald (Quelle: Auwaldstation e.V.)"]
-
+literaturangaben = []
 +++
 
 Der Nördliche Auenwald ist Bestandteil eines Naturrefugiums mit rund 5900 ha Gesamtfläche zwischen Zwenkau südlich von Leipzig und der Mündung der Weißen Elster in die Saale, von denen ca. 3000 ha auf das unmittelbare Stadtgebiet entfallen. Seine Breite schwankt zwischen 3 und 4 km, wobei das Auenwaldband lediglich in den das Stadtzentrum tangierenden Bereichen beiderseits des Elsterbeckens eine Unterbrechung aufweist.

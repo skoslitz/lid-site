@@ -1,5 +1,6 @@
 +++
 autor = "Luise Grundmann"
+bildnachweise = []
 centroid = [51.360017, 12.366485]
 date = "2015-06-01"
 description = "Von der Friedenskirche aus erschließen sich über die Menckestraße, die einstige Hauptstraße des Dorfes Gohlis, charakteristische Baustrukturen aus fast drei Jahrhunderten. Architektonisch und kulturgeschichtlich beeindruckend sind das spätbarocke Gohliser Schlösschen, das Schillerhaus als letztes erhaltenes Bauerngut von 1717 sowie die teilweise im Jungendstil errichteten Wohnhäuser in der Menckestraße. Am Schillerweg erhielten sich mehrere Landhäuser Leipziger Bürger. Der südlich gelegene Poetenweg repräsentiert ein Villenviertel vom Beginn des 19. Jahrhunderts."

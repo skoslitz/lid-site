@@ -10,7 +10,7 @@ titelbild_titel = "Leipzig: Konzert im Albertpark (IfL, PKL-Park102)"
 titelbild_quelle = ""
 vorschaubild = "78_B_110-vorschaubild.jpg"
 description = "Nur wenige Kommunen in den neuen Bundesländern können behaupten, was das Amt für Statistik und Wahlen der Stadt Leipzig seit der Jahrtausendwende Jahr für Jahr verkündet: Die Stadt wächst! Lebten 1999 noch knapp 490.000 Menschen in Leipzig, so sind es 2015 bereits über 550.000 Einwohner."
-
+literaturangaben = []
 bildnachweise = ["Titelbild: Gondwanaland Eröffnung 30.06.2011 (Ausschnitt), von michimaya, via flickr, [cc-by 2.0](https://creativecommons.org/licenses/by/2.0/)", "Vorschaubild: Leipzig. Konzert im Albertpark (historische Postkarte, Ausschnitt), IfL, PKL-Park102"]
 
 +++
