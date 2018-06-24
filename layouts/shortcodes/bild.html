@@ -19,26 +19,26 @@
 			{{ end }}
 
 				{{ if isset .Params "style" }}
-					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" />
+					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}{{if isset .Params "quellenangaben"}}, {{ .Get "quellenangaben" }}{{end}}" src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" />
 				{{ else }}
-					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/{{ substr $id 0 2 }}/{{ $path }}300px-{{ .Get "pfad" }}"{{ else }}src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}"{{end}} />
+					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}{{if isset .Params "quellenangaben"}}, {{ .Get "quellenangaben" }}{{end}}" {{ if eq $flow "preview" }}src="/img/{{ substr $id 0 2 }}/{{ $path }}300px-{{ .Get "pfad" }}"{{ else }}src="/img/{{ substr $id 0 2 }}/{{ $path }}{{ .Get "pfad" }}"{{end}} />
 				{{ end }}
 
 			{{ if isset .Params "clickable" }}
 				</a>
 			{{ end }}
 
-		<!-- Concenate string for caption from title and source -->
 		{{ $title := .Get "titel" }}
 		{{ $source := .Get "quellenangaben" }}
-		{{ $caption := $source | printf "%s (%s)" $title | printf "%s" }}
 
-				<!-- Show sources only if not empty -->
-				{{ if ne $source "" }}
 				<div class="bild-caption">
-					{{ $caption | markdownify }}</span>
+					<span>
+						{{ $title | markdownify }}
+						{{if $source}}
+							({{ $source | markdownify }})
+						{{end}}
+					</span>
 				</div>
-				{{ end }}
 
 		</div>
 	{{ end }}
@@ -58,26 +58,27 @@
 			{{ end }}
 
 				{{ if isset .Params "style" }}
-					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" />
+					<img class="{{ $imgClass }} {{ .Get "style" }}{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}{{if isset .Params "quellenangaben"}}, {{ .Get "quellenangaben" }}{{end}}" src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" />
 				{{ else }}
-					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }}, {{ .Get "quellenangaben" }}" {{ if eq $flow "preview" }}src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/_vorschaubilder/{{ .Get "pfad" }}"{{ else }}src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}"{{end}} />
+					<img class="{{ $imgClass }} full-text{{ with .Get "clickable" }} clickable{{ end }} {{ with .Get "hidden" }} hidden{{ end }}" data-mfp-src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}" alt="{{ .Get "titel" }}" title="{{ .Get "titel" }} {{ if isset .Params "quellenangaben" }}, {{ .Get "quellenangaben" }}{{end}}" {{ if eq $flow "preview" }}src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/_vorschaubilder/{{ .Get "pfad" }}"{{ else }}src="/img/{{$bandnummer}}/{{$type}}/{{$id}}/{{ .Get "pfad" }}"{{end}} />
 				{{ end }}
 
 			{{ if isset .Params "clickable" }}
 				</a>
 			{{ end }}
 
-		<!-- Concenate string for caption from title and source -->
+
 		{{ $title := .Get "titel" }}
 		{{ $source := .Get "quellenangaben" }}
-		{{ $caption := $source | printf "%s (%s)" $title | printf "%s" }}
 
-				<!-- Show sources only if not empty -->
-				{{ if ne $source "" }}
 				<div class="bild-caption">
-					{{ $caption | markdownify }}</span>
+					<span>
+						{{ $title | markdownify }}
+						{{if $source}}
+							({{ $source | markdownify }})
+						{{end}}
+					</span>
 				</div>
-				{{ end }}
 
 		</div>
 	{{ end }}
