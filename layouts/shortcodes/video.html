@@ -1,2 +1,29 @@
-<iframe src="//player.vimeo.com/video/{{ .Get "id" }}"
- width="100%" height="400px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/{{ .Get "id" }}"></a>
+  {{if isset .Params "titel"}}
+  <h3 class="videotitel"><strong>{{ .Get "titel" }} </strong></h3>
+  {{end}}
+
+  <div class="video-container">
+
+    <div class="video-beitrag">
+    <iframe src="//player.vimeo.com/video/{{ .Get "id" }}"
+      width="100%"
+      {{if isset .Params "hoehe" }}
+        height={{ .Get "hoehe" }}px
+      {{else}}
+        height="400px"
+      {{end}}
+      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+    </iframe>
+    </div>
+
+    <div class="videobeschreibung">
+    <p>
+      {{ if isset .Params "quelle" }} <b>{{ .Get "quelle" }},</b>{{ end }}
+      {{ if isset .Params "laenge" }} <b>Länge: {{ .Get "laenge" }}</b>, {{ end }}
+      {{ if isset .Params "untertitel" }} <b> {{ .Get "untertitel" }}</b><br/>{{ end }}
+      {{ if isset .Params "beschreibung" }} {{ .Get "beschreibung" }} <br/> {{ end }}
+      <a href="http://vimeo.com/{{ .Get "id" }}"></a>
+    </p>
+    </div>
+
+  </div>
