@@ -1,0 +1,6 @@
+{{ $type := .Page.Type }}
+{{ $id := .Page.Params.id }}
+
+<p>
+  <a href="/img/{{ substr $id 0 2 }}/{{ $type }}/{{ $id }}/{{ .Get "pfad"}}" target="_blank">{{ .Get "titel"}}</a>
+</p>
