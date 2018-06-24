@@ -1,11 +1,11 @@
 <style>
-    #map { 
+    #map {
         padding: 0;
-        {{ if isset .Params "map_height" }} 
-            height: {{ index .Params "map_height" }}px;
+        {{ if isset .Params "kartenhoehe" }}
+            height: {{ index .Params "kartenhoehe" }}px;
         {{ else }}
             height:400px;
-        {{ end }}     
+        {{ end }}
         width:100%;
         -webkit-box-shadow: 0 0 5px 2px #666666;
         box-shadow: 0 0 5px 2px #666666;
@@ -39,16 +39,26 @@ var southWest = L.latLng(51.271877, 12.223663),
     bounds = L.latLngBounds(southWest, northEast);
 
 var map = L.mapbox.map('map', 'ifl.lplpe32l', {
-    maxBounds: bounds,
-    maxZoom: 18,
-    minZoom: 11
+    //maxBounds: bounds,
+    // maxZoom: 18,
+    // minZoom: 11
+    {{ if isset .Params "max_zoom" }}
+      maxZoom: {{ .Params.max_zoom }},
+    {{ else }}
+      maxZoom: 18,
+    {{ end }}
+    {{ if isset .Params "min_zoom" }}
+      minZoom: {{ .Params.min_zoom }},
+    {{ else }}
+      minZoom: 11
+    {{ end }}
 });
 
 map.setView(
 // lat + lon
 {{ .Params.centroid }},
 // zoomlevel if set else 15
-{{ if isset .Params "zoomstufe" }} 
+{{ if isset .Params "zoomstufe" }}
     {{ index .Params "zoomstufe" }});
 {{ else }}
 15);
@@ -92,7 +102,7 @@ L.mapbox.featureLayer('/paths/{{ .Params.id }}.json', {
 $("#kartentitel .reset").click(function() {
     map.setView(
         {{ .Params.centroid }},
-    {{ if isset .Params "zoomstufe" }} 
+    {{ if isset .Params "zoomstufe" }}
         {{ index .Params "zoomstufe" }});
     {{ else }}
         15)
@@ -112,7 +122,7 @@ map.on('moveend', function (e) {
     $("#kartentitel .reset").show()
 })
 
-{{ if isset .Params "legende" }} 
+{{ if isset .Params "legende" }}
 map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 {{ end }}
 
