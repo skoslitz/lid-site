@@ -7,6 +7,7 @@
 /dist
 
 # lid content plus assets
+/content
 /static
 /archetypes
 
