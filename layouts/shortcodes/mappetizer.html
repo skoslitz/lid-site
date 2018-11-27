@@ -8,9 +8,13 @@
                 data="/mappetizer/{{$id}}/{{ . }}.html"
             {{ else }}
                 data="/mappetizer/{{$id}}/index.html"
-            {{ end }}                 
+            {{ end }}
                 type="application/javascript"
+            {{ with .Get "mappetizer_width" }}                 
+                width="{{.}}%"
+            {{ else }}
                 width="100%"
+            {{ end }}
             {{ with .Get "mappetizer_height" }}
                 height="{{.}}px">
             {{ else }}
