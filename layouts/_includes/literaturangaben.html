@@ -3,7 +3,7 @@
 	<p>
 		<ul class="references">
 			{{ range .Params.literaturangaben }}
-				<li>{{ . | markdownify }}</li>
+				<li style="word-break: break-all">{{ . | markdownify }}</li>
 			{{ end }}
 		</ul>
 	</p>
