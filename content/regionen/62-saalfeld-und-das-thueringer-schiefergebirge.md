@@ -15,6 +15,7 @@ umfang = ["81 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Saalfeld, Leutenberg und Lauenstein"
 verlag = "Böhlau Verlag"
 titelbild = "cover-saalfeld.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/geschichte/geschichte-der-fruehen-neuzeit/41617/saalfeld-und-das-thueringer-schiefergebirge"
 
 +++
 

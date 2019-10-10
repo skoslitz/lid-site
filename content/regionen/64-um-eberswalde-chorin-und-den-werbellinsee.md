@@ -15,6 +15,7 @@ umfang = ["78 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Eberswalde, Hohenfinow und Joachimsthal"
 verlag = "Böhlau Verlag"
 titelbild = "cover-eberswalde-chorin.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/sozial-rechts-und-wirtschaftswissenschaften/natur-landschaft/40901/um-eberswalde-chorin-und-den-werbellinsee"
 
 +++
 

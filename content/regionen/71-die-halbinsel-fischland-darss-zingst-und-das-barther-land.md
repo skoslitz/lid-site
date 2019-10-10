@@ -15,7 +15,7 @@ umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Wustrow, Prerow, Zingst und Barth"
 verlag = "Böhlau Verlag"
 titelbild = "cover-halbinsel-fischland.jpg"
-buy_link = "http://www.boehlau-verlag.com/978-3-412-09806-3.html"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/sozial-rechts-und-wirtschaftswissenschaften/natur-landschaft/41345/die-halbinsel-fischland-darss-zingst-und-das-barther-land"
 
 +++
 

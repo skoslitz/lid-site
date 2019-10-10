@@ -16,7 +16,13 @@
 						<img src='/img/0{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
 					{{else}}
 						<meta itemprop="image" content="/img/{{.Params.bandnummer}}/{{ .Params.titelbild }}"/>
+						{{ if isset .Params "titel_hyperlink" }}
+								<a href="{{.Params.titel_hyperlink}}" target="_blank">
+									<img src='/img/{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
+								</a>
+            {{ else }}
 						<img src='/img/{{.Params.bandnummer}}/{{ .Params.titelbild }}' alt='Abbildung des Bandes'>
+						{{ end }}
 					{{end}}
 				</div>
 				{{ end }}
@@ -41,7 +47,7 @@
 				</h3>
 
 				<h1 class="bandtitel">
-					{{ .Title }} &ndash; <span class="untertitel">{{ .Params.untertitel }}</span>
+					{{ .Title }} {{ if isset .Params "untertitel" }} &ndash; <span class="untertitel">{{ .Params.untertitel }}</span> {{ end }}
 				</h1>
 
 				<div class="band-zusatz meta">
@@ -88,6 +94,9 @@
 		<div class="row">
 			<div class="linespace"></div>
 			<div class="col-md-10 content text-area">
+				{{ if (isset .Params "webshop") }}
+					<a href={{ .Params.webshop }} target="_blank"><p>Sie können den Band hier bestellen</p></a>
+				{{ end }}
 				<h3>Kurzbeschreibung:</h3>
 				<p>{{.Params.kurzbeschreibung | markdownify}}</p>
 				<p>{{ .Content }}</p>

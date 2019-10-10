@@ -15,6 +15,7 @@ umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Brandenburg an der Havel, Pritzerbe, Reckahn und Wusterwitz"
 verlag = "Böhlau Verlag"
 titelbild = "cover-brandenburg-havel.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/geschichte/geschichte-der-fruehen-neuzeit/41743/brandenburg-an-der-havel-und-umgebung"
 
 +++
 

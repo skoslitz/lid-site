@@ -14,7 +14,7 @@ subtitle = ""
 doi = ""
 description = "Der Nördliche Auenwald ist Bestandteil des „grünen Bandes“ entlang von Weißer Elster, Pleiße und Nebenflüssen, das sich mit wechselnder Breite von Süden nach Nordwesten durch das Stadtgebiet von Leipzig zieht. Die unmittelbare Nachbarschaft von urbanen Bereichen und Naturrefugien ist für eine Stadt dieser Größenordnung in Mitteleuropa einzigartig. Typisch für die Auenwaldlandschaft ist das nicht immer konfliktfreie Nebeneinander von ökologischen (Artenschutz, Hochwasserrückhalt) und Erholungsfunktion."
 [[video]]
-  id = "123891555"
+  id = "342040183"
   titel = "Die Auwald-Erlebnispfad-App"
   untertitel = "Natur auf neue Weise entdecken"
   beschreibung = "Zwischen Weißer Elster und Luppe, im Nordwesten der Stadt, befindet sich die Auwaldstation Leipzig. Am „Eingang“ zum Naturschutzgebiet Burgaue und dem Schlosspark Lützschena gelegen, lädt sie Besucher ganzjährig ein, einen der schönsten und wertvollsten Naturräume der Region kennen zu lernen und zu erkunden. Dafür bietet sie u.a. die Auwald-Erlebnispfad-App an, die über GPS zu 13 Stationen führt. Dort erwarten den Nutzer spannende Hörgeschichten, Fotos, Videos und Quizfragen zum Auwald und seinen Bewohnern."

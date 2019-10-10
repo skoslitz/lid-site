@@ -15,6 +15,7 @@ umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Großenhain und Radeburg"
 verlag = "Böhlau Verlag"
 titelbild = "cover-grossenhainer-pflege.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/sozial-rechts-und-wirtschaftswissenschaften/natur-landschaft/41359/grossenhainer-pflege"
 
 +++
 

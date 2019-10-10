@@ -15,6 +15,7 @@ umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Bitterfeld, Wolfen, Jeßnitz (Anhalt), Raguhn, Gräfenhainichen und Brehna"
 verlag = "Böhlau Verlag"
 titelbild = "cover-bitterfeld.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/sozial-rechts-und-wirtschaftswissenschaften/natur-landschaft/41618/bitterfeld-und-das-untere-muldetal"
 
 +++
 

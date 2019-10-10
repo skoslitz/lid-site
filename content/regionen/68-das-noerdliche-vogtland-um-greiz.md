@@ -15,6 +15,7 @@ umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Greiz, Weida, Berga, Triebes, Hohenleuben, Elsterberg, Mylau und Netzschkau"
 verlag = "Böhlau Verlag"
 titelbild = "cover-noerdliches-vogtland.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/geschichte/geschichte-der-fruehen-neuzeit/42266/das-noerdliche-vogtland-um-greiz"
 
 +++
 

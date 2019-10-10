@@ -23,10 +23,11 @@ Prof. Dr. Sebastian Lentz<br/>
 
 ### Redaktionelle Verantwortlichkeit
 Redaktionelle Verantwortliche: Jana Moser, Haik Thomas Porada<br/>
-Weitere Verantwortliche für Leipzig-Inhalte: Wiebke Hebold, Anne-Katrin Schultz, Marek Wejwoda<br/>
+Weitere Verantwortliche für Inhalte : Wiebke Hebold, Lisa Merkel, Bettina Preuße, Anne-Katrin Schultz, Marek Wejwoda<br/>
 Webprogrammierung: Sebastian Koslitz<br/>
 Webdesign: Sebastian Laboor<br/>
-weitere Mitarbeiter_innen der IfL-Redaktion: Silke Dutzmann, Birgit Hölzel, Katrin Klinger, Anja Kurth, Eric Losang, Sebastian Münch, Cathrin Oschmann, Franziska Peters, Bettina Preuße, Vera Schreiner, Romana Schwarz, Thomas Zimmermann
+weitere Mitarbeiter_innen der IfL-Redaktion: Silke Dutzmann, Birgit Hölzel, Eric Losang, Sebastian Münch, Cathrin Oschmann, Franziska Peters, Katrin Weber<br/>
+Webkartographie: Tina Balcke, Silke Dutzmann, Birgit Hölzel, Anja Kurth, Vera Schreiner, Romana Schwarz, Thomas Zimmermann
 
 ### Copyright
 

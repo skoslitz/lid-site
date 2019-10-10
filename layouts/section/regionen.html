@@ -39,6 +39,8 @@
 
 	</script>
 	
+	<!-- Bayern -->
+	{{ $bayern := "Bayern" }}
 	<!-- Berlin -->
 	{{ $berlin := "Berlin" }}
 	<!-- Brandenburg -->
@@ -64,6 +66,7 @@
 				<p>Filtern Sie die Liste der verschiedenen B&auml;nde nach Bundesland:</p>
 
 				<!-- h3>Wählen Sie ein Thema</h3-->
+				<a class="btn blue" onclick="javascript:click_filter(this, {{ $bayern }})">{{title $bayern}}</a>
 				<a class="btn blue" onclick="javascript:click_filter(this, {{ $berlin }})">{{title $berlin}}</a>
 				<a class="btn blue" onclick="javascript:click_filter(this, {{ $brandenburg }})">{{title $brandenburg}}</a>
 				<a class="btn blue" onclick="javascript:click_filter(this, {{ $mecklenburg_vorpommern }})">{{title $mecklenburg_vorpommern}}</a>
@@ -80,6 +83,17 @@
 		<div class="row">
 		<div class="summary bs-callout bs-callout-orange shadow">
 			
+			<div class="{{ $bayern }} bundesland">
+				<h3 class="seperator region">{{ $bayern }}</h3>
+				<ul>
+				{{ range .Data.Pages.ByDate }}
+	                {{ if in .Params.bundesland $bayern }}
+	                        {{ .Render "li" }}
+	                {{ end }}                                               
+        		{{ end }}       
+				</ul>
+			</div>
+
 			<div class="{{ $berlin }} bundesland">
 				<h3 class="seperator region">{{ $berlin }}</h3>
 				<ul>

@@ -18,7 +18,7 @@
 
     <div class="videobeschreibung">
     <p>
-      {{ if isset .Params "quelle" }} <b>{{ .Get "quelle" }},</b>{{ end }}
+      {{ if isset .Params "quelle" }} <b>{{ .Get "quelle" | markdownify }},</b>{{ end }}
       {{ if isset .Params "laenge" }} <b>Länge: {{ .Get "laenge" }}</b>, {{ end }}
       {{ if isset .Params "untertitel" }} <b> {{ .Get "untertitel" }}</b><br/>{{ end }}
       {{ if isset .Params "beschreibung" }} {{ .Get "beschreibung" }} <br/> {{ end }}

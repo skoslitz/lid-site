@@ -16,6 +16,8 @@ untertitel = "Eine landeskundliche Bestandsaufnahme im Raum St. Peter-Ording, Ga
 verlag = "Böhlau Verlag"
 buy_link = "http://www.boehlau-verlag.com/978-3-412-09906-0.html"
 titelbild = "cover-eiderstedt.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/geschichte/geschichte-der-fruehen-neuzeit/41330/eiderstedt"
+
 +++
 
 {{% bild_alt flow="preview" clickable="true" pfad="/72/cover-eiderstedt.jpg"   %}}

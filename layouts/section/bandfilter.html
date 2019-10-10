@@ -1,0 +1,176 @@
+<!-- Band 80  ---------------------------------------------------------------- -->
+
+  <!-- Filter Band 80   ------------------------------------------------------ -->
+  <h3 class="seperator intern">Unterwegs in der Region {{$.Scratch.Get "band-80-name"}}</h3>
+  <div class="row">
+    <div class="filter-container">
+      <p>
+        <br/>
+        Erkunden Sie die Region vor Ort. Entdecken Sie bekannte und unbekannte Orte neu. Ob Baudenkmale, Siedlungsentwicklung, Kultur oder Natur &ndash; es ist f&uuml;r jeden etwas dabei. Machen Sie sich auf den Weg.<br/><br/>
+        W&auml;hlen Sie eine Exkursion aus der Liste.
+        <!-- Sie k&ouml;nnen Ihre Suche auch einschr&auml;nken, je nachdem, ob Sie zu Fu&szlig; oder mit dem Fahrrad unterwegs sein m&ouml;chten -->
+      </p>
+      <!-- <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "fuss")'>
+        Fu&szlig;
+      </a>
+      <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "fahrrad")'>
+        Fahrrad
+      </a>
+      <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "auto")'>
+        Auto/Bus
+      </a>
+      <a class='btn blue clear {{$.Scratch.Get "band-80"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "list-all")'>Alle Beiträge</a>
+      <span class='filter-info {{$.Scratch.Get "band-80"}}'></span> -->
+    </div>
+  </div>
+
+<!-- Themen Content   ---------------------------------------------------------------- -->
+
+<!-- list all trips -->
+      {{ range .Data.Pages }}
+      {{ $bandnummer := substr .Params.id 0 2}}
+      {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "80") }}
+    <div class='col-mre exkurs-border list-all {{$.Scratch.Get "band-80"}} lower-shadow'>
+              {{ .Render "li" }}
+    </div>
+      {{ end}}
+      {{ end}}
+
+      <!-- Fuß -->
+      {{ $termname := "fuß" }}
+      {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
+      {{ range $taxonomy.Pages.ByWeight }}
+      {{ $bandnummer := substr .Params.id 0 2}}
+              {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "80")}}
+              <div style="display:none;" class="col-mre exkurs-border fuss {{$bandnummer}} lower-shadow">
+                      {{ .Render "li" }}
+              </div>
+              {{ end }}
+      {{ end }}
+
+      <!-- Fahrrad -->
+      {{ $fahrrad := "fahrrad" }}
+      {{ $taxw := index .Site.Taxonomies.exkursionstypen $fahrrad }}
+      {{ range $taxw.Pages.ByWeight.Reverse }}
+      {{ $bandnummer := substr .Params.id 0 2}}
+              {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "80")}}
+              <div style="display:none;" class="col-mre exkurs-border fahrrad {{$bandnummer}} lower-shadow">
+                      {{ .Render "li" }}
+              </div>
+              {{ end }}
+      {{ end }}
+
+      <!-- Auto/Bus -->
+      {{ $termname := "auto" }}
+      {{ $taxonomy := index .Site.Taxonomies.exkursionstypen $termname }}
+      {{ range $taxonomy.Pages.ByWeight }}
+      {{ $bandnummer := substr .Params.id 0 2}}
+              {{ if and (eq .Type "exkursionen") (eq .Params.fremdexkursion false) (eq $bandnummer "80")}}
+              <div style="display:none;" class="col-mre exkurs-border auto {{$bandnummer}} lower-shadow">
+                      {{ .Render "li" }}
+              </div>
+              {{ end }}
+      {{ end }}
+
+
+      <!-- themen.html -->
+
+<!-- Band 80   ---------------------------------------------------------------- -->
+
+	<!-- Filter Band 80   ------------------------------------------------------ -->
+	<h3 class="seperator intern">Themen für die Region {{$.Scratch.Get "band-80-name"}}</h3>
+	<div class="row">
+	 <div class="filter-container">
+		 <br>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "sb")'>
+			 Siedlung &amp; Bevölkerung
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "wv")'>
+			 Wirtschaft &amp; Verkehr
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "nl")'>
+			 Natur &amp; Landschaft
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "ve")'>
+			 Vergangenheit &amp; Erinnerung
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "ks")'>
+			 Kultur &amp; Soziales
+		 </a>
+		 <a class='btn blue clear {{$.Scratch.Get "band-80"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-80"}}, "list-all")'>Alle Beiträge</a>
+		 <span class='filter-info {{$.Scratch.Get "band-80"}}'></span>
+	 </div>
+ </div>
+
+
+<!-- Themen Content   ---------------------------------------------------------------- -->
+
+
+ <!-- list all themen -->
+		 {{ range .Data.Pages }}
+		 {{ $bandnummer := substr .Params.id 0 2}}
+		 {{ if and (eq .Type "themen") (eq $bandnummer "80")}}
+	 <div class='col-mre themen-border list-all {{$.Scratch.Get "band-80"}} lower-shadow'>
+		 {{ .Render "li" }}
+	 </div>
+		 {{ end}}
+		 {{ end}}
+
+		 <!-- Siedlung + Bevölkerung -->
+ {{ $termname := "siedlung--bevölkerung" }}
+ {{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
+ {{ range $taxonomy.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "80")}}
+	 <div style="display:none;" class="col-mre themen-border sb {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ <!-- Wirtschaft + Verkehr -->
+ {{ $termw := "wirtschaft--verkehr" }}
+ {{ $taxw := index .Site.Taxonomies.rubriken $termw }}
+ {{ range $taxw.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "80")}}
+	 <div style="display:none;" class="col-mre themen-border wv {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ {{ $termn := "natur--landschaft" }}
+ {{ $taxn := index .Site.Taxonomies.rubriken $termn }}
+ {{ range $taxn.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "80")}}
+	 <div style="display:none;" class="col-mre themen-border nl {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ {{ $terme := "vergangenheit--erinnerung" }}
+ {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+ {{ range $taxe.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "80")}}
+	 <div style="display:none;" class="col-mre themen-border ve {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ {{ $terme := "kultur--soziales" }}
+ {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+ {{ range $taxe.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "80")}}
+	 <div style="display:none;" class="col-mre themen-border ks {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+

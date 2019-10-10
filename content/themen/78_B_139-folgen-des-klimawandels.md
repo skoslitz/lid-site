@@ -12,7 +12,7 @@ vorschaubild = "78_B_139-vorschaubild.jpg"
 title = "Der Klimawandel"
 subtitle = "Die Folgen für Leipzig"
 description = "Als globales Phänomen ist der „Klimawandel“ in aller Munde. Regional und lokal sind die Auswirkungen freilich sehr unterschiedlich: Im Südpazifik droht ganzen Inselstaaten der Untergang, Nordeuropa und Sibirien werden von neuen Chancen in Ackerbau, Rohstoffsuche und Tourismus profitieren. Was aber werden die Folgen für Leipzig sein?"
-literaturangaben=["Bruhns, Carl Christian (1867): Resultate aus den meteorologischen Beobachtungen angestellt an mehreren Orten im Königreich Sachsen in den Jahren 1760 bis 1865 und an den zweiundzwanzig königl. sächsischen Stationen im Jahre 1865. - Leipzig.", "Naegler, Wilhelm (1936): Statistik der Temperaturverhältnisse von Leipzig (1831-1935). In: Berichte der math.-physik. Klasse d. Sächs. Akad. d. Wissenschaft zu Leipzig, Bd. 88 (1936), S. 67-106."]
+literaturangaben=["BRUHNS, Carl Christian (1867): Resultate aus den meteorologischen Beobachtungen angestellt an mehreren Orten im Königreich Sachsen in den Jahren 1760 bis 1865 und an den zweiundzwanzig königl. sächsischen Stationen im Jahre 1865. - Leipzig.", "NAEGLER, Wilhelm (1936): Statistik der Temperaturverhältnisse von Leipzig (1831-1935). In: Berichte der math.-physik. Klasse d. Sächs. Akad. d. Wissenschaft zu Leipzig, Bd. 88 (1936), S. 67-106."]
 
 bildnachweise = ["Titelbild / Vorschaubild (Ausschnitt): Blitz über Leipzig, 11. Juni 2014 (Foto: Mike Worbs)"]
 

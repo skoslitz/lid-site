@@ -11,7 +11,7 @@ vorschaubild = "78_B_152-vorschaubild.jpg"
 title = "Neue Arten in der Stadt"
 subtitle = ""
 description = "Städte sind gekennzeichnet durch eine große Anzahl fremdländischer Arten, die bewusst für Landschaftsgestaltung, Gartenbau, Forst- oder Landwirtschaft eingeführt wurden oder unbewusst als Transportbegleiter (Anhaftungen an Fahrzeugen, in Verpackungsmaterial und in anderen Transportgütern) in die Städte gekommen sind. Von den bewusst eingebrachten Arten bleibt ein großer Teil von der Pflege durch den Menschen abhängig und kann sich nicht selbstständig vermehren. Ein kleiner Teil von ihnen schafft es aber, sich spontan auszubreiten und ohne direkte Hilfe des Menschen langfristig zu überleben."
-literaturangaben = ["Gutte, P., Klotz, S., Lahr, C. & A. Trefflich (1987): Ailanthus altissima (Mill.) Swingle: eine vergleichend pflanzengeographische Studie, in: Folia Geobotanica & Phytotaxonomica, Vol. 22, No. 3. 241-262.", "Lahr, C. (1983): Die Verbreitung einiger Neophyten in Leipzig unter besonderer Berücksichtigung von Ailanthus altissima (Mill.) Swingle. Dipl.-Arb. Universität Leipzig."]
+literaturangaben = ["GUTTE, P., KLOTZ, S., LAHR, C. & A. TREFFLICH (1987): Ailanthus altissima (Mill.) Swingle: eine vergleichend pflanzengeographische Studie, in: Folia Geobotanica & Phytotaxonomica, Vol. 22, No. 3. 241-262.", "LAHR, C. (1983): Die Verbreitung einiger Neophyten in Leipzig unter besonderer Berücksichtigung von Ailanthus altissima (Mill.) Swingle. Dipl.-Arb. Universität Leipzig."]
 
 # Anwendung liegt im Ordner /static/flash/78_B_152
 flash_animation = "78_B_152"
@@ -28,26 +28,26 @@ Die Städte sind sehr reich an Nutz- und Zierpflanzen. In Parks, Gärten, Friedh
 
 Die fremdländischen Pflanzenarten, die sich spontan vermehren und ausbreiten können, bezeichnet man als Neophyten oder pflanzliche  Neubürger, die sich spontan vermehrenden und ausbreitenden Tierarten als Neozoen.
 
-{{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Drüsiger Götterbaum" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung1.jpg" flow="preview" clickable="true" titel="Drüsiger Götterbaum" quellenangaben="Foto: Stefand Klotz, UFZ" %}}
 {{% bild pfad="abbildung2.jpg" flow="preview" clickable="true" titel="Verbreitung des Drüsigen Götterbaums in Leipzig" quellenangaben="Quelle: Lahr 1983; Gutte et al. 1987; Kartographie: B.Hölzel/R.Schwarz (IfL)" %}}
-{{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="Drüsiges Springkraut" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung3.jpg" flow="preview" clickable="true" titel="Drüsiges Springkraut" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
 
 Ihre Zahl ist in Leipzig sehr groß. Typische Beispiele sind der Drüsige Götterbaum, der aus den Lößgebieten Chinas stammt und im 18. Jahrhundert nach Europa eingeführt wurde. Da er relativ warme Sommer benötigt, kann er sich nur in den warmen Stadtzentren spontan vermehren und zeichnet mit seinen Vorkommen die Wärmeinsel Stadt sehr gut nach.
 Weit verbreitet in Leipzig ist auch das Drüsige Springkraut, welches aus dem Himalaya stammt. Es breitet sich insbesondere entlang von Gewässern aus und kann den Uferbereich dominieren. Ursprünglich wurde die Art als Zierpflanze zuerst nach England eingeführt.
 
 {{% clear %}}
 
-{{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Feinstrahl-Berufkraut" quellenangaben="Foto: S. Klotz, UFZ" %}}
-{{% bild pfad="abbildung4.jpg" flow="preview" clickable="true" titel="Schmalblättriges Greiskraut" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung5.jpg" flow="preview" clickable="true" titel="Feinstrahl-Berufkraut" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
+{{% bild pfad="abbildung4.jpg" flow="preview" clickable="true" titel="Schmalblättriges Greiskraut" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
 
 Aus Südafrika stammt das Schmalblättrige Greiskraut. Die Samen dieser Art wurden mit Schafwolle nach Europa eingeführt. Von Leipzig gibt es bereits eine Angabe von 1937, als es auf dem Gelände der Wollkämmerei entdeckt wurde. Explosionsartig hat sich die Art aber erst in den 1990er Jahren ausgebreitet. Sie ist heute im Bahngelände der Stadt und an Straßenrändern  fast überall zu finden. Wenn noch im November gelbblühende Pflanzen auf den genannten Standorten auffallen, dann handelt es sich meist um diese Art.
 Aus Nordamerika stammt das Feinstrahl-Berufkraut. Auf Brachflächen und Wegrändern sowie auf Bahngelände ist diese Art in Leipzig nicht selten zu finden. Nachweise für Leipzig gibt es seit dem 19. Jahrhundert. Diese Art nimmt heute große Teile Europas ein.
 
 {{% clear %}}
 
-{{% bild pfad="abbildung6.jpg" flow="preview" clickable="true" titel="Gewöhnlicher Sommerflieder" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung6.jpg" flow="preview" clickable="true" titel="Gewöhnlicher Sommerflieder" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
 
-{{% bild pfad="abbildung7.jpg" flow="preview" clickable="true" titel="Schling-Flügelknöterich" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung7.jpg" flow="preview" clickable="true" titel="Schling-Flügelknöterich" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
 
 In der Innenstadt und auf Bahngelände ist der etwas frostempfindliche Gewöhnliche Sommerflieder in Leipzig zu finden. Diese Art stammt aus China und wurde als Zierpflanze nach Europa eingeführt. Durch die Frostempfindlichkeit dieser Art bleibt sie in Leipzig auf das wärmere Stadtgebiet beschränkt. Seine Blüten werden gern von Schmetterlingen besucht, deshalb auch der Name Schmetterlingsstrauch.
 
@@ -55,9 +55,9 @@ Eine weitere ehemalige Zierpflanze, die sich stark spontan ausgebreitet hat, ist
 
 {{% clear %}}
 
-{{% bild pfad="abbildung8.jpg" flow="preview" clickable="true" titel="Rotkelchige Nachtkerze" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung8.jpg" flow="preview" clickable="true" titel="Rotkelchige Nachtkerze" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
 
-{{% bild pfad="abbildung9.jpg" flow="preview" clickable="true" titel="Giftbeere" quellenangaben="Foto: S. Klotz, UFZ" %}}
+{{% bild pfad="abbildung9.jpg" flow="preview" clickable="true" titel="Giftbeere" quellenangaben="Foto: Stefan Klotz, UFZ" %}}
 
 Die Giftbeere stammt aus Südamerika und wird in jüngster Zeit öfter als Zierpflanze kultiviert. Sie breitet sich schrittweise aus. In Leipzig ist diese einjährige Art noch nicht sehr häufig. Sie wird aber von zunehmend wärmeren Sommern profitieren.
 

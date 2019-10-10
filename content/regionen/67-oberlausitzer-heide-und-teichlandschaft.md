@@ -15,6 +15,7 @@ umfang = ["80 Abbildungen", "2 Übersichtskarten"]
 untertitel = "Eine landeskundliche Bestandsaufnahme im Raum Lohsa, Klitten, Großdubrau und Baruth"
 verlag = "Böhlau Verlag"
 titelbild = "cover-oberlausitzer-heide.jpg"
+webshop = "https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/sozial-rechts-und-wirtschaftswissenschaften/wirtschaftswissenschaften/40796/die-oberlausitzer-heide-und-teichlandschaft"
 
 +++
 

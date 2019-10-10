@@ -11,7 +11,7 @@ vorschaubild = "78_B_154-vorschaubild.jpg"
 title = "Völkerschlachtdenkmal"
 subtitle = ""
 description = "\"Das Schönste der Welt\": Unter diesem – sicher nicht ganz ernst gemeinten – Slogan bewirbt Leipzig das Völkerschlachtdenkmal. Beeindruckend ist es auf jeden Fall und stolz sind die Leipziger allemal auf ihr \"Völki\". Anlässlich der Feierlichkeiten 2013 zum Gedenken an die Völkerschlacht 1813 und den Denkmalsbau 1913 wurde der einst \"schwarze Koloss\" einer aufwendigen Sanierung unterzogen. Für jeden Leipzig-Besucher ist das Monument ein Muss  und der Blick aus 90 m Höhe auf die Stadt lohnt sich."
-literaturangaben = ["Keller, Katrin u. Hans-Dieter Schmid (Hgg., 1995): Vom Kult zur Kulisse. Das Völkerschlachtdenkmal als Gegenstand der Geschichtskultur. – Leipzig 1995.", "Rodekamp, Volker (Hg., 2003): Völkerschlachtdenkmal. – Altenburg."]
+literaturangaben = ["KELLER, Katrin u. Hans-Dieter SCHMID (Hgg., 1995): Vom Kult zur Kulisse. Das Völkerschlachtdenkmal als Gegenstand der Geschichtskultur. – Leipzig 1995.", "RODEKAMP, Volker (Hg., 2003): Völkerschlachtdenkmal. – Altenburg."]
 
 bildnachweise = ["Titelbild/Vorschaubild (Ausschnitt): Völerschlachtdenkmal, historische Ansichtskarte (Quelle: IfL, PKL-VoelkSch005)"]
 
