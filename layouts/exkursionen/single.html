@@ -8,9 +8,12 @@
 	    <div class="row">
 
 	        <div class="col-md-10 titelbild bs-callout bs-callout-signalorange shadow">
-
-	            <!-- Statische Karte -->
-	            {{ template "_includes/map-banner.html" . }}
+						{{ if .Params.in_kuerze }}
+						<!-- Bald erscheinende Beiträge  -->
+						{{ else }}											
+							<!-- Statische Karte -->
+							{{ template "_includes/map-banner.html" . }}
+						{{ end }}
 
 				{{ if isset .Params "centroid" }}
 					<div class="hidden" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
@@ -35,46 +38,67 @@
 				<div class="titel-back-exkurs">
 					<h2 itemprop="name" class ="titel"><strong>{{ .Title }}</strong></h2>
 				</div>
-				<div class="subtitel-back">
-					<h3 class ="subtitel"><strong>{{ .Params.subtitle }}</strong></h3>
-					<h5 class="text-muted">Von
-						{{ .Params.autor }} &ndash; </i>
-						{{ .Date.Format "01/2006" }}
-					</h5>
-				</div>
-
+				
+				{{ if .Params.in_kuerze }}
+					<!-- Bald erscheinende Beiträge  -->
+				{{ else }}
+					<div class="subtitel-back">
+						<h3 class ="subtitel"><strong>{{ .Params.subtitle }}</strong></h3>
+						<h5 class="text-muted">Von
+							{{ .Params.autor }} &ndash; </i>
+							{{ .Date.Format "01/2006" }}
+						</h5>
+					</div>
+				{{ end }}
+				
+				{{ if .Params.in_kuerze }}
+				<!-- Bald erscheinende Beiträge  -->
+				{{ else }}				
 				<!-- Teaser -->
 				<div class="beschreibung">
 					<p itemprop="description">{{ .Description | markdownify }}</p>
 				</div>
 				<!-- End Teaser -->
+				{{ end }}
 
 	        </div>
 
 	    </div>
 	    <!-- End Beitrag Header -->
-
-		<!-- Karte, wenn kein actionbound -->
-		{{ if or (eq .Params.actionbound nil) (eq .Params.actionbound false) }}
-	    <div class="row">
-	        <div class="col-md-10 bs-callout bs-callout-signalorange shadow karten-callout">
-				<div id="kartenansicht" class="anker-versatz"></div>
-	            <h3 id="kartentitel">Karten&uuml;berblick Exkursion: <strong>{{ .Title }}</strong>&nbsp;<a class="reset">Kartenausschnitt zur&uuml;cksetzen</a></h3>
-	            <div id="map"></div>
-	        </div>
-	    </div>
-	    <!-- End Karte -->
-	    {{ end }}
+		
+		{{ if .Params.in_kuerze }}
+		<!-- Bald erscheinende Beiträge  -->
+		{{ else }}				
+			<!-- Karte, wenn kein actionbound -->
+			{{ if or (eq .Params.actionbound nil) (eq .Params.actionbound false) }}
+				<div class="row">
+						<div class="col-md-10 bs-callout bs-callout-signalorange shadow karten-callout">
+						<div id="kartenansicht" class="anker-versatz"></div>
+								<h3 id="kartentitel">Karten&uuml;berblick Exkursion: <strong>{{ .Title }}</strong>&nbsp;<a class="reset">Kartenausschnitt zur&uuml;cksetzen</a></h3>
+								<div id="map"></div>
+						</div>
+				</div>
+			<!-- End Karte -->
+			{{ end }}
+		{{ end }}
 
 	    <!-- Inhalts Ausgabe -->
 		<div class="row">
 			<div class="linespace"></div>
 			<div class="col-md-10 content text-area">
-				{{ .Content }}
+				{{ if .Params.in_kuerze }}
+					<!-- Bald erscheinende Beiträge  -->
+					<p><i>Dieser Beitrag wird in Kürze freigeschaltet. Wir bitten um noch etwas Geduld.</i></p>
+				{{ else }}				
+					{{ .Content }}
+				{{ end }}
 			</div>
 		</div>
-	    <!-- End Inhalts Ausgabe -->
-
+			
+		{{ if .Params.in_kuerze }}
+			<!-- Bald erscheinende Beiträge  -->
+		{{ else }}
+			<!-- End Inhalts Ausgabe -->
 	    <div class="row">
 			<div class="col-md-10 content white-bg bs-callout bs-callout-signalorange shadow">
 				<!-- Zitationshinweis -->
@@ -84,7 +108,8 @@
 				<!-- Bildnachweise -->
 				{{ template "_includes/bildnachweise.html" . }}
 			</div>
-	    </div>
+			</div>
+		{{ end }}
 
 	<!-- VG-Wort-Zählmarke -->
 	{{ template "_includes/vg-wort.html" . }}

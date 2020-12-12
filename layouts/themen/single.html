@@ -13,8 +13,13 @@
 
 			<div class="col-md-10 titelbild bs-callout bs-callout-grasgruen shadow">
 
-				<meta itemprop="image" content="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}"/>
-				<img class="img-responsive" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}" />
+				{{ if .Params.in_kuerze }}
+					<!-- Bald erscheinende Beiträge  -->
+				{{ else }}
+					<meta itemprop="image" content="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}"/>
+					<img class="img-responsive" src="/img/{{ $bandnummer }}/{{ $type }}/{{ .Params.id }}/{{ .Params.titelbild }}" />
+				{{ end }}
+				
 
 				<div class="tags text-muted">Themenbereiche
 					{{ range .Params.rubriken }}
@@ -25,13 +30,18 @@
 				<div class="titel-back">
 					<h2 itemprop="name" class ="titel"><strong>{{ .Title }}</strong></h2>
 				</div>
-				<div class="subtitel-back">
-					<h3 class ="subtitel"><strong>{{ .Params.subtitle }}</strong></h3>
-					<h5 class="text-muted">Von
-						{{ .Params.autor }} &ndash; </i>
-						{{ .Date.Format "01/2006" }}
-					</h5>
-				</div>
+				
+				{{ if .Params.in_kuerze }}
+					<!-- Bald erscheinende Beiträge  -->
+				{{ else }}
+					<div class="subtitel-back">
+						<h3 class ="subtitel"><strong>{{ .Params.subtitle }}</strong></h3>
+						<h5 class="text-muted">Von
+							{{ .Params.autor }} &ndash; </i>
+							{{ .Date.Format "01/2006" }}
+						</h5>
+					</div>
+				{{ end }}
 
 				<div class="beschreibung">
 					<p itemprop="description" class="lead">{{ .Description | markdownify }}</p>
@@ -78,7 +88,12 @@
 		<div class="row">
 			<div class="linespace"></div>
 			<div class="col-md-10 content text-area" itemprop="articleBody">
-				{{ .Content }}
+				{{ if .Params.in_kuerze }}
+					<!-- Bald erscheinende Beiträge  -->
+					<p><i>Dieser Beitrag wird in Kürze freigeschaltet. Wir bitten um noch etwas Geduld.</i></p>
+				{{ else }}				
+					{{ .Content }}
+				{{ end }}
 			</div>
 		</div>
 
@@ -101,26 +116,32 @@
 		{{ template "_includes/slideshow.html" . }}
 	</div>
 
-	<div class="container more-content">
+		
+	{{ if .Params.in_kuerze }}
+		<!-- Bald erscheinende Beiträge  -->
+	{{ else }}
+		<div class="container more-content">
 
-		<div class="row">
-			<div class="col-md-10 white-bg content bs-callout bs-callout-grasgruen shadow">
-				<!-- Zitationshinweis -->
-				{{ template "_includes/zitationshinweis.html" . }}
-				<!-- Literaturangaben -->
-				{{ template "_includes/literaturangaben.html" . }}
-				<!-- Bildnachweise -->
-				{{ template "_includes/bildnachweise.html" . }}
+			<div class="row">
+				<div class="col-md-10 white-bg content bs-callout bs-callout-grasgruen shadow">
+					<!-- Zitationshinweis -->
+					{{ template "_includes/zitationshinweis.html" . }}
+					<!-- Literaturangaben -->
+					{{ template "_includes/literaturangaben.html" . }}
+					<!-- Bildnachweise -->
+					{{ template "_includes/bildnachweise.html" . }}
+				</div>
 			</div>
+
+			<!-- Verwandte Artikel -->
+			{{ template "_includes/related-articles.html" . }}
+
+		<!-- VG-Wort-Zählmarke -->
+		{{ template "_includes/vg-wort.html" . }}
+
 		</div>
-
-		<!-- Verwandte Artikel -->
-		{{ template "_includes/related-articles.html" . }}
-
-	<!-- VG-Wort-Zählmarke -->
-	{{ template "_includes/vg-wort.html" . }}
-
-	</div>
+	{{ end }}
+	
 	{{ template "_includes/footer.html" . }}
 	{{ if isset .Params "karte" }}
 		{{ template "_includes/map-exkursion.html" . }}

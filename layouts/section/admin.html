@@ -37,12 +37,11 @@
 	</div>
 	<link rel="stylesheet" type="text/css" href="/css/map-exkursion.css">
 	{{ template "_includes/footer.html" . }}
-	<script type="text/javascript">
-L.mapbox.accessToken = 'pk.eyJ1IjoiaWZsIiwiYSI6IksxanctMkUifQ.sAHrtehStvROYTeXS20NRg';
-
-var map = L.mapbox.map('map', 'ifl.lplpe32l', {
+	<script type="text/javascript">	
+	L.mapbox.accessToken = 'pk.eyJ1IjoiaWZsIiwiYSI6IksxanctMkUifQ.sAHrtehStvROYTeXS20NRg';
+	var map = L.mapbox.map('map', 'mapbox.outdoors', {
     maxZoom: 18,
-    minZoom: 11
+    minZoom: 11,
 });
 
 map.setView(

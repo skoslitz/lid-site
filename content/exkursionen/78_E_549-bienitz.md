@@ -4,7 +4,7 @@ title = "Exkursion durch den Bienitz"
 fremdexkursion = true
 exkursions_anbieter = "Stadt Leipzig, Amt für Stadtgrün und Gewässer"
 # banner = "Stadt Leipzig"
-exkursions_url = "http://www.leipzig.de/freizeit-kultur-und-tourismus/parks-waelder-und-friedhoefe/stadtwald-und-auenwald/ausfluege-und-exkursionen/?eID=dam_frontend_push&docID=7151"
+exkursions_url = "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/67_Amt_fuer_Stadtgruen_und_Gewaesser/Stadtwald_und_Auenwald/Freizeit/Exkursion_Bienitz.pdf"
 # previewtitle = "Unterwegs im Bienitz"
 # autor = ""
 date = "2014-05-20"

@@ -10,6 +10,7 @@ titelbild_quelle = ""
 titelbild_titel = ""
 title = "Von Leipzig in die Welt - Hans Meyers Weltreise 1881-1883"
 vorschaubild = "78_B_162-vorschaubild.jpg"
+worldmap=true
 literaturangaben = []
 +++
 

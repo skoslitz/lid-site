@@ -34,4 +34,4 @@ neu erscheinenden Bände in Präsentationen vor Ort.
 Alle lieferbaren Bände können direkt im [Verlagsshop](http://www.vandenhoeck-ruprecht-
 verlage.com) bestellt oder im Buchhandel bezogen werden.
 
-{{% download pfad="Parallelfalz_Landschaften_in_Deutschland_web.pdf" titel="Das Leporello zum Download" stand="04.12.2018" format="pdf" size="5" %}}
+{{% download pfad="Flyer_Reihe_Landschaften in Deutschland_2020.pdf" titel="Das Leporello zum Download" stand="19.07.2020" format="pdf" size="5" %}}

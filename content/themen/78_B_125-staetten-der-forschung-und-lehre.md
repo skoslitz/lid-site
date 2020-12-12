@@ -12,11 +12,6 @@ vorschaubild = "78_B_125-vorschaubild2.jpg"
 description = "Leipzig ist einer der ältesten Universitätsstandorte Deutschlands. Seit 1409 ist die Universität mit ihren Gebäuden physisch in der Stadt präsent, prägt ihr Erscheinungsbild und beeinflusst die städtebauliche und räumliche Entwicklung. In der Neuzeit sind neben die Universität eine Vielzahl weiterer wissenschaftlicher Institutionen getreten, sodass Leipzig heute ein vielfältiger und lebendiger Wissenschaftsstandort ist. Die räumliche Verteilung der wissenschaftlichen Einrichtungen in der Stadt zeigt die animierte Karte. Ein Video führt Sie auf einen virtuellen Rundgang durch das Leipziger Universitätsviertel um 1800."
 doi = "doi: ...."
 
-[[video]]
-  id = "124498797"
-  titel = "Historische 3 D-Modellierung: Ein virtueller Rundgang durch das Leipziger Universitätsviertel um 1800"
-  beschreibung = "Ein Film einer studentischen Projektgruppe unter Leitung von Gudrun Mayer und Helga Schmidt"
-  quelle = "© Stadtgeschichtliches Museum Leipzig"
 
 bildnachweise = ["Titelbild: Neues Hörsaalgebäude und Paulinum (Quelle: IfL)","Karte der Wissenschaftsstandorte: (Daten: Leipzig 2013, 2015 ergänzt im IfL; Entwurf: Vera Denzer und Beatrice Diez; bearbeitet von Sebastian Münch)"]
 

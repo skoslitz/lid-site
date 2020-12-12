@@ -12,7 +12,7 @@ Schongauerstraße 9<br/>
 04328 Leipzig<br/>
 Tel.: +49 341 600 55-0<br/>
 Fax: +49 341 600 55-198<br/>
-lid-online(at)ifl-leipzig.de<br/>
+lid-online(at)leibniz-ifl.de<br/>
 
 Eingetragen im Vereinsregister des Amtsgerichts Leipzig, Nr. 1238<br/>
 Vorstand: Prof. Dr. Sebastian Lentz<br/>
@@ -35,6 +35,9 @@ Design, Texte und Grafiken der Website sind urheberrechtlich geschützt:<br/>
 Copyright Leibniz-Institut für Länderkunde e.V. (IfL), Leipzig 2015. Alle Rechte vorbehalten.
 
 Das Herunterladen und die Speicherung auf Datenträger, das Einstellen in ein eigenes oder fremdes Internetangebot, das Bereitstellen für den öffentlichen Zugriff sowie jede sonstige Vervielfältigung, Bearbeitung, Verbreitung oder öffentliche Wiedergabe der auf dieser Website verfügbaren Materialien bzw. Informationen sind nur in den engen Grenzen des Urheberrechtsgesetztes oder mit vorheriger schriftlicher Zustimmung des IfL gestattet.
+
+### Förderhinweis
+Diese Internetpräsenz wird mitfinanziert durch Steuermittel auf der Grundlage des von Abgeordneten des Sächsischen Landtages beschlossenen Haushaltes.
 
 ### Haftungshinweis
 

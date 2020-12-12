@@ -12,13 +12,7 @@ vorschaubild = "78_B_108-vorschaubild.jpg"
 description = "Städtisch wohnen – naturnah leben: Das bietet der Stadtteil im Westen Leipzigs. Wo einst mehr als 90.000 Menschen wohnten, wurden aufgrund von Wegzug und Leerstand zahlreiche Wohngebäude zurückgebaut. Dabei flossen erhebliche Fördermittel in die Gestaltung des Wohnumfeldes. Heute ist das Grün aus dem Stadtteilnamen zum charakteristischen Merkmal geworden. Naherholungsmöglichkeiten finden sich fast vor der Haustür und dank guter Verkehrsanbindung ist die Leipziger Innenstadt bequem erreichbar."
 literaturangaben = ["BMBau (Bundesministerium für Raumordnung, Bauwesen und Städtebau), Freistaat Sachsen und Stadt Leipzig (Hgg., 1997): Fachveranstaltung zur Städtebaulichen Weiterentwicklung großer Neubaugebiete anlässlich des 20jährigen Bestehens des Stadtteils Leipzig-Grünau. – Bonn, Berlin, Leipzig.", "BMVBW (Bundesministerium für Verkehr, Bau- und Wohnungswesen) (Hg., 1999): Eine Zukunft für die Plattenbausiedlungen. – Bonn, Berlin.", "Helmholtz-Zentrum für Umweltforschung GmbH (Hg., 2010): Grünau 2009, Einwohnerbefragung im Rahmen der Intervallstudie 'Wohnen und Leben in Leipzig-Grünau', Ergebnisbericht. – Leipzig.", "KAHL, Alice (2003): Erlebnis Plattenbau. eine Langzeitstudie. – Opladen.", "Rat der Stadt Leipzig (Hg., 1985): Neubaugebiet Leipzig-Grünau 1976-1986. – Leipzig.", "Stadt Leipzig, Dezernat Stadtentwicklung und Bau (Hg., 2007): Entwicklungsstrategie Grünau 2020. – Leipzig."]
 bildnachweise = ["Titelbild: Kunst in der Stuttgarter Allee (Foto: Evelin Müller)", "Vorschaubild: Innenhof im WK 8 nach dem Umbau (Foto: Evelin Müller)"]
-[[video]]
-  id = "126752008"
-  titel = "Phantom Groß-Siedlung"
-  untertitel = "Das Neubaugebiet Leipzig-Grünau. Ein Dia-Ton-Feature aus dem Jahre 1993"
-  beschreibung = "Im Auftrag des Amtes für Stadtsanierung und Wohnungsbauförderung Leipzig produzierte das Büro für Urbane Projekte in Zusammenarbeit mit Jürgen Hohmuth (Bilder) 1993 eine Dia-Ton-Serie. Dr. Marta Doehler führte Interviews mit älteren und jungen Bewohnern, mit Alteingesessenen und Neu-Grünauern, mit beruflich dort Tätigen, wie den Stadtplanungsamtsmitarbeitern Georg Eichhorn und Dieter Wellner, sowie mit der Stadtsoziologin Alice Kahl (Intervallstudie Grünau): Ein Zeitdokument, das anschaulich Lebensgefühl und Lebenssituation der Bewohner der Großwohnsiedlung Grünau wiedergibt."
-  quelle = "Stadtfunk Leipzig TV. Studio Neues Rathaus"
-  laenge = "37:04"
+
 
 +++
 

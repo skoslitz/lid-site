@@ -15,13 +15,6 @@ description = "Leipzig Mitte der 1990er Jahre – Wegzug und Leerstand drücken 
 literaturangaben = []
 bildnachweise = ["Titelbild und Vorschaubild (Ausschnitt): Arbeiten im Ausbauhaus Gretschelstraße 2 (Quelle: HausHalten e.V.)"]
 
-[[video]]
-  id = "126748801"
-  titel = "Häuser erhalten. Räume eröffnen!"
-  untertitel = ""
-  beschreibung = "Leerstand bedeutet in vielen Köpfen Stillstand und Abriss. Muss das aber wirklich immer so sein? Wie setzt man Signale von Aufbruch in einst verlorenen Häusern? Nutzung statt Leerstand: Der Verein \"HausHalten\" organisiert mit den Modellen \"Wächterhaus\" und \"Ausbauhaus\" neue Kooperationen zwischen Nutzern und Eigentümern. Verwaisende Quartiere der Stadt werden für die Bürger wieder anfassbar. Kreative und soziale Potentiale finden Raum und es bieten sich Chancen, die Lebens- und Arbeitswelt selbst zu gestalten. Der Film \"Häuser erhalten. Räume eröffnen!\" will Anregung sein, diese belebenden Ansätze auch an anderen Orten zu praktizieren. Was also können wir Bürger und die Entscheider in unseren Kommunen lernen für die Gestaltung unserer Stadt?"
-  quelle = "Ein Film von Daniel Kunle & Holger Lauinger"
-  laenge = "25 min"
 
 +++
 {{% bild pfad="abbildung1.jpg" clickable="true" titel="Wächterhaus am Stannebeinplatz"  quellenangaben="Quelle: HausHalten e.V." %}}
