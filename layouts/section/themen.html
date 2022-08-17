@@ -1,7 +1,9 @@
+{{ $.Scratch.Add "band-83" 83 }}
 {{ $.Scratch.Add "band-81" 81 }}
 {{ $.Scratch.Add "band-80" 80 }}
 {{ $.Scratch.Add "band-79" 79 }}
 {{ $.Scratch.Add "band-78" 78 }}
+{{ $.Scratch.Add "band-83-name" "Zwischen Lommatsch und Wilsdruff" }}
 {{ $.Scratch.Add "band-81-name" "Fränkische Schweiz" }}
 {{ $.Scratch.Add "band-80-name" "Barnim" }}
 {{ $.Scratch.Add "band-79-name" "Eichsfeld" }}
@@ -57,6 +59,105 @@
 
 	<div class="section-content">
 		<h1 class="sectionheader text-center">Regionen thematisch vertieft</strong></h1>
+
+<!-- Band 83  ---------------------------------------------------------------- -->
+
+	<!-- Filter Band 83   ------------------------------------------------------ -->
+	<h3 class="seperator intern">Themen für die Region {{$.Scratch.Get "band-83-name"}}</h3>
+	<div class="row">
+	 <div class="filter-container">
+		 <br>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-83"}}, "sb")'>
+			 Siedlung &amp; Bevölkerung
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-83"}}, "wv")'>
+			 Wirtschaft &amp; Verkehr
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-83"}}, "nl")'>
+			 Natur &amp; Landschaft
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-83"}}, "ve")'>
+			 Vergangenheit &amp; Erinnerung
+		 </a>
+		 <a class="btn blue" onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-83"}}, "ks")'>
+			 Kultur &amp; Soziales
+		 </a>
+		 <a class='btn blue clear {{$.Scratch.Get "band-83"}}' onclick='javascript:clickFilter(this, {{$.Scratch.Get "band-83"}}, "list-all")'>Alle Beiträge</a>
+		 <span class='filter-info {{$.Scratch.Get "band-83"}}'></span>
+	 </div>
+ </div>
+
+
+<!-- Themen Content   ---------------------------------------------------------------- -->
+
+
+ <!-- list all themen -->
+		 {{ range .Data.Pages }}
+		 {{ $bandnummer := substr .Params.id 0 2}}
+		 {{ if and (eq .Type "themen") (eq $bandnummer "83")}}
+	 <div class='col-mre themen-border list-all {{$.Scratch.Get "band-83"}} lower-shadow'>
+		 {{ .Render "li" }}
+	 </div>
+		 {{ end}}
+		 {{ end}}
+
+		 <!-- Siedlung + Bevölkerung -->
+ {{ $termname := "siedlung--bevölkerung" }}
+ {{ $taxonomy := index .Site.Taxonomies.rubriken $termname }}
+ {{ range $taxonomy.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "83")}}
+	 <div style="display:none;" class="col-mre themen-border sb {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ <!-- Wirtschaft + Verkehr -->
+ {{ $termw := "wirtschaft--verkehr" }}
+ {{ $taxw := index .Site.Taxonomies.rubriken $termw }}
+ {{ range $taxw.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "83")}}
+	 <div style="display:none;" class="col-mre themen-border wv {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ {{ $termn := "natur--landschaft" }}
+ {{ $taxn := index .Site.Taxonomies.rubriken $termn }}
+ {{ range $taxn.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "83")}}
+	 <div style="display:none;" class="col-mre themen-border nl {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ {{ $terme := "vergangenheit--erinnerung" }}
+ {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+ {{ range $taxe.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "83")}}
+	 <div style="display:none;" class="col-mre themen-border ve {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
+ {{ $terme := "kultur--soziales" }}
+ {{ $taxe := index .Site.Taxonomies.rubriken $terme }}
+ {{ range $taxe.Pages.ByWeight.Reverse }}
+ {{ $bandnummer := substr .Params.id 0 2}}
+	 {{ if and (eq .Type "themen") (eq $bandnummer "83")}}
+	 <div style="display:none;" class="col-mre themen-border ks {{$bandnummer}} lower-shadow">
+		 {{ .Render "li" }}
+	 </div>
+	 {{ end }}
+ {{ end }}
+
 
 <!-- Band 81  ---------------------------------------------------------------- -->
 
